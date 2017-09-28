@@ -1,0 +1,5 @@
+<map id="mir::dispatch::Dispatchable" name="mir::dispatch::Dispatchable">
+<area shape="rect" id="node2" href="$classmir_1_1dispatch_1_1_action_queue.html" title="mir::dispatch::ActionQueue" alt="" coords="233,5,413,32"/>
+<area shape="rect" id="node3" href="$classmir_1_1dispatch_1_1_multiplexing_dispatchable.html" title="An adaptor that combines multiple Dispatchables into a single Dispatchable. " alt="" coords="236,57,411,98"/>
+<area shape="rect" id="node4" href="$classmir_1_1dispatch_1_1_readable_fd.html" title="mir::dispatch::ReadableFd" alt="" coords="236,123,411,149"/>
+</map>

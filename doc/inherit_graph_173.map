@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classmiral_1_1_active_outputs_listener.html" title="miral::ActiveOutputsListener" alt="" coords="19,5,206,32"/>
+<area shape="rect" id="node2" href="$class_tiling_window_manager_policy.html" title="TilingWindowManagerPolicy" alt="" coords="283,5,467,32"/>
+<area shape="rect" id="node3" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined. " alt="" coords="5,119,220,145"/>
+<area shape="rect" id="node4" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="270,174,481,215"/>
+<area shape="rect" id="node5" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="531,123,729,149"/>
+<area shape="rect" id="node6" href="$class_kiosk_window_manager_policy.html" title="KioskWindowManagerPolicy" alt="" coords="537,181,723,208"/>
+<area shape="rect" id="node7" href="$classmiral_1_1_window_management_policy_addendum3.html" title="Handle additional client requests. " alt="" coords="268,57,483,98"/>
+<area shape="rect" id="node8" href="$classmiral_1_1_workspace_policy.html" title="Advise changes to workspaces. " alt="" coords="296,123,455,149"/>
+</map>

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['scale',['scale',['../structmir_1_1graphics_1_1_display_configuration_output.html#ac3af314603b87721a2bee62a3ec26986',1,'mir::graphics::DisplayConfigurationOutput::scale()'],['../structmir_1_1graphics_1_1_user_display_configuration_output.html#a8305ba731ace188bed45ca1f6e4b9f94',1,'mir::graphics::UserDisplayConfigurationOutput::scale()']]],
+  ['scroll_5fmode',['scroll_mode',['../structmir_1_1input_1_1_touchpad_settings.html#ac700d0f598d7af1681ea94ba76e699a3',1,'mir::input::TouchpadSettings']]],
+  ['self',['self',['../structstd_1_1hash_3_01_1_1mir_1_1_int_wrapper_3_01_tag_00_01_value_type_01_4_01_4.html#ab487d610b8deb017258caa256d287b8e',1,'std::hash&lt; ::mir::IntWrapper&lt; Tag, ValueType &gt; &gt;']]],
+  ['server',['server',['../classmir__test__framework_1_1_async_server_runner.html#a43688ce7fbda4c439c9259a68df6cc38',1,'mir_test_framework::AsyncServerRunner']]],
+  ['set_5fgbm_5fdevice',['set_gbm_device',['../struct_mir_extension_set_gbm_device_v1.html#ad2fa1ab55071fd594bf1f86a505ca3d3',1,'MirExtensionSetGbmDeviceV1']]],
+  ['set_5fstart_5fdrag_5fand_5fdrop_5fcallback',['set_start_drag_and_drop_callback',['../struct_mir_drag_and_drop_v1.html#a23b9c848d877eaa15626131a69687839',1,'MirDragAndDropV1']]],
+  ['shader',['shader',['../structmir_1_1examples_1_1_shader.html#acba43425424e42c25b28e5f426df222a',1,'mir::examples::Shader']]],
+  ['signal',['signal',['../structmir__test__framework_1_1_result.html#a183cb92e7fd5d5efb2742380f6e5d73a',1,'mir_test_framework::Result']]],
+  ['size',['size',['../struct_mir_platform_message_data.html#adfdf2cc21708f9471e7133838c6a478b',1,'MirPlatformMessageData::size()'],['../structmir_1_1geometry_1_1_rectangle.html#a09706747c6aa5c281c98796c7759eb7f',1,'mir::geometry::Rectangle::size()'],['../structmir_1_1graphics_1_1_buffer_properties.html#a795dfdd1f773ed7df4f0236d7443dc14',1,'mir::graphics::BufferProperties::size()'],['../structmir_1_1graphics_1_1_display_configuration_mode.html#a8409303ef45d16211ab93c66fded82e8',1,'mir::graphics::DisplayConfigurationMode::size()']]],
+  ['start_5fdrag_5fand_5fdrop',['start_drag_and_drop',['../struct_mir_drag_and_drop_v1.html#a4b523eaa7432df542848312540a55cac',1,'MirDragAndDropV1']]],
+  ['status',['status',['../struct_mir_mesa_auth_magic_response.html#a0937fe94185fa3f7565a463a03d3967d',1,'MirMesaAuthMagicResponse::status()'],['../struct_mir_mesa_set_g_b_m_device_response.html#ab00162ed083eeb1a88713ef3e400d9fb',1,'MirMesaSetGBMDeviceResponse::status()']]],
+  ['stream',['stream',['../struct_mir_buffer_stream_info.html#a10e5cb54470652fd4bb2f13d822e0b78',1,'MirBufferStreamInfo']]],
+  ['stride',['stride',['../struct_mir_graphics_region.html#a73516aeb9521c626b086dc637a94c221',1,'MirGraphicsRegion::stride()'],['../struct_mir_extension_android_buffer_v2.html#a7697431872a94d586e3e7e680e027a96',1,'MirExtensionAndroidBufferV2::stride()'],['../struct_mir_extension_gbm_buffer_v2.html#a20abcbabbe9e6c0156a51a6a03a69210',1,'MirExtensionGbmBufferV2::stride()'],['../struct_mir_buffer_package.html#a9409ad04f479ab695086ffb71a8124b2',1,'MirBufferPackage::stride()'],['../structmir_1_1client_1_1_memory_region.html#a3869d5cec3e7606f297962249422f621',1,'mir::client::MemoryRegion::stride()']]],
+  ['stub_5fdata_5fguard',['stub_data_guard',['../namespacemir__test__framework.html#a13ed4998d017ec0b2e1e0d510b2ac652',1,'mir_test_framework']]],
+  ['stub_5fdata_5fsize',['stub_data_size',['../namespacemir__test__framework.html#a33dbde83be5df8255e35bb837eb67f11',1,'mir_test_framework']]],
+  ['subpixel_5farrangement',['subpixel_arrangement',['../structmir_1_1graphics_1_1_display_configuration_output.html#afc76f505f51ffc469b2560d459e3879c',1,'mir::graphics::DisplayConfigurationOutput::subpixel_arrangement()'],['../structmir_1_1graphics_1_1_user_display_configuration_output.html#a3075c3098c634714da97cef3c6b2e2e8',1,'mir::graphics::UserDisplayConfigurationOutput::subpixel_arrangement()']]],
+  ['supported_5fpixel_5fformat',['supported_pixel_format',['../struct_mir_display_info.html#aa6b63ff50344c3968b3fe6e6b04b9980',1,'MirDisplayInfo']]],
+  ['supported_5fpixel_5fformat_5fitems',['supported_pixel_format_items',['../struct_mir_display_info.html#ac31e26451a298afc26abcb583afcfbe9',1,'MirDisplayInfo']]],
+  ['surface_5fadvance_5fbuffer',['surface_advance_buffer',['../struct_mir_mesa_e_g_l_native_surface.html#ae45c50d817442dee9ac8183c6bb7aa50',1,'MirMesaEGLNativeSurface']]],
+  ['surface_5fget_5fparameters',['surface_get_parameters',['../struct_mir_mesa_e_g_l_native_surface.html#ac8aabb6cb1da2f50141139973fa3e246',1,'MirMesaEGLNativeSurface']]],
+  ['surface_5fset_5fswapinterval',['surface_set_swapinterval',['../struct_mir_mesa_e_g_l_native_surface.html#a7039270275ddbf16bb84fdfe01b40187',1,'MirMesaEGLNativeSurface']]],
+  ['surface_5fsize',['surface_size',['../structmir__test__framework_1_1_connected_client_with_a_window.html#a3eb8f6244d39ab4486ee84fdfc2e3dee',1,'mir_test_framework::ConnectedClientWithAWindow']]],
+  ['syntax',['syntax',['../structmir__eglapp__arg.html#afe366d39656d6ba07a625e29a2255d88',1,'mir_eglapp_arg']]]
+];

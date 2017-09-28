@@ -1,0 +1,15 @@
+<map id="include/miral/miral/window_info.h" name="include/miral/miral/window_info.h">
+<area shape="rect" id="node2" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="1053,363,1239,404"/>
+<area shape="rect" id="node3" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="5,363,204,404"/>
+<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title="examples/miral&#45;shell\l/tiling_window_manager.cpp" alt="" coords="355,273,537,315"/>
+<area shape="rect" id="node5" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="437,95,607,136"/>
+<area shape="rect" id="node6" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="174,184,323,225"/>
+<area shape="rect" id="node8" href="$tiling__window__manager_8h.html" title="examples/miral&#45;shell\l/tiling_window_manager.h" alt="" coords="488,184,657,225"/>
+<area shape="rect" id="node11" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="682,184,879,225"/>
+<area shape="rect" id="node7" href="$decoration__provider_8cpp.html" title="examples/miral&#45;shell\l/decoration_provider.cpp" alt="" coords="167,273,330,315"/>
+<area shape="rect" id="node9" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="494,363,635,404"/>
+<area shape="rect" id="node10" href="$server__example_8cpp.html" title="examples/server_example.cpp" alt="" coords="660,370,859,397"/>
+<area shape="rect" id="node12" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="871,273,1045,315"/>
+<area shape="rect" id="node14" href="$floating__window__manager_8h.html" title="examples/miral&#45;shell\l/floating_window_manager.h" alt="" coords="613,273,797,315"/>
+<area shape="rect" id="node13" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="883,363,1028,404"/>
+</map>

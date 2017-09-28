@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['data',['data',['../struct_mir_platform_package.html#a7b88fd8c6bb8a09858848f3080d5f0e6',1,'MirPlatformPackage::data()'],['../struct_mir_platform_message_data.html#a1c2fd85a2b40939d93dc680259f34b94',1,'MirPlatformMessageData::data()'],['../struct_mir_buffer_package.html#a36a61d0df0c2ecffb96457929297aeb8',1,'MirBufferPackage::data()'],['../structmir_1_1graphics_1_1_platform_operation_message.html#ae706aac79e8de717f3d21bb2e5d73b9a',1,'mir::graphics::PlatformOperationMessage::data()']]],
+  ['data_5fitems',['data_items',['../struct_mir_platform_package.html#a430ac25cbdf1b8ce276fefabc15ca7d0',1,'MirPlatformPackage::data_items()'],['../struct_mir_buffer_package.html#acafaa178025d7e7d99cf4ab0475be6c8',1,'MirBufferPackage::data_items()']]],
+  ['dec_5fref',['dec_ref',['../struct_mir_extension_android_buffer_v2.html#a3cb309f8d60c56f16d68833c51681dc2',1,'MirExtensionAndroidBufferV2']]],
+  ['description',['description',['../structmir__eglapp__arg.html#a8ec56371655396dcf635f86995acb1ee',1,'mir_eglapp_arg']]],
+  ['destroy_5fbuffer',['destroy_buffer',['../struct_mir_extension_android_e_g_l_v1.html#abf0228391347bb2a89ad0f7bddba694a',1,'MirExtensionAndroidEGLV1']]],
+  ['destroy_5fwindow',['destroy_window',['../struct_mir_extension_android_e_g_l_v1.html#a6b95dd4003ef8a573c8be00b5ac49fc3',1,'MirExtensionAndroidEGLV1']]],
+  ['device',['device',['../struct_mir_mesa_set_g_b_m_device_request.html#acab66b175a2d1c93a9f4a4072db3b084',1,'MirMesaSetGBMDeviceRequest']]],
+  ['disable_5fwhile_5ftyping',['disable_while_typing',['../structmir_1_1input_1_1_touchpad_settings.html#a7de445c3eceebde16de8ad76501ea600',1,'mir::input::TouchpadSettings']]],
+  ['disable_5fwith_5fmouse',['disable_with_mouse',['../structmir_1_1input_1_1_touchpad_settings.html#a182664aa7e6fe1272152810ed5813fba',1,'mir::input::TouchpadSettings']]],
+  ['displacement_5fx',['displacement_x',['../struct_mir_buffer_stream_info.html#a8dae66eca71a1e1056d21b9654f0b6cc',1,'MirBufferStreamInfo']]],
+  ['displacement_5fy',['displacement_y',['../struct_mir_buffer_stream_info.html#a989f4c52c8eee8ffaa1f6ba3ee264e47',1,'MirBufferStreamInfo']]],
+  ['display_5fget_5fplatform',['display_get_platform',['../struct_mir_mesa_e_g_l_native_display.html#abb87d41bbe6642dbe3ef026e4d6914db',1,'MirMesaEGLNativeDisplay']]],
+  ['done',['done',['../pointer__confinement_8c.html#ab863ca78ada0d621962a992ef59f33de',1,'pointer_confinement.c']]],
+  ['drm_5fauth_5ffd',['drm_auth_fd',['../struct_mir_extension_mesa_d_r_m_auth_v1.html#a721888e2195640f2aff082aa810e3013',1,'MirExtensionMesaDRMAuthV1']]],
+  ['drm_5fauth_5fmagic',['drm_auth_magic',['../struct_mir_extension_mesa_d_r_m_auth_v1.html#ac5e061073d2fb36457f69be6a25904b6',1,'MirExtensionMesaDRMAuthV1']]],
+  ['dx',['dx',['../structmir_1_1geometry_1_1_displacement.html#ad25c8e2ba9f6c41ad3437a80956ff1e6',1,'mir::geometry::Displacement']]],
+  ['dy',['dy',['../structmir_1_1geometry_1_1_displacement.html#adbee20d1ea3be44840071b8219ebaad5',1,'mir::geometry::Displacement']]]
+];

@@ -1,0 +1,9 @@
+<map id="include/renderer/mir/renderer/renderer.h" name="include/renderer/mir/renderer/renderer.h">
+<area shape="rect" id="node2" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="75,169,241,196"/>
+<area shape="rect" id="node8" href="$renderable_8h.html" title="mir/graphics/renderable.h" alt="" coords="329,95,497,121"/>
+<area shape="rect" id="node12" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="546,95,693,121"/>
+<area shape="rect" id="node3" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="87,244,229,271"/>
+<area shape="rect" id="node7" href="$size_8h.html" title="size.h" alt="" coords="5,244,63,271"/>
+<area shape="rect" id="node4" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="71,319,170,345"/>
+<area shape="rect" id="node13" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="559,169,730,196"/>
+</map>

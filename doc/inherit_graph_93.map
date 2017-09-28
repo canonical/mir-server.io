@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classmir_1_1graphics_1_1_display_platform.html" title="mir::graphics::DisplayPlatform" alt="" coords="5,5,203,32"/>
+<area shape="rect" id="node2" href="$classmir_1_1graphics_1_1_platform.html" title="mir::graphics::Platform" alt="" coords="251,35,405,61"/>
+<area shape="rect" id="node3" href="$classmir_1_1graphics_1_1_rendering_platform.html" title="Interface to platform specific support for graphics operations. " alt="" coords="23,57,185,98"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="FloatingWindowManagerPolicy" name="FloatingWindowManagerPolicy">
+<area shape="rect" id="node2" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="270,5,481,47"/>
+<area shape="rect" id="node3" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined. " alt="" coords="5,13,220,39"/>
+<area shape="rect" id="node4" href="$classmiral_1_1_workspace_policy.html" title="Advise changes to workspaces. " alt="" coords="296,71,455,98"/>
+<area shape="rect" id="node5" href="$classmiral_1_1_window_management_policy_addendum3.html" title="Handle additional client requests. " alt="" coords="268,123,483,164"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="include/platform/mir/client/client_buffer.h" name="include/platform/mir/client/client_buffer.h">
+<area shape="rect" id="node2" href="$mir__native__buffer_8h.html" title="mir_toolkit/mir_native\l_buffer.h" alt="" coords="5,95,152,136"/>
+<area shape="rect" id="node3" href="$native__buffer_8h.html" title="mir/graphics/native\l_buffer.h" alt="" coords="177,95,309,136"/>
+<area shape="rect" id="node4" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="333,102,480,129"/>
+<area shape="rect" id="node6" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="505,102,642,129"/>
+<area shape="rect" id="node10" href="$fd_8h.html" title="mir/fd.h" alt="" coords="667,102,733,129"/>
+<area shape="rect" id="node5" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="288,184,459,211"/>
+<area shape="rect" id="node7" href="$dimensions_8h.html" title="mir/geometry/dimensions.h" alt="" coords="483,184,661,211"/>
+</map>

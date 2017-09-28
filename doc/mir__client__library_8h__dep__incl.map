@@ -1,0 +1,33 @@
+<map id="include/client/mir_toolkit/mir_client_library.h" name="include/client/mir_toolkit/mir_client_library.h">
+<area shape="rect" id="node2" href="$animated__cursor__demo__client_8c.html" title="examples/animated_cursor\l_demo_client.c" alt="" coords="5,117,184,158"/>
+<area shape="rect" id="node3" href="$basic_8c.html" title="examples/basic.c" alt="" coords="209,124,333,151"/>
+<area shape="rect" id="node4" href="$camera_8c.html" title="examples/camera.c" alt="" coords="357,124,493,151"/>
+<area shape="rect" id="node5" href="$client__helpers_8h.html" title="examples/client_helpers.h" alt="" coords="619,124,792,151"/>
+<area shape="rect" id="node6" href="$client__helpers_8cpp.html" title="examples/client_helpers.cpp" alt="" coords="315,228,501,255"/>
+<area shape="rect" id="node7" href="$eglsquare_8cpp.html" title="examples/eglsquare.cpp" alt="" coords="525,228,688,255"/>
+<area shape="rect" id="node8" href="$input__shapes_8cpp.html" title="examples/input_shapes.cpp" alt="" coords="712,228,896,255"/>
+<area shape="rect" id="node9" href="$render__surface_8cpp.html" title="examples/render_surface.cpp" alt="" coords="921,228,1114,255"/>
+<area shape="rect" id="node10" href="$client__touch__validator_8cpp.html" title="examples/client_touch\l_validator.cpp" alt="" coords="917,117,1069,158"/>
+<area shape="rect" id="node11" href="$cursors__demo__client_8c.html" title="examples/cursors_demo\l_client.c" alt="" coords="1094,117,1258,158"/>
+<area shape="rect" id="node12" href="$demo__client__display__config_8c.html" title="examples/demo_client\l_display_config.c" alt="" coords="1283,117,1435,158"/>
+<area shape="rect" id="node13" href="$eglapp_8c.html" title="examples/eglapp.c" alt="" coords="1459,124,1589,151"/>
+<area shape="rect" id="node14" href="$eglstateswitcher_8c.html" title="examples/eglstateswitcher.c" alt="" coords="1613,124,1800,151"/>
+<area shape="rect" id="node15" href="$fingerpaint_8c.html" title="examples/fingerpaint.c" alt="" coords="1825,124,1978,151"/>
+<area shape="rect" id="node16" href="$flicker_8c.html" title="examples/flicker.c" alt="" coords="2002,124,2129,151"/>
+<area shape="rect" id="node17" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="2153,117,2308,158"/>
+<area shape="rect" id="node18" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="2332,117,2473,158"/>
+<area shape="rect" id="node19" href="$multiwin_8c.html" title="examples/multiwin.c" alt="" coords="2498,124,2638,151"/>
+<area shape="rect" id="node20" href="$pointer__confinement_8c.html" title="examples/pointer_confinement.c" alt="" coords="2663,124,2873,151"/>
+<area shape="rect" id="node21" href="$progressbar_8c.html" title="examples/progressbar.c" alt="" coords="2897,124,3057,151"/>
+<area shape="rect" id="node22" href="$prompt__session_8c.html" title="examples/prompt_session.c" alt="" coords="3054,228,3239,255"/>
+<area shape="rect" id="node23" href="$release__at__exit_8c.html" title="examples/release_at\l_exit.c" alt="" coords="3290,117,3433,158"/>
+<area shape="rect" id="node24" href="$screencast_8cpp.html" title="examples/screencast.cpp" alt="" coords="3457,124,3628,151"/>
+<area shape="rect" id="node25" href="$tooltip_8c.html" title="examples/tooltip.c" alt="" coords="3652,124,3780,151"/>
+<area shape="rect" id="node26" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="3805,117,3966,158"/>
+<area shape="rect" id="node27" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="3132,109,3265,165"/>
+<area shape="rect" id="node28" href="$client__buffer__factory_8h.html" title="include/platform/mir\l/client/client_buffer\l_factory.h" alt="" coords="3991,109,4127,165"/>
+<area shape="rect" id="node29" href="$any__surface_8h.html" title="include/test/mir_test\l_framework/any_surface.h" alt="" coords="4151,117,4326,158"/>
+<area shape="rect" id="node30" href="$connected__client__headless__server_8h.html" title="include/test/mir_test\l_framework/connected\l_client_headless_server.h" alt="" coords="4350,109,4522,165"/>
+<area shape="rect" id="node32" href="$visible__surface_8h.html" title="include/test/mir_test\l_framework/visible_surface.h" alt="" coords="4546,117,4737,158"/>
+<area shape="rect" id="node31" href="$connected__client__with__a__window_8h.html" title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h" alt="" coords="4355,213,4517,269"/>
+</map>

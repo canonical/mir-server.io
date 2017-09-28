@@ -1,0 +1,10 @@
+<map id="include/test/mir_test_framework/stub_server_platform_factory.h" name="include/test/mir_test_framework/stub_server_platform_factory.h">
+<area shape="rect" id="node2" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="117,109,283,136"/>
+<area shape="rect" id="node8" href="$graphics_2platform_8h.html" title="mir/graphics/platform.h" alt="" coords="755,109,909,136"/>
+<area shape="rect" id="node14" href="$module__deleter_8h.html" title="mir/module_deleter.h" alt="" coords="989,191,1131,218"/>
+<area shape="rect" id="node3" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="5,191,147,218"/>
+<area shape="rect" id="node7" href="$size_8h.html" title="size.h" alt="" coords="171,191,229,218"/>
+<area shape="rect" id="node4" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="80,273,179,300"/>
+<area shape="rect" id="node10" href="$extension__description_8h.html" title="mir/extension_description.h" alt="" coords="545,191,727,218"/>
+<area shape="rect" id="node13" href="$module__properties_8h.html" title="mir/module_properties.h" alt="" coords="751,191,913,218"/>
+</map>
