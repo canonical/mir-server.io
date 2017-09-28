@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="32px" width="40px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 32"><!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+ <title>messaging-app-symbolic</title>
+ <desc>Created with Sketch.</desc>
+ <g id="3.Conjure-up" fill-rule="evenodd" fill="none">
+  <g id="Conjure-up-3" transform="translate(-379 -1277)">
+   <g id="help" transform="translate(43 1196)">
+    <g id="ask-ubuntu" transform="translate(333 76)">
+     <g id="messaging-app-symbolic">
+      <g id="svg4874">
+       <g id="layer1" transform="translate(.38011 .21962)">
+        <g id="g4845" transform="translate(22.294 22.734) scale(-1 1) rotate(-90) translate(-22.5 -21.5)">
+         <g id="g4778" transform="translate(22.999 21.5) scale(-1 1) translate(-22 -21.5)">
+          <g id="g4780" transform="translate(22.386 21.5) scale(-1 1) translate(-21.5 -21.5)">
+           <rect id="rect4782" transform="translate(21.286 21.298) scale(-1 1) translate(-21.286 -21.298)" height="42.595" width="42.572" y="5.6843e-14" x="2.3448e-13"/>
+           <polygon id="path1652" fill-rule="nonzero" points="7.4162 27.227 11.895 21.458 12.874 22.372 12.874 32.081 11.895 32.995" fill="#666"/>
+           <polygon id="path4215" fill-rule="nonzero" points="28.702 32.995 28.702 21.902 26.928 21.902 26.928 32.995" fill="#666"/>
+           <polygon id="path4237" fill-rule="nonzero" points="23.381 32.995 23.381 9.9222 21.607 9.9222 21.607 32.995" fill="#666"/>
+           <path id="path4211" fill-rule="nonzero" fill="#666" d="m17.172 1.9351c-1.167 0-2.09 0.1056-2.868 0.3978s-1.401 0.8208-1.769 1.4888c-0.737 1.3361-0.659 2.9701-0.684 5.2031v0.0052 24.857 0.005c0.025 2.233-0.053 3.867 0.684 5.203 0.368 0.668 0.991 1.197 1.769 1.489s1.701 0.398 2.868 0.398h15.965c1.166 0 2.09-0.106 2.868-0.398s1.401-0.821 1.769-1.489c0.737-1.336 0.658-2.97 0.684-5.203v-0.005-24.857-0.0052c-0.026-2.233 0.053-3.867-0.684-5.2031-0.368-0.668-0.991-1.1966-1.769-1.4888s-1.702-0.3978-2.868-0.3978h-15.965zm0 1.7757h15.965c1.051 0 1.784 0.1111 2.245 0.2843 0.461 0.1731 0.66 0.3591 0.84 0.6846 0.358 0.6497 0.437 2.12 0.463 4.3555v24.837c-0.026 2.243-0.104 3.714-0.463 4.365-0.18 0.326-0.379 0.512-0.84 0.685s-1.194 0.284-2.245 0.284h-15.965c-1.051 0-1.783-0.111-2.244-0.284-0.462-0.173-0.661-0.359-0.84-0.685-0.359-0.65-0.437-2.119-0.463-4.355v-0.01-24.826-0.0107c0.026-2.2355 0.105-3.7059 0.463-4.3556 0.179-0.3255 0.378-0.5114 0.84-0.6846 0.461-0.1732 1.193-0.2843 2.244-0.2843z"/>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

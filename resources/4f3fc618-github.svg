@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg5624" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="256" width="256" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs5626">
+  <clipPath id="clipPath3967" clipPathUnits="userSpaceOnUse">
+   <path id="path3969" d="m0 252h252v-252h-252v252z"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata5629">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,208)">
+  <rect id="rect4415" stroke-linejoin="round" height="348.91" width="344.11" stroke="#fff" stroke-linecap="round" y="522.89" x="354.18" stroke-width="3.4"/>
+  <path id="rect3790" opacity=".15" d="m-323.99-132.2c-1.108 0-2 0.892-2 2v44c0 1.108 0.892 2 2 2h14.781l12.844-48h-27.625z" fill="#fff"/>
+  <g id="g3961" fill="#fff" transform="matrix(.84003 0 0 -.84003 106.41 -31.139)">
+   <g id="g3963" fill="#fff" transform="matrix(1.1224 0 0 1.1224 -116.41 -82.576)">
+    <g id="g3965" fill="#fff" clip-path="url(#clipPath3967)"></g>
+   </g>
+  </g>
+  <path id="path18" d="m128.04-173.57c-51.371 0-93.027 41.649-93.027 93.027 0 41.102 26.655 75.972 63.617 88.273 4.6492 0.86113 6.356-2.018 6.356-4.4751 0-2.2183-0.0862-9.5464-0.12631-17.32-25.88 5.6274-31.341-10.976-31.341-10.976-4.2317-10.753-10.329-13.612-10.329-13.612-8.4403-5.7737 0.63622-5.6551 0.63622-5.6551 9.3415 0.65471 14.26 9.588 14.26 9.588 8.2971 14.22 21.762 10.109 27.071 7.7317 0.83494-6.0125 3.2458-10.118 5.9062-12.439-20.663-2.3523-42.383-10.329-42.383-45.974 0-10.156 3.634-18.455 9.5849-24.97-0.96588-2.3446-4.1501-11.805 0.90118-24.619 0 0 7.8118-2.5002 25.589 9.5356 7.4205-2.0612 15.379-3.0948 23.284-3.1303 7.9058 0.0356 15.87 1.0691 23.304 3.1303 17.756-12.036 25.557-9.5356 25.557-9.5356 5.0636 12.814 1.8779 22.274 0.91198 24.619 5.9648 6.5147 9.5741 14.813 9.5741 24.97 0 35.73-21.762 43.597-42.477 45.9 3.3367 2.8869 6.3098 8.5482 6.3098 17.227 0 12.447-0.10782 22.465-0.10782 25.529 0 2.4756 1.6745 5.3763 6.3899 4.4628 36.942-12.315 63.564-47.173 63.564-88.261 0-51.378-41.65-93.027-93.025-93.027" fill-rule="evenodd" fill="#1b1817"/>
+ </g>
+</svg>
