@@ -24,7 +24,7 @@ To see the list of what potential clients exist, just enter the snap set command
 
 Once you set an app, it will start on the display connected to your device:
 
-<a href="../resources/rss-news-app.png" target="_blank"><img src="resources/webkit-openhab.png" alt="Mir RSS Reader Screenshot" ></a>
+<a href="../resources/rss-news-app.png" target="_blank"><img src="../resources/rss-news-app.png" alt="Mir RSS Reader Screenshot" ></a>
 
 ## Step by step example
 
