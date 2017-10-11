@@ -2907,7 +2907,7 @@ sub {
   .p-navigation__logo {
     margin: 10px 0 0 20px; }
   .p-navigation__links {
-    border-right: 1px solid #ec6d40;
+    border-right: 1px solid black;
     margin: 0;
     padding: 0; }
     @media (min-width: 768px) {
@@ -2917,11 +2917,11 @@ sub {
       .p-navigation__links .p-navigation__link {
         background-color: transparent;
         border-bottom: 0;
-        border-left-color: #da4816;
+        border-left-color: black;
         padding: 0;
         position: relative; }
         .p-navigation__links .p-navigation__link::before {
-          background: #ec6d40;
+          background: black;
           content: " ";
           display: block;
           height: 100%;
@@ -2930,7 +2930,7 @@ sub {
           top: 0;
           width: 1px; }
         .p-navigation__links .p-navigation__link:last-of-type {
-          border-right-color: #da4816; }
+          border-right-color: black; }
         .p-navigation__links .p-navigation__link > a {
           color: #fff;
           display: inline-block;
