@@ -1,4 +1,6 @@
 <map id="include/test/mir_test_framework/headless_test.h" name="include/test/mir_test_framework/headless_test.h">
-<area shape="rect" id="node2" href="$async__server__runner_8h.html" title="mir_test_framework\l/async_server_runner.h" alt="" coords="463,95,620,136"/>
-<area shape="rect" id="node3" href="$temporary__environment__value_8h.html" title="mir_test_framework\l/temporary_environment\l_value.h" alt="" coords="5,184,168,240"/>
+<area shape="rect" id="node2" href="$async__server__runner_8h.html" title="mir_test_framework\l/async_server_runner.h" alt="" coords="463,95,619,136"/>
+<area shape="rect" id="node3" href="$temporary__environment__value_8h.html" title="mir_test_framework\l/temporary_environment\l_value.h" alt="" coords="5,184,165,240"/>
+<area shape="rect" id="node5" href="$auto__unblock__thread_8h.html" title="mir/test/auto_unblock\l_thread.h" alt="" coords="240,191,387,233"/>
+<area shape="rect" id="node9" href="$set__window__management__policy_8h.html" title="miral/set_window_management\l_policy.h" alt="" coords="525,191,728,233"/>
 </map>

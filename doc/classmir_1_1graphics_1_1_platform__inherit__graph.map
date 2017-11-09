@@ -1,4 +1,0 @@
-<map id="mir::graphics::Platform" name="mir::graphics::Platform">
-<area shape="rect" id="node2" href="$classmir_1_1graphics_1_1_display_platform.html" title="mir::graphics::DisplayPlatform" alt="" coords="5,13,203,39"/>
-<area shape="rect" id="node3" href="$classmir_1_1graphics_1_1_rendering_platform.html" title="Interface to platform specific support for graphics operations. " alt="" coords="227,5,389,47"/>
-</map>

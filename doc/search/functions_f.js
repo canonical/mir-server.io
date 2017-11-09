@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quitfilter',['QuitFilter',['../classmir_1_1examples_1_1_quit_filter.html#aec8fbce8e3a1c6700df750d80b2b96d9',1,'mir::examples::QuitFilter']]]
+  ['query',['query',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#ac94136c98a5c0665500920f1b0b0af32',1,'mir::test::doubles::StubSurface']]]
 ];

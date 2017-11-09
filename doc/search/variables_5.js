@@ -1,13 +1,19 @@
 var searchData=
 [
+  ['fake_5fconfigs',['fake_configs',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aa8bdfa8ba4778704c4a99975068d538c',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fconfigs_5fnum',['fake_configs_num',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aeff708fd828a20f0443b01037d06abcb',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fegl_5fcontext',['fake_egl_context',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a1f6459a4caf9ea60cecf04b5af4a17a1',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fegl_5fdisplay',['fake_egl_display',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aa8e8354c5c5d2e56f02959e0f42db915',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fegl_5fimage',['fake_egl_image',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a2059008fbc31b041173790a5693ddb9d',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fegl_5fsurface',['fake_egl_surface',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#adb38c8994d85e7fc275894fcae4e887d',1,'mir::test::doubles::MockEGL']]],
+  ['fake_5fvisual_5fid',['fake_visual_id',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a4623a24c4135abc6a74fbce17732474b',1,'mir::test::doubles::MockEGL']]],
+  ['false',['false',['../namespacemir_1_1test_1_1doubles.html#a31edd269ea4e52d6c68ed4d4ec0948ad',1,'mir::test::doubles']]],
   ['fatal_5ferror',['fatal_error',['../namespacemir.html#adbd3f807eb6d8ff75ef448788480a006',1,'mir']]],
   ['favorite_5fflavor',['favorite_flavor',['../struct_mir_extension_favorite_flavor_v1.html#afea2e168d2971943ec4480ba2ccc827e',1,'MirExtensionFavoriteFlavorV1']]],
   ['fd',['fd',['../struct_mir_platform_package.html#ab0559ecead3c1740793a336bbb1dbc98',1,'MirPlatformPackage::fd()'],['../struct_mir_extension_gbm_buffer_v2.html#a1a3c4a3a3d86f9e285c5ce6088370827',1,'MirExtensionGbmBufferV2::fd()'],['../struct_mir_buffer_package.html#ae449b5ca125fd0e674a1222bd69ba4b4',1,'MirBufferPackage::fd()']]],
   ['fd_5fitems',['fd_items',['../struct_mir_platform_package.html#a311b442d9c476cd09dee8da9519f03cd',1,'MirPlatformPackage::fd_items()'],['../struct_mir_buffer_package.html#a42e2d92b7e1c498f90ecd4d206481737',1,'MirBufferPackage::fd_items()']]],
-  ['fds',['fds',['../struct_mir_platform_message_fds.html#a9a2e65c684664b2277909ae9dcf6f2a0',1,'MirPlatformMessageFds::fds()'],['../structmir_1_1graphics_1_1_platform_operation_message.html#a7bbdb8b2d8afbfb270eba48f42dafd25',1,'mir::graphics::PlatformOperationMessage::fds()']]],
-  ['file',['file',['../structmir_1_1_module_properties.html#a35577a5b735c46ecfcd585a97848d520',1,'mir::ModuleProperties']]],
+  ['fds',['fds',['../struct_mir_platform_message_fds.html#a9a2e65c684664b2277909ae9dcf6f2a0',1,'MirPlatformMessageFds']]],
   ['filename',['filename',['../struct_mir_module_properties.html#a020abad44645ba87e0060f41caf7f4c8',1,'MirModuleProperties']]],
   ['flags',['flags',['../struct_mir_extension_gbm_buffer_v2.html#abe3d09f7aa68252fa334f264919c0e2c',1,'MirExtensionGbmBufferV2::flags()'],['../struct_mir_buffer_package.html#a7cadf1b9b02f285173c657ef8a2acf5a',1,'MirBufferPackage::flags()']]],
-  ['form_5ffactor',['form_factor',['../structmir_1_1graphics_1_1_display_configuration_output.html#a4cacebbb16815ce939c535d135a71f05',1,'mir::graphics::DisplayConfigurationOutput::form_factor()'],['../structmir_1_1graphics_1_1_user_display_configuration_output.html#a0c319a6b687da0bb0772d9ef257814e6',1,'mir::graphics::UserDisplayConfigurationOutput::form_factor()']]],
-  ['format',['format',['../structmir__eglapp__arg.html#abafc41d24958cc0f09e7ed2281fd220e',1,'mir_eglapp_arg::format()'],['../struct_mir_extension_gbm_buffer_v2.html#a90b1b4d31f6ac28a5fbe7a35749af7be',1,'MirExtensionGbmBufferV2::format()'],['../structmir_1_1client_1_1_memory_region.html#ac022db2957cef02bef8c34f2f9d8ad9e',1,'mir::client::MemoryRegion::format()'],['../structmir_1_1graphics_1_1_buffer_properties.html#a90bc829b78544c2f7fea0707c4f0c322',1,'mir::graphics::BufferProperties::format()'],['../group__mir__toolkit.html#ga5a2e86126e0b0885d7c529935e916483',1,'format():&#160;mir_connection.h']]]
+  ['format',['format',['../struct_mir_extension_gbm_buffer_v2.html#a90b1b4d31f6ac28a5fbe7a35749af7be',1,'MirExtensionGbmBufferV2::format()'],['../group__mir__toolkit.html#ga5a2e86126e0b0885d7c529935e916483',1,'format():&#160;mir_connection.h']]]
 ];

@@ -1,3 +1,4 @@
 <map id="include/common/mir/input/keymap.h" name="include/common/mir/input/keymap.h">
-<area shape="rect" id="node2" href="$mir__keyboard__config_8h.html" title="include/common/mir\l/input/mir_keyboard\l_config.h" alt="" coords="5,95,144,151"/>
+<area shape="rect" id="node2" href="$mir__keyboard__config_8h.html" title="include/common/mir\l/input/mir_keyboard\l_config.h" alt="" coords="31,95,169,151"/>
+<area shape="rect" id="node3" href="$stub__input__device_8h.html" title="include/test/mir/test\l/doubles/stub_input_device.h" alt="" coords="5,199,195,240"/>
 </map>

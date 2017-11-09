@@ -1,7 +1,0 @@
-<map id="include/platform/mir/graphics/buffer_id.h" name="include/platform/mir/graphics/buffer_id.h">
-<area shape="rect" id="node2" href="$buffer_8h.html" title="include/platform/mir\l/graphics/buffer.h" alt="" coords="399,95,535,136"/>
-<area shape="rect" id="node5" href="$buffer__basic_8h.html" title="include/platform/mir\l/graphics/buffer_basic.h" alt="" coords="572,191,733,233"/>
-<area shape="rect" id="node3" href="$buffer__render__target_8cpp.html" title="examples/buffer_render\l_target.cpp" alt="" coords="5,191,164,233"/>
-<area shape="rect" id="node4" href="$server__example__adorning__compositor_8cpp.html" title="examples/server_example\l_adorning_compositor.cpp" alt="" coords="188,191,363,233"/>
-<area shape="rect" id="node6" href="$graphic__buffer__allocator_8h.html" title="include/platform/mir\l/graphics/graphic_buffer\l_allocator.h" alt="" coords="387,184,548,240"/>
-</map>

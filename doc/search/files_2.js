@@ -1,17 +1,8 @@
 var searchData=
 [
   ['cached_5fptr_2eh',['cached_ptr.h',['../cached__ptr_8h.html',1,'']]],
-  ['camera_2ec',['camera.c',['../camera_8c.html',1,'']]],
   ['canonical_5fwindow_5fmanager_2eh',['canonical_window_manager.h',['../canonical__window__manager_8h.html',1,'']]],
-  ['chain_5fjumping_5fbuffers_2ec',['chain_jumping_buffers.c',['../chain__jumping__buffers_8c.html',1,'']]],
-  ['client_5fbuffer_2eh',['client_buffer.h',['../client__buffer_8h.html',1,'']]],
-  ['client_5fbuffer_5ffactory_2eh',['client_buffer_factory.h',['../client__buffer__factory_8h.html',1,'']]],
-  ['client_5fcontext_2eh',['client_context.h',['../client__context_8h.html',1,'']]],
-  ['client_5fhelpers_2ecpp',['client_helpers.cpp',['../client__helpers_8cpp.html',1,'']]],
-  ['client_5fhelpers_2eh',['client_helpers.h',['../client__helpers_8h.html',1,'']]],
-  ['client_5fplatform_2eh',['client_platform.h',['../client__platform_8h.html',1,'']]],
-  ['client_5fplatform_5ffactory_2eh',['client_platform_factory.h',['../client__platform__factory_8h.html',1,'']]],
-  ['client_5ftouch_5fvalidator_2ecpp',['client_touch_validator.cpp',['../client__touch__validator_8cpp.html',1,'']]],
+  ['canonical_5fwindow_5fmanager_5fpolicy_2eh',['canonical_window_manager_policy.h',['../canonical__window__manager__policy_8h.html',1,'']]],
   ['client_5ftypes_2eh',['client_types.h',['../client__types_8h.html',1,'']]],
   ['command_5fline_5foption_2eh',['command_line_option.h',['../command__line__option_8h.html',1,'']]],
   ['common_2eh',['common.h',['../common_8h.html',1,'']]],
@@ -23,9 +14,8 @@ var searchData=
   ['context_2eh',['context.h',['../context_8h.html',1,'']]],
   ['context_5fsource_2eh',['context_source.h',['../context__source_8h.html',1,'']]],
   ['cookie_2eh',['cookie.h',['../client_2mir_2client_2cookie_8h.html',1,'(Global Namespace)'],['../cookie_2mir_2cookie_2cookie_8h.html',1,'(Global Namespace)']]],
-  ['cursor_2eh',['cursor.h',['../cursor_8h.html',1,'']]],
-  ['cursor_5fimage_2eh',['cursor_image.h',['../cursor__image_8h.html',1,'']]],
+  ['cross_5fprocess_5faction_2eh',['cross_process_action.h',['../cross__process__action_8h.html',1,'']]],
+  ['cross_5fprocess_5fsync_2eh',['cross_process_sync.h',['../cross__process__sync_8h.html',1,'']]],
   ['cursor_5ftheme_2eh',['cursor_theme.h',['../cursor__theme_8h.html',1,'']]],
-  ['cursors_2eh',['cursors.h',['../cursors_8h.html',1,'']]],
-  ['cursors_5fdemo_5fclient_2ec',['cursors_demo_client.c',['../cursors__demo__client_8c.html',1,'']]]
+  ['cursors_2eh',['cursors.h',['../cursors_8h.html',1,'']]]
 ];

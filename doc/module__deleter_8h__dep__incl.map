@@ -1,10 +1,3 @@
 <map id="include/common/mir/module_deleter.h" name="include/common/mir/module_deleter.h">
-<area shape="rect" id="node2" href="$client__platform__factory_8h.html" title="include/platform/mir\l/client/client_platform\l_factory.h" alt="" coords="5,95,152,151"/>
-<area shape="rect" id="node3" href="$emergency__cleanup__registry_8h.html" title="include/platform/mir\l/emergency_cleanup_registry.h" alt="" coords="176,102,379,143"/>
-<area shape="rect" id="node4" href="$event__handler__register_8h.html" title="include/platform/mir\l/graphics/event_handler\l_register.h" alt="" coords="403,95,563,151"/>
-<area shape="rect" id="node5" href="$graphics_2platform_8h.html" title="include/platform/mir\l/graphics/platform.h" alt="" coords="587,102,725,143"/>
-<area shape="rect" id="node6" href="$stub__server__platform__factory_8h.html" title="include/test/mir_test\l_framework/stub_server\l_platform_factory.h" alt="" coords="629,199,790,255"/>
-<area shape="rect" id="node7" href="$platform__authentication_8h.html" title="include/platform/mir\l/graphics/platform_authentication.h" alt="" coords="799,102,1025,143"/>
-<area shape="rect" id="node8" href="$input__device_8h.html" title="include/platform/mir\l/input/input_device.h" alt="" coords="1049,102,1191,143"/>
-<area shape="rect" id="node9" href="$input_2platform_8h.html" title="include/platform/mir\l/input/platform.h" alt="" coords="1216,102,1352,143"/>
+<area shape="rect" id="node2" href="$stub__server__platform__factory_8h.html" title="include/test/mir_test\l_framework/stub_server\l_platform_factory.h" alt="" coords="5,95,164,151"/>
 </map>

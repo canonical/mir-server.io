@@ -105,10 +105,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8bc5199465a4d6e84963f8e44878667d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd57dce2e645d1a4b7b68208432cd8cb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#acd57dce2e645d1a4b7b68208432cd8cb">set_state</a> (<a class="el" href="group__mir__toolkit.html#ga767377fc0ee9f2097bc25dce0228d7a6">MirWindowState</a> state) -&gt; <a class="el" href="classmir_1_1client_1_1_window_spec.html">WindowSpec</a> &amp;</td></tr>
 <tr class="separator:acd57dce2e645d1a4b7b68208432cd8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a2c54945195c522b8d0d8cef03b92a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#a26a2c54945195c522b8d0d8cef03b92a">add_surface</a> (<a class="el" href="class_mir_render_surface.html">MirRenderSurface</a> *surface, int <a class="el" href="client__types_8h.html#a2474a5474cbff19523a51eb1de01cda4">width</a>, int <a class="el" href="client__types_8h.html#ad12fc34ce789bce6c8a05d8a17138534">height</a>, int displacement_x, int displacement_y) -&gt; <a class="el" href="classmir_1_1client_1_1_window_spec.html">WindowSpec</a> &amp;</td></tr>
+<tr class="memitem:a26a2c54945195c522b8d0d8cef03b92a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#a26a2c54945195c522b8d0d8cef03b92a">add_surface</a> (<a class="el" href="group__mir__toolkit.html#gad13adcce81d5cc6f9a3d1406c5ad3c31">MirRenderSurface</a> *surface, int <a class="el" href="client__types_8h.html#a2474a5474cbff19523a51eb1de01cda4">width</a>, int <a class="el" href="client__types_8h.html#ad12fc34ce789bce6c8a05d8a17138534">height</a>, int displacement_x, int displacement_y) -&gt; <a class="el" href="classmir_1_1client_1_1_window_spec.html">WindowSpec</a> &amp;</td></tr>
 <tr class="separator:a26a2c54945195c522b8d0d8cef03b92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8523c699ae7f9abf242a35d5f4d08bf2"><td class="memTemplParams" colspan="2">template&lt;typename Context &gt; </td></tr>
-<tr class="memitem:a8523c699ae7f9abf242a35d5f4d08bf2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#a8523c699ae7f9abf242a35d5f4d08bf2">create_window</a> (void(*callback)(<a class="el" href="group__mir__toolkit.html#ga4f71f6d4ba268c6a48a2fbcc7b9938e5">MirWindow</a> *, <a class="el" href="fingerpaint_8c.html#a047b4c248c069a06aab98e0a9c6f1117">Context</a> *), <a class="el" href="fingerpaint_8c.html#a047b4c248c069a06aab98e0a9c6f1117">Context</a> *context) const</td></tr>
+<tr class="memitem:a8523c699ae7f9abf242a35d5f4d08bf2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#a8523c699ae7f9abf242a35d5f4d08bf2">create_window</a> (void(*callback)(<a class="el" href="group__mir__toolkit.html#ga4f71f6d4ba268c6a48a2fbcc7b9938e5">MirWindow</a> *, Context *), Context *context) const</td></tr>
 <tr class="separator:a8523c699ae7f9abf242a35d5f4d08bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9a6dba544bd0efebb017730b7d72c42"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1client_1_1_window_spec.html#ab9a6dba544bd0efebb017730b7d72c42">create_window</a> () const -&gt; <a class="el" href="classmir_1_1client_1_1_window.html">Window</a></td></tr>
 <tr class="separator:ab9a6dba544bd0efebb017730b7d72c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">auto mir::client::WindowSpec::add_surface </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_mir_render_surface.html">MirRenderSurface</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__mir__toolkit.html#gad13adcce81d5cc6f9a3d1406c5ad3c31">MirRenderSurface</a> *&#160;</td>
           <td class="paramname"><em>surface</em>, </td>
         </tr>
         <tr>
@@ -263,13 +263,13 @@ template&lt;typename Context &gt; </div>
         <tr>
           <td class="memname">void mir::client::WindowSpec::create_window </td>
           <td>(</td>
-          <td class="paramtype">void(*)(<a class="el" href="group__mir__toolkit.html#ga4f71f6d4ba268c6a48a2fbcc7b9938e5">MirWindow</a> *, <a class="el" href="fingerpaint_8c.html#a047b4c248c069a06aab98e0a9c6f1117">Context</a> *)&#160;</td>
+          <td class="paramtype">void(*)(<a class="el" href="group__mir__toolkit.html#ga4f71f6d4ba268c6a48a2fbcc7b9938e5">MirWindow</a> *, Context *)&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="fingerpaint_8c.html#a047b4c248c069a06aab98e0a9c6f1117">Context</a> *&#160;</td>
+          <td class="paramtype">Context *&#160;</td>
           <td class="paramname"><em>context</em>&#160;</td>
         </tr>
         <tr>
@@ -1175,7 +1175,7 @@ template&lt;typename Context &gt; </div>
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

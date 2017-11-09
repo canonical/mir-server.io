@@ -1,6 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,35,109,61"/>
-<area shape="rect" id="node2" title="STL class. " alt="" coords="157,35,281,61"/>
-<area shape="rect" id="node3" href="$classmir_1_1_abnormal_exit.html" title="mir::AbnormalExit" alt="" coords="355,5,482,32"/>
-<area shape="rect" id="node4" href="$structmir_1_1cookie_1_1_security_check_error.html" title="mir::cookie::SecurityCheck\lError" alt="" coords="329,57,508,98"/>
+<area shape="rect" id="node1" href="$class_is_valid_matcher.html" title="IsValidMatcher" alt="" coords="5,5,113,32"/>
 </map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keymap',['Keymap',['../structmir_1_1input_1_1_keymap.html',1,'mir::input::Keymap'],['../classmiral_1_1_keymap.html',1,'miral::Keymap']]],
-  ['kioskwindowmanagerpolicy',['KioskWindowManagerPolicy',['../class_kiosk_window_manager_policy.html',1,'']]]
+  ['length',['Length',['../classmir_1_1geometry_1_1_length.html',1,'mir::geometry']]],
+  ['logger',['Logger',['../classmir_1_1logging_1_1_logger.html',1,'mir::logging']]]
 ];

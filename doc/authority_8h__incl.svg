@@ -11,8 +11,8 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-147 291.5,-147 291.5,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<polygon fill="#bfbfbf" stroke="black" points="81,-112.5 81,-142.5 177,-142.5 177,-112.5 81,-112.5"/>
-<text text-anchor="start" x="89" y="-130.5" font-family="Arial" font-size="10.00">include/cookie/mir</text>
+<polygon fill="#bfbfbf" stroke="black" points="80.5,-112.5 80.5,-142.5 177.5,-142.5 177.5,-112.5 80.5,-112.5"/>
+<text text-anchor="start" x="88.5" y="-130.5" font-family="Arial" font-size="10.00">include/cookie/mir</text>
 <text text-anchor="middle" x="129" y="-119.5" font-family="Arial" font-size="10.00">/cookie/authority.h</text>
 </g>
 <!-- Node1 -->
@@ -37,7 +37,7 @@
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="143,-0.5 143,-19.5 187,-19.5 187,-0.5 143,-0.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="144,-0.5 144,-19.5 186,-19.5 186,-0.5 144,-0.5"/>
 <text text-anchor="middle" x="165" y="-7.5" font-family="Arial" font-size="10.00">vector</text>
 </g>
 <!-- Node0&#45;&gt;Node3 -->

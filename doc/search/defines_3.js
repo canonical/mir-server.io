@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dark_5faubergine',['DARK_AUBERGINE',['../eglplasma_8c.html#acf820e888e78a4479f6ce81cded151c9',1,'eglplasma.c']]]
+  ['light_5faubergine',['LIGHT_AUBERGINE',['../eglspinner_8cpp.html#a3a193b22c5e3b20d406d042e98db3da1',1,'eglspinner.cpp']]]
 ];

@@ -79,17 +79,16 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for miral::CanonicalWindowManagerPolicy:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmiral_1_1_canonical_window_manager_policy__inherit__graph.svg" width="422" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmiral_1_1_canonical_window_manager_policy__inherit__graph.svg" width="1000" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a594e666197e1a360a2598b4227754cde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a594e666197e1a360a2598b4227754cde">CanonicalWindowManagerPolicy</a> (<a class="el" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a> const &amp;<a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a0e6bb6cbd8fb66c78a496c3a97e23f4f">tools</a>)</td></tr>
 <tr class="separator:a594e666197e1a360a2598b4227754cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e34cb591df87f006de90d8e52c60d0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#ae4e34cb591df87f006de90d8e52c60d0">place_new_window</a> (<a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> const &amp;app_info, <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> const &amp;request_parameters) -&gt; <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> override</td></tr>
-<tr class="memdesc:ae4e34cb591df87f006de90d8e52c60d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Customize initial window placement.  <a href="#ae4e34cb591df87f006de90d8e52c60d0">More...</a><br /></td></tr>
-<tr class="separator:ae4e34cb591df87f006de90d8e52c60d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86386893d4fc0d65553925282d931698"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a86386893d4fc0d65553925282d931698">place_new_window</a> (<a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> const &amp;app_info, <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> const &amp;request_parameters) -&gt; <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> override</td></tr>
+<tr class="memdesc:a86386893d4fc0d65553925282d931698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Customize initial window placement.  <a href="#a86386893d4fc0d65553925282d931698">More...</a><br /></td></tr>
+<tr class="separator:a86386893d4fc0d65553925282d931698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1405665a63e6d83c5f86dd22b49ffc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#af1405665a63e6d83c5f86dd22b49ffc6">handle_window_ready</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info) override</td></tr>
 <tr class="memdesc:af1405665a63e6d83c5f86dd22b49ffc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to focus on the newly ready window.  <a href="#af1405665a63e6d83c5f86dd22b49ffc6">More...</a><br /></td></tr>
 <tr class="separator:af1405665a63e6d83c5f86dd22b49ffc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -362,8 +361,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4e34cb591df87f006de90d8e52c60d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4e34cb591df87f006de90d8e52c60d0">&#9670;&nbsp;</a></span>place_new_window()</h2>
+<a id="a86386893d4fc0d65553925282d931698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86386893d4fc0d65553925282d931698">&#9670;&nbsp;</a></span>place_new_window()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +371,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto miral::CanonicalWindowManagerPolicy::place_new_window </td>
+          <td class="memname">virtual auto miral::CanonicalWindowManagerPolicy::place_new_window </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> const &amp;&#160;</td>
           <td class="paramname"><em>app_info</em>, </td>
@@ -408,6 +407,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classmiral_1_1_window_management_policy.html#a611717b11194f1f81afbe6bd99339162">miral::WindowManagementPolicy</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_floating_window_manager_policy.html#aa49af7af22d2226bd1a1a1c6edbb6216">FloatingWindowManagerPolicy</a>, <a class="el" href="classmir__test__framework_1_1_declarative_placement_window_manager_policy.html#a13998f17d22c8838639d66e138078bd0">mir_test_framework::DeclarativePlacementWindowManagerPolicy</a>, and <a class="el" href="class_kiosk_window_manager_policy.html#ad9168aaa0d9f2b412d3cd9f593d2441c">KioskWindowManagerPolicy</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -440,7 +441,7 @@ Protected Attributes</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

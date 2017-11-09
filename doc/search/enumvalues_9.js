@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joystick',['joystick',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67eca2ed69833bf8cb33c80eaf0daa892400e',1,'mir::input']]]
+  ['lvds',['lvds',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a76ebc34d8fe2bf3f42248b2ced2e0fa5',1,'miral::Output']]]
 ];

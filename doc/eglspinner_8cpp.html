@@ -71,16 +71,17 @@ $(function() {
 <div class="title">eglspinner.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="splash_8h_source.html">splash.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;EGL/eglplatform.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="splash_8h_source.html">splash.h</a>&quot;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
-<code>#include &quot;<a class="el" href="miral-shell_2spinner_2eglapp_8h_source.html">eglapp.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="eglapp_8h_source.html">eglapp.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="miregl_8h_source.html">miregl.h</a>&quot;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;glib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;GLES2/gl2.h&gt;</code><br />
 <code>#include &lt;sys/stat.h&gt;</code><br />
-<code>#include &lt;signal.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="signal_8h_source.html">signal.h</a>&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;<a class="el" href="mir__client__library_8h_source.html">mir_toolkit/mir_client_library.h</a>&gt;</code><br />
@@ -89,12 +90,15 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for eglspinner.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="eglspinner_8cpp__incl.svg" width="2763" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="eglspinner_8cpp__incl.svg" width="2982" height="723"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a8d1ddf13908aaeec4b452ea692478482"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eglspinner_8cpp.html#a8d1ddf13908aaeec4b452ea692478482">MIR_EGL_PLATFORM</a></td></tr>
+<tr class="separator:a8d1ddf13908aaeec4b452ea692478482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ced3ab2424f6c0f1e6ff00afbf529c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eglspinner_8cpp.html#a9ced3ab2424f6c0f1e6ff00afbf529c1">MIR_EGL_UNAVAILABLE</a></td></tr>
+<tr class="separator:a9ced3ab2424f6c0f1e6ff00afbf529c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a193b22c5e3b20d406d042e98db3da1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eglspinner_8cpp.html#a3a193b22c5e3b20d406d042e98db3da1">LIGHT_AUBERGINE</a>&#160;&#160;&#160;0.466666667f, 0.297297297f, 0.435294118f</td></tr>
 <tr class="separator:a3a193b22c5e3b20d406d042e98db3da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -122,6 +126,34 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define LIGHT_AUBERGINE&#160;&#160;&#160;0.466666667f, 0.297297297f, 0.435294118f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d1ddf13908aaeec4b452ea692478482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1ddf13908aaeec4b452ea692478482">&#9670;&nbsp;</a></span>MIR_EGL_PLATFORM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIR_EGL_PLATFORM</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ced3ab2424f6c0f1e6ff00afbf529c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ced3ab2424f6c0f1e6ff00afbf529c1">&#9670;&nbsp;</a></span>MIR_EGL_UNAVAILABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIR_EGL_UNAVAILABLE</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -234,7 +266,7 @@ template&lt;typename Image &gt; </div>
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

@@ -63,36 +63,38 @@ $(function() {
 <div class="title">Getting Involved in Mir </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Getting involved </h2>
-<p>The best place to ask questions and discuss about the Mir project is the #ubuntu-mir IRC channel on freenode.</p>
-<p>The Mir project is hosted on Launchpad: <a href="https://launchpad.net/mir">https://launchpad.net/mir</a></p>
-<h2>Building Mir </h2>
-<p>These instructions assume that you’re using Ubuntu 16.04LTS or later, I’ve not earlier Ubuntu versions or other distributions.</p>
-<p>You’ll need a few development and utility packages installed, along with the Mir graphics drivers: </p><pre class="fragment">$ sudo apt install devscripts equivs bzr
-$ sudo apt install mir-graphics-drivers-desktop
-</pre><p>If you’re working on a phone or tablet use mir-graphics-drivers-android in place of mir-graphics-drivers-desktop. (See <a class="el" href="building_source_for_arm.html">Building the Mir source for ARM</a> for more on this.)</p>
-<p>With these installed you can checkout and build Mir: </p><pre class="fragment">$ bzr branch lp:mir
-$ sudo mk-build-deps -i
-$ mkdir mir/build
-$ cd  mir/build
+<div class="textblock"><h2>Getting involved</h2>
+<p>The Mir project website is <a href="http://www.mirserver.io/">http://www.mirserver.io/</a>, the code is <a href="https://github.com/MirServer">hosted on GitHub</a></p>
+<p>For announcements and other discussions on Mir see: <a href="https://community.ubuntu.com/c/mir">Mir on community.ubuntu</a></p>
+<p>For other questions and discussion about the Mir project: the #mirserver IRC channel on freenode.</p>
+<h2>Getting Mir source and dependencies</h2>
+<h3>On Ubuntu</h3>
+<p>You’ll need a few development tools installed: </p><pre class="fragment">$ sudo apt install devscripts equivs git
+</pre><p>With these installed you can checkout Mir and get the remaining dependencies: </p><pre class="fragment">$ git clone https://github.com/MirServer/mir.git
+$ cd mir
+$ mk-build-deps -i -s sudo
+</pre><h3>On Fedora</h3>
+<p>You’ll need some development tools and packages installed: </p><pre class="fragment">$ sudo dnf install git cmake gcc-c++ boost-devel mesa-libEGL-devel \
+mesa-libGLES-devel glm-devel protobuf-lite-devel protobuf-compiler \
+capnproto-devel capnproto glog-devel gflags-devel systemd-devel \
+glib2-devel wayland-devel mesa-libgbm-devel libepoxy-devel nettle-devel \
+libinput-devel libxml++-devel libuuid-devel libxkbcommon-devel \
+freetype-devel lttng-ust-devel libatomic qterminal qt5-qtwayland \
+python3-pillow libevdev-devel umockdev-devel gtest-devel gmock-devel
+</pre><p>With these installed you can checkout Mir: </p><pre class="fragment">$ git clone https://github.com/MirServer/mir.git
+$ cd mir
+</pre><h2>Building Mir </h2>
+<pre class="fragment">$ mkdir build
+$ cd  build
 $ cmake ..
 $ make
 </pre><p>This creates an example shell (miral-shell) in the bin directory. This can be run directly: </p><pre class="fragment">$ bin/miral-shell
 </pre><p>With the default options this runs in a window on X (which is convenient for development).</p>
-<p>The miral-shell example is simple, don’t expect to see a sophisticated launcher by default. You can start mir apps from the command-line. For example: </p><pre class="fragment">$ bin/miral-run gnome-terminal
-</pre><p>That’s right, a lot of standard GTK+ applications will “just work” (the GDK toolkit has a Mir backend). Any that assume the existence of an X11 and bypass the toolkit my making X11 protocol calls will have problems though.</p>
-<p>To exit from miral-shell press Ctrl-Alt-BkSp.</p>
+<p>The miral-shell example is simple, don’t expect to see a sophisticated launcher by default. You can start mir apps from the command-line. For example: </p><pre class="fragment">$ bin/miral-run qterminal
+</pre><p>To exit from miral-shell press Ctrl-Alt-BkSp.</p>
 <p>You can install the Mir examples, headers and libraries you've built with: </p><pre class="fragment">$ sudo make install
-</pre><h3>Preparing a VM to run Mir</h3>
-<p>Especially if you want to debug the shell without locking your system this might be a helpful setup:</p>
-<ul>
-<li><a class="el" href="setup_kvm_for_mir.html">Setup KVM for Mir</a></li>
-<li><a class="el" href="setup_vmware_for_mir.html">Setup VMware for Mir</a></li>
-</ul>
-<h3>Contributing to Mir</h3>
-<p>Currently, the Mir code activity is performed on a development branch: lp:~mir-team/mir/development-branch</p>
-<p>This development branch is promoted to the branch used for the ubuntu archive and touch images. Please submit any merge proposals against the development branch.</p>
-<p>Please file bug reports at: <a href="https://bugs.launchpad.net/mir">https://bugs.launchpad.net/mir</a></p>
+</pre><h3>Contributing to Mir</h3>
+<p>Please file bug reports at: <a href="https://github.com/MirServer/mir/issues">https://github.com/MirServer/mir/issues</a></p>
 <p>The Mir development mailing list can be found at: <a href="https://lists.ubuntu.com/mailman/listinfo/Mir-devel">https://lists.ubuntu.com/mailman/listinfo/Mir-devel</a></p>
 <p>The Mir coding guidelines are <a href="cppguide/index.html">here</a>.</p>
 <h3>Working on Mir code</h3>
@@ -101,11 +103,11 @@ $ make
 <li><a class="el" href="md__h_a_c_k_i_n_g.html">Mir hacking guide</a></li>
 <li><a class="el" href="component_reports.html">Mir component reports</a></li>
 <li><a class="el" href="dso_versioning_guide.html">A brief guide for versioning symbols in the Mir DSOs</a></li>
-<li><a class="el" href="abi_compatibility_tools.html">Tracking ABI compatibility</a></li>
+<li>abi_compatibility_tools</li>
 <li><a class="el" href="performance_framework.html">Mir performance framework</a></li>
 <li><a class="el" href="latency.html">Measuring visual latency</a></li>
 </ul>
-<h2>Building Mesa </h2>
+<h2>Building Mesa</h2>
 <p><em>The Mesa packages shipped with Ubuntu are already built with the relevant Mir patches and should work out of the box with Mir.</em></p>
 <p>For GL accelerated clients to use Mir they need to use a patched version of Mesa that supports Mir.</p>
 <p>The patch is hosted on GitHub: </p><pre class="fragment">$ git clone https://github.com/RAOF/mesa.git
@@ -114,7 +116,7 @@ $ make
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

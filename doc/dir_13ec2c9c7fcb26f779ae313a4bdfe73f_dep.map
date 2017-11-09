@@ -1,0 +1,16 @@
+<map id="include/test/mir/test/doubles" name="include/test/mir/test/doubles">
+<area shape="rect" id="node1" href="dir_13ec2c9c7fcb26f779ae313a4bdfe73f.html" title="doubles" alt="" coords="141,52,213,100"/>
+<area shape="rect" id="node2" href="dir_eca4379131abe55f66c454f8d4bf8fd2.html" title="client" alt="" coords="5,148,77,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000044_000005.html" title="2" alt="" coords="90,137,98,152"/>
+<area shape="rect" id="node3" href="dir_59dc2ee39f03ca117030a43005a438e2.html" title="renderers" alt="" coords="102,148,178,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000044_000036.html" title="2" alt="" coords="160,127,168,142"/>
+<area shape="rect" id="node4" href="dir_3d69f64eaf81436fe2b22361382717e5.html" title="core" alt="" coords="79,340,151,388"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000044_000029.html" title="5" alt="" coords="148,323,156,338"/>
+<area shape="rect" id="node5" href="dir_0966d06610f72609fd9aa4979c2b5a92.html" title="common" alt="" coords="79,244,151,292"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000044_000020.html" title="6" alt="" coords="165,231,173,246"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000005_000029.html" title="36" alt="" coords="85,313,99,328"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000005_000020.html" title="3" alt="" coords="79,217,87,232"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000020_000005.html" title="2" alt="" coords="69,208,77,223"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000020_000029.html" title="15" alt="" coords="116,314,130,329"/>
+<area shape="rect" id="clust1" href="dir_1ae52e2dee3837ccd0a9c935d2f6759e.html" title="test" alt="" coords="131,16,224,111"/>
+</map>

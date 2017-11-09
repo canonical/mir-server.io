@@ -17,7 +17,6 @@ var searchData=
   ['mirinputeventtype',['MirInputEventType',['../group__mir__toolkit.html#ga334b6f462d981b32fd590be762a0ee58',1,'input_event.h']]],
   ['mirkeyboardaction',['MirKeyboardAction',['../group__mir__toolkit.html#gab61bfb7575c845b69bf2932c4c2ab495',1,'keyboard_event.h']]],
   ['mirlifecyclestate',['MirLifecycleState',['../group__mir__toolkit.html#ga58319ffb4da6d914911b049e1fec2f89',1,'common.h']]],
-  ['mirmesaplatformoperation',['MirMesaPlatformOperation',['../group__mir__toolkit.html#gacdc75a0ddb5ce51ab2f59072a235232c',1,'platform_operation.h']]],
   ['mirmirrormode',['MirMirrorMode',['../group__mir__toolkit.html#gab2088ab696322f19aa108bf9453c940d',1,'common.h']]],
   ['mirorientation',['MirOrientation',['../group__mir__toolkit.html#ga215257e3ab146a11d4d6246946fb1343',1,'common.h']]],
   ['mirorientationmode',['MirOrientationMode',['../group__mir__toolkit.html#gaf66c3c5c7b40ddd8607c2e9a42166a35',1,'common.h']]],

@@ -1,5 +1,4 @@
 <map id="include/common/mir/input/device_capability.h" name="include/common/mir/input/device_capability.h">
-<area shape="rect" id="node2" href="$server__example__input__device__config_8cpp.html" title="examples/server_example\l_input_device_config.cpp" alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node3" href="$mir__input__config_8h.html" title="include/common/mir\l/input/mir_input_config.h" alt="" coords="204,95,368,136"/>
-<area shape="rect" id="node4" href="$input__device__info_8h.html" title="include/platform/mir\l/input/input_device_info.h" alt="" coords="393,95,563,136"/>
+<area shape="rect" id="node2" href="$mir__input__config_8h.html" title="include/common/mir\l/input/mir_input_config.h" alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="$stub__input__device_8h.html" title="include/test/mir/test\l/doubles/stub_input_device.h" alt="" coords="192,95,381,136"/>
 </map>

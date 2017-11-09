@@ -1,6 +1,8 @@
 <map id="miral::WindowManagementPolicy" name="miral::WindowManagementPolicy">
-<area shape="rect" id="node2" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="107,80,318,121"/>
-<area shape="rect" id="node5" href="$class_tiling_window_manager_policy.html" title="TilingWindowManagerPolicy" alt="" coords="342,87,526,114"/>
-<area shape="rect" id="node3" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="5,169,204,196"/>
-<area shape="rect" id="node4" href="$class_kiosk_window_manager_policy.html" title="KioskWindowManagerPolicy" alt="" coords="229,169,415,196"/>
+<area shape="rect" id="node2" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="268,49,479,90"/>
+<area shape="rect" id="node7" href="$class_tiling_window_manager_policy.html" title="TilingWindowManagerPolicy" alt="" coords="281,115,465,141"/>
+<area shape="rect" id="node3" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="536,5,736,32"/>
+<area shape="rect" id="node4" href="$class_kiosk_window_manager_policy.html" title="KioskWindowManagerPolicy" alt="" coords="543,56,729,83"/>
+<area shape="rect" id="node5" href="$structmir__test__framework_1_1_canonical_window_manager_policy.html" title="mir_test_framework\l::CanonicalWindowManagerPolicy" alt="" coords="527,107,745,149"/>
+<area shape="rect" id="node6" href="$classmir__test__framework_1_1_declarative_placement_window_manager_policy.html" title="DeclarativePlacementWindowManagerPolicy is a test utility server component for specifying a static li..." alt="" coords="793,100,995,156"/>
 </map>

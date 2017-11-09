@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['camerapref',['CameraPref',['../camera_8c.html#af1d77552376e8494fef8ac2e3b106e2d',1,'camera.c']]],
-  ['configurationmode',['ConfigurationMode',['../demo__client__display__config_8c.html#abb3f51ed9437d9eb21caf48b8a61e3ee',1,'demo_client_display_config.c']]]
+  ['devicecapability',['DeviceCapability',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67ec',1,'mir::input']]],
+  ['dispatchreentrancy',['DispatchReentrancy',['../namespacemir_1_1dispatch.html#ac7c4b2dec1ebd8a20b21ee9a99bf8d35',1,'mir::dispatch']]]
 ];

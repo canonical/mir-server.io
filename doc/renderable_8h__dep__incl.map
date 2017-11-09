@@ -1,6 +1,0 @@
-<map id="include/platform/mir/graphics/renderable.h" name="include/platform/mir/graphics/renderable.h">
-<area shape="rect" id="node2" href="$display__buffer_8h.html" title="include/platform/mir\l/graphics/display_buffer.h" alt="" coords="43,95,213,136"/>
-<area shape="rect" id="node5" href="$renderer_8h.html" title="include/renderer/mir\l/renderer/renderer.h" alt="" coords="237,95,373,136"/>
-<area shape="rect" id="node3" href="$as__render__target_8h.html" title="examples/as_render\l_target.h" alt="" coords="5,184,144,225"/>
-<area shape="rect" id="node4" href="$server__example__adorning__compositor_8cpp.html" title="examples/server_example\l_adorning_compositor.cpp" alt="" coords="41,273,215,315"/>
-</map>

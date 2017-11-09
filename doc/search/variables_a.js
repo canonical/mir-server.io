@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['magic',['magic',['../struct_mir_mesa_auth_magic_request.html#ae7bcddc1abf812765827caaf5e16c9d3',1,'MirMesaAuthMagicRequest']]],
-  ['major_5fversion',['major_version',['../struct_mir_module_properties.html#a79fb0a39ba3a20c59237c992504f271c',1,'MirModuleProperties::major_version()'],['../structmir_1_1_module_properties.html#ab843691171ba2ee69b6ead5b5982bdbe',1,'mir::ModuleProperties::major_version()']]],
-  ['mapping_5fmode',['mapping_mode',['../structmir_1_1input_1_1_touchscreen_settings.html#ad2f475792f9cd0891a6321be89d24f4a',1,'mir::input::TouchscreenSettings']]],
-  ['max_5fsimultaneous_5foutputs',['max_simultaneous_outputs',['../struct_mir_display_card.html#a2f5a74fe5dbebb0616c3c975738201e9',1,'MirDisplayCard::max_simultaneous_outputs()'],['../structmir_1_1graphics_1_1_display_configuration_card.html#a3f49e11a9f2fdd140cd0c4e21d730d39',1,'mir::graphics::DisplayConfigurationCard::max_simultaneous_outputs()']]],
+  ['major_5fversion',['major_version',['../struct_mir_module_properties.html#a79fb0a39ba3a20c59237c992504f271c',1,'MirModuleProperties']]],
+  ['max_5fsimultaneous_5foutputs',['max_simultaneous_outputs',['../struct_mir_display_card.html#a2f5a74fe5dbebb0616c3c975738201e9',1,'MirDisplayCard']]],
   ['maximum_5ftouch_5faxis_5fvalue',['maximum_touch_axis_value',['../classmir__test__framework_1_1_fake_input_device.html#a4ed4189e9c18c83b6023022d1c28da4c',1,'mir_test_framework::FakeInputDevice']]],
-  ['micro_5fversion',['micro_version',['../struct_mir_module_properties.html#ac3e825762a22330869bcf0c6a8656a53',1,'MirModuleProperties::micro_version()'],['../structmir_1_1_module_properties.html#aa69b4cd7defa37098616382c58c75b95',1,'mir::ModuleProperties::micro_version()']]],
-  ['middle_5fmouse_5fbutton_5femulation',['middle_mouse_button_emulation',['../structmir_1_1input_1_1_touchpad_settings.html#afb12b6d47726ac1cfbb882e0298d6748',1,'mir::input::TouchpadSettings']]],
+  ['micro_5fversion',['micro_version',['../struct_mir_module_properties.html#ac3e825762a22330869bcf0c6a8656a53',1,'MirModuleProperties']]],
   ['minimum_5fsecret_5fsize',['minimum_secret_size',['../classmir_1_1cookie_1_1_authority.html#a19188c931f1dfe0d091bb40a8732f462',1,'mir::cookie::Authority']]],
   ['minimum_5ftouch_5faxis_5fvalue',['minimum_touch_axis_value',['../classmir__test__framework_1_1_fake_input_device.html#a0b3ec95aa40f2186558c004996694f50',1,'mir_test_framework::FakeInputDevice']]],
-  ['minor_5fversion',['minor_version',['../struct_mir_module_properties.html#aed903e8b426984486fa72a48b4bc2687',1,'MirModuleProperties::minor_version()'],['../structmir_1_1_module_properties.html#aa032035f49a969b83733801620f04ce7',1,'mir::ModuleProperties::minor_version()']]],
+  ['minor_5fversion',['minor_version',['../struct_mir_module_properties.html#aed903e8b426984486fa72a48b4bc2687',1,'MirModuleProperties']]],
   ['mir_5farrow_5fcursor_5fname',['mir_arrow_cursor_name',['../group__mir__toolkit.html#gaada9e64a2ed86ccd178fadb87464cca7',1,'cursors.h']]],
   ['mir_5fbuffer_5fusage_5fhardware',['mir_buffer_usage_hardware',['../client__types_8h.html#abc357b798f3f5d36a1aa511320f17610',1,'client_types.h']]],
   ['mir_5fbuffer_5fusage_5fsoftware',['mir_buffer_usage_software',['../client__types_8h.html#a5014120111bf525d920641eb53bd7551',1,'client_types.h']]],
@@ -21,7 +18,7 @@ var searchData=
   ['mir_5fdiagonal_5fresize_5fbottom_5fto_5ftop_5fcursor_5fname',['mir_diagonal_resize_bottom_to_top_cursor_name',['../group__mir__toolkit.html#ga1d965579b8c47e809d59793bbc11a4bb',1,'cursors.h']]],
   ['mir_5fdiagonal_5fresize_5ftop_5fto_5fbottom_5fcursor_5fname',['mir_diagonal_resize_top_to_bottom_cursor_name',['../group__mir__toolkit.html#gab30178c1c8f51d3b325f7b0a3c4f0a81',1,'cursors.h']]],
   ['mir_5fdisabled_5fcursor_5fname',['mir_disabled_cursor_name',['../group__mir__toolkit.html#gaefd8beaf59d2139a1021ffa3227ad60f',1,'cursors.h']]],
-  ['mir_5feglapp_5fbackground_5fopacity',['mir_eglapp_background_opacity',['../eglapp_8c.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.c'],['../eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.c'],['../eglapp_8cpp.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.cpp'],['../miral-shell_2spinner_2eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.c']]],
+  ['mir_5feglapp_5fbackground_5fopacity',['mir_eglapp_background_opacity',['../eglapp_8cpp.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.cpp'],['../eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'mir_eglapp_background_opacity():&#160;eglapp.cpp']]],
   ['mir_5fhorizontal_5fresize_5fcursor_5fname',['mir_horizontal_resize_cursor_name',['../group__mir__toolkit.html#ga2219d151b236ec4d1f16bf351e775511',1,'cursors.h']]],
   ['mir_5fhsplit_5fresize_5fcursor_5fname',['mir_hsplit_resize_cursor_name',['../group__mir__toolkit.html#ga1e17ea7579083562966d546dcfa39218',1,'cursors.h']]],
   ['mir_5fomnidirectional_5fresize_5fcursor_5fname',['mir_omnidirectional_resize_cursor_name',['../group__mir__toolkit.html#gab05517805abf8ba42cb67f6672fbe7d5',1,'cursors.h']]],
@@ -64,9 +61,6 @@ var searchData=
   ['mir_5fvertical_5fresize_5fcursor_5fname',['mir_vertical_resize_cursor_name',['../group__mir__toolkit.html#ga45b3162b5638f2cec696bf0cf37a9d8d',1,'cursors.h']]],
   ['mir_5fvsplit_5fresize_5fcursor_5fname',['mir_vsplit_resize_cursor_name',['../group__mir__toolkit.html#ga3b3fee1606b16206c903dedd2683ae2f',1,'cursors.h']]],
   ['model',['model',['../structmir_1_1input_1_1_keymap.html#ae833ff9df204a782dc3d0a4421757b1d',1,'mir::input::Keymap']]],
-  ['modes',['modes',['../struct_mir_display_output.html#a306da3fe2d5d803c4c7aefc9d29a15ae',1,'MirDisplayOutput::modes()'],['../structmir_1_1graphics_1_1_display_configuration_output.html#ab74ef820a69db63b7f3fb9fea8d65414',1,'mir::graphics::DisplayConfigurationOutput::modes()'],['../structmir_1_1graphics_1_1_user_display_configuration_output.html#a583f7b173f4e1c86b726259aea6140bc',1,'mir::graphics::UserDisplayConfigurationOutput::modes()']]],
-  ['modifier_5fmask',['modifier_mask',['../class_floating_window_manager_policy.html#ac7d2ea4a715d90f03986322bbacb633e',1,'FloatingWindowManagerPolicy']]],
-  ['mouse_5fx',['mouse_x',['../pointer__confinement_8c.html#aa926828e42a4354e2faea35e47d7d89b',1,'pointer_confinement.c']]],
-  ['mouse_5fy',['mouse_y',['../pointer__confinement_8c.html#abba724b08de2339d16ff97d20fa1b462',1,'pointer_confinement.c']]],
-  ['msc',['msc',['../structmir_1_1graphics_1_1_frame.html#acd067f6faee34f9d26dc40f26b005536',1,'mir::graphics::Frame']]]
+  ['modes',['modes',['../struct_mir_display_output.html#a306da3fe2d5d803c4c7aefc9d29a15ae',1,'MirDisplayOutput']]],
+  ['modifier_5fmask',['modifier_mask',['../class_floating_window_manager_policy.html#ac7d2ea4a715d90f03986322bbacb633e',1,'FloatingWindowManagerPolicy']]]
 ];

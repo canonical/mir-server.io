@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['platformprobe',['PlatformProbe',['../namespacemir_1_1graphics.html#a8eadd6e0cb05869c9772a2fd2b8c92c3',1,'mir::graphics']]],
-  ['probeplatform',['ProbePlatform',['../namespacemir_1_1input.html#adecfcb810f87cec5db595edfb8545b83',1,'mir::input']]]
+  ['terminator',['Terminator',['../classmiral_1_1_set_terminator.html#a13a290982bae75a5100f5d6012713ba2',1,'miral::SetTerminator']]],
+  ['timestamp',['Timestamp',['../namespacemir_1_1time.html#a0122da4e59ce402ce50fbf2d1dfab090',1,'mir::time']]]
 ];

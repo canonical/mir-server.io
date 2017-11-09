@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmir_1_1graphics_1_1_display_configuration_card.html" title="Configuration information for a display card. " alt="" coords="5,5,256,32"/>
+<area shape="rect" id="node2" href="$structmir_1_1test_1_1doubles_1_1_mock_display_configuration.html" title="mir::test::doubles\l::MockDisplayConfiguration" alt="" coords="193,5,373,47"/>
+<area shape="rect" id="node3" href="$classmir_1_1test_1_1doubles_1_1_null_display_configuration.html" title="mir::test::doubles\l::NullDisplayConfiguration" alt="" coords="198,71,369,112"/>
+<area shape="rect" id="node4" href="$classmir_1_1test_1_1doubles_1_1_stub_display_config.html" title="mir::test::doubles\l::StubDisplayConfig" alt="" coords="215,136,351,177"/>
 </map>

@@ -1,25 +1,14 @@
 var searchData=
 [
   ['performance_5fframework_2emd',['performance_framework.md',['../performance__framework_8md.html',1,'']]],
-  ['pixel_5fsource_2eh',['pixel_source.h',['../pixel__source_8h.html',1,'']]],
+  ['pipe_2eh',['pipe.h',['../pipe_8h.html',1,'']]],
   ['placement_5fapplying_5fshell_2eh',['placement_applying_shell.h',['../placement__applying__shell_8h.html',1,'']]],
-  ['platform_2eh',['platform.h',['../graphics_2platform_8h.html',1,'(Global Namespace)'],['../input_2platform_8h.html',1,'(Global Namespace)']]],
-  ['platform_5fauthentication_2eh',['platform_authentication.h',['../platform__authentication_8h.html',1,'']]],
-  ['platform_5fipc_5foperations_2eh',['platform_ipc_operations.h',['../platform__ipc__operations_8h.html',1,'']]],
-  ['platform_5fipc_5fpackage_2eh',['platform_ipc_package.h',['../platform__ipc__package_8h.html',1,'']]],
-  ['platform_5foperation_2eh',['platform_operation.h',['../platform__operation_8h.html',1,'']]],
-  ['platform_5foperation_5fmessage_2eh',['platform_operation_message.h',['../platform__operation__message_8h.html',1,'']]],
   ['png2header_2epy',['png2header.py',['../png2header_8py.html',1,'']]],
   ['point_2eh',['point.h',['../point_8h.html',1,'']]],
-  ['pointer_5fconfinement_2ec',['pointer_confinement.c',['../pointer__confinement_8c.html',1,'']]],
   ['pointer_5fevent_2eh',['pointer_event.h',['../pointer__event_8h.html',1,'']]],
-  ['pointer_5fsettings_2eh',['pointer_settings.h',['../pointer__settings_8h.html',1,'']]],
+  ['popen_2eh',['popen.h',['../popen_8h.html',1,'']]],
   ['posix_5frw_5fmutex_2eh',['posix_rw_mutex.h',['../posix__rw__mutex_8h.html',1,'']]],
   ['posix_5ftimestamp_2eh',['posix_timestamp.h',['../posix__timestamp_8h.html',1,'']]],
-  ['prerendered_5fframes_2ec',['prerendered_frames.c',['../prerendered__frames_8c.html',1,'']]],
   ['process_2eh',['process.h',['../process_8h.html',1,'']]],
-  ['program_5foption_2eh',['program_option.h',['../program__option_8h.html',1,'']]],
-  ['progressbar_2ec',['progressbar.c',['../progressbar_8c.html',1,'']]],
-  ['prompt_5fsession_2ec',['prompt_session.c',['../prompt__session_8c.html',1,'']]],
   ['prompt_5fsession_5fevent_2eh',['prompt_session_event.h',['../prompt__session__event_8h.html',1,'']]]
 ];

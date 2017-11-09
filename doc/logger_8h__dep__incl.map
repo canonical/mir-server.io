@@ -1,7 +1,3 @@
 <map id="include/common/mir/logging/logger.h" name="include/common/mir/logging/logger.h">
-<area shape="rect" id="node2" href="$glog__logger_8h.html" title="examples/glog_logger.h" alt="" coords="111,102,269,129"/>
-<area shape="rect" id="node5" href="$server__example__host__lifecycle__event_8cpp.html" title="examples/server_example\l_host_lifecycle_event.cpp" alt="" coords="293,95,468,136"/>
-<area shape="rect" id="node6" href="$server__example__test__client_8cpp.html" title="examples/server_example\l_test_client.cpp" alt="" coords="492,95,667,136"/>
-<area shape="rect" id="node3" href="$glog__logger_8cpp.html" title="examples/glog_logger.cpp" alt="" coords="5,191,177,218"/>
-<area shape="rect" id="node4" href="$server__example__log__options_8cpp.html" title="examples/server_example\l_log_options.cpp" alt="" coords="201,184,376,225"/>
+<area shape="rect" id="node2" href="$null__logger_8h.html" title="include/test/mir/test\l/doubles/null_logger.h" alt="" coords="5,95,153,136"/>
 </map>

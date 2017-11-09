@@ -71,20 +71,19 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for KioskWindowManagerPolicy:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_kiosk_window_manager_policy__inherit__graph.svg" width="226" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_kiosk_window_manager_policy__inherit__graph.svg" width="226" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2020dc47163a4def4a2c1cbfb63a19c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#a2020dc47163a4def4a2c1cbfb63a19c2">KioskWindowManagerPolicy</a> (<a class="el" href="classmiral_1_1_window_manager_tools.html">miral::WindowManagerTools</a> const &amp;<a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a0e6bb6cbd8fb66c78a496c3a97e23f4f">tools</a>, <a class="el" href="class_sw_splash.html">SwSplash</a> const &amp;)</td></tr>
 <tr class="separator:a2020dc47163a4def4a2c1cbfb63a19c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9168aaa0d9f2b412d3cd9f593d2441c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#ad9168aaa0d9f2b412d3cd9f593d2441c">place_new_window</a> (<a class="el" href="structmiral_1_1_application_info.html">miral::ApplicationInfo</a> const &amp;app_info, <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> const &amp;request) -&gt; <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> override</td></tr>
+<tr class="memdesc:ad9168aaa0d9f2b412d3cd9f593d2441c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Customize initial window placement.  <a href="#ad9168aaa0d9f2b412d3cd9f593d2441c">More...</a><br /></td></tr>
+<tr class="separator:ad9168aaa0d9f2b412d3cd9f593d2441c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537ef42f2644550b1b79b44186fdd324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#a537ef42f2644550b1b79b44186fdd324">advise_focus_gained</a> (<a class="el" href="structmiral_1_1_window_info.html">miral::WindowInfo</a> const &amp;info) override</td></tr>
 <tr class="memdesc:a537ef42f2644550b1b79b44186fdd324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that a window has gained focus.  <a href="#a537ef42f2644550b1b79b44186fdd324">More...</a><br /></td></tr>
 <tr class="separator:a537ef42f2644550b1b79b44186fdd324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa52352e60dbb8539b2a6f6391c222eb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#aaa52352e60dbb8539b2a6f6391c222eb">advise_new_window</a> (<a class="el" href="structmiral_1_1_window_info.html">miral::WindowInfo</a> const &amp;window_info) override</td></tr>
-<tr class="memdesc:aaa52352e60dbb8539b2a6f6391c222eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that a window has been created.  <a href="#aaa52352e60dbb8539b2a6f6391c222eb">More...</a><br /></td></tr>
-<tr class="separator:aaa52352e60dbb8539b2a6f6391c222eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3968cb505ba330fa09c49411f2d0117"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#ac3968cb505ba330fa09c49411f2d0117">handle_keyboard_event</a> (<a class="el" href="group__mir__toolkit.html#ga8ed96fc14f09e59eb1eb256c0c65330e">MirKeyboardEvent</a> const *event) override</td></tr>
 <tr class="memdesc:ac3968cb505ba330fa09c49411f2d0117"><td class="mdescLeft">&#160;</td><td class="mdescRight">keyboard event handler  <a href="#ac3968cb505ba330fa09c49411f2d0117">More...</a><br /></td></tr>
 <tr class="separator:ac3968cb505ba330fa09c49411f2d0117"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,12 +93,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba2d1b65ecb86348a233d0696c425b77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#aba2d1b65ecb86348a233d0696c425b77">handle_pointer_event</a> (<a class="el" href="group__mir__toolkit.html#ga3a7857776807ce3becaf2c355c6c8500">MirPointerEvent</a> const *event) override</td></tr>
 <tr class="memdesc:aba2d1b65ecb86348a233d0696c425b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer event handler  <a href="#aba2d1b65ecb86348a233d0696c425b77">More...</a><br /></td></tr>
 <tr class="separator:aba2d1b65ecb86348a233d0696c425b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a3105e1464b45248b9a341c953a94f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_kiosk_window_manager_policy.html#ac4a3105e1464b45248b9a341c953a94f">handle_modify_window</a> (<a class="el" href="structmiral_1_1_window_info.html">miral::WindowInfo</a> &amp;window_info, <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> const &amp;modifications) override</td></tr>
+<tr class="memdesc:ac4a3105e1464b45248b9a341c953a94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to modify the window specification.  <a href="#ac4a3105e1464b45248b9a341c953a94f">More...</a><br /></td></tr>
+<tr class="separator:ac4a3105e1464b45248b9a341c953a94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmiral_1_1_canonical_window_manager_policy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmiral_1_1_canonical_window_manager_policy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmiral_1_1_canonical_window_manager_policy.html">miral::CanonicalWindowManagerPolicy</a></td></tr>
 <tr class="memitem:a594e666197e1a360a2598b4227754cde inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a594e666197e1a360a2598b4227754cde">CanonicalWindowManagerPolicy</a> (<a class="el" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a> const &amp;<a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a0e6bb6cbd8fb66c78a496c3a97e23f4f">tools</a>)</td></tr>
 <tr class="separator:a594e666197e1a360a2598b4227754cde inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e34cb591df87f006de90d8e52c60d0 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#ae4e34cb591df87f006de90d8e52c60d0">place_new_window</a> (<a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> const &amp;app_info, <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> const &amp;request_parameters) -&gt; <a class="el" href="classmiral_1_1_window_specification.html">WindowSpecification</a> override</td></tr>
-<tr class="memdesc:ae4e34cb591df87f006de90d8e52c60d0 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Customize initial window placement.  <a href="classmiral_1_1_canonical_window_manager_policy.html#ae4e34cb591df87f006de90d8e52c60d0">More...</a><br /></td></tr>
-<tr class="separator:ae4e34cb591df87f006de90d8e52c60d0 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1405665a63e6d83c5f86dd22b49ffc6 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#af1405665a63e6d83c5f86dd22b49ffc6">handle_window_ready</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info) override</td></tr>
 <tr class="memdesc:af1405665a63e6d83c5f86dd22b49ffc6 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to focus on the newly ready window.  <a href="classmiral_1_1_canonical_window_manager_policy.html#af1405665a63e6d83c5f86dd22b49ffc6">More...</a><br /></td></tr>
 <tr class="separator:af1405665a63e6d83c5f86dd22b49ffc6 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e778a604e22c021d344c215e32bbbfb inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a6e778a604e22c021d344c215e32bbbfb">advise_delete_app</a> (<a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> const &amp;application)</td></tr>
 <tr class="memdesc:a6e778a604e22c021d344c215e32bbbfb inherit pub_methods_classmiral_1_1_window_management_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that an application has disconnected.  <a href="classmiral_1_1_window_management_policy.html#a6e778a604e22c021d344c215e32bbbfb">More...</a><br /></td></tr>
 <tr class="separator:a6e778a604e22c021d344c215e32bbbfb inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d965987a56cdc41b894e1fd80131784 inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a6d965987a56cdc41b894e1fd80131784">advise_new_window</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;window_info)</td></tr>
+<tr class="memdesc:a6d965987a56cdc41b894e1fd80131784 inherit pub_methods_classmiral_1_1_window_management_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that a window has been created.  <a href="classmiral_1_1_window_management_policy.html#a6d965987a56cdc41b894e1fd80131784">More...</a><br /></td></tr>
+<tr class="separator:a6d965987a56cdc41b894e1fd80131784 inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e9e54628ce2f1e0da242c0fa5fbbaf inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a31e9e54628ce2f1e0da242c0fa5fbbaf">advise_focus_lost</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;window_info)</td></tr>
 <tr class="memdesc:a31e9e54628ce2f1e0da242c0fa5fbbaf inherit pub_methods_classmiral_1_1_window_management_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that a window has lost focus.  <a href="classmiral_1_1_window_management_policy.html#a31e9e54628ce2f1e0da242c0fa5fbbaf">More...</a><br /></td></tr>
 <tr class="separator:a31e9e54628ce2f1e0da242c0fa5fbbaf inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,42 +229,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa52352e60dbb8539b2a6f6391c222eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa52352e60dbb8539b2a6f6391c222eb">&#9670;&nbsp;</a></span>advise_new_window()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void KioskWindowManagerPolicy::advise_new_window </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">miral::WindowInfo</a> const &amp;&#160;</td>
-          <td class="paramname"><em>window_info</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Notification that a window has been created. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">window_info</td><td>the window </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented from <a class="el" href="classmiral_1_1_window_management_policy.html#a6d965987a56cdc41b894e1fd80131784">miral::WindowManagementPolicy</a>.</p>
-
-</div>
-</div>
 <a id="ac3968cb505ba330fa09c49411f2d0117"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3968cb505ba330fa09c49411f2d0117">&#9670;&nbsp;</a></span>handle_keyboard_event()</h2>
 
@@ -297,6 +263,54 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>whether the policy has consumed the event </dd></dl>
 
 <p>Implements <a class="el" href="classmiral_1_1_window_management_policy.html#af35d5c47ccdd799e057e83bc38032909">miral::WindowManagementPolicy</a>.</p>
+
+</div>
+</div>
+<a id="ac4a3105e1464b45248b9a341c953a94f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a3105e1464b45248b9a341c953a94f">&#9670;&nbsp;</a></span>handle_modify_window()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KioskWindowManagerPolicy::handle_modify_window </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">miral::WindowInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>window_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> const &amp;&#160;</td>
+          <td class="paramname"><em>modifications</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>request from client to modify the window specification. </p>
+<dl class="section note"><dt>Note</dt><dd>the request has already been validated against the type definition</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window_info</td><td>the window </td></tr>
+    <tr><td class="paramname">modifications</td><td>the requested changes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classmiral_1_1_window_management_policy.html#aed358dd9a7fed727918ea76e117068c6">miral::WindowManagementPolicy</a>.</p>
 
 </div>
 </div>
@@ -374,6 +388,54 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad9168aaa0d9f2b412d3cd9f593d2441c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9168aaa0d9f2b412d3cd9f593d2441c">&#9670;&nbsp;</a></span>place_new_window()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto KioskWindowManagerPolicy::place_new_window </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_application_info.html">miral::ApplicationInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>app_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> const &amp;&#160;</td>
+          <td class="paramname"><em>requested_specification</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Customize initial window placement. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">app_info</td><td>the application requesting a new window </td></tr>
+    <tr><td class="paramname">requested_specification</td><td>the requested specification (updated with default placement) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the customized specification </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a86386893d4fc0d65553925282d931698">miral::CanonicalWindowManagerPolicy</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>examples/miral-kiosk/<a class="el" href="kiosk__window__manager_8h_source.html">kiosk_window_manager.h</a></li>
 <li>examples/miral-kiosk/<a class="el" href="kiosk__window__manager_8cpp.html">kiosk_window_manager.cpp</a></li>
@@ -382,7 +444,7 @@ Additional Inherited Members</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

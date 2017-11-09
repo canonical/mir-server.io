@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmir_1_1graphics_1_1_buffer_properties.html" title="Buffer creation properties. " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node1" href="$classmir_1_1_shm_file.html" title="mir::ShmFile" alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node2" href="$classmir_1_1_anonymous_shm_file.html" title="mir::AnonymousShmFile" alt="" coords="149,5,315,32"/>
 </map>

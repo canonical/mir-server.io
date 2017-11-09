@@ -1,4 +1,27 @@
 var searchData=
 [
-  ['quitfilter',['QuitFilter',['../classmir_1_1examples_1_1_quit_filter.html',1,'mir::examples']]]
+  ['securitycheckerror',['SecurityCheckError',['../structmir_1_1cookie_1_1_security_check_error.html',1,'mir::cookie']]],
+  ['serverrunner',['ServerRunner',['../structmir__test__framework_1_1_server_runner.html',1,'mir_test_framework']]],
+  ['setapplicationauthorizer',['SetApplicationAuthorizer',['../classmiral_1_1_set_application_authorizer.html',1,'miral']]],
+  ['setcommandlinehandler',['SetCommandLineHandler',['../classmiral_1_1_set_command_line_handler.html',1,'miral']]],
+  ['setterminator',['SetTerminator',['../classmiral_1_1_set_terminator.html',1,'miral']]],
+  ['setwindowmanagementpolicy',['SetWindowManagementPolicy',['../classmiral_1_1_set_window_management_policy.html',1,'miral']]],
+  ['sharedlibrary',['SharedLibrary',['../classmir_1_1_shared_library.html',1,'mir']]],
+  ['shmfile',['ShmFile',['../classmir_1_1_shm_file.html',1,'mir']]],
+  ['signal',['Signal',['../classmir_1_1test_1_1_signal.html',1,'mir::test']]],
+  ['size',['Size',['../structmir_1_1geometry_1_1_size.html',1,'mir::geometry']]],
+  ['spinnersplash',['SpinnerSplash',['../class_spinner_splash.html',1,'']]],
+  ['startupinternalclient',['StartupInternalClient',['../classmiral_1_1_startup_internal_client.html',1,'miral']]],
+  ['stubcursor',['StubCursor',['../structmir_1_1test_1_1doubles_1_1_stub_cursor.html',1,'mir::test::doubles']]],
+  ['stubcursorimage',['StubCursorImage',['../structmir_1_1test_1_1doubles_1_1_stub_cursor_image.html',1,'mir::test::doubles']]],
+  ['stubdevice',['StubDevice',['../structmir_1_1test_1_1doubles_1_1_stub_device.html',1,'mir::test::doubles']]],
+  ['stubdisplaybuffer',['StubDisplayBuffer',['../classmir_1_1test_1_1doubles_1_1_stub_display_buffer.html',1,'mir::test::doubles']]],
+  ['stubdisplayconfig',['StubDisplayConfig',['../classmir_1_1test_1_1doubles_1_1_stub_display_config.html',1,'mir::test::doubles']]],
+  ['stubdisplayconfigurationoutput',['StubDisplayConfigurationOutput',['../structmir_1_1test_1_1doubles_1_1_stub_display_configuration_output.html',1,'mir::test::doubles']]],
+  ['stubdisplaysyncgroup',['StubDisplaySyncGroup',['../structmir_1_1test_1_1doubles_1_1_stub_display_sync_group.html',1,'mir::test::doubles']]],
+  ['stubsession',['StubSession',['../structmir_1_1test_1_1doubles_1_1_stub_session.html',1,'mir::test::doubles']]],
+  ['stubsessionauthorizer',['StubSessionAuthorizer',['../classmir_1_1test_1_1doubles_1_1_stub_session_authorizer.html',1,'mir::test::doubles']]],
+  ['stubsurface',['StubSurface',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html',1,'mir::test::doubles']]],
+  ['surface',['Surface',['../classmir_1_1client_1_1_surface.html',1,'mir::client']]],
+  ['swsplash',['SwSplash',['../class_sw_splash.html',1,'']]]
 ];

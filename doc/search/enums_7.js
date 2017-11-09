@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['platformpriority',['PlatformPriority',['../namespacemir_1_1graphics.html#abf719a21b72d41863505f3fc62851c32',1,'mir::graphics::PlatformPriority()'],['../namespacemir_1_1input.html#aff10e7e56544dcc0ef459b59820487c6',1,'mir::input::PlatformPriority()']]]
+  ['severity',['Severity',['../namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076',1,'mir::logging']]],
+  ['stubgraphicsplatformoperation',['StubGraphicsPlatformOperation',['../namespacemir__test__framework.html#ae28b62e234f599b28f8e8736b3e43ab6',1,'mir_test_framework']]]
 ];

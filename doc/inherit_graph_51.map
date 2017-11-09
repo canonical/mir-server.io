@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmir_1_1geometry_1_1_length.html" title="Length represents a physical length in the real world. The number of pixels this equates to can then ..." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node1" href="$classmir_1_1renderer_1_1gl_1_1_context.html" title="mir::renderer::gl::\lContext" alt="" coords="5,5,127,47"/>
+<area shape="rect" id="node2" href="$classmir_1_1test_1_1doubles_1_1_null_g_l_context.html" title="mir::test::doubles\l::NullGLContext" alt="" coords="175,5,297,47"/>
 </map>

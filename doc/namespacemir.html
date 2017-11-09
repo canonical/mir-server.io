@@ -69,13 +69,14 @@ $(function() {
 <div class="title">mir Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>AutoUnblockThread is a helper thread class that can gracefully shutdown at destruction time.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacemir_1_1client"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1client.html">client</a></td></tr>
 <tr class="memdesc:namespacemir_1_1client"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenient C++ wrappers around the Mir toolkit API. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1compositor"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1compositor.html">compositor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1cookie"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1cookie.html">cookie</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -83,11 +84,7 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1dispatch"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1dispatch.html">dispatch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1draw"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1draw.html">draw</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1events"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1events.html">events</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1examples"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1examples.html">examples</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1frontend"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1frontend.html">frontend</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,14 +92,10 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespacemir_1_1geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic geometry types. Types for dimensions, displacements, etc. and the operations that they support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1graphics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1graphics.html">graphics</a></td></tr>
-<tr class="memdesc:namespacemir_1_1graphics"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graphics subsystem. Mediates interaction between core system and the graphics environment. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1input"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1input.html">input</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1logging"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1logging.html">logging</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1options"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1options.html">options</a></td></tr>
-<tr class="memdesc:namespacemir_1_1options"><td class="mdescLeft">&#160;</td><td class="mdescRight">System options. Interface for extracting configuration options from wherever they may be (e.g. program arguments, config files or environment variables). <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1protobuf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1protobuf.html">protobuf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,18 +108,20 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemir_1_1shell"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1shell.html">shell</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1time"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1time.html">time</a></td></tr>
+<tr class="memitem:namespacemir_1_1test"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1test.html">test</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1tools"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1tools.html">tools</a></td></tr>
+<tr class="memitem:namespacemir_1_1time"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1time.html">time</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_anonymous_shm_file.html">AnonymousShmFile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_cached_ptr.html">CachedPtr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_emergency_cleanup_registry.html">EmergencyCleanupRegistry</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1_empty_deleter.html">EmptyDeleter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1_extension_description.html">ExtensionDescription</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,9 +137,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1_module_deleter.html">ModuleDeleter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1_module_properties.html">ModuleProperties</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes a platform module.  <a href="structmir_1_1_module_properties.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1optional__value.html">optional_value</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_posix_r_w_mutex.html">PosixRWMutex</a></td></tr>
@@ -152,19 +144,17 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_shared_library.html">SharedLibrary</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1_shm_file.html">ShmFile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae1cb24936a2ad70e571becc08ab80daf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#ae1cb24936a2ad70e571becc08ab80daf">EventUPtr</a> = std::unique_ptr&lt; <a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a>, void(*)(<a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> *)&gt;</td></tr>
-<tr class="separator:ae1cb24936a2ad70e571becc08ab80daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b800e19b3c392ea966c24e387bd756"><td class="memItemLeft" align="right" valign="top">typedef std::unique_ptr&lt; <a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a>, void(*)(<a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#a88b800e19b3c392ea966c24e387bd756">EventUPtr</a></td></tr>
+<tr class="separator:a88b800e19b3c392ea966c24e387bd756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c18eed4c5f04d45c12c8a0f3dd254cc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a3c18eed4c5f04d45c12c8a0f3dd254cc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir.html#a3c18eed4c5f04d45c12c8a0f3dd254cc">UniqueModulePtr</a> = std::unique_ptr&lt; T, <a class="el" href="structmir_1_1_module_deleter.html">ModuleDeleter</a>&lt; T &gt; &gt;</td></tr>
 <tr class="memdesc:a3c18eed4c5f04d45c12c8a0f3dd254cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use UniqueModulePtr to ensure that your loadable libray outlives instances created within it.  <a href="#a3c18eed4c5f04d45c12c8a0f3dd254cc">More...</a><br /></td></tr>
 <tr class="separator:a3c18eed4c5f04d45c12c8a0f3dd254cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac567c4e78b63a212009a43d8d80309aa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#ac567c4e78b63a212009a43d8d80309aa">EmergencyCleanupHandler</a> = std::function&lt; void()&gt;</td></tr>
-<tr class="separator:ac567c4e78b63a212009a43d8d80309aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcaf421b55d8926560a7fb1712421e3e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#abcaf421b55d8926560a7fb1712421e3e">ModuleEmergencyCleanupHandler</a> = <a class="el" href="namespacemir.html#a3c18eed4c5f04d45c12c8a0f3dd254cc">mir::UniqueModulePtr</a>&lt; std::function&lt; void()&gt; &gt;</td></tr>
-<tr class="separator:abcaf421b55d8926560a7fb1712421e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -254,6 +244,8 @@ Functions</h2></td></tr>
 <tr class="separator:abdfb1b2802a7a9df0f230efa91baab1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2750ebab837cff62f29732f2fd75e056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#a2750ebab837cff62f29732f2fd75e056">log</a> (<a class="el" href="namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076">logging::Severity</a> sev, const char *component, std::string const &amp;message)</td></tr>
 <tr class="separator:a2750ebab837cff62f29732f2fd75e056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab015987c4b1f0410166a5e71e1979f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#ab015987c4b1f0410166a5e71e1979f88">log</a> (<a class="el" href="namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076">logging::Severity</a> sev, char const *component, std::exception_ptr const &amp;exception, std::string const &amp;message)</td></tr>
+<tr class="separator:ab015987c4b1f0410166a5e71e1979f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0317ca6f21212ca7364b2e14a06f971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir.html#ad0317ca6f21212ca7364b2e14a06f971">fatal_error_except</a> (char const *reason,...)</td></tr>
 <tr class="memdesc:ad0317ca6f21212ca7364b2e14a06f971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws an exception that will typically kill the Mir server and propagate from mir::run_mir.  <a href="#ad0317ca6f21212ca7364b2e14a06f971">More...</a><br /></td></tr>
 <tr class="separator:ad0317ca6f21212ca7364b2e14a06f971"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,43 +295,18 @@ Variables</h2></td></tr>
 <tr class="memdesc:adbd3f807eb6d8ff75ef448788480a006"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006" title="fatal_error() is strictly for &quot;this should never happen&quot; situations that you cannot recover from...">fatal_error()</a> is strictly for "this should never happen" situations that you cannot recover from.  <a href="#adbd3f807eb6d8ff75ef448788480a006">More...</a><br /></td></tr>
 <tr class="separator:adbd3f807eb6d8ff75ef448788480a006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ac567c4e78b63a212009a43d8d80309aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac567c4e78b63a212009a43d8d80309aa">&#9670;&nbsp;</a></span>EmergencyCleanupHandler</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>AutoUnblockThread is a helper thread class that can gracefully shutdown at destruction time. </p>
+<p>This is helpul for tests that botch create threads and use ASSERT macros for example (or any other condition that makes the test exit early). Using naked std::thread would call std::terminate under such conditions. </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a88b800e19b3c392ea966c24e387bd756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b800e19b3c392ea966c24e387bd756">&#9670;&nbsp;</a></span>EventUPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacemir.html#ac567c4e78b63a212009a43d8d80309aa">mir::EmergencyCleanupHandler</a> = typedef std::function&lt;void()&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1cb24936a2ad70e571becc08ab80daf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1cb24936a2ad70e571becc08ab80daf">&#9670;&nbsp;</a></span>EventUPtr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::unique_ptr&lt; <a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a>, void(*)(<a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> *)&gt; <a class="el" href="namespacemir.html#ae1cb24936a2ad70e571becc08ab80daf">mir::EventUPtr</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abcaf421b55d8926560a7fb1712421e3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcaf421b55d8926560a7fb1712421e3e">&#9670;&nbsp;</a></span>ModuleEmergencyCleanupHandler</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacemir.html#abcaf421b55d8926560a7fb1712421e3e">mir::ModuleEmergencyCleanupHandler</a> = typedef <a class="el" href="namespacemir.html#a3c18eed4c5f04d45c12c8a0f3dd254cc">mir::UniqueModulePtr</a>&lt;std::function&lt;void()&gt; &gt;</td>
+          <td class="memname">typedef std::unique_ptr&lt;<a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a>, void(*)(<a class="el" href="group__mir__toolkit.html#gacf322761dc4f8106854e8eaa3f125e6f">MirEvent</a>*)&gt; <a class="el" href="namespacemir.html#a88b800e19b3c392ea966c24e387bd756">mir::EventUPtr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -421,8 +388,7 @@ template&lt;typename Enum &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="server_example_input_device_config_8cpp-example.html#a11">server_example_input_device_config.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a id="a984aad4cff67e4ff302485cb123b3408"></a>
@@ -498,7 +464,7 @@ template&lt;typename Enum &gt; </div>
 </div>
 </div>
 <a id="abdfb1b2802a7a9df0f230efa91baab1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdfb1b2802a7a9df0f230efa91baab1b">&#9670;&nbsp;</a></span>log() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfb1b2802a7a9df0f230efa91baab1b">&#9670;&nbsp;</a></span>log() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -538,7 +504,7 @@ template&lt;typename Enum &gt; </div>
 </div>
 </div>
 <a id="a2750ebab837cff62f29732f2fd75e056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2750ebab837cff62f29732f2fd75e056">&#9670;&nbsp;</a></span>log() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2750ebab837cff62f29732f2fd75e056">&#9670;&nbsp;</a></span>log() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -554,6 +520,46 @@ template&lt;typename Enum &gt; </div>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>component</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab015987c4b1f0410166a5e71e1979f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab015987c4b1f0410166a5e71e1979f88">&#9670;&nbsp;</a></span>log() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mir::log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076">logging::Severity</a>&#160;</td>
+          <td class="paramname"><em>sev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>component</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::exception_ptr const &amp;&#160;</td>
+          <td class="paramname"><em>exception</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2098,7 +2104,7 @@ template&lt;typename Enum &gt; </div>
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>

@@ -5,15 +5,5 @@ var searchData=
   ['decorationprovider',['DecorationProvider',['../class_decoration_provider.html',1,'']]],
   ['dispatchable',['Dispatchable',['../classmir_1_1dispatch_1_1_dispatchable.html',1,'mir::dispatch']]],
   ['displacement',['Displacement',['../structmir_1_1geometry_1_1_displacement.html',1,'mir::geometry']]],
-  ['display',['Display',['../classmir_1_1graphics_1_1_display.html',1,'mir::graphics']]],
-  ['displaybuffer',['DisplayBuffer',['../classmir_1_1graphics_1_1_display_buffer.html',1,'mir::graphics']]],
-  ['displayconfig',['DisplayConfig',['../classmir_1_1client_1_1_display_config.html',1,'mir::client']]],
-  ['displayconfiguration',['DisplayConfiguration',['../classmir_1_1graphics_1_1_display_configuration.html',1,'mir::graphics']]],
-  ['displayconfigurationcard',['DisplayConfigurationCard',['../structmir_1_1graphics_1_1_display_configuration_card.html',1,'mir::graphics']]],
-  ['displayconfigurationmode',['DisplayConfigurationMode',['../structmir_1_1graphics_1_1_display_configuration_mode.html',1,'mir::graphics']]],
-  ['displayconfigurationoutput',['DisplayConfigurationOutput',['../structmir_1_1graphics_1_1_display_configuration_output.html',1,'mir::graphics']]],
-  ['displayconfigurationpolicy',['DisplayConfigurationPolicy',['../classmir_1_1graphics_1_1_display_configuration_policy.html',1,'mir::graphics']]],
-  ['displayplatform',['DisplayPlatform',['../classmir_1_1graphics_1_1_display_platform.html',1,'mir::graphics']]],
-  ['displayreport',['DisplayReport',['../classmir_1_1graphics_1_1_display_report.html',1,'mir::graphics']]],
-  ['displaysyncgroup',['DisplaySyncGroup',['../classmir_1_1graphics_1_1_display_sync_group.html',1,'mir::graphics']]]
+  ['displayconfig',['DisplayConfig',['../classmir_1_1client_1_1_display_config.html',1,'mir::client']]]
 ];

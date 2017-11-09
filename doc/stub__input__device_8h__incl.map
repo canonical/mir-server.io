@@ -1,0 +1,14 @@
+<map id="include/test/mir/test/doubles/stub_input_device.h" name="include/test/mir/test/doubles/stub_input_device.h">
+<area shape="rect" id="node3" href="$device__capability_8h.html" title="mir/input/device_capability.h" alt="" coords="153,102,338,129"/>
+<area shape="rect" id="node7" href="$mir__pointer__config_8h.html" title="mir/input/mir_pointer\l_config.h" alt="" coords="362,95,502,136"/>
+<area shape="rect" id="node14" href="$mir__touchpad__config_8h.html" title="mir/input/mir_touchpad\l_config.h" alt="" coords="527,95,681,136"/>
+<area shape="rect" id="node15" href="$mir__keyboard__config_8h.html" title="mir/input/mir_keyboard\l_config.h" alt="" coords="903,95,1057,136"/>
+<area shape="rect" id="node19" href="$mir__touchscreen__config_8h.html" title="mir/input/mir_touchscreen\l_config.h" alt="" coords="706,95,878,136"/>
+<area shape="rect" id="node20" href="$optional__value_8h.html" title="mir/optional_value.h" alt="" coords="1081,102,1217,129"/>
+<area shape="rect" id="node4" href="$flags_8h.html" title="mir/flags.h" alt="" coords="252,191,335,218"/>
+<area shape="rect" id="node8" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="745,191,892,218"/>
+<area shape="rect" id="node10" href="$mir__input__device__types_8h.html" title="mir_toolkit/mir_input\l_device_types.h" alt="" coords="407,184,545,225"/>
+<area shape="rect" id="node9" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="733,273,904,300"/>
+<area shape="rect" id="node16" href="$common_2mir_2input_2keymap_8h.html" title="mir/input/keymap.h" alt="" coords="916,191,1049,218"/>
+<area shape="rect" id="node21" href="$fatal_8h.html" title="mir/fatal.h" alt="" coords="1175,191,1254,218"/>
+</map>

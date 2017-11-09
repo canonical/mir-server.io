@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmir_1_1graphics_1_1_mesa_auth_extension.html" title="mir::graphics::MesaAuthExtension" alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node2" href="$structmir_1_1test_1_1doubles_1_1_null_display_sync_group.html" title="mir::test::doubles\l::NullDisplaySyncGroup" alt="" coords="187,5,347,47"/>
+<area shape="rect" id="node3" href="$structmir_1_1test_1_1doubles_1_1_stub_display_sync_group.html" title="mir::test::doubles\l::StubDisplaySyncGroup" alt="" coords="184,71,349,112"/>
 </map>

@@ -64,19 +64,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_deprecated000036"></a>Member <a class="el" href="classmir_1_1graphics_1_1_graphic_buffer_allocator.html#ab63160833aa358ada4326f27d5573104">mir::graphics::GraphicBufferAllocator::alloc_buffer</a>  (<a class="el" href="structmir_1_1graphics_1_1_buffer_properties.html" title="Buffer creation properties. ">BufferProperties</a> const &amp;buffer_properties)=0</dt>
-<dd>. use the other alloc_buffer functions  </dd>
-<dt><a class="anchor" id="_deprecated000010"></a>Member <a class="el" href="group__mir__toolkit.html#gabe796c6f98d80593d93d9ccc12f29ab6">mir_buffer_stream_get_current_buffer</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *buffer_stream, MirNativeBuffer **buffer_package) MIR_FOR_REMOVAL_IN_VERSION_1("Use platform specific buffer extensions instead")</dt>
+<dt><a class="anchor" id="_deprecated000010"></a>Member <a class="el" href="group__mir__toolkit.html#gabe796c6f98d80593d93d9ccc12f29ab6">mir_buffer_stream_get_current_buffer</a>  (MirBufferStream *buffer_stream, MirNativeBuffer **buffer_package) MIR_FOR_REMOVAL_IN_VERSION_1("Use platform specific buffer extensions instead")</dt>
 <dd>Use platform specific platform extensions instead  </dd>
-<dt><a class="anchor" id="_deprecated000011"></a>Member <a class="el" href="group__mir__toolkit.html#ga2b839a2c24fed86ac974382ab3bcd91d">mir_buffer_stream_get_egl_native_window</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *buffer_stream) MIR_FOR_REMOVAL_IN_VERSION_1("Use MirRenderSurface *as the window type")</dt>
-<dd>Use <a class="el" href="class_mir_render_surface.html">MirRenderSurface</a> *as the window type  </dd>
-<dt><a class="anchor" id="_deprecated000009"></a>Member <a class="el" href="group__mir__toolkit.html#ga63931989d8e92050e27e5e565f8e9480">mir_buffer_stream_get_platform_type</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *stream) MIR_FOR_REMOVAL_IN_VERSION_1("To identify the graphics platform use mir_connection_get_graphics_module(). \ "To safely interpret the buffer contents use <a class="el" href="group__mir__toolkit.html#ga6c54bc0a696f339c04cbd20e5c92bb09" title="Retrieve a buffer stream&#39;s graphics region. ">mir_buffer_stream_get_graphics_region()</a>")</dt>
+<dt><a class="anchor" id="_deprecated000011"></a>Member <a class="el" href="group__mir__toolkit.html#ga2b839a2c24fed86ac974382ab3bcd91d">mir_buffer_stream_get_egl_native_window</a>  (MirBufferStream *buffer_stream) MIR_FOR_REMOVAL_IN_VERSION_1("Use MirRenderSurface *as the window type")</dt>
+<dd>Use MirRenderSurface *as the window type  </dd>
+<dt><a class="anchor" id="_deprecated000009"></a>Member <a class="el" href="group__mir__toolkit.html#ga63931989d8e92050e27e5e565f8e9480">mir_buffer_stream_get_platform_type</a>  (MirBufferStream *stream) MIR_FOR_REMOVAL_IN_VERSION_1("To identify the graphics platform use mir_connection_get_graphics_module(). \ "To safely interpret the buffer contents use <a class="el" href="group__mir__toolkit.html#ga6c54bc0a696f339c04cbd20e5c92bb09" title="Retrieve a buffer stream&#39;s graphics region. ">mir_buffer_stream_get_graphics_region()</a>")</dt>
 <dd>Use of this function is inherently non-portable in the presence of plug-in platform modules as these need not correspond to the available types. To identify the graphics platform use <a class="el" href="group__mir__toolkit.html#ga150a6444284794ded8bf0760ca6c0cac" title="Query graphics platform module. ">mir_connection_get_graphics_module()</a>. To safely interpret the buffer contents use <a class="el" href="group__mir__toolkit.html#ga6c54bc0a696f339c04cbd20e5c92bb09" title="Retrieve a buffer stream&#39;s graphics region. ">mir_buffer_stream_get_graphics_region()</a>. </dd>
-<dt><a class="anchor" id="_deprecated000007"></a>Member <a class="el" href="group__mir__toolkit.html#gaa144ca2265c218c428bf0ba5256114ca">mir_buffer_stream_release</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *buffer_stream, MirBufferStreamCallback callback, void *context) MIR_FOR_REMOVAL_IN_VERSION_1("A stream obtained through mir_render_surface_get_buffer_stream() does not need to be released.")</dt>
+<dt><a class="anchor" id="_deprecated000007"></a>Member <a class="el" href="group__mir__toolkit.html#gaa144ca2265c218c428bf0ba5256114ca">mir_buffer_stream_release</a>  (MirBufferStream *buffer_stream, MirBufferStreamCallback callback, void *context) MIR_FOR_REMOVAL_IN_VERSION_1("A stream obtained through mir_render_surface_get_buffer_stream() does not need to be released.")</dt>
 <dd>A stream obtained through mir_render_surface_get_buffer_stream does not need to be released.  </dd>
-<dt><a class="anchor" id="_deprecated000008"></a>Member <a class="el" href="group__mir__toolkit.html#gada4ab6029bc565834f519d8dac9dc2ce">mir_buffer_stream_release_sync</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *buffer_stream) MIR_FOR_REMOVAL_IN_VERSION_1("A stream obtained through mir_render_surface_get_buffer_stream() does not need to be released.")</dt>
+<dt><a class="anchor" id="_deprecated000008"></a>Member <a class="el" href="group__mir__toolkit.html#gada4ab6029bc565834f519d8dac9dc2ce">mir_buffer_stream_release_sync</a>  (MirBufferStream *buffer_stream) MIR_FOR_REMOVAL_IN_VERSION_1("A stream obtained through mir_render_surface_get_buffer_stream() does not need to be released.")</dt>
 <dd>A stream obtained through mir_render_surface_get_buffer_stream does not need to be released.  </dd>
-<dt><a class="anchor" id="_deprecated000012"></a>Member <a class="el" href="group__mir__toolkit.html#ga8575e749c948c73afbfc9d62404c5480">mir_buffer_stream_set_scale</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> *buffer_stream, float scale) MIR_FOR_REMOVAL_IN_VERSION_1("Functionality replaced by the introduction of MirRenderSurface")</dt>
+<dt><a class="anchor" id="_deprecated000012"></a>Member <a class="el" href="group__mir__toolkit.html#ga8575e749c948c73afbfc9d62404c5480">mir_buffer_stream_set_scale</a>  (MirBufferStream *buffer_stream, float scale) MIR_FOR_REMOVAL_IN_VERSION_1("Functionality replaced by the introduction of MirRenderSurface")</dt>
 <dd></dd>
 <dt><a class="anchor" id="_deprecated000026"></a>Member <a class="el" href="group__mir__toolkit.html#gaf6cf0a04c3750fe38476ef87b810e4e8">MIR_CLIENT_MAJOR_VERSION</a>  </dt>
 <dd></dd>
@@ -94,7 +92,7 @@ $(function() {
 <dd>Use MirConnection * as the native display instead  </dd>
 <dt><a class="anchor" id="_deprecated000015"></a>Member <a class="el" href="group__mir__toolkit.html#ga97d28054cf445d0a139b28e88732f619">mir_connection_get_egl_pixel_format</a>  (MirConnection *connection, void *egldisplay, void *eglconfig) MIR_FOR_REMOVAL_IN_VERSION_1("Use EGL directly&lt;/dt&gt;&lt;dd&gt; Use EGL directly, the EGL implementation will now set correct pixel format"  </dt>
 <dd></dd>
-<dt><a class="anchor" id="_deprecated000018"></a>Member <a class="el" href="group__mir__toolkit.html#ga430272280d98f519b82ecf5c8e753974">mir_cursor_configuration_from_buffer_stream</a>  (<a class="el" href="struct_mir_buffer_stream.html">MirBufferStream</a> const *stream, int hotspot_x, int hotspot_y) MIR_FOR_REMOVAL_IN_VERSION_1("Use mir_window_spec_set_cursor_render_surface instead")</dt>
+<dt><a class="anchor" id="_deprecated000018"></a>Member <a class="el" href="group__mir__toolkit.html#ga430272280d98f519b82ecf5c8e753974">mir_cursor_configuration_from_buffer_stream</a>  (MirBufferStream const *stream, int hotspot_x, int hotspot_y) MIR_FOR_REMOVAL_IN_VERSION_1("Use mir_window_spec_set_cursor_render_surface instead")</dt>
 <dd>Users should use mir_window_spec_set_cursor_render_surface.  </dd>
 <dt><a class="anchor" id="_deprecated000017"></a>Member <a class="el" href="group__mir__toolkit.html#ga9b9e7e2caccb112e6d702cbece6024dd">mir_cursor_configuration_from_name</a>  (char const *name) MIR_FOR_REMOVAL_IN_VERSION_1("Use mir_window_spec_set_cursor_name() instead")</dt>
 <dd>Users should use mir_window_spec_set_cursor_name.  </dd>
@@ -290,7 +288,7 @@ $(function() {
 <dt><a class="anchor" id="_deprecated000021"></a>Member <a class="el" href="group__mir__toolkit.html#ga304b03f15b7a1e2f6773080fe2692b74">mir_window_spec_set_buffer_usage</a>  (MirWindowSpec *spec, MirBufferUsage usage) MIR_FOR_REMOVAL_IN_VERSION_1("No longer applicable</dt>
 <dd>There will be no default stream associated with a window anymore. MirBufferUsage is no longer applicable.  </dd>
 <dt><a class="anchor" id="_deprecated000020"></a>Member <a class="el" href="group__mir__toolkit.html#ga02ff9f3ee417cb481950cadce195023b">mir_window_spec_set_pixel_format</a>  (MirWindowSpec *spec, MirPixelFormat format) MIR_FOR_REMOVAL_IN_VERSION_1("Use mir_connection_allocate_buffer/mir_render_surface_get_buffer_stream instead")</dt>
-<dd>There will be no default stream associated with a window anymore. Instead create a <a class="el" href="class_mir_render_surface.html">MirRenderSurface</a> and either set the pixel format through EGL (for EGL based rendering) or by allocating a cpu accessible buffer through mir_connection_allocate_buffer or mir_render_surface_get_buffer_stream  </dd>
+<dd>There will be no default stream associated with a window anymore. Instead create a MirRenderSurface and either set the pixel format through EGL (for EGL based rendering) or by allocating a cpu accessible buffer through mir_connection_allocate_buffer or mir_render_surface_get_buffer_stream  </dd>
 <dt><a class="anchor" id="_deprecated000022"></a>Member <a class="el" href="group__mir__toolkit.html#gac453d09deb071c005dd7b8387feab44a">mir_window_spec_set_streams</a>  (MirWindowSpec *spec, <a class="el" href="struct_mir_buffer_stream_info.html" title="The displacement from the top-left corner of the surface. ">MirBufferStreamInfo</a> *streams, unsigned int num_streams) MIR_FOR_REMOVAL_IN_VERSION_1("Use mir_window_spec_add_render_surface instead")</dt>
 <dd>Use mir_window_spec_add_render_surface  </dd>
 <dt><a class="anchor" id="_deprecated000001"></a>Member <a class="el" href="group__mir__toolkit.html#gae948e5aa9240ab1af2ae0ecf2fbf948e">MirPlatformType</a>  </dt>
@@ -300,7 +298,7 @@ $(function() {
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on czw, 28 wrz 2017, 12:44:51 UTC
+Generated on Thu  9 Nov 11:54:24 UTC 2017
 </p>
 </body>
 </html>
