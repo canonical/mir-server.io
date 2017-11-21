@@ -5,10 +5,10 @@
  -->
 <!-- Title: include/test/mir/test/cross_process_sync.h Pages: 1 -->
 <svg width="272pt" height="117pt"
- viewBox="0.00 0.00 271.50 117.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 272.00 117.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 113)">
 <title>include/test/mir/test/cross_process_sync.h</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-113 267.5,-113 267.5,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-113 268,-113 268,4 -4,4"/>
 <!-- Node2 -->
 <g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="72.5,-78.5 72.5,-108.5 190.5,-108.5 190.5,-78.5 72.5,-78.5"/>
@@ -32,9 +32,9 @@
 <!-- Node4 -->
 <g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="interprocess__client__server__test_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/interprocess\l_client_server_test.h">
-<polygon fill="white" stroke="black" points="141.5,-0.5 141.5,-41.5 263.5,-41.5 263.5,-0.5 141.5,-0.5"/>
-<text text-anchor="start" x="149.5" y="-29.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="149.5" y="-18.5" font-family="Arial" font-size="10.00">_framework/interprocess</text>
+<polygon fill="white" stroke="black" points="141,-0.5 141,-41.5 264,-41.5 264,-0.5 141,-0.5"/>
+<text text-anchor="start" x="149" y="-29.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="149" y="-18.5" font-family="Arial" font-size="10.00">_framework/interprocess</text>
 <text text-anchor="middle" x="202.5" y="-7.5" font-family="Arial" font-size="10.00">_client_server_test.h</text>
 </a>
 </g>

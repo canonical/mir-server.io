@@ -1,17 +1,17 @@
 <map id="include/miral/miral/window.h" name="include/miral/miral/window.h">
 <area shape="rect" id="node2" href="$window__info_8h.html" title="include/miral/miral\l/window_info.h" alt="" coords="397,95,524,136"/>
-<area shape="rect" id="node3" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="1195,481,1383,523"/>
+<area shape="rect" id="node3" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="1191,481,1378,523"/>
 <area shape="rect" id="node4" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="5,481,204,523"/>
-<area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title="examples/miral&#45;shell\l/tiling_window_manager.cpp" alt="" coords="354,370,538,411"/>
+<area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title="examples/miral&#45;shell\l/tiling_window_manager.cpp" alt="" coords="355,370,537,411"/>
 <area shape="rect" id="node6" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="437,184,607,225"/>
-<area shape="rect" id="node7" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="175,273,323,315"/>
-<area shape="rect" id="node9" href="$tiling__window__manager_8h.html" title="examples/miral&#45;shell\l/tiling_window_manager.h" alt="" coords="487,273,658,315"/>
-<area shape="rect" id="node11" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="749,273,948,315"/>
+<area shape="rect" id="node7" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="174,273,323,315"/>
+<area shape="rect" id="node9" href="$tiling__window__manager_8h.html" title="examples/miral&#45;shell\l/tiling_window_manager.h" alt="" coords="488,273,657,315"/>
+<area shape="rect" id="node11" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="749,273,946,315"/>
 <area shape="rect" id="node8" href="$decoration__provider_8cpp.html" title="examples/miral&#45;shell\l/decoration_provider.cpp" alt="" coords="167,370,330,411"/>
 <area shape="rect" id="node10" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="569,481,710,523"/>
-<area shape="rect" id="node12" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="1025,370,1200,411"/>
+<area shape="rect" id="node12" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="1023,370,1197,411"/>
 <area shape="rect" id="node14" href="$floating__window__manager_8h.html" title="examples/miral&#45;shell\l/floating_window_manager.h" alt="" coords="613,370,797,411"/>
-<area shape="rect" id="node15" href="$canonical__window__manager__policy_8h.html" title="include/test/mir_test\l_framework/canonical\l_window_manager_policy.h" alt="" coords="821,363,1001,419"/>
-<area shape="rect" id="node13" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="1025,481,1171,523"/>
-<area shape="rect" id="node16" href="$declarative__placement__window__manage__policy_8h.html" title="include/test/mir_test\l_framework/declarative\l_placement_window_manage\l_policy.h" alt="" coords="811,467,1001,537"/>
+<area shape="rect" id="node15" href="$canonical__window__manager__policy_8h.html" title="include/test/mir_test\l_framework/canonical\l_window_manager_policy.h" alt="" coords="821,363,999,419"/>
+<area shape="rect" id="node13" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="1021,481,1167,523"/>
+<area shape="rect" id="node16" href="$declarative__placement__window__manage__policy_8h.html" title="include/test/mir_test\l_framework/declarative\l_placement_window_manage\l_policy.h" alt="" coords="807,467,997,537"/>
 </map>

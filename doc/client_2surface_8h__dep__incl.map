@@ -1,10 +1,10 @@
 <map id="include/client/mir/client/surface.h" name="include/client/mir/client/surface.h">
-<area shape="rect" id="node2" href="$sw__splash_8cpp.html" title="examples/miral&#45;kiosk\l/sw_splash.cpp" alt="" coords="49,95,194,136"/>
-<area shape="rect" id="node3" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="218,95,366,136"/>
-<area shape="rect" id="node6" href="$miregl_8h.html" title="examples/miral&#45;shell\l/spinner/miregl.h" alt="" coords="501,95,643,136"/>
+<area shape="rect" id="node2" href="$sw__splash_8cpp.html" title="examples/miral&#45;kiosk\l/sw_splash.cpp" alt="" coords="47,95,193,136"/>
+<area shape="rect" id="node3" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="217,95,367,136"/>
+<area shape="rect" id="node6" href="$miregl_8h.html" title="examples/miral&#45;shell\l/spinner/miregl.h" alt="" coords="500,95,641,136"/>
 <area shape="rect" id="node4" href="$decoration__provider_8cpp.html" title="examples/miral&#45;shell\l/decoration_provider.cpp" alt="" coords="5,184,168,225"/>
 <area shape="rect" id="node5" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="193,184,391,225"/>
 <area shape="rect" id="node7" href="$eglapp_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglapp.cpp" alt="" coords="415,184,556,225"/>
-<area shape="rect" id="node8" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="581,184,737,225"/>
-<area shape="rect" id="node9" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="761,184,903,225"/>
+<area shape="rect" id="node8" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="580,184,735,225"/>
+<area shape="rect" id="node9" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="759,184,900,225"/>
 </map>

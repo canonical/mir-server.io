@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="5,11,149,52"/>
-<area shape="rect" id="node2" href="$classmir__test__framework_1_1_headless_nested_server_runner.html" title="mir_test_framework\l::HeadlessNestedServerRunner" alt="" coords="197,5,400,47"/>
-<area shape="rect" id="node3" href="$classmir__test__framework_1_1_headless_test.html" title="Basic fixture for tests that don&#39;t use graphics or input hardware. " alt="" coords="231,71,366,112"/>
-<area shape="rect" id="node4" href="$structmir__test__framework_1_1_headless_in_process_server.html" title="mir_test_framework\l::HeadlessInProcessServer" alt="" coords="456,37,635,79"/>
-<area shape="rect" id="node7" href="$classmir__test__framework_1_1_interprocess_client_server_test.html" title="mir_test_framework\l::InterprocessClientServerTest" alt="" coords="448,103,643,144"/>
-<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="691,37,905,79"/>
-<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="953,37,1160,79"/>
-<area shape="rect" id="node8" href="$structmir__test__framework_1_1_server_runner.html" title="Utility for running Mir server in test process. " alt="" coords="10,136,145,177"/>
-<area shape="rect" id="node9" href="$structmir__test__framework_1_1_in_process_server.html" title="Fixture for running Mir server in test process. " alt="" coords="231,136,366,177"/>
+<area shape="rect" id="node1" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="5,11,152,52"/>
+<area shape="rect" id="node2" href="$classmir__test__framework_1_1_headless_nested_server_runner.html" title="mir_test_framework\l::HeadlessNestedServerRunner" alt="" coords="200,5,404,47"/>
+<area shape="rect" id="node3" href="$classmir__test__framework_1_1_headless_test.html" title="Basic fixture for tests that don&#39;t use graphics or input hardware. " alt="" coords="234,71,370,112"/>
+<area shape="rect" id="node4" href="$structmir__test__framework_1_1_headless_in_process_server.html" title="mir_test_framework\l::HeadlessInProcessServer" alt="" coords="461,37,642,79"/>
+<area shape="rect" id="node7" href="$classmir__test__framework_1_1_interprocess_client_server_test.html" title="mir_test_framework\l::InterprocessClientServerTest" alt="" coords="452,103,651,144"/>
+<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="699,37,916,79"/>
+<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="964,37,1169,79"/>
+<area shape="rect" id="node8" href="$structmir__test__framework_1_1_server_runner.html" title="Utility for running Mir server in test process. " alt="" coords="11,136,147,177"/>
+<area shape="rect" id="node9" href="$structmir__test__framework_1_1_in_process_server.html" title="Fixture for running Mir server in test process. " alt="" coords="234,136,370,177"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="include/miral/miral/version.h" name="include/miral/miral/version.h">
 <area shape="rect" id="node2" href="$application__authorizer_8h.html" title="include/miral/miral\l/application_authorizer.h" alt="" coords="5,95,168,136"/>
-<area shape="rect" id="node4" href="$workspace__policy_8h.html" title="include/miral/miral\l/workspace_policy.h" alt="" coords="195,95,335,136"/>
+<area shape="rect" id="node4" href="$workspace__policy_8h.html" title="include/miral/miral\l/workspace_policy.h" alt="" coords="196,95,335,136"/>
 <area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="7,184,153,225"/>
 <area shape="rect" id="node5" href="$floating__window__manager_8h.html" title="examples/miral&#45;shell\l/floating_window_manager.h" alt="" coords="177,184,361,225"/>
 <area shape="rect" id="node6" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="74,273,273,315"/>

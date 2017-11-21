@@ -5,36 +5,36 @@
  -->
 <!-- Title: include/test/mir/test/doubles/wrap_shell_to_track_latest_surface.h Pages: 1 -->
 <svg width="254pt" height="106pt"
- viewBox="0.00 0.00 254.00 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 253.50 106.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 102)">
 <title>include/test/mir/test/doubles/wrap_shell_to_track_latest_surface.h</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-102 250,-102 250,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-102 249.5,-102 249.5,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<polygon fill="#bfbfbf" stroke="black" points="69,-56.5 69,-97.5 187,-97.5 187,-56.5 69,-56.5"/>
-<text text-anchor="start" x="77" y="-85.5" font-family="Arial" font-size="10.00">include/test/mir/test</text>
-<text text-anchor="start" x="77" y="-74.5" font-family="Arial" font-size="10.00">/doubles/wrap_shell_to</text>
-<text text-anchor="middle" x="128" y="-63.5" font-family="Arial" font-size="10.00">_track_latest_surface.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="68,-56.5 68,-97.5 187,-97.5 187,-56.5 68,-56.5"/>
+<text text-anchor="start" x="76" y="-85.5" font-family="Arial" font-size="10.00">include/test/mir/test</text>
+<text text-anchor="start" x="76" y="-74.5" font-family="Arial" font-size="10.00">/doubles/wrap_shell_to</text>
+<text text-anchor="middle" x="127.5" y="-63.5" font-family="Arial" font-size="10.00">_track_latest_surface.h</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 124,-19.5 124,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="62" y="-7.5" font-family="Arial" font-size="10.00">mir/shell/shell_wrapper.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 123,-19.5 123,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="61.5" y="-7.5" font-family="Arial" font-size="10.00">mir/shell/shell_wrapper.h</text>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M108.198,-56.4979C98.5653,-47.0113 87.1365,-35.7557 78.0564,-26.8131"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="80.3664,-24.1757 70.7856,-19.6525 75.4546,-29.1631 80.3664,-24.1757"/>
+<path fill="none" stroke="midnightblue" d="M107.698,-56.4979C98.0653,-47.0113 86.6365,-35.7557 77.5564,-26.8131"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="79.8664,-24.1757 70.2856,-19.6525 74.9546,-29.1631 79.8664,-24.1757"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="142,-0.5 142,-19.5 246,-19.5 246,-0.5 142,-0.5"/>
-<text text-anchor="middle" x="194" y="-7.5" font-family="Arial" font-size="10.00">mir/scene/session.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="141.5,-0.5 141.5,-19.5 245.5,-19.5 245.5,-0.5 141.5,-0.5"/>
+<text text-anchor="middle" x="193.5" y="-7.5" font-family="Arial" font-size="10.00">mir/scene/session.h</text>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M147.802,-56.4979C157.435,-47.0113 168.863,-35.7557 177.944,-26.8131"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="180.545,-29.1631 185.214,-19.6525 175.634,-24.1757 180.545,-29.1631"/>
+<path fill="none" stroke="midnightblue" d="M147.302,-56.4979C156.935,-47.0113 168.363,-35.7557 177.444,-26.8131"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="180.045,-29.1631 184.714,-19.6525 175.134,-24.1757 180.045,-29.1631"/>
 </g>
 </g>
 </svg>

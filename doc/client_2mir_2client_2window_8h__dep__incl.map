@@ -1,11 +1,11 @@
 <map id="include/client/mir/client/window.h" name="include/client/mir/client/window.h">
 <area shape="rect" id="node2" href="$sw__splash_8cpp.html" title="examples/miral&#45;kiosk\l/sw_splash.cpp" alt="" coords="416,184,561,225"/>
-<area shape="rect" id="node3" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="236,95,384,136"/>
+<area shape="rect" id="node3" href="$decoration__provider_8h.html" title="examples/miral&#45;shell\l/decoration_provider.h" alt="" coords="235,95,385,136"/>
 <area shape="rect" id="node6" href="$miregl_8h.html" title="examples/miral&#45;shell\l/spinner/miregl.h" alt="" coords="694,95,835,136"/>
 <area shape="rect" id="node10" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="411,95,561,136"/>
 <area shape="rect" id="node4" href="$decoration__provider_8cpp.html" title="examples/miral&#45;shell\l/decoration_provider.cpp" alt="" coords="229,184,391,225"/>
 <area shape="rect" id="node5" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="5,184,204,225"/>
 <area shape="rect" id="node7" href="$eglapp_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglapp.cpp" alt="" coords="751,184,893,225"/>
-<area shape="rect" id="node8" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="917,184,1073,225"/>
+<area shape="rect" id="node8" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="917,184,1071,225"/>
 <area shape="rect" id="node9" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="586,184,727,225"/>
 </map>

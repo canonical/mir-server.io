@@ -1,7 +1,7 @@
 <map id="mir_test_framework::HeadlessTest" name="mir_test_framework::HeadlessTest">
-<area shape="rect" id="node4" href="$structmir__test__framework_1_1_headless_in_process_server.html" title="mir_test_framework\l::HeadlessInProcessServer" alt="" coords="388,5,567,47"/>
-<area shape="rect" id="node7" href="$classmir__test__framework_1_1_interprocess_client_server_test.html" title="mir_test_framework\l::InterprocessClientServerTest" alt="" coords="380,71,575,112"/>
-<area shape="rect" id="node3" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="5,68,149,109"/>
-<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="623,5,837,47"/>
-<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="885,5,1092,47"/>
+<area shape="rect" id="node4" href="$structmir__test__framework_1_1_headless_in_process_server.html" title="mir_test_framework\l::HeadlessInProcessServer" alt="" coords="393,5,574,47"/>
+<area shape="rect" id="node7" href="$classmir__test__framework_1_1_interprocess_client_server_test.html" title="mir_test_framework\l::InterprocessClientServerTest" alt="" coords="384,71,583,112"/>
+<area shape="rect" id="node3" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="5,68,152,109"/>
+<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="631,5,848,47"/>
+<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="896,5,1101,47"/>
 </map>

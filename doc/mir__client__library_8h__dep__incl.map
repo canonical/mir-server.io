@@ -1,12 +1,12 @@
 <map id="include/client/mir_toolkit/mir_client_library.h" name="include/client/mir_toolkit/mir_client_library.h">
-<area shape="rect" id="node2" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="5,117,161,158"/>
-<area shape="rect" id="node3" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="186,117,327,158"/>
-<area shape="rect" id="node4" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="351,117,511,158"/>
-<area shape="rect" id="node5" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="535,109,669,165"/>
-<area shape="rect" id="node6" href="$mock__client__context_8h.html" title="include/test/mir/test\l/doubles/mock_client\l_context.h" alt="" coords="693,109,839,165"/>
-<area shape="rect" id="node7" href="$validity__matchers_8h.html" title="include/test/mir/test\l/validity_matchers.h" alt="" coords="863,117,1000,158"/>
-<area shape="rect" id="node8" href="$any__surface_8h.html" title="include/test/mir_test\l_framework/any_surface.h" alt="" coords="1025,117,1198,158"/>
-<area shape="rect" id="node9" href="$connected__client__headless__server_8h.html" title="include/test/mir_test\l_framework/connected\l_client_headless_server.h" alt="" coords="1222,109,1393,165"/>
-<area shape="rect" id="node11" href="$visible__surface_8h.html" title="include/test/mir_test\l_framework/visible_surface.h" alt="" coords="1417,117,1603,158"/>
-<area shape="rect" id="node10" href="$connected__client__with__a__window_8h.html" title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h" alt="" coords="1225,213,1389,269"/>
+<area shape="rect" id="node2" href="$eglspinner_8cpp.html" title="examples/miral&#45;shell\l/spinner/eglspinner.cpp" alt="" coords="5,117,160,158"/>
+<area shape="rect" id="node3" href="$miregl_8cpp.html" title="examples/miral&#45;shell\l/spinner/miregl.cpp" alt="" coords="184,117,325,158"/>
+<area shape="rect" id="node4" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="350,117,511,158"/>
+<area shape="rect" id="node5" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="536,109,669,165"/>
+<area shape="rect" id="node6" href="$mock__client__context_8h.html" title="include/test/mir/test\l/doubles/mock_client\l_context.h" alt="" coords="694,109,839,165"/>
+<area shape="rect" id="node7" href="$validity__matchers_8h.html" title="include/test/mir/test\l/validity_matchers.h" alt="" coords="864,117,1003,158"/>
+<area shape="rect" id="node8" href="$any__surface_8h.html" title="include/test/mir_test\l_framework/any_surface.h" alt="" coords="1027,117,1202,158"/>
+<area shape="rect" id="node9" href="$connected__client__headless__server_8h.html" title="include/test/mir_test\l_framework/connected\l_client_headless_server.h" alt="" coords="1226,109,1398,165"/>
+<area shape="rect" id="node11" href="$visible__surface_8h.html" title="include/test/mir_test\l_framework/visible_surface.h" alt="" coords="1422,117,1613,158"/>
+<area shape="rect" id="node10" href="$connected__client__with__a__window_8h.html" title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h" alt="" coords="1231,213,1393,269"/>
 </map>

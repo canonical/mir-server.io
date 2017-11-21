@@ -5,10 +5,10 @@
  -->
 <!-- Title: include/client/mir/client/connection.h Pages: 1 -->
 <svg width="662pt" height="240pt"
- viewBox="0.00 0.00 662.00 240.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 661.50 240.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 236)">
 <title>include/client/mir/client/connection.h</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-236 658,-236 658,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-236 657.5,-236 657.5,4 -4,4"/>
 <!-- Node26 -->
 <g id="node1" class="node"><title>Node26</title>
 <polygon fill="#bfbfbf" stroke="black" points="237.5,-201.5 237.5,-231.5 338.5,-231.5 338.5,-201.5 237.5,-201.5"/>
@@ -18,8 +18,8 @@
 <!-- Node27 -->
 <g id="node2" class="node"><title>Node27</title>
 <g id="a_node2"><a xlink:href="decoration__provider_8h.html" target="_top" xlink:title="examples/miral&#45;shell\l/decoration_provider.h">
-<polygon fill="white" stroke="black" points="159.5,-134.5 159.5,-164.5 270.5,-164.5 270.5,-134.5 159.5,-134.5"/>
-<text text-anchor="start" x="167.5" y="-152.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="159,-134.5 159,-164.5 271,-164.5 271,-134.5 159,-134.5"/>
+<text text-anchor="start" x="167" y="-152.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="215" y="-141.5" font-family="Arial" font-size="10.00">/decoration_provider.h</text>
 </a>
 </g>
@@ -93,8 +93,8 @@
 <!-- Node32 -->
 <g id="node7" class="node"><title>Node32</title>
 <g id="a_node7"><a xlink:href="tiling__window__manager_8h.html" target="_top" xlink:title="examples/miral&#45;shell\l/tiling_window_manager.h">
-<polygon fill="white" stroke="black" points="473,-67.5 473,-97.5 601,-97.5 601,-67.5 473,-67.5"/>
-<text text-anchor="start" x="481" y="-85.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="473.5,-67.5 473.5,-97.5 600.5,-97.5 600.5,-67.5 473.5,-67.5"/>
+<text text-anchor="start" x="481.5" y="-85.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="537" y="-74.5" font-family="Arial" font-size="10.00">/tiling_window_manager.h</text>
 </a>
 </g>
@@ -126,8 +126,8 @@
 <!-- Node34 -->
 <g id="node9" class="node"><title>Node34</title>
 <g id="a_node9"><a xlink:href="tiling__window__manager_8cpp.html" target="_top" xlink:title="examples/miral&#45;shell\l/tiling_window_manager.cpp">
-<polygon fill="white" stroke="black" points="516,-0.5 516,-30.5 654,-30.5 654,-0.5 516,-0.5"/>
-<text text-anchor="start" x="524" y="-18.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="516.5,-0.5 516.5,-30.5 653.5,-30.5 653.5,-0.5 516.5,-0.5"/>
+<text text-anchor="start" x="524.5" y="-18.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="585" y="-7.5" font-family="Arial" font-size="10.00">/tiling_window_manager.cpp</text>
 </a>
 </g>

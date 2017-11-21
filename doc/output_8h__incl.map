@@ -1,7 +1,7 @@
 <map id="include/miral/miral/output.h" name="include/miral/miral/output.h">
 <area shape="rect" id="node2" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="53,95,200,121"/>
 <area shape="rect" id="node4" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="265,95,431,121"/>
-<area shape="rect" id="node10" href="$int__wrapper_8h.html" title="mir/int_wrapper.h" alt="" coords="455,95,577,121"/>
+<area shape="rect" id="node10" href="$int__wrapper_8h.html" title="mir/int_wrapper.h" alt="" coords="456,95,576,121"/>
 <area shape="rect" id="node3" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="5,169,176,196"/>
 <area shape="rect" id="node5" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="283,169,424,196"/>
 <area shape="rect" id="node9" href="$size_8h.html" title="size.h" alt="" coords="201,169,258,196"/>

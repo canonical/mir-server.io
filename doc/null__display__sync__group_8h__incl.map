@@ -1,8 +1,8 @@
 <map id="include/test/mir/test/doubles/null_display_sync_group.h" name="include/test/mir/test/doubles/null_display_sync_group.h">
-<area shape="rect" id="node3" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="81,295,218,322"/>
-<area shape="rect" id="node7" href="$null__display__buffer_8h.html" title="mir/test/doubles/null\l_display_buffer.h" alt="" coords="421,199,560,240"/>
+<area shape="rect" id="node3" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="80,295,217,322"/>
+<area shape="rect" id="node7" href="$null__display__buffer_8h.html" title="mir/test/doubles/null\l_display_buffer.h" alt="" coords="421,199,559,240"/>
 <area shape="rect" id="node9" href="$stub__display__buffer_8h.html" title="mir/test/doubles/stub\l_display_buffer.h" alt="" coords="241,109,385,151"/>
-<area shape="rect" id="node4" href="$dimensions_8h.html" title="mir/geometry/dimensions.h" alt="" coords="155,377,333,404"/>
-<area shape="rect" id="node10" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="230,206,397,233"/>
-<area shape="rect" id="node11" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="243,295,384,322"/>
+<area shape="rect" id="node4" href="$dimensions_8h.html" title="mir/geometry/dimensions.h" alt="" coords="154,377,333,404"/>
+<area shape="rect" id="node10" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="229,206,396,233"/>
+<area shape="rect" id="node11" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="242,295,383,322"/>
 </map>

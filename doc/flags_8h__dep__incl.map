@@ -1,5 +1,5 @@
 <map id="include/common/mir/flags.h" name="include/common/mir/flags.h">
-<area shape="rect" id="node2" href="$device__capability_8h.html" title="include/common/mir\l/input/device_capability.h" alt="" coords="103,95,270,136"/>
-<area shape="rect" id="node3" href="$mir__input__config_8h.html" title="include/common/mir\l/input/mir_input_config.h" alt="" coords="5,184,168,225"/>
-<area shape="rect" id="node4" href="$stub__input__device_8h.html" title="include/test/mir/test\l/doubles/stub_input_device.h" alt="" coords="192,184,381,225"/>
+<area shape="rect" id="node2" href="$device__capability_8h.html" title="include/common/mir\l/input/device_capability.h" alt="" coords="103,95,271,136"/>
+<area shape="rect" id="node3" href="$mir__input__config_8h.html" title="include/common/mir\l/input/mir_input_config.h" alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node4" href="$stub__input__device_8h.html" title="include/test/mir/test\l/doubles/stub_input_device.h" alt="" coords="193,184,384,225"/>
 </map>
