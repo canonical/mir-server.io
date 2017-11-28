@@ -32,8 +32,8 @@
 <!-- Node5 -->
 <g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="workspace__policy_8h.html" target="_top" xlink:title="include/miral/miral\l/workspace_policy.h">
-<polygon fill="white" stroke="black" points="143,-134.5 143,-164.5 247,-164.5 247,-134.5 143,-134.5"/>
-<text text-anchor="start" x="151" y="-152.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
+<polygon fill="white" stroke="black" points="142.5,-134.5 142.5,-164.5 247.5,-164.5 247.5,-134.5 142.5,-134.5"/>
+<text text-anchor="start" x="150.5" y="-152.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
 <text text-anchor="middle" x="195" y="-141.5" font-family="Arial" font-size="10.00">/workspace_policy.h</text>
 </a>
 </g>

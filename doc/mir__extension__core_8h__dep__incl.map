@@ -5,9 +5,9 @@
 <area shape="rect" id="node5" href="$fenced__buffers_8h.html" title="include/client/mir\l_toolkit/extensions\l/fenced_buffers.h" alt="" coords="469,109,600,165"/>
 <area shape="rect" id="node6" href="$gbm__buffer_8h.html" title="include/client/mir\l_toolkit/extensions\l/gbm_buffer.h" alt="" coords="624,109,755,165"/>
 <area shape="rect" id="node7" href="$graphics__module_8h.html" title="include/client/mir\l_toolkit/extensions\l/graphics_module.h" alt="" coords="779,109,914,165"/>
-<area shape="rect" id="node8" href="$hardware__buffer__stream_8h.html" title="include/client/mir\l_toolkit/extensions\l/hardware_buffer_stream.h" alt="" coords="939,109,1115,165"/>
-<area shape="rect" id="node9" href="$mesa__drm__auth_8h.html" title="include/client/mir\l_toolkit/extensions\l/mesa_drm_auth.h" alt="" coords="1139,109,1269,165"/>
-<area shape="rect" id="node10" href="$set__gbm__device_8h.html" title="include/client/mir\l_toolkit/extensions\l/set_gbm_device.h" alt="" coords="1294,109,1426,165"/>
-<area shape="rect" id="node11" href="$window__coordinate__translation_8h.html" title="include/client/mir\l_toolkit/extensions\l/window_coordinate_translation.h" alt="" coords="1451,109,1664,165"/>
-<area shape="rect" id="node12" href="$stub__platform__extension_8h.html" title="include/test/mir_test\l_framework/stub_platform\l_extension.h" alt="" coords="1689,109,1861,165"/>
+<area shape="rect" id="node8" href="$hardware__buffer__stream_8h.html" title="include/client/mir\l_toolkit/extensions\l/hardware_buffer_stream.h" alt="" coords="938,109,1113,165"/>
+<area shape="rect" id="node9" href="$mesa__drm__auth_8h.html" title="include/client/mir\l_toolkit/extensions\l/mesa_drm_auth.h" alt="" coords="1137,109,1268,165"/>
+<area shape="rect" id="node10" href="$set__gbm__device_8h.html" title="include/client/mir\l_toolkit/extensions\l/set_gbm_device.h" alt="" coords="1292,109,1423,165"/>
+<area shape="rect" id="node11" href="$window__coordinate__translation_8h.html" title="include/client/mir\l_toolkit/extensions\l/window_coordinate_translation.h" alt="" coords="1447,109,1660,165"/>
+<area shape="rect" id="node12" href="$stub__platform__extension_8h.html" title="include/test/mir_test\l_framework/stub_platform\l_extension.h" alt="" coords="1684,109,1855,165"/>
 </map>

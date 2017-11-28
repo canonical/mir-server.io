@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmiral_1_1_active_outputs_listener.html" title="miral::ActiveOutputsListener" alt="" coords="19,5,206,32"/>
+<area shape="rect" id="node1" href="$classmiral_1_1_active_outputs_listener.html" title="miral::ActiveOutputsListener" alt="" coords="20,5,205,32"/>
 <area shape="rect" id="node2" href="$class_tiling_window_manager_policy.html" title="TilingWindowManagerPolicy" alt="" coords="283,5,467,32"/>
 <area shape="rect" id="node3" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined. " alt="" coords="5,119,220,145"/>
 <area shape="rect" id="node4" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="270,174,481,215"/>
-<area shape="rect" id="node5" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="541,123,739,149"/>
+<area shape="rect" id="node5" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="540,123,740,149"/>
 <area shape="rect" id="node6" href="$class_kiosk_window_manager_policy.html" title="KioskWindowManagerPolicy" alt="" coords="547,177,733,204"/>
 <area shape="rect" id="node7" href="$structmir__test__framework_1_1_canonical_window_manager_policy.html" title="mir_test_framework\l::CanonicalWindowManagerPolicy" alt="" coords="531,229,749,270"/>
-<area shape="rect" id="node8" href="$classmir__test__framework_1_1_declarative_placement_window_manager_policy.html" title="DeclarativePlacementWindowManagerPolicy is a test utility server component for specifying a static li..." alt="" coords="797,221,1000,277"/>
+<area shape="rect" id="node8" href="$classmir__test__framework_1_1_declarative_placement_window_manager_policy.html" title="DeclarativePlacementWindowManagerPolicy is a test utility server component for specifying a static li..." alt="" coords="797,221,999,277"/>
 <area shape="rect" id="node9" href="$classmiral_1_1_window_management_policy_addendum3.html" title="Handle additional client requests. " alt="" coords="268,57,483,98"/>
-<area shape="rect" id="node10" href="$classmiral_1_1_workspace_policy.html" title="Advise changes to workspaces. " alt="" coords="296,123,455,149"/>
+<area shape="rect" id="node10" href="$classmiral_1_1_workspace_policy.html" title="Advise changes to workspaces. " alt="" coords="295,123,455,149"/>
 </map>

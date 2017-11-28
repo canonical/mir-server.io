@@ -11,8 +11,8 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-91 162,-91 162,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<polygon fill="#bfbfbf" stroke="black" points="6,-0.5 6,-30.5 152,-30.5 152,-0.5 6,-0.5"/>
-<text text-anchor="start" x="14" y="-18.5" font-family="Arial" font-size="10.00">mir::test::doubles</text>
+<polygon fill="#bfbfbf" stroke="black" points="6.5,-0.5 6.5,-30.5 151.5,-30.5 151.5,-0.5 6.5,-0.5"/>
+<text text-anchor="start" x="14.5" y="-18.5" font-family="Arial" font-size="10.00">mir::test::doubles</text>
 <text text-anchor="middle" x="79" y="-7.5" font-family="Arial" font-size="10.00">::MockPlatformAuthentication</text>
 </g>
 <!-- Node1 -->

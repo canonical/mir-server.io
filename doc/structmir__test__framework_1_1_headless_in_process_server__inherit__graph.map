@@ -1,6 +1,6 @@
 <map id="mir_test_framework::HeadlessInProcessServer" name="mir_test_framework::HeadlessInProcessServer">
-<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="16,273,233,315"/>
-<area shape="rect" id="node2" href="$classmir__test__framework_1_1_headless_test.html" title="Basic fixture for tests that don&#39;t use graphics or input hardware. " alt="" coords="57,95,193,136"/>
-<area shape="rect" id="node4" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="125,5,271,47"/>
-<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="22,363,227,404"/>
+<area shape="rect" id="node5" href="$structmir__test__framework_1_1_connected_client_headless_server.html" title="mir_test_framework\l::ConnectedClientHeadlessServer" alt="" coords="17,273,232,315"/>
+<area shape="rect" id="node2" href="$classmir__test__framework_1_1_headless_test.html" title="Basic fixture for tests that don&#39;t use graphics or input hardware. " alt="" coords="57,95,192,136"/>
+<area shape="rect" id="node4" href="$classmir__test__framework_1_1_async_server_runner.html" title="mir_test_framework\l::AsyncServerRunner" alt="" coords="125,5,269,47"/>
+<area shape="rect" id="node6" href="$structmir__test__framework_1_1_connected_client_with_a_window.html" title="mir_test_framework\l::ConnectedClientWithAWindow" alt="" coords="21,363,228,404"/>
 </map>

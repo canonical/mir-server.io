@@ -12,23 +12,23 @@
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
 <g id="a_node1"><a xlink:href="class_worker.html" target="_top" xlink:title="Worker">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 47,-19.5 47,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="23.5" y="-7.5" font-family="Arial" font-size="10.00">Worker</text>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 48,-19.5 48,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="24" y="-7.5" font-family="Arial" font-size="10.00">Worker</text>
 </a>
 </g>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="class_decoration_provider.html" target="_top" xlink:title="DecorationProvider">
-<polygon fill="white" stroke="black" points="83,-0.5 83,-19.5 182,-19.5 182,-0.5 83,-0.5"/>
-<text text-anchor="middle" x="132.5" y="-7.5" font-family="Arial" font-size="10.00">DecorationProvider</text>
+<polygon fill="white" stroke="black" points="84,-0.5 84,-19.5 182,-19.5 182,-0.5 84,-0.5"/>
+<text text-anchor="middle" x="133" y="-7.5" font-family="Arial" font-size="10.00">DecorationProvider</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#8b1a1a" d="M57.3073,-10C65.3866,-10 74.2102,-10 82.8627,-10"/>
-<polygon fill="#8b1a1a" stroke="#8b1a1a" points="57.192,-6.5001 47.1919,-10 57.1919,-13.5001 57.192,-6.5001"/>
+<path fill="none" stroke="#8b1a1a" d="M58.3326,-10C66.3986,-10 75.181,-10 83.7798,-10"/>
+<polygon fill="#8b1a1a" stroke="#8b1a1a" points="58.2174,-6.5001 48.2174,-10 58.2174,-13.5001 58.2174,-6.5001"/>
 </g>
 </g>
 </svg>

@@ -1,7 +1,7 @@
 <map id="include/test/mir/test/doubles/null_platform.h" name="include/test/mir/test/doubles/null_platform.h">
 <area shape="rect" id="node5" href="$null__display_8h.html" title="mir/test/doubles/null\l_display.h" alt="" coords="515,95,653,136"/>
-<area shape="rect" id="node25" href="$null__platform__ipc__operations_8h.html" title="mir/test/doubles/null\l_platform_ipc_operations.h" alt="" coords="1001,95,1180,136"/>
-<area shape="rect" id="node8" href="$context__source_8h.html" title="mir/renderer/gl/context\l_source.h" alt="" coords="843,184,995,225"/>
+<area shape="rect" id="node25" href="$null__platform__ipc__operations_8h.html" title="mir/test/doubles/null\l_platform_ipc_operations.h" alt="" coords="999,95,1177,136"/>
+<area shape="rect" id="node8" href="$context__source_8h.html" title="mir/renderer/gl/context\l_source.h" alt="" coords="840,184,992,225"/>
 <area shape="rect" id="node10" href="$null__gl__context_8h.html" title="mir/test/doubles/null\l_gl_context.h" alt="" coords="56,184,195,225"/>
 <area shape="rect" id="node12" href="$null__display__configuration_8h.html" title="mir/test/doubles/null\l_display_configuration.h" alt="" coords="243,184,405,225"/>
 <area shape="rect" id="node14" href="$null__display__sync__group_8h.html" title="mir/test/doubles/null\l_display_sync_group.h" alt="" coords="507,184,661,225"/>

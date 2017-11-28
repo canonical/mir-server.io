@@ -58,7 +58,7 @@
 </g>
 <!-- Node93 -->
 <g id="node5" class="node"><title>Node93</title>
-<polygon fill="white" stroke="#bfbfbf" points="7,-0.5 7,-19.5 84,-19.5 84,-0.5 7,-0.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="8,-0.5 8,-19.5 83,-19.5 83,-0.5 8,-0.5"/>
 <text text-anchor="middle" x="45.5" y="-7.5" font-family="Arial" font-size="10.00">NativeDisplay</text>
 </g>
 <!-- Node93&#45;&gt;Node0 -->

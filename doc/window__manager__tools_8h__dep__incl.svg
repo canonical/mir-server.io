@@ -18,22 +18,22 @@
 <!-- Node26 -->
 <g id="node2" class="node"><title>Node26</title>
 <g id="a_node2"><a xlink:href="kiosk__window__manager_8cpp.html" target="_top" xlink:title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp">
-<polygon fill="white" stroke="black" points="497,-11.5 497,-41.5 637,-41.5 637,-11.5 497,-11.5"/>
-<text text-anchor="start" x="505" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
+<polygon fill="white" stroke="black" points="496.5,-11.5 496.5,-41.5 637.5,-41.5 637.5,-11.5 496.5,-11.5"/>
+<text text-anchor="start" x="504.5" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
 <text text-anchor="middle" x="567" y="-18.5" font-family="Arial" font-size="10.00">/kiosk_window_manager.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node26 -->
 <g id="edge1" class="edge"><title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M404.36,-231.54C456.714,-215.223 523.551,-184.839 557,-131 574.244,-103.246 572.103,-62.9987 569.368,-41.7987"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="403.333,-228.194 394.764,-234.425 405.349,-234.897 403.333,-228.194"/>
+<path fill="none" stroke="midnightblue" d="M404.425,-231.58C456.813,-215.284 523.663,-184.908 557,-131 574.186,-103.21 572.069,-62.9776 569.353,-41.7895"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="403.395,-228.235 394.823,-234.462 405.407,-234.94 403.395,-228.235"/>
 </g>
 <!-- Node27 -->
 <g id="node3" class="node"><title>Node27</title>
 <g id="a_node3"><a xlink:href="decoration__provider_8h.html" target="_top" xlink:title="examples/miral&#45;shell\l/decoration_provider.h">
-<polygon fill="white" stroke="black" points="48,-167.5 48,-197.5 160,-197.5 160,-167.5 48,-167.5"/>
-<text text-anchor="start" x="56" y="-185.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="48.5,-167.5 48.5,-197.5 159.5,-197.5 159.5,-167.5 48.5,-167.5"/>
+<text text-anchor="start" x="56.5" y="-185.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="104" y="-174.5" font-family="Arial" font-size="10.00">/decoration_provider.h</text>
 </a>
 </g>
@@ -60,8 +60,8 @@
 <!-- Node30 -->
 <g id="node6" class="node"><title>Node30</title>
 <g id="a_node6"><a xlink:href="tiling__window__manager_8h.html" target="_top" xlink:title="examples/miral&#45;shell\l/tiling_window_manager.h">
-<polygon fill="white" stroke="black" points="313.5,-167.5 313.5,-197.5 440.5,-197.5 440.5,-167.5 313.5,-167.5"/>
-<text text-anchor="start" x="321.5" y="-185.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="313,-167.5 313,-197.5 441,-197.5 441,-167.5 313,-167.5"/>
+<text text-anchor="start" x="321" y="-185.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="377" y="-174.5" font-family="Arial" font-size="10.00">/tiling_window_manager.h</text>
 </a>
 </g>
@@ -74,8 +74,8 @@
 <!-- Node32 -->
 <g id="node8" class="node"><title>Node32</title>
 <g id="a_node8"><a xlink:href="tiling__window__manager_8cpp.html" target="_top" xlink:title="examples/miral&#45;shell\l/tiling_window_manager.cpp">
-<polygon fill="white" stroke="black" points="216.5,-95 216.5,-125 353.5,-125 353.5,-95 216.5,-95"/>
-<text text-anchor="start" x="224.5" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<polygon fill="white" stroke="black" points="216,-95 216,-125 354,-125 354,-95 216,-95"/>
+<text text-anchor="start" x="224" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
 <text text-anchor="middle" x="285" y="-102" font-family="Arial" font-size="10.00">/tiling_window_manager.cpp</text>
 </a>
 </g>
@@ -88,15 +88,15 @@
 <!-- Node33 -->
 <g id="node9" class="node"><title>Node33</title>
 <g id="a_node9"><a xlink:href="canonical__window__manager_8h.html" target="_top" xlink:title="include/miral/miral\l/canonical_window_manager.h">
-<polygon fill="white" stroke="black" points="604,-167.5 604,-197.5 752,-197.5 752,-167.5 604,-167.5"/>
-<text text-anchor="start" x="612" y="-185.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
+<polygon fill="white" stroke="black" points="603.5,-167.5 603.5,-197.5 752.5,-197.5 752.5,-167.5 603.5,-167.5"/>
+<text text-anchor="start" x="611.5" y="-185.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
 <text text-anchor="middle" x="678" y="-174.5" font-family="Arial" font-size="10.00">/canonical_window_manager.h</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node33 -->
 <g id="edge10" class="edge"><title>Node25&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M404.984,-234.641C463.599,-223.662 545.109,-208.393 603.785,-197.402"/>
+<path fill="none" stroke="midnightblue" d="M404.967,-234.645C463.48,-223.684 544.818,-208.448 603.476,-197.46"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="404.234,-231.221 395.05,-236.502 405.523,-238.101 404.234,-231.221"/>
 </g>
 <!-- Node28 -->
@@ -121,16 +121,16 @@
 <!-- Node31 -->
 <g id="node7" class="node"><title>Node31</title>
 <g id="a_node7"><a xlink:href="shell__main_8cpp.html" target="_top" xlink:title="examples/miral&#45;shell\l/shell_main.cpp">
-<polygon fill="white" stroke="black" points="351,-11.5 351,-41.5 457,-41.5 457,-11.5 351,-11.5"/>
-<text text-anchor="start" x="359" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
-<text text-anchor="middle" x="404" y="-18.5" font-family="Arial" font-size="10.00">/shell_main.cpp</text>
+<polygon fill="white" stroke="black" points="350,-11.5 350,-41.5 456,-41.5 456,-11.5 350,-11.5"/>
+<text text-anchor="start" x="358" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;shell</text>
+<text text-anchor="middle" x="403" y="-18.5" font-family="Arial" font-size="10.00">/shell_main.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node30&#45;&gt;Node31 -->
 <g id="edge7" class="edge"><title>Node30&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M381.249,-157.264C386.952,-124.737 396.898,-68.0092 401.514,-41.6776"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="377.771,-156.834 379.492,-167.288 384.666,-158.043 377.771,-156.834"/>
+<path fill="none" stroke="midnightblue" d="M381.092,-157.264C386.583,-124.737 396.161,-68.0092 400.606,-41.6776"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="377.613,-156.845 379.399,-167.288 384.515,-158.01 377.613,-156.845"/>
 </g>
 <!-- Node30&#45;&gt;Node32 -->
 <g id="edge8" class="edge"><title>Node30&#45;&gt;Node32</title>
@@ -140,8 +140,8 @@
 <!-- Node34 -->
 <g id="node10" class="node"><title>Node34</title>
 <g id="a_node10"><a xlink:href="kiosk__window__manager_8h.html" target="_top" xlink:title="examples/miral&#45;kiosk\l/kiosk_window_manager.h">
-<polygon fill="white" stroke="black" points="613,-95 613,-125 743,-125 743,-95 613,-95"/>
-<text text-anchor="start" x="621" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
+<polygon fill="white" stroke="black" points="612.5,-95 612.5,-125 743.5,-125 743.5,-95 612.5,-95"/>
+<text text-anchor="start" x="620.5" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
 <text text-anchor="middle" x="678" y="-102" font-family="Arial" font-size="10.00">/kiosk_window_manager.h</text>
 </a>
 </g>
@@ -168,9 +168,9 @@
 <!-- Node37 -->
 <g id="node13" class="node"><title>Node37</title>
 <g id="a_node13"><a xlink:href="canonical__window__manager__policy_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/canonical\l_window_manager_policy.h">
-<polygon fill="white" stroke="black" points="770,-89.5 770,-130.5 904,-130.5 904,-89.5 770,-89.5"/>
-<text text-anchor="start" x="778" y="-118.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="778" y="-107.5" font-family="Arial" font-size="10.00">_framework/canonical</text>
+<polygon fill="white" stroke="black" points="769.5,-89.5 769.5,-130.5 904.5,-130.5 904.5,-89.5 769.5,-89.5"/>
+<text text-anchor="start" x="777.5" y="-118.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="777.5" y="-107.5" font-family="Arial" font-size="10.00">_framework/canonical</text>
 <text text-anchor="middle" x="837" y="-96.5" font-family="Arial" font-size="10.00">_window_manager_policy.h</text>
 </a>
 </g>
@@ -206,8 +206,8 @@
 </g>
 <!-- Node36&#45;&gt;Node31 -->
 <g id="edge16" class="edge"><title>Node36&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M458.973,-87.2373C445.628,-72.736 428.481,-54.103 416.914,-41.5335"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="456.589,-89.8154 465.936,-94.8038 461.74,-85.0753 456.589,-89.8154"/>
+<path fill="none" stroke="midnightblue" d="M458.706,-87.2373C445.183,-72.736 427.808,-54.103 416.086,-41.5335"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="456.382,-89.8772 465.762,-94.8038 461.502,-85.1032 456.382,-89.8772"/>
 </g>
 <!-- Node38 -->
 <g id="node14" class="node"><title>Node38</title>

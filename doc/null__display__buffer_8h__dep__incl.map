@@ -1,7 +1,7 @@
 <map id="include/test/mir/test/doubles/null_display_buffer.h" name="include/test/mir/test/doubles/null_display_buffer.h">
-<area shape="rect" id="node2" href="$null__display__sync__group_8h.html" title="include/test/mir/test\l/doubles/null_display\l_sync_group.h" alt="" coords="105,213,248,269"/>
-<area shape="rect" id="node6" href="$stub__display__buffer_8h.html" title="include/test/mir/test\l/doubles/stub_display\l_buffer.h" alt="" coords="159,109,307,165"/>
-<area shape="rect" id="node3" href="$null__display_8h.html" title="include/test/mir/test\l/doubles/null_display.h" alt="" coords="100,317,253,359"/>
+<area shape="rect" id="node2" href="$null__display__sync__group_8h.html" title="include/test/mir/test\l/doubles/null_display\l_sync_group.h" alt="" coords="104,213,247,269"/>
+<area shape="rect" id="node6" href="$stub__display__buffer_8h.html" title="include/test/mir/test\l/doubles/stub_display\l_buffer.h" alt="" coords="157,109,305,165"/>
+<area shape="rect" id="node3" href="$null__display_8h.html" title="include/test/mir/test\l/doubles/null_display.h" alt="" coords="98,317,253,359"/>
 <area shape="rect" id="node4" href="$fake__display_8h.html" title="include/test/mir/test\l/doubles/fake_display.h" alt="" coords="5,407,164,448"/>
-<area shape="rect" id="node5" href="$null__platform_8h.html" title="include/test/mir/test\l/doubles/null_platform.h" alt="" coords="189,407,349,448"/>
+<area shape="rect" id="node5" href="$null__platform_8h.html" title="include/test/mir/test\l/doubles/null_platform.h" alt="" coords="188,407,347,448"/>
 </map>

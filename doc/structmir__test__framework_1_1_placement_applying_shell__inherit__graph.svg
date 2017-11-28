@@ -17,7 +17,7 @@
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<polygon fill="white" stroke="#bfbfbf" points="4,-67.5 4,-86.5 124,-86.5 124,-67.5 4,-67.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="3.5,-67.5 3.5,-86.5 124.5,-86.5 124.5,-67.5 3.5,-67.5"/>
 <text text-anchor="middle" x="64" y="-74.5" font-family="Arial" font-size="10.00">mir::shell::ShellWrapper</text>
 </g>
 <!-- Node1&#45;&gt;Node0 -->

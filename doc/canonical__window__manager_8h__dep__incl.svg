@@ -11,15 +11,15 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-202 724,-202 724,4 -4,4"/>
 <!-- Node48 -->
 <g id="node1" class="node"><title>Node48</title>
-<polygon fill="#bfbfbf" stroke="black" points="319.5,-167.5 319.5,-197.5 467.5,-197.5 467.5,-167.5 319.5,-167.5"/>
-<text text-anchor="start" x="327.5" y="-185.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
+<polygon fill="#bfbfbf" stroke="black" points="319,-167.5 319,-197.5 468,-197.5 468,-167.5 319,-167.5"/>
+<text text-anchor="start" x="327" y="-185.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
 <text text-anchor="middle" x="393.5" y="-174.5" font-family="Arial" font-size="10.00">/canonical_window_manager.h</text>
 </g>
 <!-- Node49 -->
 <g id="node2" class="node"><title>Node49</title>
 <g id="a_node2"><a xlink:href="kiosk__window__manager_8h.html" target="_top" xlink:title="examples/miral&#45;kiosk\l/kiosk_window_manager.h">
-<polygon fill="white" stroke="black" points="132.5,-95 132.5,-125 262.5,-125 262.5,-95 132.5,-95"/>
-<text text-anchor="start" x="140.5" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
+<polygon fill="white" stroke="black" points="132,-95 132,-125 263,-125 263,-95 132,-95"/>
+<text text-anchor="start" x="140" y="-113" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
 <text text-anchor="middle" x="197.5" y="-102" font-family="Arial" font-size="10.00">/kiosk_window_manager.h</text>
 </a>
 </g>
@@ -46,9 +46,9 @@
 <!-- Node55 -->
 <g id="node8" class="node"><title>Node55</title>
 <g id="a_node8"><a xlink:href="canonical__window__manager__policy_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/canonical\l_window_manager_policy.h">
-<polygon fill="white" stroke="black" points="547.5,-89.5 547.5,-130.5 681.5,-130.5 681.5,-89.5 547.5,-89.5"/>
-<text text-anchor="start" x="555.5" y="-118.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="555.5" y="-107.5" font-family="Arial" font-size="10.00">_framework/canonical</text>
+<polygon fill="white" stroke="black" points="547,-89.5 547,-130.5 682,-130.5 682,-89.5 547,-89.5"/>
+<text text-anchor="start" x="555" y="-118.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="555" y="-107.5" font-family="Arial" font-size="10.00">_framework/canonical</text>
 <text text-anchor="middle" x="614.5" y="-96.5" font-family="Arial" font-size="10.00">_window_manager_policy.h</text>
 </a>
 </g>
@@ -75,8 +75,8 @@
 <!-- Node51 -->
 <g id="node4" class="node"><title>Node51</title>
 <g id="a_node4"><a xlink:href="kiosk__window__manager_8cpp.html" target="_top" xlink:title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp">
-<polygon fill="white" stroke="black" points="127.5,-11.5 127.5,-41.5 267.5,-41.5 267.5,-11.5 127.5,-11.5"/>
-<text text-anchor="start" x="135.5" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
+<polygon fill="white" stroke="black" points="127,-11.5 127,-41.5 268,-41.5 268,-11.5 127,-11.5"/>
+<text text-anchor="start" x="135" y="-29.5" font-family="Arial" font-size="10.00">examples/miral&#45;kiosk</text>
 <text text-anchor="middle" x="197.5" y="-18.5" font-family="Arial" font-size="10.00">/kiosk_window_manager.cpp</text>
 </a>
 </g>

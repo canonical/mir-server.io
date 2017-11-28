@@ -5,38 +5,38 @@
  -->
 <!-- Title: include/core/mir/optional_value.h Pages: 1 -->
 <svg width="133pt" height="95pt"
- viewBox="0.00 0.00 133.00 95.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 132.50 95.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 91)">
 <title>include/core/mir/optional_value.h</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-91 129,-91 129,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-91 128.5,-91 128.5,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<polygon fill="#bfbfbf" stroke="black" points="3,-56.5 3,-86.5 125,-86.5 125,-56.5 3,-56.5"/>
-<text text-anchor="start" x="11" y="-74.5" font-family="Arial" font-size="10.00">include/core/mir/optional</text>
-<text text-anchor="middle" x="64" y="-63.5" font-family="Arial" font-size="10.00">_value.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="2.5,-56.5 2.5,-86.5 124.5,-86.5 124.5,-56.5 2.5,-56.5"/>
+<text text-anchor="start" x="10.5" y="-74.5" font-family="Arial" font-size="10.00">include/core/mir/optional</text>
+<text text-anchor="middle" x="63.5" y="-63.5" font-family="Arial" font-size="10.00">_value.h</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="fatal_8h.html" target="_top" xlink:title="mir/fatal.h">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 60,-19.5 60,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="30" y="-7.5" font-family="Arial" font-size="10.00">mir/fatal.h</text>
+<polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 59,-19.5 59,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="29.5" y="-7.5" font-family="Arial" font-size="10.00">mir/fatal.h</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M55.9425,-56.3993C51.1547,-48.0207 45.0439,-37.3269 39.9559,-28.4229"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="42.9476,-26.6037 34.9473,-19.6578 36.8699,-30.0767 42.9476,-26.6037"/>
+<path fill="none" stroke="midnightblue" d="M55.4425,-56.3993C50.6547,-48.0207 44.5439,-37.3269 39.4559,-28.4229"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="42.4476,-26.6037 34.4473,-19.6578 36.3699,-30.0767 42.4476,-26.6037"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="78,-0.5 78,-19.5 118,-19.5 118,-0.5 78,-0.5"/>
-<text text-anchor="middle" x="98" y="-7.5" font-family="Arial" font-size="10.00">utility</text>
+<polygon fill="white" stroke="#bfbfbf" points="77.5,-0.5 77.5,-19.5 117.5,-19.5 117.5,-0.5 77.5,-0.5"/>
+<text text-anchor="middle" x="97.5" y="-7.5" font-family="Arial" font-size="10.00">utility</text>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M72.0575,-56.3993C76.8453,-48.0207 82.9561,-37.3269 88.0441,-28.4229"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="91.1301,-30.0767 93.0527,-19.6578 85.0524,-26.6037 91.1301,-30.0767"/>
+<path fill="none" stroke="midnightblue" d="M71.5575,-56.3993C76.3453,-48.0207 82.4561,-37.3269 87.5441,-28.4229"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="90.6301,-30.0767 92.5527,-19.6578 84.5524,-26.6037 90.6301,-30.0767"/>
 </g>
 </g>
 </svg>

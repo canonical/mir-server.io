@@ -18,9 +18,9 @@
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classmir__test__framework_1_1_declarative_placement_window_manager_policy.html" target="_top" xlink:title="DeclarativePlacementWindowManagerPolicy is a test utility server component for specifying a static li...">
-<polygon fill="white" stroke="black" points="6,-0.5 6,-41.5 158,-41.5 158,-0.5 6,-0.5"/>
-<text text-anchor="start" x="14" y="-29.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
-<text text-anchor="start" x="14" y="-18.5" font-family="Arial" font-size="10.00">::DeclarativePlacementWindow</text>
+<polygon fill="white" stroke="black" points="6.5,-0.5 6.5,-41.5 157.5,-41.5 157.5,-0.5 6.5,-0.5"/>
+<text text-anchor="start" x="14.5" y="-29.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
+<text text-anchor="start" x="14.5" y="-18.5" font-family="Arial" font-size="10.00">::DeclarativePlacementWindow</text>
 <text text-anchor="middle" x="82" y="-7.5" font-family="Arial" font-size="10.00">ManagerPolicy</text>
 </a>
 </g>

@@ -68,42 +68,42 @@ $(function() {
 <p>The way component reports are handled on the server can be configured using either command-line options or environment variables. The environment variables are prefixed with <code>MIR_SERVER_</code> and contain underscores ('_') instead of dashes ('-'). The available component reports and handlers for the server are:</p>
 <table class="doxtable">
 <tr>
-<th>Report </th><th>Handlers  </th></tr>
+<th>Environment variable </th><th>Command line option </th><th>Handlers  </th></tr>
 <tr>
-<td>connector-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_CONNECTOR_REPORT </td><td>&ndash;connector-report </td><td>log,lttng </td></tr>
 <tr>
-<td>compositor-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_COMPOSITOR_REPORT </td><td>&ndash;compositor-report </td><td>log,lttng </td></tr>
 <tr>
-<td>display-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_DISPLAY_REPORT </td><td>&ndash;display-report </td><td>log,lttng </td></tr>
 <tr>
-<td>input-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_INPUT_REPORT </td><td>&ndash;input-report </td><td>log,lttng </td></tr>
 <tr>
-<td>legacy-input-report </td><td>log </td></tr>
+<td>MIR_SERVER_LEGACY_INPUT_REPORT </td><td>&ndash;legacy-input-report </td><td>log </td></tr>
 <tr>
-<td>seat-report </td><td>log </td></tr>
+<td>MIR_SERVER_SEAT_REPORT </td><td>&ndash;seat-report </td><td>log </td></tr>
 <tr>
-<td>msg-processor-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_MSG_PROCESSOR_REPORT </td><td>&ndash;msg-processor-report </td><td>log,lttng </td></tr>
 <tr>
-<td>session-mediator-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_SESSION_MEDIATOR_REPORT </td><td>&ndash;session-mediator-report </td><td>log,lttng </td></tr>
 <tr>
-<td>scene-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_SCENE_REPORT </td><td>&ndash;scene-report </td><td>log,lttng </td></tr>
 <tr>
-<td>shared-library-prober-report </td><td>log,lttng </td></tr>
+<td>MIR_SERVER_SHARED_LIBRARY_PROBER_REPORT </td><td>&ndash;shared-library-prober-report </td><td>log,lttng </td></tr>
 </table>
 <p>For example, to enable the LTTng input report, one could either use the <code>--input-report=lttng</code> command-line option to the server, or set the <code>MIR_SERVER_INPUT_REPORT=lttng</code> environment variable.</p>
 <h2>Client reports </h2>
-<p>Client side reports can be configured only using environment variables. The environment variables are prefixed with <code>MIR_CLIENT_</code> and contain only underscores. The available reports and handlers for the client are:</p>
+<p>Client side reports can be configured only using environment variables. The environment variables are prefixed with <code>MIR_CLIENT_</code>. The available reports and handlers for the client are:</p>
 <table class="doxtable">
 <tr>
-<th>Report </th><th>Handlers  </th></tr>
+<th>Environment variable </th><th>Handlers  </th></tr>
 <tr>
-<td>rpc-report </td><td>log,lttng </td></tr>
+<td>MIR_CLIENT_RPC_REPORT </td><td>log,lttng </td></tr>
 <tr>
-<td>input-receiver-report </td><td>log,lttng </td></tr>
+<td>MIR_CLIENT_INPUT_RECEIVER_REPORT </td><td>log,lttng </td></tr>
 <tr>
-<td>shared-library-prober-report </td><td>log,lttng </td></tr>
+<td>MIR_CLIENT_SHARED_LIBRARY_PROBER_REPORT </td><td>log,lttng </td></tr>
 <tr>
-<td>perf-report </td><td>log,lttng </td></tr>
+<td>MIR_CLIENT_PERF_REPORT </td><td>log,lttng </td></tr>
 </table>
 <p>For example, to enable the logging RPC report, one should set the <code>MIR_CLIENT_RPC_REPORT=log</code> environment variable.</p>
 <h2>LTTng support </h2>
@@ -118,7 +118,7 @@ $ babeltrace /tmp/mirsession/&lt;trace-subdir&gt;
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on wto, 21 lis 2017, 09:05:28 UTC
+Generated on Tue 28 Nov 14:36:47 UTC 2017
 </p>
 </body>
 </html>

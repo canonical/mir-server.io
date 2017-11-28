@@ -11,50 +11,50 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-133 277,-133 277,4 -4,4"/>
 <!-- Node46 -->
 <g id="node1" class="node"><title>Node46</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-55 0,-74 74,-74 74,-55 0,-55"/>
-<text text-anchor="middle" x="37" y="-62" font-family="Arial" font-size="10.00">ShellWrapper</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-55 0,-74 75,-74 75,-55 0,-55"/>
+<text text-anchor="middle" x="37.5" y="-62" font-family="Arial" font-size="10.00">ShellWrapper</text>
 </g>
 <!-- Node0 -->
 <g id="node2" class="node"><title>Node0</title>
 <g id="a_node2"><a xlink:href="structmir_1_1test_1_1doubles_1_1_wrap_shell_to_track_latest_surface.html" target="_top" xlink:title="mir::test::doubles\l::WrapShellToTrackLatestSurface">
-<polygon fill="white" stroke="black" points="110,-98.5 110,-128.5 273,-128.5 273,-98.5 110,-98.5"/>
-<text text-anchor="start" x="118" y="-116.5" font-family="Arial" font-size="10.00">mir::test::doubles</text>
-<text text-anchor="middle" x="191.5" y="-105.5" font-family="Arial" font-size="10.00">::WrapShellToTrackLatestSurface</text>
+<polygon fill="white" stroke="black" points="111,-98.5 111,-128.5 273,-128.5 273,-98.5 111,-98.5"/>
+<text text-anchor="start" x="119" y="-116.5" font-family="Arial" font-size="10.00">mir::test::doubles</text>
+<text text-anchor="middle" x="192" y="-105.5" font-family="Arial" font-size="10.00">::WrapShellToTrackLatestSurface</text>
 </a>
 </g>
 </g>
 <!-- Node46&#45;&gt;Node0 -->
 <g id="edge1" class="edge"><title>Node46&#45;&gt;Node0</title>
-<path fill="none" stroke="midnightblue" d="M74.2225,-77.4294C85.6349,-81.4082 98.3118,-85.7305 110,-89.5 119.299,-92.4991 129.245,-95.5722 138.862,-98.4753"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="75.1704,-74.0529 64.5755,-74.0439 72.8523,-80.6579 75.1704,-74.0529"/>
+<path fill="none" stroke="midnightblue" d="M74.9836,-77.404C86.4757,-81.3816 99.2385,-85.7097 111,-89.5 120.247,-92.48 130.133,-95.5441 139.691,-98.4441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="75.8636,-74.0044 65.2687,-74.0211 73.5615,-80.615 75.8636,-74.0044"/>
 </g>
 <!-- Node48 -->
 <g id="node3" class="node"><title>Node48</title>
 <g id="a_node3"><a xlink:href="structmir__test__framework_1_1_observant_shell.html" target="_top" xlink:title="mir_test_framework\l::ObservantShell">
-<polygon fill="white" stroke="black" points="140.5,-49.5 140.5,-79.5 242.5,-79.5 242.5,-49.5 140.5,-49.5"/>
-<text text-anchor="start" x="148.5" y="-67.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
-<text text-anchor="middle" x="191.5" y="-56.5" font-family="Arial" font-size="10.00">::ObservantShell</text>
+<polygon fill="white" stroke="black" points="141.5,-49.5 141.5,-79.5 242.5,-79.5 242.5,-49.5 141.5,-49.5"/>
+<text text-anchor="start" x="149.5" y="-67.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
+<text text-anchor="middle" x="192" y="-56.5" font-family="Arial" font-size="10.00">::ObservantShell</text>
 </a>
 </g>
 </g>
 <!-- Node46&#45;&gt;Node48 -->
 <g id="edge2" class="edge"><title>Node46&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M84.2659,-64.5C102.032,-64.5 122.382,-64.5 140.485,-64.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="84.1404,-61.0001 74.1404,-64.5 84.1403,-68.0001 84.1404,-61.0001"/>
+<path fill="none" stroke="midnightblue" d="M85.151,-64.5C102.904,-64.5 123.19,-64.5 141.222,-64.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="85.0276,-61.0001 75.0275,-64.5 85.0275,-68.0001 85.0276,-61.0001"/>
 </g>
 <!-- Node49 -->
 <g id="node4" class="node"><title>Node49</title>
 <g id="a_node4"><a xlink:href="structmir__test__framework_1_1_placement_applying_shell.html" target="_top" xlink:title="mir_test_framework\l::PlacementApplyingShell">
-<polygon fill="white" stroke="black" points="127.5,-0.5 127.5,-30.5 255.5,-30.5 255.5,-0.5 127.5,-0.5"/>
-<text text-anchor="start" x="135.5" y="-18.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
-<text text-anchor="middle" x="191.5" y="-7.5" font-family="Arial" font-size="10.00">::PlacementApplyingShell</text>
+<polygon fill="white" stroke="black" points="128,-0.5 128,-30.5 256,-30.5 256,-0.5 128,-0.5"/>
+<text text-anchor="start" x="136" y="-18.5" font-family="Arial" font-size="10.00">mir_test_framework</text>
+<text text-anchor="middle" x="192" y="-7.5" font-family="Arial" font-size="10.00">::PlacementApplyingShell</text>
 </a>
 </g>
 </g>
 <!-- Node46&#45;&gt;Node49 -->
 <g id="edge3" class="edge"><title>Node46&#45;&gt;Node49</title>
-<path fill="none" stroke="midnightblue" d="M76.0482,-51.6544C86.9931,-48.0034 98.9569,-44.0549 110,-40.5 120.169,-37.2265 131.084,-33.7871 141.493,-30.5425"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="74.7111,-48.411 66.3388,-54.9038 76.9327,-55.0491 74.7111,-48.411"/>
+<path fill="none" stroke="midnightblue" d="M76.8216,-51.6809C87.8426,-48.0304 99.8873,-44.0754 111,-40.5 121.112,-37.2466 131.962,-33.8158 142.307,-30.5733"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="75.4312,-48.4546 67.0441,-54.9282 77.6375,-55.0978 75.4312,-48.4546"/>
 </g>
 </g>
 </svg>

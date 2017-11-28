@@ -11,8 +11,8 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-169 276.5,-169 276.5,4 -4,4"/>
 <!-- Node5 -->
 <g id="node1" class="node"><title>Node5</title>
-<polygon fill="#bfbfbf" stroke="black" points="94.5,-134.5 94.5,-164.5 198.5,-164.5 198.5,-134.5 94.5,-134.5"/>
-<text text-anchor="start" x="102.5" y="-152.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
+<polygon fill="#bfbfbf" stroke="black" points="94,-134.5 94,-164.5 199,-164.5 199,-134.5 94,-134.5"/>
+<text text-anchor="start" x="102" y="-152.5" font-family="Arial" font-size="10.00">include/miral/miral</text>
 <text text-anchor="middle" x="146.5" y="-141.5" font-family="Arial" font-size="10.00">/workspace_policy.h</text>
 </g>
 <!-- Node6 -->

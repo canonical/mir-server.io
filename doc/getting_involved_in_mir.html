@@ -70,9 +70,8 @@ $(function() {
 <h2>Getting Mir source and dependencies</h2>
 <h3>On Ubuntu</h3>
 <p>You’ll need a few development tools installed: </p><pre class="fragment">$ sudo apt install devscripts equivs git
-</pre><p>With these installed you can checkout Mir and get the remaining dependencies: </p><pre class="fragment">$ git clone https://github.com/MirServer/mir.git
+</pre><p>With these installed you can checkout Mir and get the remaining dependencies: </p><pre class="fragment">$ git clone --recursive https://github.com/MirServer/mir.git
 $ cd mir
-$ git submodule update --init --recursive
 $ mk-build-deps -i -s sudo
 </pre><h3>On Fedora</h3>
 <p>You’ll need some development tools and packages installed: </p><pre class="fragment">$ sudo dnf install git cmake gcc-c++ boost-devel mesa-libEGL-devel \
@@ -82,9 +81,8 @@ glib2-devel wayland-devel mesa-libgbm-devel libepoxy-devel nettle-devel \
 libinput-devel libxml++-devel libuuid-devel libxkbcommon-devel \
 freetype-devel lttng-ust-devel libatomic qterminal qt5-qtwayland \
 python3-pillow libevdev-devel umockdev-devel gtest-devel gmock-devel
-</pre><p>With these installed you can checkout Mir: </p><pre class="fragment">$ git clone https://github.com/MirServer/mir.git
+</pre><p>With these installed you can checkout Mir: </p><pre class="fragment">$ git clone --recursive https://github.com/MirServer/mir.git
 $ cd mir
-$ git submodule update --init --recursive
 </pre><h2>Building Mir </h2>
 <pre class="fragment">$ mkdir build
 $ cd  build
@@ -118,7 +116,7 @@ $ make
 <hr>
 <p align="center">Copyright &copy; 2012-2017
  Canonical Ltd. <br />
-Generated on wto, 21 lis 2017, 09:05:28 UTC
+Generated on Tue 28 Nov 14:36:47 UTC 2017
 </p>
 </body>
 </html>
