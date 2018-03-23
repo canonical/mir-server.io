@@ -14,7 +14,7 @@ var searchData=
   ['buffer_5fstream_5fid_2eh',['buffer_stream_id.h',['../buffer__stream__id_8h.html',1,'']]],
   ['buffer_5fusage',['buffer_usage',['../struct_mir_surface_parameters.html#adc59865ffe35860263626868afe27fc8',1,'MirSurfaceParameters::buffer_usage()'],['../client__types_8h.html#a41da9241a9aae61e3638db07c1156d08',1,'buffer_usage():&#160;client_types.h']]],
   ['buffers_5fready_5ffor_5fcompositor',['buffers_ready_for_compositor',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#a1960c70e88fe43a6982911f5f9a9cce4',1,'mir::test::doubles::StubSurface']]],
-  ['bufferstreamid',['BufferStreamId',['../namespacemir_1_1frontend.html#a9bf5c7e98d1de2ef142713bbe0c93a18',1,'mir::frontend::BufferStreamId()'],['../namespacemiral.html#a561c6c31034dbec29b4b94573ec3b529',1,'miral::BufferStreamId()']]],
+  ['bufferstreamid',['BufferStreamId',['../namespacemiral.html#a561c6c31034dbec29b4b94573ec3b529',1,'miral::BufferStreamId()'],['../namespacemir_1_1frontend.html#a9bf5c7e98d1de2ef142713bbe0c93a18',1,'mir::frontend::BufferStreamId()']]],
   ['bufferusage',['BufferUsage',['../classmiral_1_1_window_specification.html#ad7356975bcf502f62638360403647e2d',1,'miral::WindowSpecification']]],
   ['build',['build',['../structmiral_1_1_window_manager_option.html#a600c74eaacc81cc52b68f82d2d23f314',1,'miral::WindowManagerOption']]],
   ['building_20the_20mir_20source_20for_20arm',['Building the Mir source for ARM',['../building_source_for_arm.html',1,'']]],
@@ -24,5 +24,5 @@ var searchData=
   ['button_5fevent_5fmatches',['button_event_matches',['../namespacemir_1_1test.html#ab858b13a376510f90d54e06de2efc806',1,'mir::test']]],
   ['buttonparameters',['ButtonParameters',['../classmir_1_1input_1_1synthesis_1_1_button_parameters.html',1,'mir::input::synthesis::ButtonParameters'],['../classmir_1_1input_1_1synthesis_1_1_button_parameters.html#a9c4eaa6c4e5be445fc94865efcde82e5',1,'mir::input::synthesis::ButtonParameters::ButtonParameters()']]],
   ['buttons',['buttons',['../structmir_1_1events_1_1_input_device_state.html#a1026c9909653c01541c3925be32bf3df',1,'mir::events::InputDeviceState']]],
-  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../namespacepng2header.html#ac4379b2845cc5f48fc836e96f9219349',1,'png2header']]]
+  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../mir__peace__wall_8h.html#a6682c6bd965e44d2880453dd6ea872ce',1,'mir_peace_wall.h']]]
 ];

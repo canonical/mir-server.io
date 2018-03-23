@@ -36,6 +36,7 @@ var searchData=
   ['mirpowermode',['MirPowerMode',['../group__mir__toolkit.html#ga3fed6fbca5235d87fb30cb662a7497cd',1,'common.h']]],
   ['mirpresentmode',['MirPresentMode',['../group__mir__toolkit.html#gaf255f9b288b6cdeaf2d36c7f17054598',1,'client_types.h']]],
   ['mirpromptsessionstate',['MirPromptSessionState',['../group__mir__toolkit.html#gadf141a24bee0d5dcfd3d4d42c5793896',1,'common.h']]],
+  ['mirresizeedge',['MirResizeEdge',['../group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b',1,'common.h']]],
   ['mirscreencastresult',['MirScreencastResult',['../group__mir__toolkit.html#ga81a069da2906efb759b950170d1b6382',1,'mir_screencast.h']]],
   ['mirshellchrome',['MirShellChrome',['../group__mir__toolkit.html#ga5b17fd564b3fee444ce720f9386482c4',1,'common.h']]],
   ['mirsubpixelarrangement',['MirSubpixelArrangement',['../group__mir__toolkit.html#gae3151d665951e96c1e4874b6d45ba0fd',1,'common.h']]],

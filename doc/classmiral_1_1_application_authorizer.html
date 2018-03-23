@@ -72,12 +72,6 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="application__authorizer_8h_source.html">application_authorizer.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for miral::ApplicationAuthorizer:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmiral_1_1_application_authorizer__inherit__graph.svg" width="199" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -99,6 +93,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f3f2f722f53247f2fbad090fe7906d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8965d4f94db9deb82c24caacb39185"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_application_authorizer.html#a7d8965d4f94db9deb82c24caacb39185">prompt_session_is_allowed</a> (<a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;creds)=0</td></tr>
 <tr class="separator:a7d8965d4f94db9deb82c24caacb39185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2569d6105e6698e18d0cca850492fef"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_application_authorizer.html#ac2569d6105e6698e18d0cca850492fef">configure_input_is_allowed</a> (<a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;creds)=0</td></tr>
+<tr class="separator:ac2569d6105e6698e18d0cca850492fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efaabb1e9a91633606819309cf0c042"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_application_authorizer.html#a9efaabb1e9a91633606819309cf0c042">set_base_input_configuration_is_allowed</a> (<a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;creds)=0</td></tr>
+<tr class="separator:a9efaabb1e9a91633606819309cf0c042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7ef2e3b3e34a60ea16fe860575580381"></a>
@@ -189,6 +187,32 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual bool miral::ApplicationAuthorizer::configure_display_is_allowed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;&#160;</td>
+          <td class="paramname"><em>creds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2569d6105e6698e18d0cca850492fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2569d6105e6698e18d0cca850492fef">&#9670;&nbsp;</a></span>configure_input_is_allowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool miral::ApplicationAuthorizer::configure_input_is_allowed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;&#160;</td>
           <td class="paramname"><em>creds</em></td><td>)</td>
@@ -334,14 +358,40 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9efaabb1e9a91633606819309cf0c042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9efaabb1e9a91633606819309cf0c042">&#9670;&nbsp;</a></span>set_base_input_configuration_is_allowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool miral::ApplicationAuthorizer::set_base_input_configuration_is_allowed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_application_credentials.html">ApplicationCredentials</a> const &amp;&#160;</td>
+          <td class="paramname"><em>creds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/miral/miral/<a class="el" href="application__authorizer_8h_source.html">application_authorizer.h</a></li>
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

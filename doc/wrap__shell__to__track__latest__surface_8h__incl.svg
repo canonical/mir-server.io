@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-102 250,-102 250,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<polygon fill="#bfbfbf" stroke="black" points="69,-56.5 69,-97.5 187,-97.5 187,-56.5 69,-56.5"/>
-<text text-anchor="start" x="77" y="-85.5" font-family="Arial" font-size="10.00">include/test/mir/test</text>
-<text text-anchor="start" x="77" y="-74.5" font-family="Arial" font-size="10.00">/doubles/wrap_shell_to</text>
+<polygon fill="#bfbfbf" stroke="black" points="68.5,-56.5 68.5,-97.5 187.5,-97.5 187.5,-56.5 68.5,-56.5"/>
+<text text-anchor="start" x="76.5" y="-85.5" font-family="Arial" font-size="10.00">include/test/mir/test</text>
+<text text-anchor="start" x="76.5" y="-74.5" font-family="Arial" font-size="10.00">/doubles/wrap_shell_to</text>
 <text text-anchor="middle" x="128" y="-63.5" font-family="Arial" font-size="10.00">_track_latest_surface.h</text>
 </g>
 <!-- Node1 -->

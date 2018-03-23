@@ -63,39 +63,39 @@ $(function() {
 <div class="title">Mir hacking guide </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Coding Mir </h2>
-<p>There's a coding style guide in the guides subdirectory. To build it into an html file: </p><pre class="fragment">$ make guides
+<div class="textblock"><h2>Coding <em>Mir</em> </h2>
+<p>There's a *__coding style guide__* in the guides subdirectory. To build it into an <em>html</em> file: </p><pre class="fragment">$ make guides
 </pre><p>(Or if you're reading the web version <a href="cppguide/index.html">here</a>).</p>
 <h2>Code structure </h2>
-<p>Code structure: include</p>
-<p>The include subdirectory contains header files "published" by corresponding parts of the system. For example, include/mir/option/option.h provides a system-wide interface for accessing runtime options published by the options component.</p>
-<p>In many cases, there will be interfaces defined that are used by the component and implemented elsewhere. E.g. the compositor uses RenderView which is implemented by the surfaces component.</p>
-<p>Files under the include directory should contain minimal implementation detail: interfaces should not expose platform or implementation technology types etc. (And as public methods are normally implementations of interfaces they do not use these types.)</p>
-<p>Code structure: src</p>
-<p>This comprises the implementation of Mir. Header files for use within the component should be put here. The only headers from the source tree that should be included are ones from the current component (ones that do not require a path component).</p>
-<p>Code structure: test</p>
-<p>This contains unit, integration and acceptance tests written using gtest/gmock. Tests largely depend upon the public interfaces of components - but tests of units within a component will include headers from within the source tree.</p>
+<p>*__Code structure: include__*</p>
+<p>The include subdirectory contains header files "published" by corresponding parts of the system. For example, <em>include/mir/option/option.h</em> provides a system-wide interface for accessing runtime options published by the options component.</p>
+<p>In many cases, there will be interfaces defined that are used by the component and implemented elsewhere. <em>E.g. the compositor uses RenderView which is implemented by the surfaces component.</em></p>
+<p>Files under the include directory should contain minimal implementation detail: interfaces should not expose platform or implementation technology types <em>etc.</em> (And as public methods are normally implementations of interfaces they do not use these types.)</p>
+<p>*__Code structure: src__*</p>
+<p>This comprises the implementation of <em>Mir</em>. Header files for use within the component should be put here. The only headers from the source tree that should be included are ones from the current component (ones that do not require a path component).</p>
+<p>*__Code structure: test__*</p>
+<p>This contains unit, integration and acceptance tests written using <em>gtest/gmock</em>. Tests largely depend upon the public interfaces of components - but tests of units within a component will include headers from within the source tree.</p>
 <h2>Error handling strategy </h2>
-<p>If a function cannot meet its post-conditions it throws an exception and meets AT LEAST the basic exception safety guarantee. It is a good idea to document the strong and no-throw guarantees. <a href="http://www.boost.org/community/exception_safety.html">http://www.boost.org/community/exception_safety.html</a></p>
-<p>A function is not required to check its preconditions (there should be no tests that preconditions failures are reported). This means that preconditions may be verified using the "assert" macro - which may or may not report problems (depending upon the NDEBUG define).</p>
+<p>If a function cannot meet its post-conditions it throws an exception and meets <b>AT LEAST</b> the basic exception safety guarantee. It is a good idea to document the strong and no-throw guarantees._http://www.boost.org/community/exception_safety.html_</p>
+<p>A function is not required to check its preconditions (there should be no tests that preconditions failures are reported). This means that preconditions may be verified using the "*assert"* macro - which may or may not report problems (depending upon the <b>NDEBUG</b> define).</p>
 <h2>Implicit rules </h2>
-<p>There are a lot of pointers (mostly smart, but a few raw ones) passed around in the code. We have adopted the general rule that pointers are expected to refer to valid objects. This avoids repetitive tests for validity. Unless otherwise documented functions and constructors that take pointer parameters have validity of the referenced objects as a precondition. Exceptions to the rule must be of limited scope and documented.</p>
-<h2>Running Mir </h2>
-<p>There are some brief guides describing how to run the Mir binaries once you have them built. You might think it's obvious but there are some important things you need to know to get it working, and also to prevent your existing X server from dying at the same time.</p>
+<p>There are a lot of <b>pointers</b> (mostly smart, but a few raw ones) passed around in the code. We have adopted the general rule that pointers are expected to refer to valid objects. This avoids repetitive tests for validity. Unless otherwise documented functions and constructors that take pointer parameters have validity of the referenced objects as a precondition. Exceptions to the rule must be of limited scope and documented.</p>
+<h2>Running <em>Mir</em> </h2>
+<p>There are some brief guides describing how to run the <em>Mir binaries</em> once you have them built. You might think it's obvious but there are some important things you need to know to get it working, and also to prevent your existing <em>X server</em> from dying at the same time.</p>
 <ul>
-<li><a class="el" href="getting_and_using_mir.html">Getting and Using Mir</a></li>
+<li>*<a class="el" href="getting_and_using_mir.html">Getting and Using Mir</a>*</li>
 </ul>
-<p>You can configure Mir to provide runtime information helpful for debugging by enabling component reports:</p>
+<p>You can configure <em>Mir</em> to provide runtime information helpful for debugging by enabling component reports:</p>
 <ul>
-<li><a class="el" href="component_reports.html">Mir component reports</a></li>
+<li>*<a class="el" href="component_reports.html">Mir component reports</a>*</li>
 </ul>
 <h2>Documentation </h2>
-<p>There are design notes and an architecture diagram (.dia) in the design subdirectory. </p>
+<p>There are <em>design notes</em> and an <em>architecture diagram</em> (.dia) in the design subdirectory. </p>
 </div></div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

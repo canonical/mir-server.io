@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lambda_5fas_5ffunction',['lambda_as_function',['../namespacemiral.html#a9885588b584c829b1ccea01b6d7c7131',1,'miral']]],
   ['last_5fframe_5fon',['last_frame_on',['../classmir_1_1test_1_1doubles_1_1_null_display.html#a357902287f83df3a599c572971946396',1,'mir::test::doubles::NullDisplay']]],
   ['launch',['launch',['../classmiral_1_1_internal_client_launcher.html#ad3534b9c3019d4512d3d566ed97ad8b8',1,'miral::InternalClientLauncher::launch(std::string const &amp;name, std::function&lt; void(mir::client::Connection connection)&gt; const &amp;client_code, std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt; const &amp;connect_notification) const'],['../classmiral_1_1_internal_client_launcher.html#a1c154d30086ca108beedcaf1a98a0802',1,'miral::InternalClientLauncher::launch(std::string const &amp;name, ClientObject &amp;client_object) const']]],
   ['left',['left',['../structmir_1_1geometry_1_1_rectangle.html#a50b406df3a68a7caa3ba019a30b6b50c',1,'mir::geometry::Rectangle']]],

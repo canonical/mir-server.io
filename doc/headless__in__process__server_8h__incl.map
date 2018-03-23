@@ -1,7 +1,7 @@
 <map id="include/test/mir_test_framework/headless_in_process_server.h" name="include/test/mir_test_framework/headless_in_process_server.h">
-<area shape="rect" id="node2" href="$headless__test_8h.html" title="mir_test_framework\l/headless_test.h" alt="" coords="549,109,683,151"/>
-<area shape="rect" id="node3" href="$async__server__runner_8h.html" title="mir_test_framework\l/async_server_runner.h" alt="" coords="463,199,619,240"/>
-<area shape="rect" id="node4" href="$temporary__environment__value_8h.html" title="mir_test_framework\l/temporary_environment\l_value.h" alt="" coords="5,288,165,344"/>
-<area shape="rect" id="node6" href="$auto__unblock__thread_8h.html" title="mir/test/auto_unblock\l_thread.h" alt="" coords="240,295,387,337"/>
-<area shape="rect" id="node10" href="$set__window__management__policy_8h.html" title="miral/set_window_management\l_policy.h" alt="" coords="525,295,728,337"/>
+<area shape="rect" id="node2" href="$headless__test_8h.html" title="mir_test_framework\l/headless_test.h" alt="" coords="551,109,687,151"/>
+<area shape="rect" id="node3" href="$async__server__runner_8h.html" title="mir_test_framework\l/async_server_runner.h" alt="" coords="465,199,623,240"/>
+<area shape="rect" id="node4" href="$temporary__environment__value_8h.html" title="mir_test_framework\l/temporary_environment\l_value.h" alt="" coords="5,288,168,344"/>
+<area shape="rect" id="node6" href="$auto__unblock__thread_8h.html" title="mir/test/auto_unblock\l_thread.h" alt="" coords="243,295,389,337"/>
+<area shape="rect" id="node10" href="$set__window__management__policy_8h.html" title="miral/set_window_management\l_policy.h" alt="" coords="528,295,731,337"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="include/test/mir/test/doubles/null_display.h" name="include/test/mir/test/doubles/null_display.h">
-<area shape="rect" id="node4" href="$context__source_8h.html" title="mir/renderer/gl/context\l_source.h" alt="" coords="528,95,680,136"/>
-<area shape="rect" id="node6" href="$null__gl__context_8h.html" title="mir/test/doubles/null\l_gl_context.h" alt="" coords="704,95,843,136"/>
-<area shape="rect" id="node8" href="$null__display__configuration_8h.html" title="mir/test/doubles/null\l_display_configuration.h" alt="" coords="867,95,1029,136"/>
-<area shape="rect" id="node10" href="$null__display__sync__group_8h.html" title="mir/test/doubles/null\l_display_sync_group.h" alt="" coords="195,95,349,136"/>
-<area shape="rect" id="node7" href="$context_8h.html" title="mir/renderer/gl/context.h" alt="" coords="692,191,855,218"/>
+<area shape="rect" id="node4" href="$context__source_8h.html" title="mir/renderer/gl/context\l_source.h" alt="" coords="529,95,681,136"/>
+<area shape="rect" id="node6" href="$null__gl__context_8h.html" title="mir/test/doubles/null\l_gl_context.h" alt="" coords="705,95,844,136"/>
+<area shape="rect" id="node8" href="$null__display__configuration_8h.html" title="mir/test/doubles/null\l_display_configuration.h" alt="" coords="868,95,1031,136"/>
+<area shape="rect" id="node10" href="$null__display__sync__group_8h.html" title="mir/test/doubles/null\l_display_sync_group.h" alt="" coords="193,95,348,136"/>
+<area shape="rect" id="node7" href="$context_8h.html" title="mir/renderer/gl/context.h" alt="" coords="693,191,856,218"/>
 <area shape="rect" id="node11" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="81,370,218,397"/>
 <area shape="rect" id="node15" href="$null__display__buffer_8h.html" title="mir/test/doubles/null\l_display_buffer.h" alt="" coords="421,273,560,315"/>
 <area shape="rect" id="node17" href="$stub__display__buffer_8h.html" title="mir/test/doubles/stub\l_display_buffer.h" alt="" coords="235,184,379,225"/>

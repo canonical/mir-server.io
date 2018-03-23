@@ -16,7 +16,7 @@
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<polygon fill="white" stroke="#bfbfbf" points="1.5,-56.5 1.5,-75.5 120.5,-75.5 120.5,-56.5 1.5,-56.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="0.5,-56.5 0.5,-75.5 121.5,-75.5 121.5,-56.5 0.5,-56.5"/>
 <text text-anchor="middle" x="61" y="-63.5" font-family="Arial" font-size="10.00">std::default_delete&lt; T &gt;</text>
 </g>
 <!-- Node1&#45;&gt;Node0 -->

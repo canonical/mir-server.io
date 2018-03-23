@@ -13,6 +13,5 @@ var searchData=
   ['buffers_5fready_5ffor_5fcompositor',['buffers_ready_for_compositor',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#a1960c70e88fe43a6982911f5f9a9cce4',1,'mir::test::doubles::StubSurface']]],
   ['button_5fdown_5fscroll_5fbutton',['button_down_scroll_button',['../struct_mir_touchpad_config.html#a4bdb8e2d5b148b54d862ac7ce8524c72',1,'MirTouchpadConfig::button_down_scroll_button() const'],['../struct_mir_touchpad_config.html#ad25b12f1fbc135a47fdc26a88baaa70d',1,'MirTouchpadConfig::button_down_scroll_button(int)']]],
   ['button_5fevent_5fmatches',['button_event_matches',['../namespacemir_1_1test.html#ab858b13a376510f90d54e06de2efc806',1,'mir::test']]],
-  ['buttonparameters',['ButtonParameters',['../classmir_1_1input_1_1synthesis_1_1_button_parameters.html#a9c4eaa6c4e5be445fc94865efcde82e5',1,'mir::input::synthesis::ButtonParameters']]],
-  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../namespacepng2header.html#ac4379b2845cc5f48fc836e96f9219349',1,'png2header']]]
+  ['buttonparameters',['ButtonParameters',['../classmir_1_1input_1_1synthesis_1_1_button_parameters.html#a9c4eaa6c4e5be445fc94865efcde82e5',1,'mir::input::synthesis::ButtonParameters']]]
 ];

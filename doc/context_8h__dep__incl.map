@@ -1,6 +1,6 @@
 <map id="include/renderers/gl/mir/renderer/gl/context.h" name="include/renderers/gl/mir/renderer/gl/context.h">
-<area shape="rect" id="node2" href="$null__gl__context_8h.html" title="include/test/mir/test\l/doubles/null_gl_context.h" alt="" coords="89,95,262,136"/>
-<area shape="rect" id="node3" href="$null__display_8h.html" title="include/test/mir/test\l/doubles/null_display.h" alt="" coords="98,184,253,225"/>
+<area shape="rect" id="node2" href="$null__gl__context_8h.html" title="include/test/mir/test\l/doubles/null_gl_context.h" alt="" coords="90,95,263,136"/>
+<area shape="rect" id="node3" href="$null__display_8h.html" title="include/test/mir/test\l/doubles/null_display.h" alt="" coords="99,184,254,225"/>
 <area shape="rect" id="node4" href="$fake__display_8h.html" title="include/test/mir/test\l/doubles/fake_display.h" alt="" coords="5,273,164,315"/>
-<area shape="rect" id="node5" href="$null__platform_8h.html" title="include/test/mir/test\l/doubles/null_platform.h" alt="" coords="188,273,347,315"/>
+<area shape="rect" id="node5" href="$null__platform_8h.html" title="include/test/mir/test\l/doubles/null_platform.h" alt="" coords="189,273,349,315"/>
 </map>

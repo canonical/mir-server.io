@@ -17,7 +17,7 @@
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<polygon fill="white" stroke="#bfbfbf" points="44,-0.5 44,-19.5 102,-19.5 102,-0.5 44,-0.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="43.5,-0.5 43.5,-19.5 102.5,-19.5 102.5,-0.5 43.5,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Arial" font-size="10.00">functional</text>
 </g>
 <!-- Node0&#45;&gt;Node1 -->

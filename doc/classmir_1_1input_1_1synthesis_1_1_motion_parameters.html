@@ -82,6 +82,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9217603224d2081ed286312d36a3a09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b04e50396842853fc611429af02d241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html">MotionParameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#a0b04e50396842853fc611429af02d241">with_movement</a> (int <a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#a8df8c106f5168fd2e5bbc7ef70592288">rel_x</a>, int <a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#a1498eacf6809a857cea461aacb5dfbb3">rel_y</a>)</td></tr>
 <tr class="separator:a0b04e50396842853fc611429af02d241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab457eeb3c445615bfa22e025a976cd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html">MotionParameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#aab457eeb3c445615bfa22e025a976cd1">with_event_time</a> (std::chrono::nanoseconds time)</td></tr>
+<tr class="separator:aab457eeb3c445615bfa22e025a976cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -91,6 +93,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8df8c106f5168fd2e5bbc7ef70592288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1498eacf6809a857cea461aacb5dfbb3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#a1498eacf6809a857cea461aacb5dfbb3">rel_y</a></td></tr>
 <tr class="separator:a1498eacf6809a857cea461aacb5dfbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b905bf82ae23c1bd85018d26dbfe4e"><td class="memItemLeft" align="right" valign="top">std::experimental::optional&lt; std::chrono::nanoseconds &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html#ab0b905bf82ae23c1bd85018d26dbfe4e">event_time</a></td></tr>
+<tr class="separator:ab0b905bf82ae23c1bd85018d26dbfe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d37961024a3684882ac19d2979c734f"></a>
@@ -122,6 +126,24 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>device_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab457eeb3c445615bfa22e025a976cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab457eeb3c445615bfa22e025a976cd1">&#9670;&nbsp;</a></span>with_event_time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmir_1_1input_1_1synthesis_1_1_motion_parameters.html">MotionParameters</a>&amp; mir::input::synthesis::MotionParameters::with_event_time </td>
+          <td>(</td>
+          <td class="paramtype">std::chrono::nanoseconds&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -172,6 +194,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab0b905bf82ae23c1bd85018d26dbfe4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b905bf82ae23c1bd85018d26dbfe4e">&#9670;&nbsp;</a></span>event_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::experimental::optional&lt;std::chrono::nanoseconds&gt; mir::input::synthesis::MotionParameters::event_time</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8df8c106f5168fd2e5bbc7ef70592288"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8df8c106f5168fd2e5bbc7ef70592288">&#9670;&nbsp;</a></span>rel_x</h2>
 
@@ -205,9 +241,9 @@ Public Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

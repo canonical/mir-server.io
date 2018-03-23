@@ -1,5 +1,5 @@
 <map id="include/miral/miral/application_info.h" name="include/miral/miral/application_info.h">
 <area shape="rect" id="node2" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="5,95,193,136"/>
-<area shape="rect" id="node3" href="$floating__window__manager_8cpp.html" title="examples/miral&#45;shell\l/floating_window_manager.cpp" alt="" coords="217,95,416,136"/>
-<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title="examples/miral&#45;shell\l/tiling_window_manager.cpp" alt="" coords="441,95,625,136"/>
+<area shape="rect" id="node3" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="218,95,434,136"/>
+<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.cpp" alt="" coords="459,95,660,136"/>
 </map>

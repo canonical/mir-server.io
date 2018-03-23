@@ -1,7 +1,6 @@
 var searchData=
 [
   ['pack_5fbuffer',['pack_buffer',['../classmir_1_1test_1_1doubles_1_1_null_platform_ipc_operations.html#a1bbd086ad8c2fca3ed1ffc801459b0c5',1,'mir::test::doubles::NullPlatformIpcOperations']]],
-  ['paint',['paint',['../class_mir_egl_surface.html#a800ed73122130de3a04bef90d4397481',1,'MirEglSurface']]],
   ['paint_5ftitlebar_5ffor',['paint_titlebar_for',['../class_decoration_provider.html#a4ac04b7f25d5fc6f978d002f8ea346f8',1,'DecorationProvider']]],
   ['paired_5fcalls',['paired_calls',['../namespacemir_1_1raii.html#a460b9b5e5af08ca7fc22921ede0f5208',1,'mir::raii']]],
   ['pairedcalls',['PairedCalls',['../structmir_1_1raii_1_1_paired_calls.html#a35aca2312dd9dca326079a6869dc6546',1,'mir::raii::PairedCalls::PairedCalls(Creator &amp;&amp;creator, Deleter &amp;&amp;deleter)'],['../structmir_1_1raii_1_1_paired_calls.html#ad86bb4d102c845d8cfc6356a8489dc3a',1,'mir::raii::PairedCalls::PairedCalls(PairedCalls &amp;&amp;that)']]],
@@ -29,13 +28,11 @@ var searchData=
   ['power_5fmode',['power_mode',['../classmiral_1_1_output.html#af49997318a2bcd1f6eb83ceee0101812',1,'miral::Output']]],
   ['pre_5finit',['pre_init',['../namespacemiral.html#aca85bbb801308943981066cd4a6e9059',1,'miral']]],
   ['preferred_5forientation',['preferred_orientation',['../structmiral_1_1_window_info.html#af3791902a4548f3ba22e8d8871d1fcad',1,'miral::WindowInfo::preferred_orientation() const -&gt; MirOrientationMode'],['../structmiral_1_1_window_info.html#a356963d649350285c4c3e850b15feca8',1,'miral::WindowInfo::preferred_orientation(MirOrientationMode preferred_orientation)'],['../classmiral_1_1_window_specification.html#a3846fdf5869c4663bec2af142f4ab379',1,'miral::WindowSpecification::preferred_orientation() const -&gt; mir::optional_value&lt; MirOrientationMode &gt; const &amp;'],['../classmiral_1_1_window_specification.html#a288a77058ddb44b9d03f8c8d51aa112f',1,'miral::WindowSpecification::preferred_orientation() -&gt; mir::optional_value&lt; MirOrientationMode &gt; &amp;']]],
-  ['premultiply',['premultiply',['../namespacepng2header.html#a7284eae21fe89346869144c9886ac2c3',1,'png2header']]],
   ['preset_5fdisplay',['preset_display',['../classmir__test__framework_1_1_headless_test.html#a97c4d4778cdf146c9e5a601fee40d383',1,'mir_test_framework::HeadlessTest']]],
   ['primary_5fbuffer_5fstream',['primary_buffer_stream',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#ac505f59a206a82a8af90e11de13e5fdc',1,'mir::test::doubles::StubSurface']]],
   ['printto',['PrintTo',['../event__matchers_8h.html#a8c845f4ca45b390123b4d101bd2d6722',1,'PrintTo(MirEvent const &amp;event, std::ostream *os):&#160;event_matchers.h'],['../event__matchers_8h.html#ab6e4eff618ac702a553abc72d8d7f8f7',1,'PrintTo(MirEvent const *event, std::ostream *os):&#160;event_matchers.h']]],
   ['process',['Process',['../classmir__test__framework_1_1_process.html#a687594d460ddd7cc7073256e16a0e2f6',1,'mir_test_framework::Process::Process(pid_t pid)'],['../classmir__test__framework_1_1_process.html#adf27dd3933186d7d4de587cc750fa8e0',1,'mir_test_framework::Process::Process()=delete'],['../classmir__test__framework_1_1_process.html#a38e4b7b54944210bfce587f0de56e86f',1,'mir_test_framework::Process::Process(const Process &amp;)=delete']]],
   ['process_5fid',['process_id',['../structmir_1_1test_1_1doubles_1_1_stub_session.html#aa96d645212358da4022cff5873746c99',1,'mir::test::doubles::StubSession']]],
-  ['process_5foutputs',['process_outputs',['../classmiral_1_1_active_outputs_monitor.html#a109180997ff96b681c1de139b7da2f75',1,'miral::ActiveOutputsMonitor']]],
   ['process_5ftype',['process_type',['../classmir__test__framework_1_1_interprocess_client_server_test.html#ad31c761a66f9d96e64c282b6fe9181a9',1,'mir_test_framework::InterprocessClientServerTest']]],
   ['prompt_5fsession_5fis_5fallowed',['prompt_session_is_allowed',['../classmiral_1_1_application_authorizer.html#a7d8965d4f94db9deb82c24caacb39185',1,'miral::ApplicationAuthorizer']]],
   ['provide_5fegl_5fextensions',['provide_egl_extensions',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a24e445bed08ecfd264cf87385e87df3b',1,'mir::test::doubles::MockEGL']]],

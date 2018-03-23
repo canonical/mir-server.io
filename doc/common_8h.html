@@ -83,7 +83,7 @@ Include dependency graph for common.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="common_8h__dep__incl.svg" width="4754" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="common_8h__dep__incl.svg" width="4767" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -140,6 +140,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gaa8cfec9dafa409f6a7645f4b87f1cec3"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group__mir__toolkit.html#gab09fcb0f632f4a9e77e1076fb92e72bc">MirPlacementHints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#gaa8cfec9dafa409f6a7645f4b87f1cec3">MirPlacementHints</a></td></tr>
 <tr class="memdesc:gaa8cfec9dafa409f6a7645f4b87f1cec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positioning hints for aligning a window relative to a rectangle.  <a href="group__mir__toolkit.html#gaa8cfec9dafa409f6a7645f4b87f1cec3">More...</a><br /></td></tr>
 <tr class="separator:gaa8cfec9dafa409f6a7645f4b87f1cec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ccd3c7059d8effc4eebc37a708cdb4e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b">MirResizeEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga9ccd3c7059d8effc4eebc37a708cdb4e">MirResizeEdge</a></td></tr>
+<tr class="memdesc:ga9ccd3c7059d8effc4eebc37a708cdb4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hints for resizing a window.  <a href="group__mir__toolkit.html#ga9ccd3c7059d8effc4eebc37a708cdb4e">More...</a><br /></td></tr>
+<tr class="separator:ga9ccd3c7059d8effc4eebc37a708cdb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacb931d110ad143757edb0ae289c67354"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group__mir__toolkit.html#ga0b15a32ffb64c8c16b23bd6c0c5bdafb">MirFormFactor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#gacb931d110ad143757edb0ae289c67354">MirFormFactor</a></td></tr>
 <tr class="memdesc:gacb931d110ad143757edb0ae289c67354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Form factor associated with a physical output.  <a href="group__mir__toolkit.html#gacb931d110ad143757edb0ae289c67354">More...</a><br /></td></tr>
 <tr class="separator:gacb931d110ad143757edb0ae289c67354"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,6 +348,22 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:gab09fcb0f632f4a9e77e1076fb92e72bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positioning hints for aligning a window relative to a rectangle.  <a href="group__mir__toolkit.html#gab09fcb0f632f4a9e77e1076fb92e72bc">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:gab09fcb0f632f4a9e77e1076fb92e72bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35abb6b150b9c670c6691ae19091139b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b">MirResizeEdge</a> { <br />
+&#160;&#160;<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139baf8fd29bced29ef30a0e1dbc5371acdeb">mir_resize_edge_none</a> = 0, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139badaa03c23252ef61f1d474d7a530019f4">mir_resize_edge_west</a> = 1 &lt;&lt; 0, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139bacb36be7c39adca47f7ab3a2172c9ca7f">mir_resize_edge_east</a> = 1 &lt;&lt; 1, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139bab2f006aa6f769aa4c69d602d200b9073">mir_resize_edge_north</a> = 1 &lt;&lt; 2, 
+<br />
+&#160;&#160;<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139ba6291440e0f5d78783eba0731300714d2">mir_resize_edge_south</a> = 1 &lt;&lt; 3, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139baf9b11992a2ac19bca459108fe42baba2">mir_resize_edge_northwest</a> = mir_resize_edge_north | mir_resize_edge_west, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139ba5d07ee25c7681379fdb82c23e044463f">mir_resize_edge_northeast</a> = mir_resize_edge_north | mir_resize_edge_east, 
+<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139ba607e85857eb6916ad53408d972bef56d">mir_resize_edge_southwest</a> = mir_resize_edge_south | mir_resize_edge_west, 
+<br />
+&#160;&#160;<a class="el" href="group__mir__toolkit.html#gga35abb6b150b9c670c6691ae19091139ba6e10fa61c1310dc69102fb181cd09d94">mir_resize_edge_southeast</a> = mir_resize_edge_south | mir_resize_edge_east
+<br />
+ }<tr class="memdesc:ga35abb6b150b9c670c6691ae19091139b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hints for resizing a window.  <a href="group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga35abb6b150b9c670c6691ae19091139b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0b15a32ffb64c8c16b23bd6c0c5bdafb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga0b15a32ffb64c8c16b23bd6c0c5bdafb">MirFormFactor</a> { <br />
 &#160;&#160;<a class="el" href="group__mir__toolkit.html#gga0b15a32ffb64c8c16b23bd6c0c5bdafba26337e63b26ca61e01d8fddf24b1f6ea">mir_form_factor_unknown</a>, 
 <a class="el" href="group__mir__toolkit.html#gga0b15a32ffb64c8c16b23bd6c0c5bdafba960c82fa7759f6cfe4972a022dadc371">mir_form_factor_phone</a>, 
@@ -375,7 +394,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr class="separator:ga5b17fd564b3fee444ce720f9386482c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga45b5d33debb9713c22fb0c2d7fe545aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga45b5d33debb9713c22fb0c2d7fe545aa">MirPointerConfinementState</a> { <a class="el" href="group__mir__toolkit.html#gga45b5d33debb9713c22fb0c2d7fe545aaa69d8610bf483870995d741a724dbf998">mir_pointer_unconfined</a>, 
-<a class="el" href="group__mir__toolkit.html#gga45b5d33debb9713c22fb0c2d7fe545aaa7bcc7ee18201ff11c11355f8ce23b1c4">MIR_DEPRECATED_ENUM</a> =(mir_pointer_confined_to_surface, "mir_pointer_confined_to_window"), 
+<a class="el" href="group__mir__toolkit.html#gga45b5d33debb9713c22fb0c2d7fe545aaab3901fabfe49a4f7a73e614ddf7d03bc">MIR_DEPRECATED_ENUM</a> =(mir_pointer_confined_to_surface, "mir_pointer_confined_to_window"), 
 <a class="el" href="group__mir__toolkit.html#gga45b5d33debb9713c22fb0c2d7fe545aaa6e17bb9b2a040c7f62e89b339f68e379">mir_pointer_confined_to_window</a> = mir_pointer_confined_to_surface
  }<tr class="memdesc:ga45b5d33debb9713c22fb0c2d7fe545aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer Confinement.  <a href="group__mir__toolkit.html#ga45b5d33debb9713c22fb0c2d7fe545aa">More...</a><br /></td></tr>
 </td></tr>
@@ -601,9 +620,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000030">Deprecated:</a></b></dt><dd>Do not listen for events reporting this attribute.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Do not listen for events reporting this attribute.</dd></dl>
 <p>Use the "mir_*_get_swapinterval()" functions instead if you wish query its value</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000029">Deprecated:</a></b></dt><dd>Do not listen for events reporting this attribute.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Do not listen for events reporting this attribute.</dd></dl>
 <p>Use the "mir_*_get_swapinterval()" functions instead if you wish query its value </p>
 
 </div>
@@ -889,8 +908,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000034">Deprecated:</a></b></dt><dd>Use "gloss" instead.</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000032">Deprecated:</a></b></dt><dd>Use "gloss" instead.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000006">Deprecated:</a></b></dt><dd>Use "gloss" instead.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use "gloss" instead.</dd></dl>
 
 </div>
 </div>
@@ -905,8 +924,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000035">Deprecated:</a></b></dt><dd>Choose "menu" or "tip" </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000033">Deprecated:</a></b></dt><dd>Choose "menu" or "tip" </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Choose "menu" or "tip" </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>Choose "menu" or "tip" </dd></dl>
 
 </div>
 </div>
@@ -1016,9 +1035,9 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

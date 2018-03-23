@@ -37,7 +37,7 @@
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="144,-0.5 144,-19.5 186,-19.5 186,-0.5 144,-0.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="143,-0.5 143,-19.5 187,-19.5 187,-0.5 143,-0.5"/>
 <text text-anchor="middle" x="165" y="-7.5" font-family="Arial" font-size="10.00">vector</text>
 </g>
 <!-- Node0&#45;&gt;Node3 -->

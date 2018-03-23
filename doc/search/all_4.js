@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data',['data',['../struct_mir_platform_package.html#a7b88fd8c6bb8a09858848f3080d5f0e6',1,'MirPlatformPackage::data()'],['../struct_mir_platform_message_data.html#a1c2fd85a2b40939d93dc680259f34b94',1,'MirPlatformMessageData::data()'],['../struct_mir_buffer_package.html#a36a61d0df0c2ecffb96457929297aeb8',1,'MirBufferPackage::data()']]],
-  ['data_5fitems',['data_items',['../struct_mir_platform_package.html#a430ac25cbdf1b8ce276fefabc15ca7d0',1,'MirPlatformPackage::data_items()'],['../struct_mir_buffer_package.html#acafaa178025d7e7d99cf4ab0475be6c8',1,'MirBufferPackage::data_items()']]],
+  ['data',['data',['../struct_mir_buffer_package.html#a36a61d0df0c2ecffb96457929297aeb8',1,'MirBufferPackage::data()'],['../struct_mir_platform_package.html#a7b88fd8c6bb8a09858848f3080d5f0e6',1,'MirPlatformPackage::data()'],['../struct_mir_platform_message_data.html#a1c2fd85a2b40939d93dc680259f34b94',1,'MirPlatformMessageData::data()']]],
+  ['data_5fitems',['data_items',['../struct_mir_buffer_package.html#acafaa178025d7e7d99cf4ab0475be6c8',1,'MirBufferPackage::data_items()'],['../struct_mir_platform_package.html#a430ac25cbdf1b8ce276fefabc15ca7d0',1,'MirPlatformPackage::data_items()']]],
   ['db',['db',['../structmir_1_1test_1_1doubles_1_1_null_display_sync_group.html#a8f6c7b29fb0b872982e2b23968c2acba',1,'mir::test::doubles::NullDisplaySyncGroup']]],
   ['death_2eh',['death.h',['../death_8h.html',1,'']]],
   ['debug',['debug',['../namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076aad42f6697b035b7580e4fef93be20b4d',1,'mir::logging']]],
@@ -15,7 +15,6 @@ var searchData=
   ['decorationprovider',['DecorationProvider',['../class_decoration_provider.html',1,'DecorationProvider'],['../class_decoration_provider.html#a5a8fd5a8044b3794320cebe780e31362',1,'DecorationProvider::DecorationProvider()']]],
   ['default',['Default',['../classmir_1_1_posix_r_w_mutex.html#ad4f4fb2abe4104cf3277654abee07739a7a1920d61156abc05a60135aefe8bc67',1,'mir::PosixRWMutex']]],
   ['default_5fsurface',['default_surface',['../structmir_1_1test_1_1doubles_1_1_stub_session.html#ac60717a7f3643dd62f9d7f9f19b5d122',1,'mir::test::doubles::StubSession']]],
-  ['delete_5flistener',['delete_listener',['../classmiral_1_1_active_outputs_monitor.html#a27de5fbaadb8df85f6a816b41cf36b7c',1,'miral::ActiveOutputsMonitor']]],
   ['deleter_5ffor',['deleter_for',['../namespacemir_1_1raii.html#a1d24849d677e26d4f50ceeed0f79da0d',1,'mir::raii']]],
   ['deltax',['DeltaX',['../namespacemir_1_1geometry.html#a02d3c3edab2c79719936b53b189f27d2',1,'mir::geometry']]],
   ['deltay',['DeltaY',['../namespacemir_1_1geometry.html#af3b98d2589df6351210462dabad06037',1,'mir::geometry']]],

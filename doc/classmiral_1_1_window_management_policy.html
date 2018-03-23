@@ -78,7 +78,7 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for miral::WindowManagementPolicy:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmiral_1_1_window_management_policy__inherit__graph.svg" width="1000" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmiral_1_1_window_management_policy__inherit__graph.svg" width="1002" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18e850eccd26c88e83458c785b68920b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a18e850eccd26c88e83458c785b68920b">handle_raise_window</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info)=0</td></tr>
 <tr class="memdesc:a18e850eccd26c88e83458c785b68920b"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to raise the window  <a href="#a18e850eccd26c88e83458c785b68920b">More...</a><br /></td></tr>
 <tr class="separator:a18e850eccd26c88e83458c785b68920b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2675887765852d206c8cd1fbfa8a4408"><td class="memItemLeft" align="right" valign="top">virtual auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a2675887765852d206c8cd1fbfa8a4408">confirm_placement_on_display</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;window_info, <a class="el" href="group__mir__toolkit.html#ga767377fc0ee9f2097bc25dce0228d7a6">MirWindowState</a> new_state, <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;new_placement) -&gt; <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a>=0</td></tr>
+<tr class="memdesc:a2675887765852d206c8cd1fbfa8a4408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirm (and optionally adjust) the placement of a window on the display.  <a href="#a2675887765852d206c8cd1fbfa8a4408">More...</a><br /></td></tr>
+<tr class="separator:a2675887765852d206c8cd1fbfa8a4408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">handle events originating from user</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>The policy is expected to interpret (and optionally consume) the event </p>
 </div></td></tr>
@@ -129,8 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a884d398fbb6b3a9c9ec22ec7f5a49b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer event handler  <a href="#a884d398fbb6b3a9c9ec22ec7f5a49b32">More...</a><br /></td></tr>
 <tr class="separator:a884d398fbb6b3a9c9ec22ec7f5a49b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">notification of WM events that the policy may need to track.</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>if the policy updates a <a class="el" href="classmiral_1_1_window.html" title="Handle class to manage a Mir surface. It may be null (e.g. default initialized) ">Window</a> object directly (as opposed to using tools) no notification is generated. </dd></dl>
-</div></td></tr>
 <tr class="memitem:aefcaff98b16399586cfdbc64aaeb939a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#aefcaff98b16399586cfdbc64aaeb939a">advise_new_app</a> (<a class="el" href="structmiral_1_1_application_info.html">ApplicationInfo</a> &amp;application)</td></tr>
 <tr class="memdesc:aefcaff98b16399586cfdbc64aaeb939a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that a new application has connected.  <a href="#aefcaff98b16399586cfdbc64aaeb939a">More...</a><br /></td></tr>
 <tr class="separator:aefcaff98b16399586cfdbc64aaeb939a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +162,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acbe97f6d0d35579fbf8a40a29ee9c1cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#acbe97f6d0d35579fbf8a40a29ee9c1cc">advise_raise</a> (std::vector&lt; <a class="el" href="classmiral_1_1_window.html">Window</a> &gt; const &amp;windows)</td></tr>
 <tr class="memdesc:acbe97f6d0d35579fbf8a40a29ee9c1cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that windows are being raised to the top.  <a href="#acbe97f6d0d35579fbf8a40a29ee9c1cc">More...</a><br /></td></tr>
 <tr class="separator:acbe97f6d0d35579fbf8a40a29ee9c1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73e41058cb2ad7bbc4044c67eb1f82b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#ae73e41058cb2ad7bbc4044c67eb1f82b">advise_adding_to_workspace</a> (std::shared_ptr&lt; Workspace &gt; const &amp;workspace, std::vector&lt; <a class="el" href="classmiral_1_1_window.html">Window</a> &gt; const &amp;windows)</td></tr>
+<tr class="memdesc:ae73e41058cb2ad7bbc4044c67eb1f82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that windows are being added to a workspace.  <a href="#ae73e41058cb2ad7bbc4044c67eb1f82b">More...</a><br /></td></tr>
+<tr class="separator:ae73e41058cb2ad7bbc4044c67eb1f82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142b434829a4beb65c15f77be175d869"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a142b434829a4beb65c15f77be175d869">advise_removing_from_workspace</a> (std::shared_ptr&lt; Workspace &gt; const &amp;workspace, std::vector&lt; <a class="el" href="classmiral_1_1_window.html">Window</a> &gt; const &amp;windows)</td></tr>
+<tr class="memdesc:a142b434829a4beb65c15f77be175d869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification that windows are being removed from a workspace.  <a href="#a142b434829a4beb65c15f77be175d869">More...</a><br /></td></tr>
+<tr class="separator:a142b434829a4beb65c15f77be175d869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">handle requests originating from the client</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>The policy is expected to update the model as appropriate </p>
+</div></td></tr>
+<tr class="memitem:a2c776e26a3a1948882328c21e0919a3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a2c776e26a3a1948882328c21e0919a3a">handle_request_drag_and_drop</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info)=0</td></tr>
+<tr class="memdesc:a2c776e26a3a1948882328c21e0919a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to initiate drag and drop  <a href="#a2c776e26a3a1948882328c21e0919a3a">More...</a><br /></td></tr>
+<tr class="separator:a2c776e26a3a1948882328c21e0919a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5248668cb5dd3265b0754943e2536d22"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a5248668cb5dd3265b0754943e2536d22">handle_request_move</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info, <a class="el" href="group__mir__toolkit.html#gac6ccf405835223213567284c5f60c894">MirInputEvent</a> const *input_event)=0</td></tr>
+<tr class="memdesc:a5248668cb5dd3265b0754943e2536d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to initiate move  <a href="#a5248668cb5dd3265b0754943e2536d22">More...</a><br /></td></tr>
+<tr class="separator:a5248668cb5dd3265b0754943e2536d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24da7b57df2968abd7399a86281ffa93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a24da7b57df2968abd7399a86281ffa93">handle_request_resize</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info, <a class="el" href="group__mir__toolkit.html#gac6ccf405835223213567284c5f60c894">MirInputEvent</a> const *input_event, <a class="el" href="group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b">MirResizeEdge</a> edge)=0</td></tr>
+<tr class="memdesc:a24da7b57df2968abd7399a86281ffa93"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to initiate resize  <a href="#a24da7b57df2968abd7399a86281ffa93">More...</a><br /></td></tr>
+<tr class="separator:a24da7b57df2968abd7399a86281ffa93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">notification of changes to the (connected, active) outputs.</div></td></tr>
+<tr class="memitem:a546d4825d14452e29959e06d917f576f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a546d4825d14452e29959e06d917f576f">advise_output_create</a> (<a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;output)</td></tr>
+<tr class="separator:a546d4825d14452e29959e06d917f576f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64cae830e43fe0b4cbf4729f9a39b5dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a64cae830e43fe0b4cbf4729f9a39b5dc">advise_output_update</a> (<a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;updated, <a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;original)</td></tr>
+<tr class="separator:a64cae830e43fe0b4cbf4729f9a39b5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754c9cb6726fec1a248601fa49b53fb0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a754c9cb6726fec1a248601fa49b53fb0">advise_output_delete</a> (<a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;output)</td></tr>
+<tr class="separator:a754c9cb6726fec1a248601fa49b53fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The interface through which the window management policy is determined. </p>
@@ -242,6 +268,52 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae73e41058cb2ad7bbc4044c67eb1f82b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae73e41058cb2ad7bbc4044c67eb1f82b">&#9670;&nbsp;</a></span>advise_adding_to_workspace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::advise_adding_to_workspace </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; Workspace &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>workspace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classmiral_1_1_window.html">Window</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>windows</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notification that windows are being added to a workspace. </p>
+<p>These windows are ordered with parents before children, and form a single tree rooted at the first element.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">workspace</td><td>the workspace </td></tr>
+    <tr><td class="paramname">windows</td><td>the windows </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a50c0fc8775040177837bbe459f5001da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50c0fc8775040177837bbe459f5001da">&#9670;&nbsp;</a></span>advise_begin()</h2>
 
@@ -559,6 +631,94 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a546d4825d14452e29959e06d917f576f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a546d4825d14452e29959e06d917f576f">&#9670;&nbsp;</a></span>advise_output_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::advise_output_create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;&#160;</td>
+          <td class="paramname"><em>output</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a754c9cb6726fec1a248601fa49b53fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a754c9cb6726fec1a248601fa49b53fb0">&#9670;&nbsp;</a></span>advise_output_delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::advise_output_delete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;&#160;</td>
+          <td class="paramname"><em>output</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64cae830e43fe0b4cbf4729f9a39b5dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64cae830e43fe0b4cbf4729f9a39b5dc">&#9670;&nbsp;</a></span>advise_output_update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::advise_output_update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;&#160;</td>
+          <td class="paramname"><em>updated</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_output.html">Output</a> const &amp;&#160;</td>
+          <td class="paramname"><em>original</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acbe97f6d0d35579fbf8a40a29ee9c1cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbe97f6d0d35579fbf8a40a29ee9c1cc">&#9670;&nbsp;</a></span>advise_raise()</h2>
 
@@ -592,6 +752,52 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>The relative Z-order of these windows will be maintained, they will be raised en bloc. </dd></dl>
+
+</div>
+</div>
+<a id="a142b434829a4beb65c15f77be175d869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142b434829a4beb65c15f77be175d869">&#9670;&nbsp;</a></span>advise_removing_from_workspace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::advise_removing_from_workspace </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; Workspace &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>workspace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classmiral_1_1_window.html">Window</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>windows</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notification that windows are being removed from a workspace. </p>
+<p>These windows are ordered with parents before children, and form a single tree rooted at the first element.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">workspace</td><td>the workspace </td></tr>
+    <tr><td class="paramname">windows</td><td>the windows </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -734,6 +940,62 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the confirmed placement of the window </dd></dl>
 
 <p>Implemented in <a class="el" href="class_tiling_window_manager_policy.html#af361782a71f79d3d50dd153c692d9f2f">TilingWindowManagerPolicy</a>, and <a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#ae81cde71e90f4a0aa77e6ac03788b381">miral::CanonicalWindowManagerPolicy</a>.</p>
+
+</div>
+</div>
+<a id="a2675887765852d206c8cd1fbfa8a4408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2675887765852d206c8cd1fbfa8a4408">&#9670;&nbsp;</a></span>confirm_placement_on_display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual auto miral::WindowManagementPolicy::confirm_placement_on_display </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>window_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mir__toolkit.html#ga767377fc0ee9f2097bc25dce0228d7a6">MirWindowState</a>&#160;</td>
+          <td class="paramname"><em>new_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;&#160;</td>
+          <td class="paramname"><em>new_placement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Confirm (and optionally adjust) the placement of a window on the display. </p>
+<p>Called when (re)placing fullscreen, maximized, horizontally maximised and vertically maximized windows to allow adjustment for decorations.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window_info</td><td>the window </td></tr>
+    <tr><td class="paramname">new_state</td><td>the new state </td></tr>
+    <tr><td class="paramname">new_placement</td><td>the suggested placement</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the confirmed placement of the window </dd></dl>
+
+<p>Implemented in <a class="el" href="class_tiling_window_manager_policy.html#a45526e633fa53e910b5d335bd3f85110">TilingWindowManagerPolicy</a>, <a class="el" href="class_kiosk_window_manager_policy.html#ab0366c28afb45313edce90fd718a386e">KioskWindowManagerPolicy</a>, and <a class="el" href="structmir__test__framework_1_1_canonical_window_manager_policy.html#a994201f4e76f1b46e70e267ea4e9e35f">mir_test_framework::CanonicalWindowManagerPolicy</a>.</p>
 
 </div>
 </div>
@@ -896,6 +1158,146 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2c776e26a3a1948882328c21e0919a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c776e26a3a1948882328c21e0919a3a">&#9670;&nbsp;</a></span>handle_request_drag_and_drop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::handle_request_drag_and_drop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>window_info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>request from client to initiate drag and drop </p>
+<dl class="section note"><dt>Note</dt><dd>the request has already been validated against the requesting event</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window_info</td><td>the window </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_floating_window_manager_policy.html#a0d03c97b921d3a09a768b2007adebb0c">FloatingWindowManagerPolicy</a>, <a class="el" href="class_tiling_window_manager_policy.html#a9ec865f3c3fe229919722dbc2b85f620">TilingWindowManagerPolicy</a>, <a class="el" href="classmir__test__framework_1_1_declarative_placement_window_manager_policy.html#ab44edf39252b6f63a82c5503f72beb59">mir_test_framework::DeclarativePlacementWindowManagerPolicy</a>, and <a class="el" href="class_kiosk_window_manager_policy.html#a9046f134ada75c89da8957350a06dbc0">KioskWindowManagerPolicy</a>.</p>
+
+</div>
+</div>
+<a id="a5248668cb5dd3265b0754943e2536d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5248668cb5dd3265b0754943e2536d22">&#9670;&nbsp;</a></span>handle_request_move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::handle_request_move </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>window_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mir__toolkit.html#gac6ccf405835223213567284c5f60c894">MirInputEvent</a> const *&#160;</td>
+          <td class="paramname"><em>input_event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>request from client to initiate move </p>
+<dl class="section note"><dt>Note</dt><dd>the request has already been validated against the requesting event</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window_info</td><td>the window </td></tr>
+    <tr><td class="paramname">input_event</td><td>the requesting event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_floating_window_manager_policy.html#ae2449dc428a43cfc881ab215706fdf26">FloatingWindowManagerPolicy</a>, <a class="el" href="class_tiling_window_manager_policy.html#a59e5e5e5ad8b3f38efcf0b1dd77ea4da">TilingWindowManagerPolicy</a>, <a class="el" href="classmir__test__framework_1_1_declarative_placement_window_manager_policy.html#a1c8cdf258acf33607702426939cf7729">mir_test_framework::DeclarativePlacementWindowManagerPolicy</a>, and <a class="el" href="class_kiosk_window_manager_policy.html#adbfbd91ecafa70c897155ce310e8b192">KioskWindowManagerPolicy</a>.</p>
+
+</div>
+</div>
+<a id="a24da7b57df2968abd7399a86281ffa93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24da7b57df2968abd7399a86281ffa93">&#9670;&nbsp;</a></span>handle_request_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void miral::WindowManagementPolicy::handle_request_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>window_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mir__toolkit.html#gac6ccf405835223213567284c5f60c894">MirInputEvent</a> const *&#160;</td>
+          <td class="paramname"><em>input_event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__mir__toolkit.html#ga35abb6b150b9c670c6691ae19091139b">MirResizeEdge</a>&#160;</td>
+          <td class="paramname"><em>edge</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>request from client to initiate resize </p>
+<dl class="section note"><dt>Note</dt><dd>the request has already been validated against the requesting event</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window_info</td><td>the window </td></tr>
+    <tr><td class="paramname">input_event</td><td>the requesting event </td></tr>
+    <tr><td class="paramname">edge</td><td>the edge(s) being dragged </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_floating_window_manager_policy.html#a8463f48bb90a29ac16e8b5c99b421ebd">FloatingWindowManagerPolicy</a>, <a class="el" href="class_tiling_window_manager_policy.html#a84d068d251311dd6b6834aaba2fa7370">TilingWindowManagerPolicy</a>, <a class="el" href="classmir__test__framework_1_1_declarative_placement_window_manager_policy.html#a9d70c0caf868f8d2d43f88e5abfc34f6">mir_test_framework::DeclarativePlacementWindowManagerPolicy</a>, and <a class="el" href="class_kiosk_window_manager_policy.html#a36cd9aa1b4f72b08cf770f0c28d9b648">KioskWindowManagerPolicy</a>.</p>
+
+</div>
+</div>
 <a id="ad87c17924e1ab39b2951762b63b7734f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad87c17924e1ab39b2951762b63b7734f">&#9670;&nbsp;</a></span>handle_touch_event()</h2>
 
@@ -1048,9 +1450,9 @@ Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

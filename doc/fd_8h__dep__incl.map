@@ -1,10 +1,10 @@
 <map id="include/core/mir/fd.h" name="include/core/mir/fd.h">
-<area shape="rect" id="node2" href="$action__queue_8h.html" title="include/common/mir\l/dispatch/action_queue.h" alt="" coords="5,177,172,218"/>
-<area shape="rect" id="node3" href="$dispatchable_8h.html" title="include/common/mir\l/dispatch/dispatchable.h" alt="" coords="234,80,397,121"/>
-<area shape="rect" id="node5" href="$threaded__dispatcher_8h.html" title="include/common/mir\l/dispatch/threaded_dispatcher.h" alt="" coords="312,273,519,315"/>
-<area shape="rect" id="node6" href="$readable__fd_8h.html" title="include/common/mir\l/dispatch/readable_fd.h" alt="" coords="368,177,524,218"/>
-<area shape="rect" id="node7" href="$anonymous__shm__file_8h.html" title="include/core/mir/anonymous\l_shm_file.h" alt="" coords="600,80,785,121"/>
-<area shape="rect" id="node8" href="$fake__display_8h.html" title="include/test/mir/test\l/doubles/fake_display.h" alt="" coords="809,80,968,121"/>
-<area shape="rect" id="node9" href="$pipe_8h.html" title="include/test/mir/test\l/pipe.h" alt="" coords="992,80,1129,121"/>
-<area shape="rect" id="node4" href="$multiplexing__dispatchable_8h.html" title="include/common/mir\l/dispatch/multiplexing\l_dispatchable.h" alt="" coords="196,169,344,225"/>
+<area shape="rect" id="node2" href="$anonymous__shm__file_8h.html" title="include/core/mir/anonymous\l_shm_file.h" alt="" coords="20,80,205,121"/>
+<area shape="rect" id="node3" href="$action__queue_8h.html" title="include/common/mir\l/dispatch/action_queue.h" alt="" coords="5,177,172,218"/>
+<area shape="rect" id="node4" href="$dispatchable_8h.html" title="include/common/mir\l/dispatch/dispatchable.h" alt="" coords="281,80,443,121"/>
+<area shape="rect" id="node6" href="$threaded__dispatcher_8h.html" title="include/common/mir\l/dispatch/threaded_dispatcher.h" alt="" coords="313,273,520,315"/>
+<area shape="rect" id="node7" href="$readable__fd_8h.html" title="include/common/mir\l/dispatch/readable_fd.h" alt="" coords="369,177,526,218"/>
+<area shape="rect" id="node8" href="$fake__display_8h.html" title="include/test/mir/test\l/doubles/fake_display.h" alt="" coords="601,80,760,121"/>
+<area shape="rect" id="node9" href="$pipe_8h.html" title="include/test/mir/test\l/pipe.h" alt="" coords="784,80,921,121"/>
+<area shape="rect" id="node5" href="$multiplexing__dispatchable_8h.html" title="include/common/mir\l/dispatch/multiplexing\l_dispatchable.h" alt="" coords="196,169,344,225"/>
 </map>

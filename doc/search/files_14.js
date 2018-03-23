@@ -7,13 +7,10 @@ var searchData=
   ['window_5finfo_2eh',['window_info.h',['../window__info_8h.html',1,'']]],
   ['window_5fmanagement_5foptions_2eh',['window_management_options.h',['../window__management__options_8h.html',1,'']]],
   ['window_5fmanagement_5fpolicy_2eh',['window_management_policy.h',['../window__management__policy_8h.html',1,'']]],
-  ['window_5fmanagement_5fpolicy_5faddendum2_2eh',['window_management_policy_addendum2.h',['../window__management__policy__addendum2_8h.html',1,'']]],
-  ['window_5fmanagement_5fpolicy_5faddendum3_2eh',['window_management_policy_addendum3.h',['../window__management__policy__addendum3_8h.html',1,'']]],
   ['window_5fmanager_5ftools_2eh',['window_manager_tools.h',['../window__manager__tools_8h.html',1,'']]],
   ['window_5foutput_5fevent_2eh',['window_output_event.h',['../window__output__event_8h.html',1,'']]],
   ['window_5fplacement_2eh',['window_placement.h',['../window__placement_8h.html',1,'']]],
   ['window_5fspec_2eh',['window_spec.h',['../window__spec_8h.html',1,'']]],
   ['window_5fspecification_2eh',['window_specification.h',['../window__specification_8h.html',1,'']]],
-  ['workspace_5fpolicy_2eh',['workspace_policy.h',['../workspace__policy_8h.html',1,'']]],
   ['wrap_5fshell_5fto_5ftrack_5flatest_5fsurface_2eh',['wrap_shell_to_track_latest_surface.h',['../wrap__shell__to__track__latest__surface_8h.html',1,'']]]
 ];

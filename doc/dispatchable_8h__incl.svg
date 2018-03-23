@@ -18,7 +18,7 @@
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="fd_8h.html" target="_top" xlink:title="mir/fd.h">
-<polygon fill="white" stroke="black" points="36.5,-56.5 36.5,-75.5 85.5,-75.5 85.5,-56.5 36.5,-56.5"/>
+<polygon fill="white" stroke="black" points="36,-56.5 36,-75.5 86,-75.5 86,-56.5 36,-56.5"/>
 <text text-anchor="middle" x="61" y="-63.5" font-family="Arial" font-size="10.00">mir/fd.h</text>
 </a>
 </g>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['inprocessserver',['InProcessServer',['../structmir__test__framework_1_1_in_process_server.html',1,'mir_test_framework']]],
+  ['inputdevicefaker',['InputDeviceFaker',['../classmir__test__framework_1_1_input_device_faker.html',1,'mir_test_framework']]],
   ['inputdevicestate',['InputDeviceState',['../structmir_1_1events_1_1_input_device_state.html',1,'mir::events']]],
   ['internalclientlauncher',['InternalClientLauncher',['../classmiral_1_1_internal_client_launcher.html',1,'miral']]],
   ['interprocessclientservertest',['InterprocessClientServerTest',['../classmir__test__framework_1_1_interprocess_client_server_test.html',1,'mir_test_framework']]],

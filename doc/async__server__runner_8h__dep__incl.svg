@@ -5,15 +5,15 @@
  -->
 <!-- Title: include/test/mir_test_framework/async_server_runner.h Pages: 1 -->
 <svg width="370pt" height="362pt"
- viewBox="0.00 0.00 369.50 362.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 370.00 362.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 358)">
 <title>include/test/mir_test_framework/async_server_runner.h</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-358 365.5,-358 365.5,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-358 366,-358 366,4 -4,4"/>
 <!-- Node12 -->
 <g id="node1" class="node"><title>Node12</title>
-<polygon fill="#bfbfbf" stroke="black" points="87.5,-312.5 87.5,-353.5 213.5,-353.5 213.5,-312.5 87.5,-312.5"/>
-<text text-anchor="start" x="95.5" y="-341.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="95.5" y="-330.5" font-family="Arial" font-size="10.00">_framework/async_server</text>
+<polygon fill="#bfbfbf" stroke="black" points="86.5,-312.5 86.5,-353.5 214.5,-353.5 214.5,-312.5 86.5,-312.5"/>
+<text text-anchor="start" x="94.5" y="-341.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="94.5" y="-330.5" font-family="Arial" font-size="10.00">_framework/async_server</text>
 <text text-anchor="middle" x="150.5" y="-319.5" font-family="Arial" font-size="10.00">_runner.h</text>
 </g>
 <!-- Node13 -->
@@ -34,8 +34,8 @@
 <!-- Node14 -->
 <g id="node3" class="node"><title>Node14</title>
 <g id="a_node3"><a xlink:href="headless__test_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/headless_test.h">
-<polygon fill="white" stroke="black" points="161.5,-240 161.5,-270 299.5,-270 299.5,-240 161.5,-240"/>
-<text text-anchor="start" x="169.5" y="-258" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<polygon fill="white" stroke="black" points="161,-240 161,-270 300,-270 300,-240 161,-240"/>
+<text text-anchor="start" x="169" y="-258" font-family="Arial" font-size="10.00">include/test/mir_test</text>
 <text text-anchor="middle" x="230.5" y="-247" font-family="Arial" font-size="10.00">_framework/headless_test.h</text>
 </a>
 </g>
@@ -48,24 +48,24 @@
 <!-- Node15 -->
 <g id="node4" class="node"><title>Node15</title>
 <g id="a_node4"><a xlink:href="headless__in__process__server_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/headless_in\l_process_server.h">
-<polygon fill="white" stroke="black" points="100,-156.5 100,-197.5 221,-197.5 221,-156.5 100,-156.5"/>
-<text text-anchor="start" x="108" y="-185.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="108" y="-174.5" font-family="Arial" font-size="10.00">_framework/headless_in</text>
-<text text-anchor="middle" x="160.5" y="-163.5" font-family="Arial" font-size="10.00">_process_server.h</text>
+<polygon fill="white" stroke="black" points="98.5,-156.5 98.5,-197.5 220.5,-197.5 220.5,-156.5 98.5,-156.5"/>
+<text text-anchor="start" x="106.5" y="-185.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="106.5" y="-174.5" font-family="Arial" font-size="10.00">_framework/headless_in</text>
+<text text-anchor="middle" x="159.5" y="-163.5" font-family="Arial" font-size="10.00">_process_server.h</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge3" class="edge"><title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M210.449,-232.23C200.42,-221.342 188.375,-208.265 178.626,-197.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.984,-234.721 217.334,-239.705 213.133,-229.978 207.984,-234.721"/>
+<path fill="none" stroke="midnightblue" d="M210.163,-232.23C199.991,-221.342 187.774,-208.265 177.885,-197.68"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="207.761,-234.787 217.145,-239.705 212.876,-230.008 207.761,-234.787"/>
 </g>
 <!-- Node18 -->
 <g id="node7" class="node"><title>Node18</title>
 <g id="a_node7"><a xlink:href="interprocess__client__server__test_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/interprocess\l_client_server_test.h">
-<polygon fill="white" stroke="black" points="239.5,-156.5 239.5,-197.5 361.5,-197.5 361.5,-156.5 239.5,-156.5"/>
-<text text-anchor="start" x="247.5" y="-185.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="247.5" y="-174.5" font-family="Arial" font-size="10.00">_framework/interprocess</text>
+<polygon fill="white" stroke="black" points="239,-156.5 239,-197.5 362,-197.5 362,-156.5 239,-156.5"/>
+<text text-anchor="start" x="247" y="-185.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="247" y="-174.5" font-family="Arial" font-size="10.00">_framework/interprocess</text>
 <text text-anchor="middle" x="300.5" y="-163.5" font-family="Arial" font-size="10.00">_client_server_test.h</text>
 </a>
 </g>
@@ -78,32 +78,32 @@
 <!-- Node16 -->
 <g id="node5" class="node"><title>Node16</title>
 <g id="a_node5"><a xlink:href="connected__client__headless__server_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/connected\l_client_headless_server.h">
-<polygon fill="white" stroke="black" points="96.5,-78.5 96.5,-119.5 224.5,-119.5 224.5,-78.5 96.5,-78.5"/>
-<text text-anchor="start" x="104.5" y="-107.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="104.5" y="-96.5" font-family="Arial" font-size="10.00">_framework/connected</text>
-<text text-anchor="middle" x="160.5" y="-85.5" font-family="Arial" font-size="10.00">_client_headless_server.h</text>
+<polygon fill="white" stroke="black" points="94.5,-78.5 94.5,-119.5 224.5,-119.5 224.5,-78.5 94.5,-78.5"/>
+<text text-anchor="start" x="102.5" y="-107.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="102.5" y="-96.5" font-family="Arial" font-size="10.00">_framework/connected</text>
+<text text-anchor="middle" x="159.5" y="-85.5" font-family="Arial" font-size="10.00">_client_headless_server.h</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge4" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M160.5,-146.297C160.5,-137.301 160.5,-127.653 160.5,-119.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="157,-146.428 160.5,-156.428 164,-146.428 157,-146.428"/>
+<path fill="none" stroke="midnightblue" d="M159.5,-146.297C159.5,-137.301 159.5,-127.653 159.5,-119.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156,-146.428 159.5,-156.428 163,-146.428 156,-146.428"/>
 </g>
 <!-- Node17 -->
 <g id="node6" class="node"><title>Node17</title>
 <g id="a_node6"><a xlink:href="connected__client__with__a__window_8h.html" target="_top" xlink:title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h">
-<polygon fill="white" stroke="black" points="99,-0.5 99,-41.5 222,-41.5 222,-0.5 99,-0.5"/>
-<text text-anchor="start" x="107" y="-29.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
-<text text-anchor="start" x="107" y="-18.5" font-family="Arial" font-size="10.00">_framework/connected</text>
-<text text-anchor="middle" x="160.5" y="-7.5" font-family="Arial" font-size="10.00">_client_with_a_window.h</text>
+<polygon fill="white" stroke="black" points="98,-0.5 98,-41.5 221,-41.5 221,-0.5 98,-0.5"/>
+<text text-anchor="start" x="106" y="-29.5" font-family="Arial" font-size="10.00">include/test/mir_test</text>
+<text text-anchor="start" x="106" y="-18.5" font-family="Arial" font-size="10.00">_framework/connected</text>
+<text text-anchor="middle" x="159.5" y="-7.5" font-family="Arial" font-size="10.00">_client_with_a_window.h</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge5" class="edge"><title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M160.5,-68.2965C160.5,-59.3009 160.5,-49.6532 160.5,-41.5056"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="157,-68.4281 160.5,-78.4281 164,-68.4281 157,-68.4281"/>
+<path fill="none" stroke="midnightblue" d="M159.5,-68.2965C159.5,-59.3009 159.5,-49.6532 159.5,-41.5056"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="156,-68.4281 159.5,-78.4281 163,-68.4281 156,-68.4281"/>
 </g>
 </g>
 </svg>

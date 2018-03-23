@@ -116,9 +116,9 @@ $ babeltrace /tmp/mirsession/&lt;trace-subdir&gt;
 </pre><p>LTTng-UST versions up to and including 2.1.2, and up to and including 2.2-rc2 contain a bug (lttng #538) that prevents event recording if the tracepoint provider is dlopen()-ed at runtime, like in the case of Mir. If you have a version of LTTng affected by this bug, you need to pre-load the server tracepoint provider library: </p><pre class="fragment">$ LD_PRELOAD=libmirserverlttng.so mir_demo_server --msg-processor-report=lttng
 </pre><p>The bug also affects client-side LTTng tracing, in which case you need to pre-load the client tracepoint provider library: </p><pre class="fragment">$ LD_PRELOAD=libmirclientlttng.so MIR_CLIENT_RPC_REPORT=lttng myclient</pre> </div></div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2017
+<p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Tue 28 Nov 14:36:47 UTC 2017
+Generated on Fri 23 Mar 16:27:03 UTC 2018
 </p>
 </body>
 </html>

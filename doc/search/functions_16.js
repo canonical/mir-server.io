@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['_7eactiveoutputslistener',['~ActiveOutputsListener',['../classmiral_1_1_active_outputs_listener.html#a2351b8849f52b6b084986a6633918b51',1,'miral::ActiveOutputsListener']]],
-  ['_7eactiveoutputsmonitor',['~ActiveOutputsMonitor',['../classmiral_1_1_active_outputs_monitor.html#aaba610d536c3907b111ab8d21e94a016',1,'miral::ActiveOutputsMonitor']]],
   ['_7eaddinitcallback',['~AddInitCallback',['../classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a',1,'miral::AddInitCallback']]],
   ['_7eanonymousshmfile',['~AnonymousShmFile',['../classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc',1,'mir::AnonymousShmFile']]],
   ['_7eapplicationauthorizer',['~ApplicationAuthorizer',['../classmiral_1_1_application_authorizer.html#a65c84cf91a2e2ea713f244518cff0a13',1,'miral::ApplicationAuthorizer']]],
@@ -28,7 +26,6 @@ var searchData=
   ['_7einterprocessclientservertest',['~InterprocessClientServerTest',['../classmir__test__framework_1_1_interprocess_client_server_test.html#a8cc5482080fe72cd4ee1f6dbe05135df',1,'mir_test_framework::InterprocessClientServerTest']]],
   ['_7ekeymap',['~Keymap',['../classmiral_1_1_keymap.html#a56a3a479939416b4f88d707a7ea44301',1,'miral::Keymap']]],
   ['_7elogger',['~Logger',['../classmir_1_1logging_1_1_logger.html#a55f6b1e690c19a6978a865530d8e6bf0',1,'mir::logging::Logger']]],
-  ['_7emireglsurface',['~MirEglSurface',['../class_mir_egl_surface.html#ad85f43762ab6a1e1036dbbc005879690',1,'MirEglSurface']]],
   ['_7emirinputconfig',['~MirInputConfig',['../struct_mir_input_config.html#a7d75282a19d19470e782719a891b7059',1,'MirInputConfig']]],
   ['_7emirinputdevice',['~MirInputDevice',['../class_mir_input_device.html#a198feb93053a9690315031fcc692835b',1,'MirInputDevice']]],
   ['_7emirkeyboardconfig',['~MirKeyboardConfig',['../struct_mir_keyboard_config.html#a772394d50aa0a7e00ac57a29d0c9dd06',1,'MirKeyboardConfig']]],
@@ -57,22 +54,17 @@ var searchData=
   ['_7esetwindowmanagementpolicy',['~SetWindowManagementPolicy',['../classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68',1,'miral::SetWindowManagementPolicy']]],
   ['_7esharedlibrary',['~SharedLibrary',['../classmir_1_1_shared_library.html#a36225e3996f19693864f4f7004fc93c4',1,'mir::SharedLibrary']]],
   ['_7eshmfile',['~ShmFile',['../classmir_1_1_shm_file.html#a2268642acf56d65c7747c4f1f62ce4bf',1,'mir::ShmFile']]],
-  ['_7espinnersplash',['~SpinnerSplash',['../class_spinner_splash.html#a7d15cf99eb6c2c815404502c969e8e1a',1,'SpinnerSplash']]],
   ['_7estartupinternalclient',['~StartupInternalClient',['../classmiral_1_1_startup_internal_client.html#ab3e00b542af11afa3cd64c52361b23b5',1,'miral::StartupInternalClient']]],
   ['_7eswsplash',['~SwSplash',['../class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f',1,'SwSplash']]],
   ['_7etemporaryenvironmentvalue',['~TemporaryEnvironmentValue',['../classmir__test__framework_1_1_temporary_environment_value.html#afa2e82899054b92748f6258e66d0c690',1,'mir_test_framework::TemporaryEnvironmentValue']]],
   ['_7etexturesource',['~TextureSource',['../classmir_1_1renderer_1_1gl_1_1_texture_source.html#a2556c3b78c3630cd789deee9346510ec',1,'mir::renderer::gl::TextureSource']]],
   ['_7etexturetarget',['~TextureTarget',['../classmir_1_1renderer_1_1gl_1_1_texture_target.html#a8a8db7d31d5dfee2b008fd2b03ef7a93',1,'mir::renderer::gl::TextureTarget']]],
   ['_7ethreadeddispatcher',['~ThreadedDispatcher',['../classmir_1_1dispatch_1_1_threaded_dispatcher.html#a4fae4fec9c4e208c1f6a98f4827711ae',1,'mir::dispatch::ThreadedDispatcher']]],
-  ['_7etilingwindowmanagerpolicy',['~TilingWindowManagerPolicy',['../class_tiling_window_manager_policy.html#a8754773d8e6d93d919a579e9f59f557e',1,'TilingWindowManagerPolicy']]],
   ['_7evisiblesurface',['~VisibleSurface',['../classmir__test__framework_1_1_visible_surface.html#a75a38d21e07195cbb4b8d0e11954fb4e',1,'mir_test_framework::VisibleSurface']]],
   ['_7ewindow',['~Window',['../classmiral_1_1_window.html#ac454e3eab8125652829371c5c02cdae2',1,'miral::Window']]],
   ['_7ewindowinfo',['~WindowInfo',['../structmiral_1_1_window_info.html#a290c0b89169cf33ce5ff7cdb0b8e9656',1,'miral::WindowInfo']]],
   ['_7ewindowmanagementpolicy',['~WindowManagementPolicy',['../classmiral_1_1_window_management_policy.html#a32efad0dc7bce07dce18c8f597c52167',1,'miral::WindowManagementPolicy']]],
-  ['_7ewindowmanagementpolicyaddendum2',['~WindowManagementPolicyAddendum2',['../classmiral_1_1_window_management_policy_addendum2.html#a91ca8e09f9d76bc1188990570d593987',1,'miral::WindowManagementPolicyAddendum2']]],
-  ['_7ewindowmanagementpolicyaddendum3',['~WindowManagementPolicyAddendum3',['../classmiral_1_1_window_management_policy_addendum3.html#ae27154c33cc793e9b972a2c4f8a3ea0d',1,'miral::WindowManagementPolicyAddendum3']]],
   ['_7ewindowmanagertools',['~WindowManagerTools',['../classmiral_1_1_window_manager_tools.html#ae4ae13bfd76d671eb27e71963afe60d9',1,'miral::WindowManagerTools']]],
   ['_7ewindowspecification',['~WindowSpecification',['../classmiral_1_1_window_specification.html#a5e7e0f8a8719eb88a705077ddeaf1602',1,'miral::WindowSpecification']]],
-  ['_7eworker',['~Worker',['../class_worker.html#aa8e4543ef1e93fd9d884269ba30c5bfe',1,'Worker']]],
-  ['_7eworkspacepolicy',['~WorkspacePolicy',['../classmiral_1_1_workspace_policy.html#a5a2f8cd77be12f99d71ee0762492b92d',1,'miral::WorkspacePolicy']]]
+  ['_7eworker',['~Worker',['../class_worker.html#aa8e4543ef1e93fd9d884269ba30c5bfe',1,'Worker']]]
 ];

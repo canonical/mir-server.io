@@ -2,7 +2,6 @@ var searchData=
 [
   ['abnormal_5fexit_2eh',['abnormal_exit.h',['../abnormal__exit_8h.html',1,'']]],
   ['action_5fqueue_2eh',['action_queue.h',['../action__queue_8h.html',1,'']]],
-  ['active_5foutputs_2eh',['active_outputs.h',['../active__outputs_8h.html',1,'']]],
   ['add_5finit_5fcallback_2eh',['add_init_callback.h',['../add__init__callback_8h.html',1,'']]],
   ['android_5fbuffer_2eh',['android_buffer.h',['../android__buffer_8h.html',1,'']]],
   ['android_5fegl_2eh',['android_egl.h',['../android__egl_8h.html',1,'']]],

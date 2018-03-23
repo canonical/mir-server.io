@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['data',['data',['../struct_mir_platform_package.html#a7b88fd8c6bb8a09858848f3080d5f0e6',1,'MirPlatformPackage::data()'],['../struct_mir_platform_message_data.html#a1c2fd85a2b40939d93dc680259f34b94',1,'MirPlatformMessageData::data()'],['../struct_mir_buffer_package.html#a36a61d0df0c2ecffb96457929297aeb8',1,'MirBufferPackage::data()']]],
-  ['data_5fitems',['data_items',['../struct_mir_platform_package.html#a430ac25cbdf1b8ce276fefabc15ca7d0',1,'MirPlatformPackage::data_items()'],['../struct_mir_buffer_package.html#acafaa178025d7e7d99cf4ab0475be6c8',1,'MirBufferPackage::data_items()']]],
+  ['data',['data',['../struct_mir_buffer_package.html#a36a61d0df0c2ecffb96457929297aeb8',1,'MirBufferPackage::data()'],['../struct_mir_platform_package.html#a7b88fd8c6bb8a09858848f3080d5f0e6',1,'MirPlatformPackage::data()'],['../struct_mir_platform_message_data.html#a1c2fd85a2b40939d93dc680259f34b94',1,'MirPlatformMessageData::data()']]],
+  ['data_5fitems',['data_items',['../struct_mir_buffer_package.html#acafaa178025d7e7d99cf4ab0475be6c8',1,'MirBufferPackage::data_items()'],['../struct_mir_platform_package.html#a430ac25cbdf1b8ce276fefabc15ca7d0',1,'MirPlatformPackage::data_items()']]],
   ['db',['db',['../structmir_1_1test_1_1doubles_1_1_null_display_sync_group.html#a8f6c7b29fb0b872982e2b23968c2acba',1,'mir::test::doubles::NullDisplaySyncGroup']]],
   ['dec_5fref',['dec_ref',['../struct_mir_extension_android_buffer_v2.html#a3cb309f8d60c56f16d68833c51681dc2',1,'MirExtensionAndroidBufferV2']]],
   ['destroy_5fbuffer',['destroy_buffer',['../struct_mir_extension_android_e_g_l_v1.html#abf0228391347bb2a89ad0f7bddba694a',1,'MirExtensionAndroidEGLV1']]],

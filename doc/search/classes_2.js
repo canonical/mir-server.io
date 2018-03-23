@@ -9,7 +9,7 @@ var searchData=
   ['contactstate',['ContactState',['../structmir_1_1events_1_1_contact_state.html',1,'mir::events']]],
   ['context',['Context',['../classmir_1_1renderer_1_1gl_1_1_context.html',1,'mir::renderer::gl']]],
   ['contextsource',['ContextSource',['../classmir_1_1renderer_1_1gl_1_1_context_source.html',1,'mir::renderer::gl']]],
-  ['cookie',['Cookie',['../classmir_1_1client_1_1_cookie.html',1,'mir::client::Cookie'],['../classmir_1_1cookie_1_1_cookie.html',1,'mir::cookie::Cookie']]],
+  ['cookie',['Cookie',['../classmir_1_1cookie_1_1_cookie.html',1,'mir::cookie::Cookie'],['../classmir_1_1client_1_1_cookie.html',1,'mir::client::Cookie']]],
   ['crossprocessaction',['CrossProcessAction',['../classmir_1_1test_1_1_cross_process_action.html',1,'mir::test']]],
   ['crossprocesssync',['CrossProcessSync',['../classmir_1_1test_1_1_cross_process_sync.html',1,'mir::test']]],
   ['cursortheme',['CursorTheme',['../classmiral_1_1_cursor_theme.html',1,'miral']]]

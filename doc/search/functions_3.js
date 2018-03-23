@@ -4,7 +4,6 @@ var searchData=
   ['declarativeplacementwindowmanagerpolicy',['DeclarativePlacementWindowManagerPolicy',['../classmir__test__framework_1_1_declarative_placement_window_manager_policy.html#acaf26646068e6ca8f1ce95235d3fabf6',1,'mir_test_framework::DeclarativePlacementWindowManagerPolicy']]],
   ['decorationprovider',['DecorationProvider',['../class_decoration_provider.html#a5a8fd5a8044b3794320cebe780e31362',1,'DecorationProvider']]],
   ['default_5fsurface',['default_surface',['../structmir_1_1test_1_1doubles_1_1_stub_session.html#ac60717a7f3643dd62f9d7f9f19b5d122',1,'mir::test::doubles::StubSession']]],
-  ['delete_5flistener',['delete_listener',['../classmiral_1_1_active_outputs_monitor.html#a27de5fbaadb8df85f6a816b41cf36b7c',1,'miral::ActiveOutputsMonitor']]],
   ['deleter_5ffor',['deleter_for',['../namespacemir_1_1raii.html#a1d24849d677e26d4f50ceeed0f79da0d',1,'mir::raii']]],
   ['describenegationto',['DescribeNegationTo',['../class_is_valid_matcher.html#aa900e58930df7d870c0dcb6d36ef4853',1,'IsValidMatcher']]],
   ['describeto',['DescribeTo',['../class_is_valid_matcher.html#a2787878ac95bf2ccf2cb88864f02af83',1,'IsValidMatcher']]],

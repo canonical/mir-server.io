@@ -9,8 +9,8 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-111.5 351,-111.5 351,4 -4,4"/>
-<!-- Node211 -->
-<g id="node1" class="node"><title>Node211</title>
+<!-- Node210 -->
+<g id="node1" class="node"><title>Node210</title>
 <g id="a_node1"><a xlink:href="classmir_1_1renderer_1_1gl_1_1_context_source.html" target="_top" xlink:title="mir::renderer::gl::\lContextSource">
 <polygon fill="white" stroke="black" points="0,-77 0,-107 91,-107 91,-77 0,-77"/>
 <text text-anchor="start" x="8" y="-95" font-family="Arial" font-size="10.00">mir::renderer::gl::</text>
@@ -27,8 +27,8 @@
 </a>
 </g>
 </g>
-<!-- Node211&#45;&gt;Node0 -->
-<g id="edge1" class="edge"><title>Node211&#45;&gt;Node0</title>
+<!-- Node210&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node210&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M98.8072,-73.6612C108.836,-70.1452 119.231,-66.5008 128.928,-63.1009"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="97.6178,-70.3693 89.339,-76.9808 99.9338,-76.9751 97.6178,-70.3693"/>
 </g>
@@ -46,23 +46,23 @@
 <path fill="none" stroke="midnightblue" d="M229.353,-48C237.844,-48 246.522,-48 254.759,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="229.133,-44.5001 219.133,-48 229.133,-51.5001 229.133,-44.5001"/>
 </g>
-<!-- Node191 -->
-<g id="node4" class="node"><title>Node191</title>
+<!-- Node190 -->
+<g id="node4" class="node"><title>Node190</title>
 <polygon fill="white" stroke="#bfbfbf" points="21,-38.5 21,-57.5 70,-57.5 70,-38.5 21,-38.5"/>
 <text text-anchor="middle" x="45.5" y="-45.5" font-family="Arial" font-size="10.00">Display</text>
 </g>
-<!-- Node191&#45;&gt;Node0 -->
-<g id="edge3" class="edge"><title>Node191&#45;&gt;Node0</title>
+<!-- Node190&#45;&gt;Node0 -->
+<g id="edge3" class="edge"><title>Node190&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M80.4713,-48C94.7625,-48 111.596,-48 126.904,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="80.1056,-44.5001 70.1056,-48 80.1056,-51.5001 80.1056,-44.5001"/>
 </g>
-<!-- Node93 -->
-<g id="node5" class="node"><title>Node93</title>
-<polygon fill="white" stroke="#bfbfbf" points="8,-0.5 8,-19.5 83,-19.5 83,-0.5 8,-0.5"/>
+<!-- Node89 -->
+<g id="node5" class="node"><title>Node89</title>
+<polygon fill="white" stroke="#bfbfbf" points="7,-0.5 7,-19.5 84,-19.5 84,-0.5 7,-0.5"/>
 <text text-anchor="middle" x="45.5" y="-7.5" font-family="Arial" font-size="10.00">NativeDisplay</text>
 </g>
-<!-- Node93&#45;&gt;Node0 -->
-<g id="edge4" class="edge"><title>Node93&#45;&gt;Node0</title>
+<!-- Node89&#45;&gt;Node0 -->
+<g id="edge4" class="edge"><title>Node89&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M87.8118,-22.5088C100.231,-26.2691 113.923,-30.4149 126.592,-34.2509"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="88.7541,-19.1372 78.1689,-19.589 86.7255,-25.8368 88.7541,-19.1372"/>
 </g>

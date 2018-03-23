@@ -11,7 +11,6 @@ var searchData=
   ['signal_2eh',['signal.h',['../signal_8h.html',1,'']]],
   ['size_2eh',['size.h',['../size_8h.html',1,'']]],
   ['spin_5fwait_2eh',['spin_wait.h',['../spin__wait_8h.html',1,'']]],
-  ['splash_2eh',['splash.h',['../splash_8h.html',1,'']]],
   ['stub_5fclient_5fplatform_5foptions_2eh',['stub_client_platform_options.h',['../stub__client__platform__options_8h.html',1,'']]],
   ['stub_5fcursor_2eh',['stub_cursor.h',['../stub__cursor_8h.html',1,'']]],
   ['stub_5fcursor_5fimage_2eh',['stub_cursor_image.h',['../stub__cursor__image_8h.html',1,'']]],

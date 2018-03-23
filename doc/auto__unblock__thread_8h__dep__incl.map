@@ -1,9 +1,9 @@
 <map id="include/test/mir/test/auto_unblock_thread.h" name="include/test/mir/test/auto_unblock_thread.h">
-<area shape="rect" id="node2" href="$async__server__runner_8h.html" title="include/test/mir_test\l_framework/async_server\l_runner.h" alt="" coords="122,95,290,151"/>
+<area shape="rect" id="node2" href="$async__server__runner_8h.html" title="include/test/mir_test\l_framework/async_server\l_runner.h" alt="" coords="121,95,291,151"/>
 <area shape="rect" id="node3" href="$headless__nested__server__runner_8h.html" title="include/test/mir_test\l_framework/headless_nested\l_server_runner.h" alt="" coords="5,199,196,255"/>
-<area shape="rect" id="node4" href="$headless__test_8h.html" title="include/test/mir_test\l_framework/headless_test.h" alt="" coords="221,206,405,247"/>
-<area shape="rect" id="node5" href="$headless__in__process__server_8h.html" title="include/test/mir_test\l_framework/headless_in\l_process_server.h" alt="" coords="139,303,300,359"/>
-<area shape="rect" id="node8" href="$interprocess__client__server__test_8h.html" title="include/test/mir_test\l_framework/interprocess\l_client_server_test.h" alt="" coords="325,303,487,359"/>
-<area shape="rect" id="node6" href="$connected__client__headless__server_8h.html" title="include/test/mir_test\l_framework/connected\l_client_headless_server.h" alt="" coords="134,407,305,463"/>
-<area shape="rect" id="node7" href="$connected__client__with__a__window_8h.html" title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h" alt="" coords="137,511,301,567"/>
+<area shape="rect" id="node4" href="$headless__test_8h.html" title="include/test/mir_test\l_framework/headless_test.h" alt="" coords="220,206,405,247"/>
+<area shape="rect" id="node5" href="$headless__in__process__server_8h.html" title="include/test/mir_test\l_framework/headless_in\l_process_server.h" alt="" coords="137,303,299,359"/>
+<area shape="rect" id="node8" href="$interprocess__client__server__test_8h.html" title="include/test/mir_test\l_framework/interprocess\l_client_server_test.h" alt="" coords="324,303,488,359"/>
+<area shape="rect" id="node6" href="$connected__client__headless__server_8h.html" title="include/test/mir_test\l_framework/connected\l_client_headless_server.h" alt="" coords="131,407,305,463"/>
+<area shape="rect" id="node7" href="$connected__client__with__a__window_8h.html" title="include/test/mir_test\l_framework/connected\l_client_with_a_window.h" alt="" coords="136,511,300,567"/>
 </map>

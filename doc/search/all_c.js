@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['lambda_5fas_5ffunction',['lambda_as_function',['../namespacemiral.html#a9885588b584c829b1ccea01b6d7c7131',1,'miral']]],
+  ['lambda_5fas_5ffunction_2eh',['lambda_as_function.h',['../lambda__as__function_8h.html',1,'']]],
   ['last_5fframe_5fon',['last_frame_on',['../classmir_1_1test_1_1doubles_1_1_null_display.html#a357902287f83df3a599c572971946396',1,'mir::test::doubles::NullDisplay']]],
   ['latest_5fsurface',['latest_surface',['../structmir_1_1test_1_1doubles_1_1_wrap_shell_to_track_latest_surface.html#aca2f53315bac53cbf3708fd415db541e',1,'mir::test::doubles::WrapShellToTrackLatestSurface::latest_surface()'],['../structmir__test__framework_1_1_placement_applying_shell.html#a839075990594c746b4bf574ed141f4f4',1,'mir_test_framework::PlacementApplyingShell::latest_surface()']]],
   ['launch',['launch',['../classmiral_1_1_internal_client_launcher.html#ad3534b9c3019d4512d3d566ed97ad8b8',1,'miral::InternalClientLauncher::launch(std::string const &amp;name, std::function&lt; void(mir::client::Connection connection)&gt; const &amp;client_code, std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt; const &amp;connect_notification) const'],['../classmiral_1_1_internal_client_launcher.html#a1c154d30086ca108beedcaf1a98a0802',1,'miral::InternalClientLauncher::launch(std::string const &amp;name, ClientObject &amp;client_object) const']]],
@@ -12,7 +14,6 @@ var searchData=
   ['libname_5fimpl',['libname_impl',['../namespacemir_1_1detail.html#ab8c8227f2e01ee7f722d9b0d51dc26a6',1,'mir::detail']]],
   ['library',['library',['../structmir_1_1_module_deleter.html#abe586e90795aa87ce6d8260c63dee363',1,'mir::ModuleDeleter']]],
   ['library_5fpath',['library_path',['../namespacemir__test__framework.html#acd13b1f4b9a5c1a28491412c2a60fe10',1,'mir_test_framework']]],
-  ['light_5faubergine',['LIGHT_AUBERGINE',['../eglspinner_8cpp.html#a3a193b22c5e3b20d406d042e98db3da1',1,'eglspinner.cpp']]],
   ['load_5ffunction',['load_function',['../classmir_1_1_shared_library.html#a7ef0e525b477d2f9e47e60fca41dba01',1,'mir::SharedLibrary::load_function(char const *function_name) const'],['../classmir_1_1_shared_library.html#aa5e0f80b86cf3cb940426699a62c24a1',1,'mir::SharedLibrary::load_function(std::string const &amp;function_name) const'],['../classmir_1_1_shared_library.html#a3e09a6301ac8d9e880d24cfdc6e4112a',1,'mir::SharedLibrary::load_function(std::string const &amp;function_name, std::string const &amp;version) const']]],
   ['lock',['lock',['../classmir_1_1_posix_r_w_mutex.html#a6362e53ac89523e418006622e9288ad8',1,'mir::PosixRWMutex']]],
   ['lock_5fshared',['lock_shared',['../classmir_1_1_posix_r_w_mutex.html#a6d0fe5631650bdb2622f21ccb89e635e',1,'mir::PosixRWMutex']]],
