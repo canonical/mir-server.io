@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bufferusage',['BufferUsage',['../classmiral_1_1_window_specification.html#ad7356975bcf502f62638360403647e2d',1,'miral::WindowSpecification']]]
+  ['inputreceptionmode',['InputReceptionMode',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75',1,'miral::WindowSpecification']]]
 ];

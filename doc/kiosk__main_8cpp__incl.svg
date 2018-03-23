@@ -70,7 +70,7 @@
 </g>
 <!-- Node57 -->
 <g id="node44" class="node"><title>Node57</title>
-<g id="a_node44"><a xlink:href="miral_2miral_2keymap_8h.html" target="_top" xlink:title="miral/keymap.h">
+<g id="a_node44"><a xlink:href="keymap_8h.html" target="_top" xlink:title="miral/keymap.h">
 <polygon fill="white" stroke="black" points="1503.5,-274 1503.5,-293 1586.5,-293 1586.5,-274 1503.5,-274"/>
 <text text-anchor="middle" x="1545" y="-281" font-family="Arial" font-size="10.00">miral/keymap.h</text>
 </a>

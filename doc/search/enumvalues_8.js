@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyboard',['keyboard',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67eca388a56dbb62a010dc26a378981346247',1,'mir::input']]]
+  ['receives_5fall_5finput',['receives_all_input',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75a174d1ebd2ce1ed6433906e0ed9a75e71',1,'miral::WindowSpecification']]]
 ];

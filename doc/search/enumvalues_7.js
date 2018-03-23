@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['joystick',['joystick',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67eca2ed69833bf8cb33c80eaf0daa892400e',1,'mir::input']]]
+  ['ninepindin',['ninepindin',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a8d2de1f6a0a1b84fb808b2bd857d2364',1,'miral::Output']]],
+  ['normal',['normal',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75afea087517c26fadd409bd4b9dc642555',1,'miral::WindowSpecification']]]
 ];

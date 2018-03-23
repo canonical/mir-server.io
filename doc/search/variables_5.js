@@ -1,19 +1,7 @@
 var searchData=
 [
-  ['fake_5fconfigs',['fake_configs',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aa8bdfa8ba4778704c4a99975068d538c',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fconfigs_5fnum',['fake_configs_num',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aeff708fd828a20f0443b01037d06abcb',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fegl_5fcontext',['fake_egl_context',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a1f6459a4caf9ea60cecf04b5af4a17a1',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fegl_5fdisplay',['fake_egl_display',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#aa8e8354c5c5d2e56f02959e0f42db915',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fegl_5fimage',['fake_egl_image',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a2059008fbc31b041173790a5693ddb9d',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fegl_5fsurface',['fake_egl_surface',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#adb38c8994d85e7fc275894fcae4e887d',1,'mir::test::doubles::MockEGL']]],
-  ['fake_5fvisual_5fid',['fake_visual_id',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a4623a24c4135abc6a74fbce17732474b',1,'mir::test::doubles::MockEGL']]],
-  ['false',['false',['../namespacemir_1_1test_1_1doubles.html#a31edd269ea4e52d6c68ed4d4ec0948ad',1,'mir::test::doubles']]],
-  ['fatal_5ferror',['fatal_error',['../namespacemir.html#adbd3f807eb6d8ff75ef448788480a006',1,'mir']]],
-  ['favorite_5fflavor',['favorite_flavor',['../struct_mir_extension_favorite_flavor_v1.html#afea2e168d2971943ec4480ba2ccc827e',1,'MirExtensionFavoriteFlavorV1']]],
-  ['fd',['fd',['../struct_mir_buffer_package.html#ae449b5ca125fd0e674a1222bd69ba4b4',1,'MirBufferPackage::fd()'],['../struct_mir_platform_package.html#ab0559ecead3c1740793a336bbb1dbc98',1,'MirPlatformPackage::fd()'],['../struct_mir_extension_gbm_buffer_v2.html#a1a3c4a3a3d86f9e285c5ce6088370827',1,'MirExtensionGbmBufferV2::fd()']]],
-  ['fd_5fitems',['fd_items',['../struct_mir_buffer_package.html#a42e2d92b7e1c498f90ecd4d206481737',1,'MirBufferPackage::fd_items()'],['../struct_mir_platform_package.html#a311b442d9c476cd09dee8da9519f03cd',1,'MirPlatformPackage::fd_items()']]],
-  ['fds',['fds',['../struct_mir_platform_message_fds.html#a9a2e65c684664b2277909ae9dcf6f2a0',1,'MirPlatformMessageFds']]],
-  ['filename',['filename',['../struct_mir_module_properties.html#a020abad44645ba87e0060f41caf7f4c8',1,'MirModuleProperties']]],
-  ['flags',['flags',['../struct_mir_buffer_package.html#a7cadf1b9b02f285173c657ef8a2acf5a',1,'MirBufferPackage::flags()'],['../struct_mir_extension_gbm_buffer_v2.html#abe3d09f7aa68252fa334f264919c0e2c',1,'MirExtensionGbmBufferV2::flags()']]],
-  ['format',['format',['../struct_mir_extension_gbm_buffer_v2.html#a90b1b4d31f6ac28a5fbe7a35749af7be',1,'MirExtensionGbmBufferV2::format()'],['../group__mir__toolkit.html#ga5a2e86126e0b0885d7c529935e916483',1,'format():&#160;mir_connection.h']]]
+  ['get_5ffence',['get_fence',['../struct_mir_extension_fenced_buffers_v1.html#a375e36eb9118af3e583d988334f60dbe',1,'MirExtensionFencedBuffersV1']]],
+  ['get_5fhardware_5fbuffer_5fstream',['get_hardware_buffer_stream',['../struct_mir_extension_hardware_buffer_stream_v1.html#a1e03957931f15a9a09f85a01f125b5cb',1,'MirExtensionHardwareBufferStreamV1']]],
+  ['gralloc_5fusage',['gralloc_usage',['../struct_mir_extension_android_buffer_v2.html#a1adeef29d02e215cf0fb1b0dee3082a8',1,'MirExtensionAndroidBufferV2']]],
+  ['graphics_5fmodule',['graphics_module',['../struct_mir_extension_graphics_module_v1.html#a7dac3e55dd91b2a9b4e178a76806bce5',1,'MirExtensionGraphicsModuleV1']]]
 ];

@@ -1,6 +1,0 @@
-<map id="include/common/mir/dispatch/threaded_dispatcher.h" name="include/common/mir/dispatch/threaded_dispatcher.h">
-<area shape="rect" id="node8" href="$multiplexing__dispatchable_8h.html" title="mir/dispatch/multiplexing\l_dispatchable.h" alt="" coords="503,95,669,136"/>
-<area shape="rect" id="node10" href="$fd_8h.html" title="mir/fd.h" alt="" coords="851,259,918,285"/>
-<area shape="rect" id="node9" href="$dispatchable_8h.html" title="mir/dispatch/dispatchable.h" alt="" coords="794,184,975,211"/>
-<area shape="rect" id="node11" href="$posix__rw__mutex_8h.html" title="mir/posix_rw_mutex.h" alt="" coords="570,184,719,211"/>
-</map>

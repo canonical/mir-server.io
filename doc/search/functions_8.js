@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['id',['id',['../class_mir_input_device.html#a76e569adb6a0dbd594d7a5a49a4c7bad',1,'MirInputDevice::id()'],['../structmir_1_1test_1_1doubles_1_1_stub_device.html#a1d3a7fc23573fd0700119a74935c5bb2',1,'mir::test::doubles::StubDevice::id()']]],
   ['id_5ffor_5fwindow',['id_for_window',['../classmiral_1_1_window_manager_tools.html#a9fd190bc5515c4b90db646ca8e7f1e06',1,'miral::WindowManagerTools']]],
-  ['if',['if',['../namespacemir_1_1test_1_1doubles.html#a9602b448545fe44c2985d004b4115991',1,'mir::test::doubles']]],
   ['info_5ffor',['info_for',['../classmiral_1_1_window_manager_tools.html#ae4d6a4c82684b3d7aff97db0ff6d48a3',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Session &gt; const &amp;session) const -&gt; ApplicationInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#a8bf2eb7ebd51040022b3b1a4d7a72285',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Surface &gt; const &amp;surface) const -&gt; WindowInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#aa0c0e7396cc4bbd712d2eb84d05cc9fd',1,'miral::WindowManagerTools::info_for(Window const &amp;window) const -&gt; WindowInfo &amp;']]],
   ['info_5ffor_5fwindow_5fid',['info_for_window_id',['../classmiral_1_1_window_manager_tools.html#ab6580d53a8688d83b5b08420b076147e',1,'miral::WindowManagerTools']]],
-  ['init_5fserver',['init_server',['../classmir__test__framework_1_1_interprocess_client_server_test.html#ab359807c99025d186b3e4be6ab5dc3a0',1,'mir_test_framework::InterprocessClientServerTest']]],
-  ['initial_5fdisplay_5flayout',['initial_display_layout',['../classmir__test__framework_1_1_headless_test.html#a8f31ad7ca6fda3b81d9efb5e076e475e',1,'mir_test_framework::HeadlessTest']]],
-  ['input_5farea_5fcontains',['input_area_contains',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#ae6b05b3fa67635b1f289afc2b00e119f',1,'mir::test::doubles::StubSurface']]],
-  ['input_5fbounds',['input_bounds',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#ac577b17c458db311afc456b15c8cb097',1,'mir::test::doubles::StubSurface']]],
   ['input_5fmode',['input_mode',['../classmiral_1_1_window_specification.html#a9e12c6e4d374dbb96dffc7be45c22103',1,'miral::WindowSpecification::input_mode() const -&gt; mir::optional_value&lt; InputReceptionMode &gt; const &amp;'],['../classmiral_1_1_window_specification.html#ae038f8ae70b66a6835a61c6f61e33de5',1,'miral::WindowSpecification::input_mode() -&gt; mir::optional_value&lt; InputReceptionMode &gt; &amp;']]],
   ['input_5fshape',['input_shape',['../classmiral_1_1_window_specification.html#a352e81bd8c85b02a7c55762a41ff0866',1,'miral::WindowSpecification::input_shape() const -&gt; mir::optional_value&lt; std::vector&lt; Rectangle &gt;&gt; const &amp;'],['../classmiral_1_1_window_specification.html#a898200c2a301bc31ba6794a9c3a6ea57',1,'miral::WindowSpecification::input_shape() -&gt; mir::optional_value&lt; std::vector&lt; Rectangle &gt;&gt; &amp;']]],
   ['internalclientlauncher',['InternalClientLauncher',['../classmiral_1_1_internal_client_launcher.html#a5e44e9bd59f6bf4e4b7834cd046634d8',1,'miral::InternalClientLauncher']]],
@@ -18,8 +12,6 @@ var searchData=
   ['is_5fdecoration',['is_decoration',['../class_decoration_provider.html#a33645b649b36bafcd3719bb58cee1f84',1,'DecorationProvider']]],
   ['is_5fsame_5foutput',['is_same_output',['../classmiral_1_1_output.html#af8e240f437db833b9a88bedbba41d550',1,'miral::Output']]],
   ['is_5fset',['is_set',['../classmir_1_1optional__value.html#aa87ffde015a0f3e374d70c04b2b7abc7',1,'mir::optional_value']]],
-  ['is_5ftest_5fprocess',['is_test_process',['../classmir__test__framework_1_1_interprocess_client_server_test.html#aadca9f389482bdd79bb650f2f5a1f18e',1,'mir_test_framework::InterprocessClientServerTest']]],
   ['is_5ftitlebar',['is_titlebar',['../class_decoration_provider.html#adcf9e336c4f6a85f90477100c4b037d2',1,'DecorationProvider']]],
-  ['is_5fvisible',['is_visible',['../structmiral_1_1_window_info.html#ac3afe2a4965019ee75a4c1d3af350081',1,'miral::WindowInfo']]],
-  ['isvalid',['IsValid',['../validity__matchers_8h.html#a023540ec096769c79b0417868aa65814',1,'validity_matchers.h']]]
+  ['is_5fvisible',['is_visible',['../structmiral_1_1_window_info.html#ac3afe2a4965019ee75a4c1d3af350081',1,'miral::WindowInfo']]]
 ];

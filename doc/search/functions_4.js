@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['egl_5fnative_5fdisplay',['egl_native_display',['../classmir_1_1renderer_1_1gl_1_1_e_g_l_platform.html#adcd5d5ae921de9c5bb872e246a88ff59',1,'mir::renderer::gl::EGLPlatform']]],
-  ['eglplatform',['EGLPlatform',['../classmir_1_1renderer_1_1gl_1_1_e_g_l_platform.html#a5e3a0db668d607e618454f569ee8e75c',1,'mir::renderer::gl::EGLPlatform::EGLPlatform()=default'],['../classmir_1_1renderer_1_1gl_1_1_e_g_l_platform.html#a0cb005b02a1b063d3969f8af76604090',1,'mir::renderer::gl::EGLPlatform::EGLPlatform(EGLPlatform const &amp;)=delete']]],
-  ['emit_5fconfiguration_5fchange_5fevent',['emit_configuration_change_event',['../classmir_1_1test_1_1doubles_1_1_fake_display.html#a6632289a0cdfcf265a4f33a449d6e309',1,'mir::test::doubles::FakeDisplay']]],
-  ['emit_5fdevice_5fremoval',['emit_device_removal',['../classmir__test__framework_1_1_fake_input_device.html#a387ff2da92e9cb68908202ac86d437a7',1,'mir_test_framework::FakeInputDevice']]],
-  ['emit_5fevent',['emit_event',['../classmir__test__framework_1_1_fake_input_device.html#a0b037b78afa807d6ab53f86ff1341a92',1,'mir_test_framework::FakeInputDevice::emit_event(mir::input::synthesis::KeyParameters const &amp;key)=0'],['../classmir__test__framework_1_1_fake_input_device.html#af0f82da8a16d519d2e973f3c372eea1b',1,'mir_test_framework::FakeInputDevice::emit_event(mir::input::synthesis::ButtonParameters const &amp;button)=0'],['../classmir__test__framework_1_1_fake_input_device.html#a0d26500255123f0089a06b45dc4fa7a4',1,'mir_test_framework::FakeInputDevice::emit_event(mir::input::synthesis::MotionParameters const &amp;motion)=0'],['../classmir__test__framework_1_1_fake_input_device.html#a7a610c75ce9c5fb5c49a8fa0fa009815',1,'mir_test_framework::FakeInputDevice::emit_event(mir::input::synthesis::TouchParameters const &amp;touch)=0']]],
-  ['emit_5fkey_5fstate',['emit_key_state',['../classmir__test__framework_1_1_fake_input_device.html#a584e879d24b9ba4bdb5f113ab9596738',1,'mir_test_framework::FakeInputDevice']]],
-  ['emit_5fruntime_5ferror',['emit_runtime_error',['../classmir__test__framework_1_1_fake_input_device.html#af23ff437d2e5a950fcb62e90f93148a1',1,'mir_test_framework::FakeInputDevice']]],
-  ['emit_5ftouch_5fsequence',['emit_touch_sequence',['../classmir__test__framework_1_1_fake_input_device.html#a884a91f202acc7e63feeb0841a68f920',1,'mir_test_framework::FakeInputDevice']]],
   ['enable',['enable',['../classmiral_1_1_debug_extension.html#ae333e4ead94453228c2753a006fe9ecd',1,'miral::DebugExtension']]],
   ['end',['end',['../classmir_1_1geometry_1_1_rectangles.html#aece78536f99bde11703b08899aefc7cb',1,'mir::geometry::Rectangles']]],
   ['end_5fdrag_5fand_5fdrop',['end_drag_and_drop',['../classmiral_1_1_window_manager_tools.html#a8696e6da46c027c338fa0159925a5ff5',1,'miral::WindowManagerTools']]],
-  ['enqueue',['enqueue',['../classmir_1_1dispatch_1_1_action_queue.html#a3cc8bff2d981f96e72a86632950f8cc9',1,'mir::dispatch::ActionQueue']]],
   ['enqueue_5fwork',['enqueue_work',['../class_worker.html#a604488e73823b3bc56aa96c385dfc5af',1,'Worker']]],
   ['equivalent_5fdisplay_5farea',['equivalent_display_area',['../namespacemiral.html#ae3e8a2d1d13195be9b5c2b1da2a9a367',1,'miral']]],
   ['event',['Event',['../classmir_1_1client_1_1_event.html#af58bf4ffbc14a60e6cb9c84a4dff607c',1,'mir::client::Event::Event()=default'],['../classmir_1_1client_1_1_event.html#ae47adae567151697a307272c38659af2',1,'mir::client::Event::Event(MirEvent const *event)']]],
-  ['event_5fcallback',['event_callback',['../classmir__test__framework_1_1_visible_surface.html#ae50801381a9250e9686a3bfba72a9d45',1,'mir_test_framework::VisibleSurface']]],
-  ['exec',['exec',['../classmir_1_1test_1_1_cross_process_action.html#a8d2d81d27f44c072dff84870743ca640',1,'mir::test::CrossProcessAction']]],
-  ['executable_5fpath',['executable_path',['../namespacemir__test__framework.html#a874395ed8f513ef5d6d3e04f06b25b20',1,'mir_test_framework']]],
-  ['exited_5fnormally',['exited_normally',['../structmir__test__framework_1_1_result.html#aaf007b9f563ca04d1c0b5c42314eca91',1,'mir_test_framework::Result']]],
-  ['expect_5fnested_5fegl_5fusage',['expect_nested_egl_usage',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#ad8e51ec47c27ed08a40068193de4c5d1',1,'mir::test::doubles::MockEGL']]],
-  ['expect_5fserver_5fsignalled',['expect_server_signalled',['../classmir__test__framework_1_1_interprocess_client_server_test.html#acb5637729f00d7126481899640e4a3fa',1,'mir_test_framework::InterprocessClientServerTest']]],
-  ['extensions',['extensions',['../classmir_1_1test_1_1doubles_1_1_null_platform.html#a30c962261ecdc98ab53d8dd387a5b992',1,'mir::test::doubles::NullPlatform']]],
   ['extents',['extents',['../classmiral_1_1_output.html#af905b2389805b8180ed3ec06621bd4e3',1,'miral::Output']]]
 ];

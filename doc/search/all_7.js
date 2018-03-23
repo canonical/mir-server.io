@@ -1,26 +1,15 @@
 var searchData=
 [
-  ['gamepad',['gamepad',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67ecacbba9c7337cee922a53c56866814bc17',1,'mir::input']]],
   ['gbm_5fbuffer_2eh',['gbm_buffer.h',['../gbm__buffer_8h.html',1,'']]],
-  ['generate_5frenderables',['generate_renderables',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#a47f906ca64195c97bb89952e949af782',1,'mir::test::doubles::StubSurface']]],
-  ['generic_5ffunction_5fpointer_5ft',['generic_function_pointer_t',['../classmir_1_1test_1_1doubles_1_1_mock_e_g_l.html#a17631f26e41d9436ef87980c320bda91',1,'mir::test::doubles::MockEGL']]],
   ['get',['get',['../classmir_1_1client_1_1_cookie.html#ab2fef3baa44f8ceca3ea1923c0261d3c',1,'mir::client::Cookie']]],
-  ['get_5fbuffer_5fstream',['get_buffer_stream',['../structmir_1_1test_1_1doubles_1_1_stub_session.html#ada4819c6a89be3050720f50e7d6edae6',1,'mir::test::doubles::StubSession']]],
-  ['get_5fdevice_5fconfig_5fby_5fid',['get_device_config_by_id',['../struct_mir_input_config.html#a2c4bb563182e10edbe84d8b1c6306204',1,'MirInputConfig::get_device_config_by_id(MirInputDeviceId id)'],['../struct_mir_input_config.html#aca522582ae8e6726d046ae2d8e76c862',1,'MirInputConfig::get_device_config_by_id(MirInputDeviceId id) const']]],
-  ['get_5fdevice_5fconfig_5fby_5findex',['get_device_config_by_index',['../struct_mir_input_config.html#acbb862dfbc3df07b6fdafe3f84d17b97',1,'MirInputConfig::get_device_config_by_index(size_t pos)'],['../struct_mir_input_config.html#adf26fe94f0453bf87abfa004501c9cf4',1,'MirInputConfig::get_device_config_by_index(size_t pos) const']]],
   ['get_5ffence',['get_fence',['../struct_mir_extension_fenced_buffers_v1.html#a375e36eb9118af3e583d988334f60dbe',1,'MirExtensionFencedBuffersV1']]],
   ['get_5fhardware_5fbuffer_5fstream',['get_hardware_buffer_stream',['../struct_mir_extension_hardware_buffer_stream_v1.html#a1e03957931f15a9a09f85a01f125b5cb',1,'MirExtensionHardwareBufferStreamV1']]],
-  ['get_5fline',['get_line',['../classmir_1_1test_1_1_popen.html#a1d51a2a114dd92bdd5cb6d27a1e40b12',1,'mir::test::Popen']]],
-  ['get_5fsurface',['get_surface',['../structmir_1_1test_1_1doubles_1_1_stub_session.html#a95edb5b851b418dd39d988435fc5d671',1,'mir::test::doubles::StubSession']]],
   ['getting_20and_20using_20mir',['Getting and Using Mir',['../getting_and_using_mir.html',1,'']]],
   ['getting_5fand_5fusing_5fmir_2emd',['getting_and_using_mir.md',['../getting__and__using__mir_8md.html',1,'']]],
   ['getting_20involved_20in_20mir',['Getting Involved in Mir',['../getting_involved_in_mir.html',1,'']]],
   ['getting_5finvolved_5fin_5fmir_2emd',['getting_involved_in_mir.md',['../getting__involved__in__mir_8md.html',1,'']]],
   ['gid',['gid',['../classmiral_1_1_application_credentials.html#abae0cdb26352b5be5f7a08b506974fd1',1,'miral::ApplicationCredentials']]],
-  ['gl_5fbind_5fto_5ftexture',['gl_bind_to_texture',['../classmir_1_1renderer_1_1gl_1_1_texture_source.html#a1d9d28dd7a7785ad140b0e9f1ce55ec3',1,'mir::renderer::gl::TextureSource']]],
-  ['gl_5fglext_5fprototypes',['GL_GLEXT_PROTOTYPES',['../mock__egl_8h.html#a120fb070bddb21f0bd899f50252c4cb5',1,'mock_egl.h']]],
   ['gralloc_5fusage',['gralloc_usage',['../struct_mir_extension_android_buffer_v2.html#a1adeef29d02e215cf0fb1b0dee3082a8',1,'MirExtensionAndroidBufferV2']]],
   ['graphics_5fmodule',['graphics_module',['../struct_mir_extension_graphics_module_v1.html#a7dac3e55dd91b2a9b4e178a76806bce5',1,'MirExtensionGraphicsModuleV1']]],
-  ['graphics_5fmodule_2eh',['graphics_module.h',['../graphics__module_8h.html',1,'']]],
-  ['group',['group',['../classmir_1_1test_1_1doubles_1_1_null_display.html#ac2775bd529b0029364d016609c58614c',1,'mir::test::doubles::NullDisplay']]]
+  ['graphics_5fmodule_2eh',['graphics_module.h',['../graphics__module_8h.html',1,'']]]
 ];

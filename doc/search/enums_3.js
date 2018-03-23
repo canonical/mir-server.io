@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eventaction',['EventAction',['../namespacemir_1_1input_1_1synthesis.html#a2869db7c8289378336aabba39299fbd1',1,'mir::input::synthesis']]]
+  ['type',['Type',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1',1,'miral::Output']]]
 ];

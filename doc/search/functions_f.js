@@ -1,4 +1,17 @@
 var searchData=
 [
-  ['query',['query',['../structmir_1_1test_1_1doubles_1_1_stub_surface.html#ac94136c98a5c0665500920f1b0b0af32',1,'mir::test::doubles::StubSurface']]]
+  ['raise_5ftree',['raise_tree',['../classmiral_1_1_window_manager_tools.html#a904b24edd671b6acc6b99965f9ddc643',1,'miral::WindowManagerTools']]],
+  ['rectangle',['Rectangle',['../structmir_1_1geometry_1_1_rectangle.html#a7661535b0bb7ecd44da1be24e6143f8e',1,'mir::geometry::Rectangle::Rectangle()=default'],['../structmir_1_1geometry_1_1_rectangle.html#ab93d4ef39ccc8e5a303930db4e484636',1,'mir::geometry::Rectangle::Rectangle(Point const &amp;top_left, Size const &amp;size)']]],
+  ['rectangles',['Rectangles',['../classmir_1_1geometry_1_1_rectangles.html#ae9e98fd90770079f6e362b49d00a54c0',1,'mir::geometry::Rectangles::Rectangles()'],['../classmir_1_1geometry_1_1_rectangles.html#a62c561147338799d805e34836efc88ff',1,'mir::geometry::Rectangles::Rectangles(std::initializer_list&lt; Rectangle &gt; const &amp;rects)']]],
+  ['refresh_5frate',['refresh_rate',['../classmiral_1_1_output.html#a6c05559f3d44a7bc681d5cb0b412446a',1,'miral::Output']]],
+  ['remove',['remove',['../classmir_1_1geometry_1_1_rectangles.html#a281ca5ad0586ac24e024d99d2edd0dd4',1,'mir::geometry::Rectangles']]],
+  ['remove_5fchild',['remove_child',['../structmiral_1_1_window_info.html#a4e2de765c0efa6cb8f7be868e1c51146',1,'miral::WindowInfo']]],
+  ['remove_5ftree_5ffrom_5fworkspace',['remove_tree_from_workspace',['../classmiral_1_1_window_manager_tools.html#ac1a009052845a7ec64673f38793b0aa7',1,'miral::WindowManagerTools']]],
+  ['remove_5fwindow',['remove_window',['../structmiral_1_1_application_info.html#a68130a531db042cad842ca43707b59a8',1,'miral::ApplicationInfo']]],
+  ['reset',['reset',['../classmir_1_1client_1_1_blob.html#a6581ceb7a169b340cc88a2ab4f08a96d',1,'mir::client::Blob::reset()'],['../classmir_1_1client_1_1_blob.html#a23f20b8c590c707784e51b92ef8f769a',1,'mir::client::Blob::reset(MirBlob *blob)'],['../classmir_1_1client_1_1_connection.html#ac217ff706bc351880bafbf765a066263',1,'mir::client::Connection::reset()'],['../classmir_1_1client_1_1_cookie.html#a9aad45c84c088467e55149c3ae356586',1,'mir::client::Cookie::reset()'],['../classmir_1_1client_1_1_cookie.html#a5abee4ae09b0a732cc9041d3e18c459d',1,'mir::client::Cookie::reset(MirCookie const *cookie)'],['../classmir_1_1client_1_1_display_config.html#a686c19d4a9f154a86d2f93d14db19d69',1,'mir::client::DisplayConfig::reset()'],['../classmir_1_1client_1_1_event.html#a3c6d4a5d8c28f011f7009af46adb4e59',1,'mir::client::Event::reset()'],['../classmir_1_1client_1_1_surface.html#a09ee98700a2216f81fa17ebb5006cadf',1,'mir::client::Surface::reset()'],['../classmir_1_1client_1_1_window.html#a0658dfc2f60fef605cbc5037d06078c7',1,'mir::client::Window::reset()']]],
+  ['resize',['resize',['../classmiral_1_1_window.html#a68cc9e3f38d950b336d603d6d99f9140',1,'miral::Window']]],
+  ['resize_5ftitlebar_5ffor',['resize_titlebar_for',['../class_decoration_provider.html#a9cc2ccb0f62ab91fe115c6c9719f90e0',1,'DecorationProvider']]],
+  ['restore_5frect',['restore_rect',['../structmiral_1_1_window_info.html#a5b7c780f53936639a91483fe31b4fd1a',1,'miral::WindowInfo::restore_rect() const -&gt; mir::geometry::Rectangle'],['../structmiral_1_1_window_info.html#ad4e2804eb67940b2038150410c25ff1f',1,'miral::WindowInfo::restore_rect(mir::geometry::Rectangle const &amp;restore_rect)']]],
+  ['right',['right',['../structmir_1_1geometry_1_1_rectangle.html#a4d0380113db5b6e503da4176ae52ed25',1,'mir::geometry::Rectangle']]],
+  ['run_5fwith',['run_with',['../classmiral_1_1_mir_runner.html#ae14748306ca4d34fe3e702081d13e8cd',1,'miral::MirRunner']]]
 ];

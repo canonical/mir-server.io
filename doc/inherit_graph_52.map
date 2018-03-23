@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmir_1_1renderer_1_1gl_1_1_e_g_l_platform.html" title="mir::renderer::gl::\lEGLPlatform" alt="" coords="5,5,127,47"/>
+<area shape="rect" id="node1" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined. " alt="" coords="5,60,220,87"/>
+<area shape="rect" id="node2" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management. " alt="" coords="268,23,479,65"/>
+<area shape="rect" id="node5" href="$class_tiling_window_manager_policy.html" title="TilingWindowManagerPolicy" alt="" coords="281,89,465,116"/>
+<area shape="rect" id="node3" href="$class_floating_window_manager_policy.html" title="FloatingWindowManagerPolicy" alt="" coords="527,5,725,32"/>
+<area shape="rect" id="node4" href="$class_kiosk_window_manager_policy.html" title="KioskWindowManagerPolicy" alt="" coords="533,56,719,83"/>
 </map>

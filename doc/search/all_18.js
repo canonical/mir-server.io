@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['x',['x',['../structmir_1_1geometry_1_1_point.html#a9f9f1b8378d6c6ea5f401adef18307ad',1,'mir::geometry::Point::x()'],['../structmir_1_1events_1_1_contact_state.html#ae93c69b591db98c6af894ee9bb049cf8',1,'mir::events::ContactState::x()'],['../namespacemir_1_1geometry.html#afa89aa61680ed8508321fa512f09cc39',1,'mir::geometry::X()']]]
+  ['_7eaddinitcallback',['~AddInitCallback',['../classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a',1,'miral::AddInitCallback']]],
+  ['_7eanonymousshmfile',['~AnonymousShmFile',['../classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc',1,'mir::AnonymousShmFile']]],
+  ['_7eapplicationauthorizer',['~ApplicationAuthorizer',['../classmiral_1_1_application_authorizer.html#a65c84cf91a2e2ea713f244518cff0a13',1,'miral::ApplicationAuthorizer']]],
+  ['_7eapplicationinfo',['~ApplicationInfo',['../structmiral_1_1_application_info.html#a5606dd261f08eeaaa7a52a90ef49f113',1,'miral::ApplicationInfo']]],
+  ['_7ebasicsetapplicationauthorizer',['~BasicSetApplicationAuthorizer',['../classmiral_1_1_basic_set_application_authorizer.html#af378f9393a4ea73f20822b4c78b48b64',1,'miral::BasicSetApplicationAuthorizer']]],
+  ['_7ecommandlineoption',['~CommandLineOption',['../classmiral_1_1_command_line_option.html#a9b287e1561c1ddaae7596b713f3eb925',1,'miral::CommandLineOption']]],
+  ['_7ecursortheme',['~CursorTheme',['../classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411',1,'miral::CursorTheme']]],
+  ['_7edecorationprovider',['~DecorationProvider',['../class_decoration_provider.html#af7de106505517f8ccc5606ba200096a4',1,'DecorationProvider']]],
+  ['_7efatalerrorstrategy',['~FatalErrorStrategy',['../classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5',1,'mir::FatalErrorStrategy']]],
+  ['_7efloatingwindowmanagerpolicy',['~FloatingWindowManagerPolicy',['../class_floating_window_manager_policy.html#ab551a20ba8db010e1ff149e4968f4682',1,'FloatingWindowManagerPolicy']]],
+  ['_7einternalclientlauncher',['~InternalClientLauncher',['../classmiral_1_1_internal_client_launcher.html#a05aeae4091af4e2ee1b5f2a000d3c577',1,'miral::InternalClientLauncher']]],
+  ['_7ekeymap',['~Keymap',['../classmiral_1_1_keymap.html#a56a3a479939416b4f88d707a7ea44301',1,'miral::Keymap']]],
+  ['_7emirrunner',['~MirRunner',['../classmiral_1_1_mir_runner.html#a381ac7c68ff3099aa1062c2bdab507e3',1,'miral::MirRunner']]],
+  ['_7eoutput',['~Output',['../classmiral_1_1_output.html#a2c68d6829030f12c1ddd91dc65b29e38',1,'miral::Output']]],
+  ['_7esetcommandlinehandler',['~SetCommandLineHandler',['../classmiral_1_1_set_command_line_handler.html#a113e72e1181ece1b7f2e9be3def367cd',1,'miral::SetCommandLineHandler']]],
+  ['_7esetterminator',['~SetTerminator',['../classmiral_1_1_set_terminator.html#af07c19649aa98d8b512dcf7ed4862dc9',1,'miral::SetTerminator']]],
+  ['_7esetwindowmanagementpolicy',['~SetWindowManagementPolicy',['../classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68',1,'miral::SetWindowManagementPolicy']]],
+  ['_7eshmfile',['~ShmFile',['../classmir_1_1_shm_file.html#a2268642acf56d65c7747c4f1f62ce4bf',1,'mir::ShmFile']]],
+  ['_7estartupinternalclient',['~StartupInternalClient',['../classmiral_1_1_startup_internal_client.html#ab3e00b542af11afa3cd64c52361b23b5',1,'miral::StartupInternalClient']]],
+  ['_7eswsplash',['~SwSplash',['../class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f',1,'SwSplash']]],
+  ['_7ewindow',['~Window',['../classmiral_1_1_window.html#ac454e3eab8125652829371c5c02cdae2',1,'miral::Window']]],
+  ['_7ewindowinfo',['~WindowInfo',['../structmiral_1_1_window_info.html#a290c0b89169cf33ce5ff7cdb0b8e9656',1,'miral::WindowInfo']]],
+  ['_7ewindowmanagementpolicy',['~WindowManagementPolicy',['../classmiral_1_1_window_management_policy.html#a32efad0dc7bce07dce18c8f597c52167',1,'miral::WindowManagementPolicy']]],
+  ['_7ewindowmanagertools',['~WindowManagerTools',['../classmiral_1_1_window_manager_tools.html#ae4ae13bfd76d671eb27e71963afe60d9',1,'miral::WindowManagerTools']]],
+  ['_7ewindowspecification',['~WindowSpecification',['../classmiral_1_1_window_specification.html#a5e7e0f8a8719eb88a705077ddeaf1602',1,'miral::WindowSpecification']]],
+  ['_7eworker',['~Worker',['../class_worker.html#aa8e4543ef1e93fd9d884269ba30c5bfe',1,'Worker']]]
 ];

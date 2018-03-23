@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['handler',['Handler',['../classmiral_1_1_set_command_line_handler.html#afc5b62ec746f13e4a0a97b9ca29bccb6',1,'miral::SetCommandLineHandler']]],
-  ['height',['Height',['../namespacemir_1_1geometry.html#a3d64751bd570e43e1378e38681b95068',1,'mir::geometry']]]
+  ['size_5ftype',['size_type',['../classmir_1_1geometry_1_1_rectangles.html#a6f245d97e6372e459cdf91010eb6eb1e',1,'mir::geometry::Rectangles']]],
+  ['stride',['Stride',['../namespacemir_1_1geometry.html#a4d17587140b3ca84685f1aa8ac9186ee',1,'mir::geometry']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gamepad',['gamepad',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67ecacbba9c7337cee922a53c56866814bc17',1,'mir::input']]]
+  ['inches',['inches',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378a9243a98d4f5096338a3fd21f9fd10d51',1,'mir::geometry::Length']]]
 ];

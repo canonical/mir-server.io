@@ -1,18 +1,12 @@
 var searchData=
 [
-  ['death_2eh',['death.h',['../death_8h.html',1,'']]],
   ['debug_5fextension_2eh',['debug_extension.h',['../debug__extension_8h.html',1,'']]],
-  ['declarative_5fplacement_5fwindow_5fmanage_5fpolicy_2eh',['declarative_placement_window_manage_policy.h',['../declarative__placement__window__manage__policy_8h.html',1,'']]],
   ['decoration_5fprovider_2ecpp',['decoration_provider.cpp',['../decoration__provider_8cpp.html',1,'']]],
   ['decoration_5fprovider_2eh',['decoration_provider.h',['../decoration__provider_8h.html',1,'']]],
   ['deprecations_2eh',['deprecations.h',['../deprecations_8h.html',1,'']]],
-  ['detect_5fserver_2eh',['detect_server.h',['../detect__server_8h.html',1,'']]],
-  ['device_5fcapability_2eh',['device_capability.h',['../device__capability_8h.html',1,'']]],
   ['dimensions_2eh',['dimensions.h',['../dimensions_8h.html',1,'']]],
-  ['dispatchable_2eh',['dispatchable.h',['../dispatchable_8h.html',1,'']]],
   ['displacement_2eh',['displacement.h',['../displacement_8h.html',1,'']]],
   ['display_5fconfig_2eh',['display_config.h',['../display__config_8h.html',1,'']]],
-  ['display_5fconfig_5fmatchers_2eh',['display_config_matchers.h',['../display__config__matchers_8h.html',1,'']]],
   ['display_5fconfiguration_5foption_2eh',['display_configuration_option.h',['../display__configuration__option_8h.html',1,'']]],
   ['drag_5fand_5fdrop_2eh',['drag_and_drop.h',['../drag__and__drop_8h.html',1,'']]],
   ['dso_5fversioning_5fguide_2emd',['dso_versioning_guide.md',['../dso__versioning__guide_8md.html',1,'']]]

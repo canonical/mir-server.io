@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['hal_5fpixel_5fformat',['hal_pixel_format',['../struct_mir_extension_android_buffer_v2.html#a70642a3783bfd2745963c76fdd7877dd',1,'MirExtensionAndroidBufferV2']]],
-  ['height',['height',['../structmir_1_1geometry_1_1_size.html#ae721cb8e26dece407554cb983fa25b39',1,'mir::geometry::Size::height()'],['../struct_mir_buffer_package.html#a20ae1bad0fbd14706f213d63b58d58a4',1,'MirBufferPackage::height()'],['../struct_mir_surface_parameters.html#a6b8210257dd2f6d169a8c3275cc5474a',1,'MirSurfaceParameters::height()'],['../struct_mir_graphics_region.html#a2d293ead1eec7eb2c4d86da58b0f767f',1,'MirGraphicsRegion::height()'],['../struct_mir_display_info.html#ade0635b3d3d7d88d2a6b512877375e02',1,'MirDisplayInfo::height()'],['../struct_mir_rectangle.html#a2ed98e97d9fda2e58bfb57ad8dd6cf80',1,'MirRectangle::height()'],['../struct_mir_screencast_parameters.html#ae9be13af46658855f1e716bc0c4364ec',1,'MirScreencastParameters::height()'],['../structmiral_1_1_output_1_1_physical_size_m_m.html#afb21c2bd1e4afe87d549f249acf26d97',1,'miral::Output::PhysicalSizeMM::height()'],['../structmiral_1_1_window_specification_1_1_aspect_ratio.html#a04e10e428d3a784a0494419bcc6eb314',1,'miral::WindowSpecification::AspectRatio::height()'],['../mir__peace__wall_8h.html#ab2e78c61905b4419fcc7b4cfc500fe85',1,'height():&#160;mir_peace_wall.h'],['../client__types_8h.html#ad12fc34ce789bce6c8a05d8a17138534',1,'height():&#160;client_types.h']]],
-  ['horizontal_5fresolution',['horizontal_resolution',['../struct_mir_display_mode.html#af95b49396a290e4e33d6c5d580b245be',1,'MirDisplayMode']]]
+  ['inc_5fref',['inc_ref',['../struct_mir_extension_android_buffer_v2.html#a63781739655e329fda1a8a7b7ed13054',1,'MirExtensionAndroidBufferV2']]],
+  ['int_5fowned_5ffd',['int_owned_fd',['../structmir_1_1_int_owned_fd.html#aa621ef26ef8c148091b36083b0ef4b19',1,'mir::IntOwnedFd']]],
+  ['invalid',['invalid',['../classmir_1_1_fd.html#add4a32519ffff4bef0a4ccc0e8c9ed6f',1,'mir::Fd']]],
+  ['is_5fandroid_5fcompatible',['is_android_compatible',['../struct_mir_extension_android_buffer_v2.html#a210e884c1578d6876c48615d0183bdfe',1,'MirExtensionAndroidBufferV2']]],
+  ['is_5fgbm_5fimportable',['is_gbm_importable',['../struct_mir_extension_gbm_buffer_v2.html#a574f6fec461c3ade262cebf9a52d39ab',1,'MirExtensionGbmBufferV2']]]
 ];

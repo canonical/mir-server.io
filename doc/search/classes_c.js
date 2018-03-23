@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['observantshell',['ObservantShell',['../structmir__test__framework_1_1_observant_shell.html',1,'mir_test_framework']]],
-  ['optional_5fvalue',['optional_value',['../classmir_1_1optional__value.html',1,'mir']]],
-  ['output',['Output',['../classmiral_1_1_output.html',1,'miral']]]
+  ['physicalsizemm',['PhysicalSizeMM',['../structmiral_1_1_output_1_1_physical_size_m_m.html',1,'miral::Output']]],
+  ['point',['Point',['../structmir_1_1geometry_1_1_point.html',1,'mir::geometry']]]
 ];

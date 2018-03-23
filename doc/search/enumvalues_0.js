@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['add',['add',['../namespacemir__test__framework.html#ae28b62e234f599b28f8e8736b3e43ab6a34ec78fcc91ffb1e54cd85e4a0924332',1,'mir_test_framework']]],
-  ['alpha_5fnumeric',['alpha_numeric',['../namespacemir_1_1input.html#a21992cbb21344fabc43e4f44cf0b67ecabacb69e835ce829f82ef1c1de35b0e35',1,'mir::input']]]
+  ['centimetres',['centimetres',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378acc24c2f3385b04fea2c9692fa4661255',1,'mir::geometry::Length']]],
+  ['component',['component',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a700c216fb376666eaeda0c892e8bdc09',1,'miral::Output']]],
+  ['composite',['composite',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1aece0fa92c82afc69092153da33069c87',1,'miral::Output']]]
 ];

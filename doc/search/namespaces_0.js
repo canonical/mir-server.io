@@ -1,26 +1,13 @@
 var searchData=
 [
   ['client',['client',['../namespacemir_1_1client.html',1,'mir']]],
-  ['cookie',['cookie',['../namespacemir_1_1cookie.html',1,'mir']]],
-  ['detail',['detail',['../namespacemir_1_1detail.html',1,'mir::detail'],['../namespacemir_1_1frontend_1_1detail.html',1,'mir::frontend::detail'],['../namespacemir_1_1geometry_1_1detail.html',1,'mir::geometry::detail'],['../namespacemiral_1_1detail.html',1,'miral::detail']]],
-  ['dispatch',['dispatch',['../namespacemir_1_1dispatch.html',1,'mir']]],
-  ['doubles',['doubles',['../namespacemir_1_1test_1_1doubles.html',1,'mir::test']]],
+  ['detail',['detail',['../namespacemir_1_1detail.html',1,'mir::detail'],['../namespacemir_1_1geometry_1_1detail.html',1,'mir::geometry::detail'],['../namespacemiral_1_1detail.html',1,'miral::detail']]],
   ['events',['events',['../namespacemir_1_1events.html',1,'mir']]],
   ['frontend',['frontend',['../namespacemir_1_1frontend.html',1,'mir']]],
   ['geometry',['geometry',['../namespacemir_1_1geometry.html',1,'mir']]],
-  ['gl',['gl',['../namespacemir_1_1renderer_1_1gl.html',1,'mir::renderer']]],
   ['graphics',['graphics',['../namespacemir_1_1graphics.html',1,'mir']]],
-  ['input',['input',['../namespacemir_1_1input.html',1,'mir']]],
-  ['logging',['logging',['../namespacemir_1_1logging.html',1,'mir']]],
   ['mir',['mir',['../namespacemir.html',1,'']]],
-  ['mir_5ftest_5fframework',['mir_test_framework',['../namespacemir__test__framework.html',1,'']]],
   ['miral',['miral',['../namespacemiral.html',1,'']]],
-  ['protobuf',['protobuf',['../namespacemir_1_1protobuf.html',1,'mir']]],
-  ['raii',['raii',['../namespacemir_1_1raii.html',1,'mir']]],
-  ['renderer',['renderer',['../namespacemir_1_1renderer.html',1,'mir']]],
   ['scene',['scene',['../namespacemir_1_1scene.html',1,'mir']]],
-  ['shell',['shell',['../namespacemir_1_1shell.html',1,'mir']]],
-  ['synthesis',['synthesis',['../namespacemir_1_1input_1_1synthesis.html',1,'mir::input']]],
-  ['test',['test',['../namespacemir_1_1test.html',1,'mir']]],
-  ['time',['time',['../namespacemir_1_1time.html',1,'mir']]]
+  ['shell',['shell',['../namespacemir_1_1shell.html',1,'mir']]]
 ];

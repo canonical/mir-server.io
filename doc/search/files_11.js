@@ -1,13 +1,4 @@
 var searchData=
 [
-  ['temporary_5fenvironment_5fvalue_2eh',['temporary_environment_value.h',['../temporary__environment__value_8h.html',1,'']]],
-  ['texture_5fsource_2eh',['texture_source.h',['../texture__source_8h.html',1,'']]],
-  ['texture_5ftarget_2eh',['texture_target.h',['../texture__target_8h.html',1,'']]],
-  ['threaded_5fdispatcher_2eh',['threaded_dispatcher.h',['../threaded__dispatcher_8h.html',1,'']]],
-  ['tiling_5fwindow_5fmanager_2ecpp',['tiling_window_manager.cpp',['../tiling__window__manager_8cpp.html',1,'']]],
-  ['tiling_5fwindow_5fmanager_2eh',['tiling_window_manager.h',['../tiling__window__manager_8h.html',1,'']]],
-  ['titlebar_5fconfig_2ecpp',['titlebar_config.cpp',['../titlebar__config_8cpp.html',1,'']]],
-  ['titlebar_5fconfig_2eh',['titlebar_config.h',['../titlebar__config_8h.html',1,'']]],
-  ['touch_5fevent_2eh',['touch_event.h',['../touch__event_8h.html',1,'']]],
-  ['types_2eh',['types.h',['../types_8h.html',1,'']]]
+  ['version_2eh',['version.h',['../client_2mir__toolkit_2version_8h.html',1,'(Global Namespace)'],['../miral_2miral_2version_8h.html',1,'(Global Namespace)']]]
 ];

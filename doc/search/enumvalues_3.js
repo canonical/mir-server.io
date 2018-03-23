@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['echo_5ffd',['echo_fd',['../namespacemir__test__framework.html#ae28b62e234f599b28f8e8736b3e43ab6a02a253369fea817b2f0f5e1087d33089',1,'mir_test_framework']]],
-  ['edp',['edp',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1aed9bdb883dd5d0bf37bd5d208a17fadc',1,'miral::Output']]],
-  ['error',['error',['../namespacemir_1_1dispatch.html#a1193057c5af0cf923bb4090e7baad1cfa8fafb02ca3c9ad270f620b56400b8b5b',1,'mir::dispatch::error()'],['../namespacemir_1_1logging.html#a122b187cfdc1e490a6323b9083c9b076acb5e100e5a9a3e7f6d1fd97512215282',1,'mir::logging::error()']]]
+  ['hardware',['hardware',['../classmiral_1_1_window_specification.html#ad7356975bcf502f62638360403647e2da3ca14c518d1bf901acc339e7c9cd6d7f',1,'miral::WindowSpecification']]],
+  ['hdmia',['hdmia',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a24a3bdc5d7be6d18f3a8c82164e8ebdc',1,'miral::Output']]],
+  ['hdmib',['hdmib',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a36b8004c768727f5740a3415c7a47eaf',1,'miral::Output']]]
 ];
