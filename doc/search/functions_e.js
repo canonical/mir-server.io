@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['paint',['paint',['../class_mir_egl_surface.html#a800ed73122130de3a04bef90d4397481',1,'MirEglSurface']]],
   ['paint_5ftitlebar_5ffor',['paint_titlebar_for',['../class_decoration_provider.html#a4ac04b7f25d5fc6f978d002f8ea346f8',1,'DecorationProvider']]],
   ['parent',['parent',['../structmiral_1_1_window_info.html#a52e000240784e77f97978cf984fbfcb0',1,'miral::WindowInfo::parent() const -&gt; Window'],['../structmiral_1_1_window_info.html#ac382df039777233756e5426a989e6af8',1,'miral::WindowInfo::parent(Window const &amp;parent)'],['../classmiral_1_1_window_specification.html#a59eac252bd260cc78859dab4b8e4b823',1,'miral::WindowSpecification::parent() const -&gt; mir::optional_value&lt; std::weak_ptr&lt; mir::scene::Surface &gt;&gt; const &amp;'],['../classmiral_1_1_window_specification.html#a1a69317b6e10f745ba60cbe5631e92b6',1,'miral::WindowSpecification::parent() -&gt; mir::optional_value&lt; std::weak_ptr&lt; mir::scene::Surface &gt;&gt; &amp;']]],
   ['physical_5fsize_5fmm',['physical_size_mm',['../classmiral_1_1_output.html#ac42c056793efffdd84e2906e38129ae6',1,'miral::Output']]],
@@ -14,5 +15,6 @@ var searchData=
   ['power_5fmode',['power_mode',['../classmiral_1_1_output.html#af49997318a2bcd1f6eb83ceee0101812',1,'miral::Output']]],
   ['pre_5finit',['pre_init',['../namespacemiral.html#aca85bbb801308943981066cd4a6e9059',1,'miral']]],
   ['preferred_5forientation',['preferred_orientation',['../structmiral_1_1_window_info.html#af3791902a4548f3ba22e8d8871d1fcad',1,'miral::WindowInfo::preferred_orientation() const -&gt; MirOrientationMode'],['../structmiral_1_1_window_info.html#a356963d649350285c4c3e850b15feca8',1,'miral::WindowInfo::preferred_orientation(MirOrientationMode preferred_orientation)'],['../classmiral_1_1_window_specification.html#a3846fdf5869c4663bec2af142f4ab379',1,'miral::WindowSpecification::preferred_orientation() const -&gt; mir::optional_value&lt; MirOrientationMode &gt; const &amp;'],['../classmiral_1_1_window_specification.html#a288a77058ddb44b9d03f8c8d51aa112f',1,'miral::WindowSpecification::preferred_orientation() -&gt; mir::optional_value&lt; MirOrientationMode &gt; &amp;']]],
+  ['premultiply',['premultiply',['../namespacepng2header.html#a7284eae21fe89346869144c9886ac2c3',1,'png2header']]],
   ['prompt_5fsession_5fis_5fallowed',['prompt_session_is_allowed',['../classmiral_1_1_application_authorizer.html#a7d8965d4f94db9deb82c24caacb39185',1,'miral::ApplicationAuthorizer']]]
 ];

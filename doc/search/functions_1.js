@@ -7,5 +7,6 @@ var searchData=
   ['bottom',['bottom',['../structmir_1_1geometry_1_1_rectangle.html#a6c35d38fca2889f174a4581fbee5a845',1,'mir::geometry::Rectangle']]],
   ['bottom_5fleft',['bottom_left',['../structmir_1_1geometry_1_1_rectangle.html#add8f945f3443a16f6936e17066035481',1,'mir::geometry::Rectangle']]],
   ['bottom_5fright',['bottom_right',['../structmir_1_1geometry_1_1_rectangle.html#a9fd467205cb570542312bc5622a7e14a',1,'mir::geometry::Rectangle']]],
-  ['bounding_5frectangle',['bounding_rectangle',['../classmir_1_1geometry_1_1_rectangles.html#abc456c6d7eaa5a1d4effdf104eaaee02',1,'mir::geometry::Rectangles']]]
+  ['bounding_5frectangle',['bounding_rectangle',['../classmir_1_1geometry_1_1_rectangles.html#abc456c6d7eaa5a1d4effdf104eaaee02',1,'mir::geometry::Rectangles']]],
+  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../namespacepng2header.html#ac4379b2845cc5f48fc836e96f9219349',1,'png2header']]]
 ];

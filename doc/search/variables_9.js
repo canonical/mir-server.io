@@ -15,6 +15,7 @@ var searchData=
   ['mir_5fdiagonal_5fresize_5fbottom_5fto_5ftop_5fcursor_5fname',['mir_diagonal_resize_bottom_to_top_cursor_name',['../group__mir__toolkit.html#ga1d965579b8c47e809d59793bbc11a4bb',1,'cursors.h']]],
   ['mir_5fdiagonal_5fresize_5ftop_5fto_5fbottom_5fcursor_5fname',['mir_diagonal_resize_top_to_bottom_cursor_name',['../group__mir__toolkit.html#gab30178c1c8f51d3b325f7b0a3c4f0a81',1,'cursors.h']]],
   ['mir_5fdisabled_5fcursor_5fname',['mir_disabled_cursor_name',['../group__mir__toolkit.html#gaefd8beaf59d2139a1021ffa3227ad60f',1,'cursors.h']]],
+  ['mir_5feglapp_5fbackground_5fopacity',['mir_eglapp_background_opacity',['../eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'eglapp.h']]],
   ['mir_5fhorizontal_5fresize_5fcursor_5fname',['mir_horizontal_resize_cursor_name',['../group__mir__toolkit.html#ga2219d151b236ec4d1f16bf351e775511',1,'cursors.h']]],
   ['mir_5fhsplit_5fresize_5fcursor_5fname',['mir_hsplit_resize_cursor_name',['../group__mir__toolkit.html#ga1e17ea7579083562966d546dcfa39218',1,'cursors.h']]],
   ['mir_5fomnidirectional_5fresize_5fcursor_5fname',['mir_omnidirectional_resize_cursor_name',['../group__mir__toolkit.html#gab05517805abf8ba42cb67f6672fbe7d5',1,'cursors.h']]],

@@ -1,6 +1,6 @@
 <map id="include/miral/miral/internal_client.h" name="include/miral/miral/internal_client.h">
-<area shape="rect" id="node2" href="$connection_8h.html" title="mir/client/connection.h" alt="" coords="1277,95,1430,121"/>
-<area shape="rect" id="node3" href="$mir__connection_8h.html" title="mir_toolkit/mir_connection.h" alt="" coords="1223,169,1409,196"/>
+<area shape="rect" id="node2" href="$connection_8h.html" title="mir/client/connection.h" alt="" coords="1442,95,1595,121"/>
+<area shape="rect" id="node3" href="$mir__connection_8h.html" title="mir_toolkit/mir_connection.h" alt="" coords="1389,169,1574,196"/>
 <area shape="rect" id="node4" href="$client__types_8h.html" title="mir_toolkit/client\l_types.h" alt="" coords="143,244,260,285"/>
 <area shape="rect" id="node8" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="128,437,275,464"/>
 <area shape="rect" id="node9" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="977,534,1148,561"/>

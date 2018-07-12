@@ -78,8 +78,8 @@ Inheritance diagram for FloatingWindowManagerPolicy:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae9f0cc6a2e65d81779843a23e9b9a6f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_floating_window_manager_policy.html#ae9f0cc6a2e65d81779843a23e9b9a6f8">FloatingWindowManagerPolicy</a> (<a class="el" href="classmiral_1_1_window_manager_tools.html">miral::WindowManagerTools</a> const &amp;<a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a0e6bb6cbd8fb66c78a496c3a97e23f4f">tools</a>, <a class="el" href="class_sw_splash.html">SwSplash</a> const &amp;spinner, <a class="el" href="classmiral_1_1_internal_client_launcher.html">miral::InternalClientLauncher</a> const &amp;launcher, std::function&lt; void()&gt; &amp;shutdown_hook)</td></tr>
-<tr class="separator:ae9f0cc6a2e65d81779843a23e9b9a6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef329b0b2fff4e65e0ed0188f12d5bec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_floating_window_manager_policy.html#aef329b0b2fff4e65e0ed0188f12d5bec">FloatingWindowManagerPolicy</a> (<a class="el" href="classmiral_1_1_window_manager_tools.html">miral::WindowManagerTools</a> const &amp;<a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a0e6bb6cbd8fb66c78a496c3a97e23f4f">tools</a>, std::shared_ptr&lt; <a class="el" href="class_splash_session.html">SplashSession</a> &gt; const &amp;spinner, <a class="el" href="classmiral_1_1_internal_client_launcher.html">miral::InternalClientLauncher</a> const &amp;launcher, std::function&lt; void()&gt; &amp;shutdown_hook)</td></tr>
+<tr class="separator:aef329b0b2fff4e65e0ed0188f12d5bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab551a20ba8db010e1ff149e4968f4682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_floating_window_manager_policy.html#ab551a20ba8db010e1ff149e4968f4682">~FloatingWindowManagerPolicy</a> ()</td></tr>
 <tr class="separator:ab551a20ba8db010e1ff149e4968f4682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa49af7af22d2226bd1a1a1c6edbb6216"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_floating_window_manager_policy.html#aa49af7af22d2226bd1a1a1c6edbb6216">place_new_window</a> (<a class="el" href="structmiral_1_1_application_info.html">miral::ApplicationInfo</a> const &amp;app_info, <a class="el" href="classmiral_1_1_window_specification.html">miral::WindowSpecification</a> const &amp;request_parameters) override</td></tr>
@@ -145,12 +145,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae08307806e1e89c56b2a5c2fa092838f inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#ae08307806e1e89c56b2a5c2fa092838f">handle_raise_window</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info) override</td></tr>
 <tr class="memdesc:ae08307806e1e89c56b2a5c2fa092838f inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to focus on the newly ready window.  <a href="classmiral_1_1_canonical_window_manager_policy.html#ae08307806e1e89c56b2a5c2fa092838f">More...</a><br /></td></tr>
 <tr class="separator:ae08307806e1e89c56b2a5c2fa092838f inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8556219de8fbcb8fbcce6060e227abbc inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a8556219de8fbcb8fbcce6060e227abbc">handle_request_drag_and_drop</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> &amp;window_info) override</td></tr>
+<tr class="memdesc:a8556219de8fbcb8fbcce6060e227abbc inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">request from client to initiate drag and drop  <a href="classmiral_1_1_canonical_window_manager_policy.html#a8556219de8fbcb8fbcce6060e227abbc">More...</a><br /></td></tr>
+<tr class="separator:a8556219de8fbcb8fbcce6060e227abbc inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6abebf02230958b14009256027baf6e inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#aa6abebf02230958b14009256027baf6e">advise_focus_gained</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;info) override</td></tr>
 <tr class="memdesc:aa6abebf02230958b14009256027baf6e inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raises the window (and any children)  <a href="classmiral_1_1_canonical_window_manager_policy.html#aa6abebf02230958b14009256027baf6e">More...</a><br /></td></tr>
 <tr class="separator:aa6abebf02230958b14009256027baf6e inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81cde71e90f4a0aa77e6ac03788b381 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#ae81cde71e90f4a0aa77e6ac03788b381">confirm_inherited_move</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;window_info, <a class="el" href="structmir_1_1geometry_1_1_displacement.html">Displacement</a> movement) -&gt; <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> override</td></tr>
 <tr class="memdesc:ae81cde71e90f4a0aa77e6ac03788b381 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the child window with the parent.  <a href="classmiral_1_1_canonical_window_manager_policy.html#ae81cde71e90f4a0aa77e6ac03788b381">More...</a><br /></td></tr>
 <tr class="separator:ae81cde71e90f4a0aa77e6ac03788b381 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66deeebfbd731631b2edc18d38c397b4 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#a66deeebfbd731631b2edc18d38c397b4">confirm_placement_on_display</a> (<a class="el" href="structmiral_1_1_window_info.html">WindowInfo</a> const &amp;window_info, <a class="el" href="group__mir__toolkit.html#ga767377fc0ee9f2097bc25dce0228d7a6">MirWindowState</a> new_state, <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;new_placement) -&gt; <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> override</td></tr>
+<tr class="memdesc:a66deeebfbd731631b2edc18d38c397b4 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirm (and optionally adjust) the placement of a window on the display.  <a href="classmiral_1_1_canonical_window_manager_policy.html#a66deeebfbd731631b2edc18d38c397b4">More...</a><br /></td></tr>
+<tr class="separator:a66deeebfbd731631b2edc18d38c397b4 inherit pub_methods_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmiral_1_1_window_management_policy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmiral_1_1_window_management_policy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmiral_1_1_window_management_policy.html">miral::WindowManagementPolicy</a></td></tr>
 <tr class="memitem:a50c0fc8775040177837bbe459f5001da inherit pub_methods_classmiral_1_1_window_management_policy"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_window_management_policy.html#a50c0fc8775040177837bbe459f5001da">advise_begin</a> ()</td></tr>
 <tr class="memdesc:a50c0fc8775040177837bbe459f5001da inherit pub_methods_classmiral_1_1_window_management_policy"><td class="mdescLeft">&#160;</td><td class="mdescRight">before any related calls begin  <a href="classmiral_1_1_window_management_policy.html#a50c0fc8775040177837bbe459f5001da">More...</a><br /></td></tr>
@@ -203,8 +209,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0e6bb6cbd8fb66c78a496c3a97e23f4f inherit pro_attribs_classmiral_1_1_canonical_window_manager_policy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae9f0cc6a2e65d81779843a23e9b9a6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9f0cc6a2e65d81779843a23e9b9a6f8">&#9670;&nbsp;</a></span>FloatingWindowManagerPolicy()</h2>
+<a id="aef329b0b2fff4e65e0ed0188f12d5bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef329b0b2fff4e65e0ed0188f12d5bec">&#9670;&nbsp;</a></span>FloatingWindowManagerPolicy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,7 +224,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_sw_splash.html">SwSplash</a> const &amp;&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_splash_session.html">SplashSession</a> &gt; const &amp;&#160;</td>
           <td class="paramname"><em>spinner</em>, </td>
         </tr>
         <tr>
@@ -921,7 +927,7 @@ Additional Inherited Members</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Fri 23 Mar 17:50:53 UTC 2018
+Generated on Thu 12 Jul 10:49:10 UTC 2018
 </p>
 </body>
 </html>

@@ -9,5 +9,5 @@ var searchData=
   ['kiosk_5fmain_2ecpp',['kiosk_main.cpp',['../kiosk__main_8cpp.html',1,'']]],
   ['kiosk_5fwindow_5fmanager_2ecpp',['kiosk_window_manager.cpp',['../kiosk__window__manager_8cpp.html',1,'']]],
   ['kiosk_5fwindow_5fmanager_2eh',['kiosk_window_manager.h',['../kiosk__window__manager_8h.html',1,'']]],
-  ['kioskwindowmanagerpolicy',['KioskWindowManagerPolicy',['../class_kiosk_window_manager_policy.html',1,'KioskWindowManagerPolicy'],['../class_kiosk_window_manager_policy.html#a2020dc47163a4def4a2c1cbfb63a19c2',1,'KioskWindowManagerPolicy::KioskWindowManagerPolicy()']]]
+  ['kioskwindowmanagerpolicy',['KioskWindowManagerPolicy',['../class_kiosk_window_manager_policy.html',1,'KioskWindowManagerPolicy'],['../class_kiosk_window_manager_policy.html#a4b8cd0360d6eb12836b737ac45176c85',1,'KioskWindowManagerPolicy::KioskWindowManagerPolicy()']]]
 ];

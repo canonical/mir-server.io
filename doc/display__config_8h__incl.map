@@ -1,7 +1,7 @@
 <map id="include/client/mir/client/display_config.h" name="include/client/mir/client/display_config.h">
 <area shape="rect" id="node2" href="$mir__connection_8h.html" title="mir_toolkit/mir_connection.h" alt="" coords="182,102,367,129"/>
 <area shape="rect" id="node26" href="$mir__display__configuration_8h.html" title="mir_toolkit/mir_display\l_configuration.h" alt="" coords="5,95,157,136"/>
-<area shape="rect" id="node3" href="$client__types_8h.html" title="mir_toolkit/client\l_types.h" alt="" coords="233,184,351,225"/>
+<area shape="rect" id="node3" href="$client__types_8h.html" title="mir_toolkit/client\l_types.h" alt="" coords="232,184,349,225"/>
 <area shape="rect" id="node7" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="152,377,299,404"/>
 <area shape="rect" id="node8" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="223,474,393,501"/>
 <area shape="rect" id="node4" href="$toolkit_2events_2event_8h.html" title="mir_toolkit/events\l/event.h" alt="" coords="1200,273,1325,315"/>

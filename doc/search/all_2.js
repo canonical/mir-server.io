@@ -15,5 +15,5 @@ var searchData=
   ['build',['build',['../structmiral_1_1_window_manager_option.html#a600c74eaacc81cc52b68f82d2d23f314',1,'miral::WindowManagerOption']]],
   ['building_20the_20mir_20source_20for_20arm',['Building the Mir source for ARM',['../building_source_for_arm.html',1,'']]],
   ['building_5fsource_5ffor_5farm_2emd',['building_source_for_arm.md',['../building__source__for__arm_8md.html',1,'']]],
-  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../mir__peace__wall_8h.html#a6682c6bd965e44d2880453dd6ea872ce',1,'mir_peace_wall.h']]]
+  ['bytes_5fper_5fpixel',['bytes_per_pixel',['../namespacepng2header.html#ac4379b2845cc5f48fc836e96f9219349',1,'png2header']]]
 ];

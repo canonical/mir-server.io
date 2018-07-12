@@ -15,7 +15,7 @@ var searchData=
   ['flags',['flags',['../struct_mir_buffer_package.html#a7cadf1b9b02f285173c657ef8a2acf5a',1,'MirBufferPackage::flags()'],['../struct_mir_extension_gbm_buffer_v2.html#abe3d09f7aa68252fa334f264919c0e2c',1,'MirExtensionGbmBufferV2::flags()']]],
   ['floating_5fwindow_5fmanager_2ecpp',['floating_window_manager.cpp',['../floating__window__manager_8cpp.html',1,'']]],
   ['floating_5fwindow_5fmanager_2eh',['floating_window_manager.h',['../floating__window__manager_8h.html',1,'']]],
-  ['floatingwindowmanagerpolicy',['FloatingWindowManagerPolicy',['../class_floating_window_manager_policy.html',1,'FloatingWindowManagerPolicy'],['../class_floating_window_manager_policy.html#ae9f0cc6a2e65d81779843a23e9b9a6f8',1,'FloatingWindowManagerPolicy::FloatingWindowManagerPolicy()']]],
+  ['floatingwindowmanagerpolicy',['FloatingWindowManagerPolicy',['../class_floating_window_manager_policy.html',1,'FloatingWindowManagerPolicy'],['../class_floating_window_manager_policy.html#aef329b0b2fff4e65e0ed0188f12d5bec',1,'FloatingWindowManagerPolicy::FloatingWindowManagerPolicy()']]],
   ['focus_5fnext_5fapplication',['focus_next_application',['../classmiral_1_1_window_manager_tools.html#a5ee195f779e10f5bec6596a2d755c7e3',1,'miral::WindowManagerTools']]],
   ['focus_5fnext_5fwithin_5fapplication',['focus_next_within_application',['../classmiral_1_1_window_manager_tools.html#a28d28c00c7e0f51fd273a4cd479b5bb5',1,'miral::WindowManagerTools']]],
   ['focus_5fprev_5fwithin_5fapplication',['focus_prev_within_application',['../classmiral_1_1_window_manager_tools.html#aa486b18abbafbf024371e2e2d5b1244d',1,'miral::WindowManagerTools']]],

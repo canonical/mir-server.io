@@ -7,6 +7,8 @@ var searchData=
   ['shell_5fmain_2ecpp',['shell_main.cpp',['../shell__main_8cpp.html',1,'']]],
   ['shm_5ffile_2eh',['shm_file.h',['../shm__file_8h.html',1,'']]],
   ['size_2eh',['size.h',['../size_8h.html',1,'']]],
+  ['splash_2eh',['splash.h',['../splash_8h.html',1,'']]],
+  ['splash_5fsession_2eh',['splash_session.h',['../splash__session_8h.html',1,'']]],
   ['surface_2eh',['surface.h',['../client_2surface_8h.html',1,'(Global Namespace)'],['../toolkit_2debug_2surface_8h.html',1,'(Global Namespace)']]],
   ['surface_5fevent_2eh',['surface_event.h',['../surface__event_8h.html',1,'']]],
   ['surface_5foutput_5fevent_2eh',['surface_output_event.h',['../surface__output__event_8h.html',1,'']]],

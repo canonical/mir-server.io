@@ -8,6 +8,7 @@ var searchData=
   ['mirdisplaymode',['MirDisplayMode',['../struct_mir_display_mode.html',1,'']]],
   ['mirdisplayoutput',['MirDisplayOutput',['../struct_mir_display_output.html',1,'']]],
   ['mirdraganddropv1',['MirDragAndDropV1',['../struct_mir_drag_and_drop_v1.html',1,'']]],
+  ['mireglsurface',['MirEglSurface',['../class_mir_egl_surface.html',1,'']]],
   ['mirextensionandroidbufferv1',['MirExtensionAndroidBufferV1',['../struct_mir_extension_android_buffer_v1.html',1,'']]],
   ['mirextensionandroidbufferv2',['MirExtensionAndroidBufferV2',['../struct_mir_extension_android_buffer_v2.html',1,'']]],
   ['mirextensionandroideglv1',['MirExtensionAndroidEGLV1',['../struct_mir_extension_android_e_g_l_v1.html',1,'']]],

@@ -6,5 +6,7 @@ var searchData=
   ['enqueue_5fwork',['enqueue_work',['../class_worker.html#a604488e73823b3bc56aa96c385dfc5af',1,'Worker']]],
   ['equivalent_5fdisplay_5farea',['equivalent_display_area',['../namespacemiral.html#ae3e8a2d1d13195be9b5c2b1da2a9a367',1,'miral']]],
   ['event',['Event',['../classmir_1_1client_1_1_event.html#af58bf4ffbc14a60e6cb9c84a4dff607c',1,'mir::client::Event::Event()=default'],['../classmir_1_1client_1_1_event.html#ae47adae567151697a307272c38659af2',1,'mir::client::Event::Event(MirEvent const *event)']]],
-  ['extents',['extents',['../classmiral_1_1_output.html#af905b2389805b8180ed3ec06621bd4e3',1,'miral::Output']]]
+  ['export',['export',['../namespacepng2header.html#a260c6f752c23a3a68dd486a55093481b',1,'png2header']]],
+  ['extents',['extents',['../classmiral_1_1_output.html#af905b2389805b8180ed3ec06621bd4e3',1,'miral::Output']]],
+  ['externalclientlauncher',['ExternalClientLauncher',['../classmiral_1_1_external_client_launcher.html#ac6d43bd341356230d5f49eb88822b1ed',1,'miral::ExternalClientLauncher']]]
 ];

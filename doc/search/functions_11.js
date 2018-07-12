@@ -2,7 +2,8 @@ var searchData=
 [
   ['the_5fapplication_5fauthorizer',['the_application_authorizer',['../classmiral_1_1_basic_set_application_authorizer.html#a5bdb22ac35eb30d87fa1402f44810617',1,'miral::BasicSetApplicationAuthorizer']]],
   ['the_5fcustom_5fapplication_5fauthorizer',['the_custom_application_authorizer',['../classmiral_1_1_set_application_authorizer.html#a69496066ccecaa8006d4119ea92e336f',1,'miral::SetApplicationAuthorizer']]],
-  ['tilingwindowmanagerpolicy',['TilingWindowManagerPolicy',['../class_tiling_window_manager_policy.html#a233ebc1d1dd3e14d1854a52ac2f3e7a4',1,'TilingWindowManagerPolicy']]],
+  ['tilingwindowmanagerpolicy',['TilingWindowManagerPolicy',['../class_tiling_window_manager_policy.html#afd37e73b34b8a7da5f10a59e2a3377e4',1,'TilingWindowManagerPolicy']]],
+  ['tocstring',['tocstring',['../namespacepng2header.html#a3e636f99301490b888ef51261db75681',1,'png2header']]],
   ['top',['top',['../structmir_1_1geometry_1_1_rectangle.html#afc79d2238e55a374328749a5ae11681d',1,'mir::geometry::Rectangle']]],
   ['top_5fleft',['top_left',['../classmiral_1_1_window.html#a1fa999fee926abaf96647b15bd60f100',1,'miral::Window::top_left()'],['../classmiral_1_1_window_specification.html#ac3562e406fcd0505c96ae0c0c351a262',1,'miral::WindowSpecification::top_left() const -&gt; mir::optional_value&lt; Point &gt; const &amp;'],['../classmiral_1_1_window_specification.html#aa2e81043d3f8fec95ffe3fa29f7acdf3',1,'miral::WindowSpecification::top_left() -&gt; mir::optional_value&lt; Point &gt; &amp;']]],
   ['top_5fright',['top_right',['../structmir_1_1geometry_1_1_rectangle.html#af8e78dcd8e75540e9b2a64ae35d2a941',1,'mir::geometry::Rectangle']]],

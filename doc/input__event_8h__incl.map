@@ -1,9 +1,9 @@
 <map id="include/client/mir_toolkit/events/input/input_event.h" name="include/client/mir_toolkit/events/input/input_event.h">
 <area shape="rect" id="node2" href="$toolkit_2events_2event_8h.html" title="mir_toolkit/events\l/event.h" alt="" coords="1039,109,1165,151"/>
-<area shape="rect" id="node18" href="$mir__input__device__types_8h.html" title="mir_toolkit/mir_input\l_device_types.h" alt="" coords="477,109,615,151"/>
+<area shape="rect" id="node18" href="$mir__input__device__types_8h.html" title="mir_toolkit/mir_input\l_device_types.h" alt="" coords="677,109,815,151"/>
 <area shape="rect" id="node20" href="$touch__event_8h.html" title="mir_toolkit/events\l/input/touch_event.h" alt="" coords="1240,109,1380,151"/>
 <area shape="rect" id="node21" href="$keyboard__event_8h.html" title="mir_toolkit/events\l/input/keyboard_event.h" alt="" coords="1956,109,2117,151"/>
-<area shape="rect" id="node22" href="$pointer__event_8h.html" title="mir_toolkit/events\l/input/pointer_event.h" alt="" coords="1531,109,1678,151"/>
+<area shape="rect" id="node22" href="$pointer__event_8h.html" title="mir_toolkit/events\l/input/pointer_event.h" alt="" coords="1658,109,1805,151"/>
 <area shape="rect" id="node5" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="189,213,335,240"/>
 <area shape="rect" id="node6" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="537,303,707,329"/>
 <area shape="rect" id="node7" href="$resize__event_8h.html" title="mir_toolkit/events\l/resize_event.h" alt="" coords="410,206,535,247"/>

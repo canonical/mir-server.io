@@ -1,7 +1,7 @@
 <map id="include/core/mir_toolkit/mir_native_buffer.h" name="include/core/mir_toolkit/mir_native_buffer.h">
-<area shape="rect" id="node2" href="$mir__buffer_8h.html" title="include/client/mir\l_toolkit/mir_buffer.h" alt="" coords="305,102,442,143"/>
-<area shape="rect" id="node9" href="$mir__buffer__stream_8h.html" title="include/client/mir\l_toolkit/mir_buffer\l_stream.h" alt="" coords="638,95,765,151"/>
-<area shape="rect" id="node13" href="$mir__surface_8h.html" title="include/client/mir\l_toolkit/mir_surface.h" alt="" coords="467,102,613,143"/>
+<area shape="rect" id="node2" href="$mir__buffer_8h.html" title="include/client/mir\l_toolkit/mir_buffer.h" alt="" coords="303,102,441,143"/>
+<area shape="rect" id="node9" href="$mir__buffer__stream_8h.html" title="include/client/mir\l_toolkit/mir_buffer\l_stream.h" alt="" coords="637,95,763,151"/>
+<area shape="rect" id="node13" href="$mir__surface_8h.html" title="include/client/mir\l_toolkit/mir_surface.h" alt="" coords="465,102,612,143"/>
 <area shape="rect" id="node14" href="$mir__window_8h.html" title="include/client/mir\l_toolkit/mir_window.h" alt="" coords="891,102,1037,143"/>
 <area shape="rect" id="node3" href="$android__buffer_8h.html" title="include/client/mir\l_toolkit/extensions\l/android_buffer.h" alt="" coords="5,199,136,255"/>
 <area shape="rect" id="node4" href="$android__egl_8h.html" title="include/client/mir\l_toolkit/extensions\l/android_egl.h" alt="" coords="160,199,291,255"/>

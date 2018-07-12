@@ -83,6 +83,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e1a0a7f327f320e077a27460b103010"><td class="memTemplParams" colspan="2">template&lt;typename ClientObject &gt; </td></tr>
 <tr class="memitem:a6e1a0a7f327f320e077a27460b103010"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmiral_1_1_startup_internal_client.html#a6e1a0a7f327f320e077a27460b103010">StartupInternalClient</a> (std::string <a class="el" href="client__types_8h.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, ClientObject const &amp;client_object)</td></tr>
 <tr class="separator:a6e1a0a7f327f320e077a27460b103010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ff49c1856ad96171fadc26b2596545"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_startup_internal_client.html#a71ff49c1856ad96171fadc26b2596545">StartupInternalClient</a> (std::function&lt; void(struct ::wl_display *display)&gt; client_code, std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt; connect_notification)</td></tr>
+<tr class="separator:a71ff49c1856ad96171fadc26b2596545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386f9e7b3df66aaed0e0faf8659706eb"><td class="memTemplParams" colspan="2">template&lt;typename ClientObject &gt; </td></tr>
+<tr class="memitem:a386f9e7b3df66aaed0e0faf8659706eb"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmiral_1_1_startup_internal_client.html#a386f9e7b3df66aaed0e0faf8659706eb">StartupInternalClient</a> (ClientObject const &amp;client_object)</td></tr>
+<tr class="separator:a386f9e7b3df66aaed0e0faf8659706eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e00b542af11afa3cd64c52361b23b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_startup_internal_client.html#ab3e00b542af11afa3cd64c52361b23b5">~StartupInternalClient</a> ()</td></tr>
 <tr class="separator:ab3e00b542af11afa3cd64c52361b23b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2561ae0bab8d4a1111d7e6fd24f54944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_startup_internal_client.html#a2561ae0bab8d4a1111d7e6fd24f54944">operator()</a> (mir::Server &amp;server)</td></tr>
@@ -102,7 +107,7 @@ connection_notification will be called on a worker thread and must not block</dd
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae085fe9719b90647b2d0f8a15eb27b6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae085fe9719b90647b2d0f8a15eb27b6f">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae085fe9719b90647b2d0f8a15eb27b6f">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +149,7 @@ connection_notification will be called on a worker thread and must not block</dd
 </div>
 </div>
 <a id="a6e1a0a7f327f320e077a27460b103010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e1a0a7f327f320e077a27460b103010">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1a0a7f327f320e077a27460b103010">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,6 +175,70 @@ template&lt;typename ClientObject &gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71ff49c1856ad96171fadc26b2596545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ff49c1856ad96171fadc26b2596545">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">miral::StartupInternalClient::StartupInternalClient </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(struct ::wl_display *display)&gt;&#160;</td>
+          <td class="paramname"><em>client_code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt;&#160;</td>
+          <td class="paramname"><em>connect_notification</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a386f9e7b3df66aaed0e0faf8659706eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386f9e7b3df66aaed0e0faf8659706eb">&#9670;&nbsp;</a></span>StartupInternalClient() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ClientObject &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">miral::StartupInternalClient::StartupInternalClient </td>
+          <td>(</td>
+          <td class="paramtype">ClientObject const &amp;&#160;</td>
+          <td class="paramname"><em>client_object</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -224,7 +293,7 @@ template&lt;typename ClientObject &gt; </div>
 <hr>
 <p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Fri 23 Mar 17:50:53 UTC 2018
+Generated on Thu 12 Jul 10:49:10 UTC 2018
 </p>
 </body>
 </html>

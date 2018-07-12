@@ -40,6 +40,7 @@ var searchData=
   ['allocate_5fbuffer_5fgbm_5fsync',['allocate_buffer_gbm_sync',['../struct_mir_extension_gbm_buffer_v2.html#a3e9f22e1516382901e4c7a5953cf6b5e',1,'MirExtensionGbmBufferV2']]],
   ['android_5fbuffer_2eh',['android_buffer.h',['../android__buffer_8h.html',1,'']]],
   ['android_5fegl_2eh',['android_egl.h',['../android__egl_8h.html',1,'']]],
+  ['animationvalues',['AnimationValues',['../eglspinner_8cpp.html#aaa26a7de800466e1cb088660aa174cab',1,'eglspinner.cpp']]],
   ['anonymous_5fshm_5ffile_2eh',['anonymous_shm_file.h',['../anonymous__shm__file_8h.html',1,'']]],
   ['anonymousshmfile',['AnonymousShmFile',['../classmir_1_1_anonymous_shm_file.html',1,'mir::AnonymousShmFile'],['../classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec',1,'mir::AnonymousShmFile::AnonymousShmFile()']]],
   ['apis',['apis',['../group__mir__toolkit.html#gaaac22478d241b68197c1b93f97dbbeda',1,'mir_window.h']]],

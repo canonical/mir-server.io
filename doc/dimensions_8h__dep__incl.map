@@ -1,12 +1,12 @@
 <map id="include/core/mir/geometry/dimensions.h" name="include/core/mir/geometry/dimensions.h">
-<area shape="rect" id="node2" href="$displacement_8h.html" title="include/core/mir/geometry\l/displacement.h" alt="" coords="332,184,504,225"/>
-<area shape="rect" id="node19" href="$point_8h.html" title="include/core/mir/geometry\l/point.h" alt="" coords="485,95,657,136"/>
-<area shape="rect" id="node24" href="$size_8h.html" title="include/core/mir/geometry\l/size.h" alt="" coords="681,95,853,136"/>
+<area shape="rect" id="node2" href="$displacement_8h.html" title="include/core/mir/geometry\l/displacement.h" alt="" coords="337,184,509,225"/>
+<area shape="rect" id="node19" href="$point_8h.html" title="include/core/mir/geometry\l/point.h" alt="" coords="491,95,663,136"/>
+<area shape="rect" id="node24" href="$size_8h.html" title="include/core/mir/geometry\l/size.h" alt="" coords="687,95,859,136"/>
 <area shape="rect" id="node3" href="$tiling__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.h" alt="" coords="271,631,458,672"/>
-<area shape="rect" id="node6" href="$event__builders_8h.html" title="include/client/mir\l/events/event_builders.h" alt="" coords="493,273,657,315"/>
-<area shape="rect" id="node7" href="$window__management__policy_8h.html" title="include/miral/miral\l/window_management_policy.h" alt="" coords="253,452,455,493"/>
-<area shape="rect" id="node14" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="429,541,599,583"/>
-<area shape="rect" id="node17" href="$window__specification_8h.html" title="include/miral/miral\l/window_specification.h" alt="" coords="531,363,689,404"/>
+<area shape="rect" id="node6" href="$event__builders_8h.html" title="include/client/mir\l/events/event_builders.h" alt="" coords="499,273,663,315"/>
+<area shape="rect" id="node7" href="$window__management__policy_8h.html" title="include/miral/miral\l/window_management_policy.h" alt="" coords="258,452,461,493"/>
+<area shape="rect" id="node14" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="437,541,607,583"/>
+<area shape="rect" id="node17" href="$window__specification_8h.html" title="include/miral/miral\l/window_specification.h" alt="" coords="536,363,695,404"/>
 <area shape="rect" id="node4" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="235,809,377,851"/>
 <area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.cpp" alt="" coords="584,720,785,761"/>
 <area shape="rect" id="node8" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="48,631,247,672"/>
@@ -17,9 +17,9 @@
 <area shape="rect" id="node13" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="690,809,906,851"/>
 <area shape="rect" id="node15" href="$decoration__provider_8h.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.h" alt="" coords="889,631,1059,672"/>
 <area shape="rect" id="node16" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="911,720,1093,761"/>
-<area shape="rect" id="node18" href="$window__info_8h.html" title="include/miral/miral\l/window_info.h" alt="" coords="715,452,841,493"/>
-<area shape="rect" id="node20" href="$rectangle_8h.html" title="include/core/mir/geometry\l/rectangle.h" alt="" coords="681,184,853,225"/>
-<area shape="rect" id="node21" href="$rectangles_8h.html" title="include/core/mir/geometry\l/rectangles.h" alt="" coords="681,273,853,315"/>
-<area shape="rect" id="node23" href="$miral_2miral_2window_8h.html" title="include/miral/miral\l/window.h" alt="" coords="877,184,1004,225"/>
-<area shape="rect" id="node22" href="$output_8h.html" title="include/miral/miral\l/output.h" alt="" coords="879,363,1005,404"/>
+<area shape="rect" id="node18" href="$window__info_8h.html" title="include/miral/miral\l/window_info.h" alt="" coords="720,452,847,493"/>
+<area shape="rect" id="node20" href="$rectangle_8h.html" title="include/core/mir/geometry\l/rectangle.h" alt="" coords="687,184,859,225"/>
+<area shape="rect" id="node21" href="$rectangles_8h.html" title="include/core/mir/geometry\l/rectangles.h" alt="" coords="687,273,859,315"/>
+<area shape="rect" id="node23" href="$miral_2miral_2window_8h.html" title="include/miral/miral\l/window.h" alt="" coords="883,184,1009,225"/>
+<area shape="rect" id="node22" href="$output_8h.html" title="include/miral/miral\l/output.h" alt="" coords="884,363,1011,404"/>
 </map>

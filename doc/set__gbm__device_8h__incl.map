@@ -1,6 +1,6 @@
 <map id="include/client/mir_toolkit/extensions/set_gbm_device.h" name="include/client/mir_toolkit/extensions/set_gbm_device.h">
-<area shape="rect" id="node2" href="$mir__extension__core_8h.html" title="mir_toolkit/mir_extension\l_core.h" alt="" coords="1233,109,1399,151"/>
-<area shape="rect" id="node3" href="$mir__connection_8h.html" title="mir_toolkit/mir_connection.h" alt="" coords="1223,199,1409,225"/>
+<area shape="rect" id="node2" href="$mir__extension__core_8h.html" title="mir_toolkit/mir_extension\l_core.h" alt="" coords="1398,109,1565,151"/>
+<area shape="rect" id="node3" href="$mir__connection_8h.html" title="mir_toolkit/mir_connection.h" alt="" coords="1389,199,1574,225"/>
 <area shape="rect" id="node4" href="$client__types_8h.html" title="mir_toolkit/client\l_types.h" alt="" coords="143,273,260,315"/>
 <area shape="rect" id="node8" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="128,467,275,493"/>
 <area shape="rect" id="node9" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="977,563,1148,590"/>

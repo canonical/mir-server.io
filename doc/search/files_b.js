@@ -16,7 +16,6 @@ var searchData=
   ['mir_5finput_5fdevice_2eh',['mir_input_device.h',['../mir__input__device_8h.html',1,'']]],
   ['mir_5finput_5fdevice_5ftypes_2eh',['mir_input_device_types.h',['../mir__input__device__types_8h.html',1,'']]],
   ['mir_5fnative_5fbuffer_2eh',['mir_native_buffer.h',['../mir__native__buffer_8h.html',1,'']]],
-  ['mir_5fpeace_5fwall_2eh',['mir_peace_wall.h',['../mir__peace__wall_8h.html',1,'']]],
   ['mir_5fpersistent_5fid_2eh',['mir_persistent_id.h',['../mir__persistent__id_8h.html',1,'']]],
   ['mir_5fplatform_5fmessage_2eh',['mir_platform_message.h',['../mir__platform__message_8h.html',1,'']]],
   ['mir_5fpresentation_5fchain_2eh',['mir_presentation_chain.h',['../mir__presentation__chain_8h.html',1,'']]],
@@ -27,5 +26,7 @@ var searchData=
   ['mir_5fversion_5fnumber_2eh',['mir_version_number.h',['../mir__version__number_8h.html',1,'']]],
   ['mir_5fwait_2eh',['mir_wait.h',['../mir__wait_8h.html',1,'']]],
   ['mir_5fwindow_2eh',['mir_window.h',['../mir__window_8h.html',1,'']]],
-  ['mir_5fwindow_5fid_2eh',['mir_window_id.h',['../mir__window__id_8h.html',1,'']]]
+  ['mir_5fwindow_5fid_2eh',['mir_window_id.h',['../mir__window__id_8h.html',1,'']]],
+  ['miregl_2ecpp',['miregl.cpp',['../miregl_8cpp.html',1,'']]],
+  ['miregl_2eh',['miregl.h',['../miregl_8h.html',1,'']]]
 ];

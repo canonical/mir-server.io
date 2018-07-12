@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['window',['Window',['../classmir_1_1client_1_1_window.html',1,'mir::client::Window'],['../classmiral_1_1_window.html',1,'miral::Window']]],
+  ['window',['Window',['../classmiral_1_1_window.html',1,'miral::Window'],['../classmir_1_1client_1_1_window.html',1,'mir::client::Window']]],
   ['windowid',['WindowId',['../classmir_1_1client_1_1_window_id.html',1,'mir::client']]],
   ['windowinfo',['WindowInfo',['../structmiral_1_1_window_info.html',1,'miral']]],
   ['windowmanagementpolicy',['WindowManagementPolicy',['../classmiral_1_1_window_management_policy.html',1,'miral']]],

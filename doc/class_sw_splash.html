@@ -77,10 +77,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac576871031b1f84cadd139519fff1c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19463a7c7f5e10c1e225eb68f0611715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sw_splash.html#a19463a7c7f5e10c1e225eb68f0611715">operator()</a> (<a class="el" href="group__mir__toolkit.html#gad3936156a02cd24658178bca6be4bd9e">MirConnection</a> *connection)</td></tr>
 <tr class="separator:a19463a7c7f5e10c1e225eb68f0611715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8209ee1364a018cdc4dc08cdf5a05e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sw_splash.html#a9b8209ee1364a018cdc4dc08cdf5a05e">operator()</a> (std::weak_ptr&lt; mir::scene::Session &gt; const &amp;<a class="el" href="class_sw_splash.html#a7a902dd43b20d5878ceda454648ca357">session</a>)</td></tr>
+<tr class="memitem:a9b8209ee1364a018cdc4dc08cdf5a05e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sw_splash.html#a9b8209ee1364a018cdc4dc08cdf5a05e">operator()</a> (std::weak_ptr&lt; mir::scene::Session &gt; const &amp;session)</td></tr>
 <tr class="separator:a9b8209ee1364a018cdc4dc08cdf5a05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a902dd43b20d5878ceda454648ca357"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sw_splash.html#a7a902dd43b20d5878ceda454648ca357">session</a> () const -&gt; std::shared_ptr&lt; mir::scene::Session &gt;</td></tr>
-<tr class="separator:a7a902dd43b20d5878ceda454648ca357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b68e6883b670d69e2f2d21e8fbe0c20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sw_splash.html#a9b68e6883b670d69e2f2d21e8fbe0c20">operator std::shared_ptr&lt; SplashSession &gt;</a> () const</td></tr>
+<tr class="separator:a9b68e6883b670d69e2f2d21e8fbe0c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9c08c94c311a25ac7fda1b1dba4822e7"></a>
@@ -126,6 +126,23 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9b68e6883b670d69e2f2d21e8fbe0c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b68e6883b670d69e2f2d21e8fbe0c20">&#9670;&nbsp;</a></span>operator std::shared_ptr< SplashSession >()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SwSplash::operator std::shared_ptr&lt; <a class="el" href="class_splash_session.html">SplashSession</a> &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a19463a7c7f5e10c1e225eb68f0611715"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19463a7c7f5e10c1e225eb68f0611715">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
 
@@ -162,23 +179,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a902dd43b20d5878ceda454648ca357"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a902dd43b20d5878ceda454648ca357">&#9670;&nbsp;</a></span>session()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto SwSplash::session </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; std::shared_ptr&lt;mir::scene::Session&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>examples/example-server-lib/<a class="el" href="sw__splash_8h_source.html">sw_splash.h</a></li>
 <li>examples/example-server-lib/<a class="el" href="sw__splash_8cpp.html">sw_splash.cpp</a></li>
@@ -187,7 +187,7 @@ Public Member Functions</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Fri 23 Mar 17:50:53 UTC 2018
+Generated on Thu 12 Jul 10:49:10 UTC 2018
 </p>
 </body>
 </html>

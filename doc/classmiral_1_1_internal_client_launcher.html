@@ -86,6 +86,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c154d30086ca108beedcaf1a98a0802"><td class="memTemplParams" colspan="2">template&lt;typename ClientObject &gt; </td></tr>
 <tr class="memitem:a1c154d30086ca108beedcaf1a98a0802"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmiral_1_1_internal_client_launcher.html#a1c154d30086ca108beedcaf1a98a0802">launch</a> (std::string const &amp;<a class="el" href="client__types_8h.html#a5f1de76dd5d451949e12c0fbc966ca70">name</a>, ClientObject &amp;client_object) const</td></tr>
 <tr class="separator:a1c154d30086ca108beedcaf1a98a0802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36982ccd7a07a7253a4b10b05b6f1748"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_internal_client_launcher.html#a36982ccd7a07a7253a4b10b05b6f1748">launch</a> (std::function&lt; void(struct ::wl_display *display)&gt; const &amp;wayland_fd, std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt; const &amp;connect_notification) const</td></tr>
+<tr class="separator:a36982ccd7a07a7253a4b10b05b6f1748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac206672fd985dd3b443bbde9676f04d6"><td class="memTemplParams" colspan="2">template&lt;typename ClientObject &gt; </td></tr>
+<tr class="memitem:ac206672fd985dd3b443bbde9676f04d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmiral_1_1_internal_client_launcher.html#ac206672fd985dd3b443bbde9676f04d6">launch</a> (ClientObject &amp;client_object) const</td></tr>
+<tr class="separator:ac206672fd985dd3b443bbde9676f04d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5e44e9bd59f6bf4e4b7834cd046634d8"></a>
@@ -124,7 +129,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad3534b9c3019d4512d3d566ed97ad8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3534b9c3019d4512d3d566ed97ad8b8">&#9670;&nbsp;</a></span>launch() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3534b9c3019d4512d3d566ed97ad8b8">&#9670;&nbsp;</a></span>launch() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +163,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1c154d30086ca108beedcaf1a98a0802"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c154d30086ca108beedcaf1a98a0802">&#9670;&nbsp;</a></span>launch() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c154d30086ca108beedcaf1a98a0802">&#9670;&nbsp;</a></span>launch() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,6 +200,62 @@ template&lt;typename ClientObject &gt; </div>
 
 </div>
 </div>
+<a id="a36982ccd7a07a7253a4b10b05b6f1748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36982ccd7a07a7253a4b10b05b6f1748">&#9670;&nbsp;</a></span>launch() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void miral::InternalClientLauncher::launch </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(struct ::wl_display *display)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>wayland_fd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(std::weak_ptr&lt; mir::scene::Session &gt; const session)&gt; const &amp;&#160;</td>
+          <td class="paramname"><em>connect_notification</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac206672fd985dd3b443bbde9676f04d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac206672fd985dd3b443bbde9676f04d6">&#9670;&nbsp;</a></span>launch() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ClientObject &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void miral::InternalClientLauncher::launch </td>
+          <td>(</td>
+          <td class="paramtype">ClientObject &amp;&#160;</td>
+          <td class="paramname"><em>client_object</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a197f2bef01e98e1d90b1ac98d4ae74b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a197f2bef01e98e1d90b1ac98d4ae74b5">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -220,7 +281,7 @@ template&lt;typename ClientObject &gt; </div>
 <hr>
 <p align="center">Copyright &copy; 2012-2018
  Canonical Ltd. <br />
-Generated on Fri 23 Mar 17:50:53 UTC 2018
+Generated on Thu 12 Jul 10:49:10 UTC 2018
 </p>
 </body>
 </html>

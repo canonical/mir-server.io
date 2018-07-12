@@ -1,6 +1,8 @@
 var searchData=
 [
   ['id_5ffor_5fwindow',['id_for_window',['../classmiral_1_1_window_manager_tools.html#a9fd190bc5515c4b90db646ca8e7f1e06',1,'miral::WindowManagerTools']]],
+  ['image',['image',['../namespacepng2header.html#ab8d460e05cfb413849dcb0f12ae24912',1,'png2header']]],
+  ['image_5ffilename',['image_filename',['../namespacepng2header.html#addbf65945970336b8ffb42412a881344',1,'png2header']]],
   ['inc_5fref',['inc_ref',['../struct_mir_extension_android_buffer_v2.html#a63781739655e329fda1a8a7b7ed13054',1,'MirExtensionAndroidBufferV2']]],
   ['inches',['inches',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378a9243a98d4f5096338a3fd21f9fd10d51',1,'mir::geometry::Length']]],
   ['info_5ffor',['info_for',['../classmiral_1_1_window_manager_tools.html#ae4d6a4c82684b3d7aff97db0ff6d48a3',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Session &gt; const &amp;session) const -&gt; ApplicationInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#a8bf2eb7ebd51040022b3b1a4d7a72285',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Surface &gt; const &amp;surface) const -&gt; WindowInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#aa0c0e7396cc4bbd712d2eb84d05cc9fd',1,'miral::WindowManagerTools::info_for(Window const &amp;window) const -&gt; WindowInfo &amp;']]],
