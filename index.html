@@ -29,48 +29,49 @@
 
 <body>
   <header id="navigation" class="p-navigation">
-    <div class="p-navigation__banner">
-      <div class="p-navigation__logo">
-        <a class="p-navigation__link" href="https://mir-server.io/">
-          <img class="p-navigation__image" src="resources/mir-logo.svg" alt="" width="180" />
-        </a>
+    <div class="row">
+      <div class="p-navigation__banner">
+        <div class="p-navigation__logo">
+          <a class="p-navigation__link" href="https://mir-server.io/">
+            <img class="p-navigation__image" src="resources/mir-logo.svg" alt="" width="180" />
+          </a>
+        </div>
+        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
       </div>
-      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+      <nav class="p-navigation__nav" role="menubar">
+        <span class="u-off-screen">
+          <a href="#main-content">Jump to main content</a>
+        </span>
+        <ul class="p-navigation__links" role="menu">
+          <li class="p-navigation__link" role="menuitem">
+            <a href="doc/getting_and_using_mir.html">User manual</a>
+          </li>
+          <li class="p-navigation__link" role="menuitem">
+            <a href="doc">Developer manual</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="p-navigation__nav" role="menubar">
-      <span class="u-off-screen">
-        <a href="#main-content">Jump to main content</a>
-      </span>
-      <ul class="p-navigation__links" role="menu">
-        <li class="p-navigation__link" role="menuitem">
-          <a href="doc/getting_and_using_mir.html">User manual</a>
-        </li>
-        <li class="p-navigation__link" role="menuitem">
-          <a href="doc">Developer manual</a>
-        </li>
-      </ul>
-    </nav>
   </header>
 
   <main id="main-content">
-    <section class="p-strip--accent is-bordered is-deep">
-      <div class="row">
-        <div class="col-8">
-          <h1>Mir Display Server</h1>
-          <h4>The fast, open and secure display server for any device.</h4>
+    <section class="p-strip--hero is-bordered is-deep">
+      <div class="row u-equal-height">
+        <div class="col-6">
+          <h1>The fast, open and secure display server for any device</h1>
           <p>Mir is a system-level component that can be used to unlock next-generation user experiences for devices ranging
             from traditional Linux desktops to IoT devices to embedded products powered by Linux. Mir can be viewed as a
             replacement for the X window server system, commonly used on Linux desktop devices. Mir allows device makers
             and desktop users to have a well-defined, efficient, flexible, and secure platform on which their graphical environment
             sits.</p>
         </div>
-        <div class="col-4 u-align--center">
-          <img src="https://via.placeholder.com/500x500?text=Hero Image" alt="" />
+        <div class="col-6 u-align--center u-vertically-center">
+          <img src="https://assets.ubuntu.com/v1/c6504e94-Dell_XPS_Laptop_Front-Desktop.png" alt="Laptop running Ubuntu 18.04" />
         </div>
       </div>
     </section>
-    <section class="p-strip--light is-bordered">
+    <section class="p-strip is-bordered">
       <div class="row">
         <h2>Learn more</h2>
       </div>
@@ -119,7 +120,7 @@
         </article>
       </div>
     </section>
-    <section class="p-strip is-bordered">
+    <section class="p-strip--dark is-bordered">
       <div class="row">
         <h2>Why Mir?</h2>
       </div>
@@ -174,7 +175,7 @@
             <p>Get Mir or contribute to its development</p>
           </div>
         </div>
-        <div class="col-4 p-divider__block">
+        <div class="col-4 p-divider__block u-no-padding--bottom">
           <div class="p-heading-icon">
             <div class="p-heading-icon__header">
               <a href="https://webchat.freenode.net/?channels=%23mir-server" class="p-link--soft">
@@ -189,14 +190,15 @@
     </section>
     <footer class="p-footer">
       <div class="row">
-        <div class="col-12"> &copy; 2018 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+        <div class="col-12">
+          <p class="u-no-margin--bottom"><small>&copy; 2018 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.</small></p>
           <nav>
             <ul class="p-footer__links">
               <li class="p-footer__item">
-                <a class="p-footer__link" href="https://www.ubuntu.com/legal">Legal info</a>
+                <a class="p-footer__link" href="https://www.ubuntu.com/legal"><small>Legal info</small></a>
               </li>
               <li class="p-footer__item">
-                <a class="p-footer__link" href="https://github.com/canonical-websites/mir-server.io/issues/new">Report a bug with this site</a>
+                <a class="p-footer__link" href="https://github.com/canonical-websites/mir-server.io/issues/new"><small>Report a bug with this site</small></a>
               </li>
             </ul>
             <span class="u-off-screen">

@@ -3,14 +3,30 @@
 @import 'vanilla-framework/scss/vanilla';
 @include vanilla;
 
+.p-strip--hero {
+  background-color: $color-light;
+
+  @media (min-width: $breakpoint-medium) {
+    background-image: url('https://assets.ubuntu.com/v1/7919980a-Mir-suru-left-side.svg'), url('https://assets.ubuntu.com/v1/1a6ef22c-Mir-suru-right-side.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left, bottom right;
+  }
+}
+
 .p-card--featured {
   @extend %p-card--highlighted;
-  @include vf-highlight-bar($color-brand);
+  @include vf-highlight-bar($color-accent);
   display: flex;
   flex-direction: column;
 }
 
 // XXX Negative margin-bottom override
 [class^='p-strip'].is-bordered {
+  margin-bottom: 0;
+}
+
+// XXX Remove margin-bottom from .p-footer links
+.p-footer__link {
   margin-bottom: 0;
 }
