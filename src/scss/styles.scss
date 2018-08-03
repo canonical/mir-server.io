@@ -3,7 +3,14 @@
 @import 'vanilla-framework/scss/vanilla';
 @include vanilla;
 
-// Navigation hover colour override
-.p-navigation__link > a:hover {
-  background-color: $color-brand;
+.p-card--featured {
+  @extend %p-card--highlighted;
+  @include vf-highlight-bar($color-brand);
+  display: flex;
+  flex-direction: column;
+}
+
+// XXX Negative margin-bottom override
+[class^='p-strip'].is-bordered {
+  margin-bottom: 0;
 }

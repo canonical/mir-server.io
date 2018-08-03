@@ -32,7 +32,7 @@
     <div class="p-navigation__banner">
       <div class="p-navigation__logo">
         <a class="p-navigation__link" href="https://mir-server.io/">
-          <img class="p-navigation__image" src="resources/mir-logo.svg" alt="">
+          <img class="p-navigation__image" src="resources/mir-logo.svg" alt="" width="180" />
         </a>
       </div>
       <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
@@ -53,132 +53,159 @@
     </nav>
   </header>
 
-  <main id="main-content" class="inner-wrapper">
-    <div class="page-content">
-      <div class="p-strip--hero">
-        <div class="row u-vertically-center">
-          <div class="col-6">
-            <h1>The fast, open and secure display server for any device.</h1>
-            <p>Mir is a system-level component that can be used to unlock next-generation user experiences for devices ranging
-              from traditional Linux desktops to IoT devices to embedded products powered by Linux. Mir can be viewed as
-              a replacement for the X window server system, commonly used on Linux desktop devices. Mir allows device makers
-              and desktop users to have a well-defined, efficient, flexible, and secure platform on which their graphical
-              environment sits. </p>
-          </div>
-          <div class="col-6 u-align--center u-hidden--small">
-            <a href="resources/webkit-openhab.png" target="_blank">
-              <img src="resources/webkit-openhab.png" alt="Mir screenshot">
-            </a>
-          </div>
+  <main id="main-content">
+    <section class="p-strip--accent is-bordered is-deep">
+      <div class="row">
+        <div class="col-8">
+          <h1>Mir Display Server</h1>
+          <h4>The fast, open and secure display server for any device.</h4>
+          <p>Mir is a system-level component that can be used to unlock next-generation user experiences for devices ranging
+            from traditional Linux desktops to IoT devices to embedded products powered by Linux. Mir can be viewed as a
+            replacement for the X window server system, commonly used on Linux desktop devices. Mir allows device makers
+            and desktop users to have a well-defined, efficient, flexible, and secure platform on which their graphical environment
+            sits.</p>
+        </div>
+        <div class="col-4 u-align--center">
+          <img src="https://via.placeholder.com/500x500?text=Hero Image" alt="" />
         </div>
       </div>
-
-      <div class="p-strip--border-bottom">
-        <div class="row">
-          <h2>Why Mir</h2>
+    </section>
+    <section class="p-strip--light is-bordered">
+      <div class="row">
+        <h2>Learn more</h2>
+      </div>
+      <div class="row u-equal-height">
+        <article class="p-card--featured col-4">
+          <h4 class="p-muted-heading">Tutorial</h4>
+          <hr />
+          <a class="u-align--center" href="https://tutorials.ubuntu.com/tutorial/graphical-snaps#0">
+            <img src="https://via.placeholder.com/350x200?text=Tutorial" alt="" />
+          </a>
+          <h3 class="p-heading--four">
+            <a href="https://tutorials.ubuntu.com/tutorial/graphical-snaps#0">How to build a digital signage app for embedded displays&nbsp;&rsaquo;</a>
+          </h3>
+          <hr style="margin-top: auto;" />
+          <p class="u-no-margin--bottom">
+            <small>mir-kiosk</small>
+          </p>
+        </article>
+        <article class="p-card--featured col-4">
+          <h4 class="p-muted-heading">Tutorial</h4>
+          <hr />
+          <a class="u-align--center" href="https://tutorials.ubuntu.com/tutorial/graphical-snaps-xwayland#0">
+            <img src="https://via.placeholder.com/350x200?text=Tutorial" alt="" />
+          </a>
+          <h3 class="p-heading--four">
+            <a href="https://tutorials.ubuntu.com/tutorial/graphical-snaps-xwayland#0">How to create graphical snaps for IoT devices on top of a Xwayland stack&nbsp;&rsaquo;</a>
+          </h3>
+          <hr style="margin-top: auto;" />
+          <p class="u-no-margin--bottom">
+            <small>Unity8</small>
+          </p>
+        </article>
+        <article class="p-card--featured col-4">
+          <h4 class="p-muted-heading">Tutorial</h4>
+          <hr />
+          <a class="u-align--center" href="https://community.ubuntu.com/t/snaps-to-develop-a-web-kiosk-on-ubuntu-core-using-wayland/">
+            <img src="https://via.placeholder.com/350x200?text=Tutorial" alt="" />
+          </a>
+          <h3 class="p-heading--four">
+            <a href="https://community.ubuntu.com/t/snaps-to-develop-a-web-kiosk-on-ubuntu-core-using-wayland/">Snaps to develop a Web kiosk on Ubuntu Core (using Wayland)&nbsp;&rsaquo;</a>
+          </h3>
+          <hr style="margin-top: auto;" />
+          <p class="u-no-margin--bottom">
+            <small>Egmde</small>
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="p-strip is-bordered">
+      <div class="row">
+        <h2>Why Mir?</h2>
+      </div>
+      <div class="row p-divider">
+        <div class="col-6 p-divider__block">
           <p>The sophisticated user experience offered by mobile devices like the iPhone or Android-powered devices changes
             the expectations of users regarding a “fast’n’fluid” (f’n’f) way of interacting with their devices as well as
             a need an expectation for that experience to remain secure.</p>
           <p>Historically, graphical user interfaces on the Linux platform have been powered by the X windowing system. X has
             a long and successful history and it has served the purposes of both system level and application level UI well
             for more than 3 decades. However, users nowadays expect a more consistent, integrated and secure user experience
-            than what is possible to offer on top of the X&nbsp;windowing system. To meet the needs of today's users Mir
-            replaces the X11 protocol (used by X) with Wayland. Wayland is the
-            <em>de facto</em> successor to X11 and is designed to address the problems that have proved intractable with the
-            X&nbsp;windowing system.</p>
+            than what is possible to offer on top of the X windowing system. To meet the needs of today's users Mir replaces
+            the X11 protocol (used by X) with Wayland.</p>
+        </div>
+        <div class="col-6 p-divider__block">
+          <p>Wayland is the de facto successor to X11 and is designed to address the problems that have proved intractable with
+            the X windowing system.</p>
           <p>If you are building a device or creating a desktop experience for your users, Mir can give you a graphics stack
-            that works across different platforms and driver models, that is easy to integrate into shells and secure.</p>
-          <p>
-            Mir is currently available for developers to test as part of your kiosk, digital signage, or purpose built graphical solution.
-            We welcome your feedback.
-          </p>
+            that works across different platforms and driver models. It is secure and easy to integrate into shells.</p>
+          <p>Mir is currently available for developers to test as part of your kiosk, digital signage, or purpose built graphical
+            solution. We welcome your feedback.</p>
         </div>
       </div>
-
-      <div class="p-strip--light">
-        <div class="row">
-          <h2>Learn more</h2>
-          <div class="col-12 u-equal-height p-divider">
-            <div class="col-4 p-divider__block">
-              <div class="p-heading-icon">
-                <div class="p-heading-icon__header">
-                  <img class="p-heading-icon__img" src="resources/3fd62570-docs.svg" alt="">
-                  <h3 class="p-heading-icon__title">Documentation</h3>
-                </div>
-                <p>Refer to our documentation for a more detailed guide on how to get started using Mir.</p>
-                <p>
-                  <a class="p-link--external" href="https://developer.ubuntu.com/core/examples/snaps-on-mir">mir-kiosk example</a>
-                </p>
-              </div>
+      <div class="row u-align--center">
+        <img src="https://via.placeholder.com/1000x500?text=Architecture graphic" alt="" />
+      </div>
+    </section>
+    <section class="p-strip--light">
+      <div class="row">
+        <h2>Learn more</h2>
+      </div>
+      <div class="row p-divider">
+        <div class="col-4 p-divider__block">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <a href="https://developer.ubuntu.com/core/examples/snaps-on-mir" class="p-link--soft">
+                <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/3fd62570-docs.svg" />
+              </a>
+              <h3 class="p-heading-icon__title"><a href="https://developer.ubuntu.com/core/examples/snaps-on-mir" class="p-link--soft">Documentation</a></h3>
             </div>
-
-            <div class="col-4 p-divider__block">
-              <div class="p-heading-icon">
-                <div class="p-heading-icon__header">
-                  <img class="p-heading-icon__img" src="resources/4f3fc618-github.svg" alt="">
-                  <h3 class="p-heading-icon__title">Code</h3>
-                </div>
-                <p>Get Mir or contribute to its development.</p>
-                <p>
-                  <a class="p-link--external" href="https://github.com/MirServer/mir">GitHub</a>
-                </p>
-              </div>
+            <p>Refer to our documentation for a more detailed guide on how to get started using Mir</p>
+          </div>
+        </div>
+        <div class="col-4 p-divider__block">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <a href="https://github.com/MirServer/mir" class="p-link--soft">
+                <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/4f3fc618-github.svg" />
+              </a>
+              <h3 class="p-heading-icon__title"><a href="https://github.com/MirServer/mir" class="p-link--soft">Code</a></h3>
             </div>
-
-            <div class="col-4 p-divider__block">
-              <div class="p-heading-icon">
-                <div class="p-heading-icon__header">
-                  <img class="p-heading-icon__img" src="resources/5c0fb313-askubuntu.svg" alt="" width="100">
-                  <h3 class="p-heading-icon__title">Community</h3>
-                </div>
-                <p>Get involved!</p>
-                <p>
-                  <a class="p-link--external" href="https://webchat.freenode.net/?channels=%23mir-server">#mir-server on Freenode</a>
-                </p>
-              </div>
+            <p>Get Mir or contribute to its development</p>
+          </div>
+        </div>
+        <div class="col-4 p-divider__block">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <a href="https://webchat.freenode.net/?channels=%23mir-server" class="p-link--soft">
+                <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/5c0fb313-ask+ubuntu.svg" />
+              </a>
+              <h3 class="p-heading-icon__title"><a href="https://webchat.freenode.net/?channels=%23mir-server" class="p-link--soft">Community</a></h3>
             </div>
+            <p>Get involved!</p>
           </div>
         </div>
       </div>
-
-      <footer class="p-footer">
-        <div class="row">
-          <div class="p-footer__inner">
-            <ul class="p-inline-list u-no-margin--top">
-              <li class="p-inline-list__item">
-                <a href="https://mir-server.io/">Home</a>
+    </section>
+    <footer class="p-footer">
+      <div class="row">
+        <div class="col-12"> &copy; 2018 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+          <nav>
+            <ul class="p-footer__links">
+              <li class="p-footer__item">
+                <a class="p-footer__link" href="https://www.ubuntu.com/legal">Legal info</a>
               </li>
-              <li class="p-inline-list__item">
-                <a class="p-link--external" href="doc/getting_and_using_mir.html">User manual</a>
-              </li>
-              <li class="p-inline-list__item">
-                <a class="p-link--external" href="doc">Developer manual</a>
-              </li>
-              <li class="p-inline-list__item">
-                <a class="p-link--external" href="https://github.com/MirServer">Contribute</a>
-              </li>
-              <li class="p-inline-list__item">
-                <a class="p-link--external" href="https://community.ubuntu.com/c/mir">Forum</a>
-              </li>
-              <li class="p-inline-list__item">
-                <a class="p-link--external" href="https://webchat.freenode.net/?channels=#mirserver">IRC</a>
+              <li class="p-footer__item">
+                <a class="p-footer__link" href="https://github.com/canonical-websites/mir-server.io/issues/new">Report a bug with this site</a>
               </li>
             </ul>
-
-            <nav>
-              <ul class="p-footer__links">
-                <li class="p-footer__item">
-                  <a class="p-footer__link" href="https://github.com/MirServer/mir-server.io/issues">Report a bug on this site</a>
-                </li>
-              </ul>
-              <span class="u-off-screen">
-                <a href="#">Go to the top of the page</a>
-              </span>
-            </nav>
-          </div>
+            <span class="u-off-screen">
+              <a href="#">Go to the top of the page</a>
+            </span>
+          </nav>
         </div>
-      </footer>
-
+      </div>
+    </footer>
   </main>
 
 
