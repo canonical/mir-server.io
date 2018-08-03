@@ -2,3 +2,8 @@
 
 @import 'vanilla-framework/scss/vanilla';
 @include vanilla;
+
+// Navigation hover colour override
+.p-navigation__link > a:hover {
+  background-color: $color-brand;
+}
