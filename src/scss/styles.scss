@@ -19,6 +19,24 @@
   @include vf-highlight-bar($color-accent);
   display: flex;
   flex-direction: column;
+
+  .p-card--featured__date {
+    color: $color-mid-dark;
+    font-size: .875rem;
+    font-style: italic;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+}
+
+.p-icon-link {
+  align-items: center;
+  display: flex;
+}
+
+.p-icon-link__icon {
+  margin-right: $sph-intra--condensed;
+  max-width: 3rem;
 }
 
 // XXX Negative margin-bottom override
