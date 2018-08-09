@@ -1,7 +1,13 @@
 {
   "scripts": {
-    "build": "bundle exec jekyll build",
+    "build": "yarn build-css && bundle exec jekyll build",
+    "build-css": "node-sass --include-path node_modules src/scss --output build",
+    "watch": "yarn build-css -w",
     "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "vanilla-framework": "^1.8.0"
   }
 }
