@@ -4,14 +4,40 @@
 @include vanilla;
 
 .p-strip--hero {
-  background-color: $color-light;
+  background-color: $color-hero;
+  color: $color-x-light;
 
   @media (min-width: $breakpoint-medium) {
-    background-image: url('https://assets.ubuntu.com/v1/7919980a-Mir-suru-left-side.svg'), url('https://assets.ubuntu.com/v1/1a6ef22c-Mir-suru-right-side.svg');
+    background-image: url('https://assets.ubuntu.com/v1/5ccd1fe7-AdobeStock_126396245.jpeg?w=800');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom left, bottom right;
+    background-position: right;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      background: $color-hero;
+      content: '';
+      height: 160%;
+      min-width: 670px;
+      position: absolute;
+      top: -15%;
+      transform: rotate(-20deg);
+      width: 60%;
+    }
   }
+
+  @media (min-width: $breakpoint-large) {
+    &::after {
+      min-width: 700px;
+      right: 35%;
+    }
+  }
+}
+
+.p-strip--hero__row {
+  position: relative;
+  z-index: 2;
 }
 
 .p-card--featured {
