@@ -21,7 +21,7 @@
       height: 160%;
       min-width: 670px;
       position: absolute;
-      top: -15%;
+      top: -10%;
       transform: rotate(-20deg);
       width: 60%;
     }
@@ -30,7 +30,7 @@
   @media (min-width: $breakpoint-large) {
     &::after {
       min-width: 700px;
-      right: 35%;
+      right: 30%;
     }
   }
 }
@@ -46,7 +46,22 @@
   display: flex;
   flex-direction: column;
 
-  .p-card--featured__date {
+  &__date {
+    color: $color-mid-dark;
+    font-size: .875rem;
+    font-style: italic;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+}
+
+.p-card--article {
+  @extend %p-card--highlighted;
+  @include vf-highlight-bar($color-article);
+  display: flex;
+  flex-direction: column;
+
+  &__date {
     color: $color-mid-dark;
     font-size: .875rem;
     font-style: italic;
