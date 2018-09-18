@@ -1,5 +1,17 @@
 baseurl: ""
-url: "https://microk8s.io"
+url: "https://mir-server.io"
 incremental: true
-exclude: ["node_modules", "Gemfile*", "package.json", "README.md", "run", "yarn.lock", "*.log", "gulp*", "vendor"]
-include: ["_status"]
+exclude:
+  - node_modules
+  - "Gemfile*"
+  - package.json
+  - README.md
+  - run
+  - yarn.lock
+  - "*.log"
+  - "gulp*"
+  - vendor
+  - requirements.txt
+  - nginx.conf
+include:
+  - _status
