@@ -10,7 +10,7 @@
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "dependencies": {
-    "global-nav": "1.2.1",
+    "global-nav": "2.0.1",
     "node-sass": "4.11.0",
     "sass-lint": "1.12.1",
     "vanilla-framework": "1.8.1"
