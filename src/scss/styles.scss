@@ -3,34 +3,43 @@
 @import 'vanilla-framework/scss/vanilla';
 @include vanilla;
 
+$strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
+
 .p-strip--hero {
-  background-color: $color-hero;
+  background-image: $strip-gradient;
   color: $color-x-light;
 
   @media (min-width: $breakpoint-medium) {
-    background-image: url('https://assets.ubuntu.com/v1/5ccd1fe7-AdobeStock_126396245.jpeg?w=800');
+    background-image: url('https://assets.ubuntu.com/v1/881787a3-grafana-background.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: right;
     overflow: hidden;
     position: relative;
 
     &::after {
-      background: $color-hero;
+      background-image: $strip-gradient;
       content: '';
-      height: 160%;
-      min-width: 670px;
-      position: absolute;
-      top: -10%;
-      transform: rotate(-20deg);
-      width: 60%;
-    }
-  }
-
-  @media (min-width: $breakpoint-large) {
-    &::after {
+      height: 100%;
       min-width: 700px;
+      position: absolute;
       right: 30%;
+      top: 0;
+      transform: skew(-24deg);
+      width: 95%;
+    }
+
+    &::before {
+      background-image: url('https://assets.ubuntu.com/v1/685ac3e2-mir-suru.svg');
+      content: '';
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      left: 0;
+      height: 100%;
+      mix-blend-mode: multiply;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1;
     }
   }
 }
