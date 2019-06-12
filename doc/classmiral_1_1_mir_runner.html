@@ -80,7 +80,7 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a23781baa2a4bc2ea9ee8652f7dcbe032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#a23781baa2a4bc2ea9ee8652f7dcbe032">MirRunner</a> (int argc, char const *argv[])</td></tr>
 <tr class="separator:a23781baa2a4bc2ea9ee8652f7dcbe032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90f7902c41292285ed0043f571543497"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#a90f7902c41292285ed0043f571543497">MirRunner</a> (int argc, char const *argv[], char const *config_file)</td></tr>
+<tr class="memitem:a90f7902c41292285ed0043f571543497"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#a90f7902c41292285ed0043f571543497">MirRunner</a> (int argc, char const *argv[], char const *<a class="el" href="classmiral_1_1_mir_runner.html#a824568e1b7ea33b24c1b8eef01d5b0c4">config_file</a>)</td></tr>
 <tr class="separator:a90f7902c41292285ed0043f571543497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a381ac7c68ff3099aa1062c2bdab507e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#a381ac7c68ff3099aa1062c2bdab507e3">~MirRunner</a> ()</td></tr>
 <tr class="separator:a381ac7c68ff3099aa1062c2bdab507e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,6 +99,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaffd1ccd956ea12935c2c4d67ff2f52e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#aaffd1ccd956ea12935c2c4d67ff2f52e">stop</a> ()</td></tr>
 <tr class="memdesc:aaffd1ccd956ea12935c2c4d67ff2f52e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the Mir server to exit.  <a href="#aaffd1ccd956ea12935c2c4d67ff2f52e">More...</a><br /></td></tr>
 <tr class="separator:aaffd1ccd956ea12935c2c4d67ff2f52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a824568e1b7ea33b24c1b8eef01d5b0c4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#a824568e1b7ea33b24c1b8eef01d5b0c4">config_file</a> () const -&gt; std::string</td></tr>
+<tr class="memdesc:a824568e1b7ea33b24c1b8eef01d5b0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the .config file. The .config file is located via the XDG Base Directory Specification: $XDG_CONFIG_HOME or $HOME/.config followed by $XDG_CONFIG_DIRS Config file entries are long form (e.g. "x11-output=1200x720")  <a href="#a824568e1b7ea33b24c1b8eef01d5b0c4">More...</a><br /></td></tr>
+<tr class="separator:a824568e1b7ea33b24c1b8eef01d5b0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26ca1365698ea14a08f09b0894eb313"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_mir_runner.html#af26ca1365698ea14a08f09b0894eb313">display_config_file</a> () const -&gt; std::string</td></tr>
+<tr class="memdesc:af26ca1365698ea14a08f09b0894eb313"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the .display configuration file. The .display file is located via the XDG Base Directory Specification: $XDG_CONFIG_HOME or $HOME/.config followed by $XDG_CONFIG_DIRS Config file entries are long form (e.g. "x11-output=1200x720")  <a href="#af26ca1365698ea14a08f09b0894eb313">More...</a><br /></td></tr>
+<tr class="separator:af26ca1365698ea14a08f09b0894eb313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Runner for applying initialization options to Mir. </p>
@@ -223,6 +229,46 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a824568e1b7ea33b24c1b8eef01d5b0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a824568e1b7ea33b24c1b8eef01d5b0c4">&#9670;&nbsp;</a></span>config_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto miral::MirRunner::config_file </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt;  std::string</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Name of the .config file. The .config file is located via the XDG Base Directory Specification: $XDG_CONFIG_HOME or $HOME/.config followed by $XDG_CONFIG_DIRS Config file entries are long form (e.g. "x11-output=1200x720") </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.4 </dd></dl>
+
+</div>
+</div>
+<a id="af26ca1365698ea14a08f09b0894eb313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af26ca1365698ea14a08f09b0894eb313">&#9670;&nbsp;</a></span>display_config_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto miral::MirRunner::display_config_file </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt;  std::string</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Name of the .display configuration file. The .display file is located via the XDG Base Directory Specification: $XDG_CONFIG_HOME or $HOME/.config followed by $XDG_CONFIG_DIRS Config file entries are long form (e.g. "x11-output=1200x720") </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.4 </dd></dl>
+
+</div>
+</div>
 <a id="ae14748306ca4d34fe3e702081d13e8cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae14748306ca4d34fe3e702081d13e8cd">&#9670;&nbsp;</a></span>run_with()</h2>
 
@@ -289,9 +335,10 @@ Public Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2018
+<p align="center">Copyright &copy; 2012-2019
  Canonical Ltd. <br />
-Generated on Thu 12 Jul 10:49:10 UTC 2018
-</p>
+Generated on Fri May 24 15:24:26 UTC 2019
+<br />
+This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
 </html>

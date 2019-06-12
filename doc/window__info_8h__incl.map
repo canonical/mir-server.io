@@ -1,16 +1,16 @@
 <map id="include/miral/miral/window_info.h" name="include/miral/miral/window_info.h">
-<area shape="rect" id="node2" href="$miral_2miral_2window_8h.html" title="miral/window.h" alt="" coords="163,95,269,121"/>
-<area shape="rect" id="node13" href="$window__specification_8h.html" title="miral/window_specification.h" alt="" coords="736,95,923,121"/>
-<area shape="rect" id="node15" href="$rectangles_8h.html" title="mir/geometry/rectangles.h" alt="" coords="612,169,785,196"/>
-<area shape="rect" id="node19" href="$optional__value_8h.html" title="mir/optional_value.h" alt="" coords="1213,169,1352,196"/>
-<area shape="rect" id="node3" href="$application_8h.html" title="miral/application.h" alt="" coords="153,169,279,196"/>
-<area shape="rect" id="node8" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="581,319,723,345"/>
-<area shape="rect" id="node12" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="419,319,557,345"/>
-<area shape="rect" id="node4" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="163,244,309,271"/>
-<area shape="rect" id="node5" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="151,319,321,345"/>
-<area shape="rect" id="node9" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="608,393,707,420"/>
-<area shape="rect" id="node14" href="$displacement_8h.html" title="mir/geometry/displacement.h" alt="" coords="874,244,1065,271"/>
-<area shape="rect" id="node22" href="$int__wrapper_8h.html" title="mir/int_wrapper.h" alt="" coords="1067,169,1189,196"/>
-<area shape="rect" id="node16" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="478,244,645,271"/>
-<area shape="rect" id="node20" href="$fatal_8h.html" title="mir/fatal.h" alt="" coords="1243,244,1323,271"/>
+<area shape="rect" id="node2" href="$miral_2miral_2window_8h.html" title="miral/window.h" alt="" coords="175,95,297,121"/>
+<area shape="rect" id="node13" href="$window__specification_8h.html" title="miral/window_specification.h" alt="" coords="791,95,1001,121"/>
+<area shape="rect" id="node15" href="$rectangles_8h.html" title="mir/geometry/rectangles.h" alt="" coords="656,169,851,196"/>
+<area shape="rect" id="node19" href="$optional__value_8h.html" title="mir/optional_value.h" alt="" coords="1311,169,1467,196"/>
+<area shape="rect" id="node3" href="$application_8h.html" title="miral/application.h" alt="" coords="164,169,308,196"/>
+<area shape="rect" id="node8" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="627,319,787,345"/>
+<area shape="rect" id="node12" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="449,319,602,345"/>
+<area shape="rect" id="node4" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="166,244,333,271"/>
+<area shape="rect" id="node5" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="153,319,346,345"/>
+<area shape="rect" id="node9" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="659,393,768,420"/>
+<area shape="rect" id="node14" href="$displacement_8h.html" title="mir/geometry/displacement.h" alt="" coords="943,244,1158,271"/>
+<area shape="rect" id="node22" href="$int__wrapper_8h.html" title="mir/int_wrapper.h" alt="" coords="1151,169,1287,196"/>
+<area shape="rect" id="node16" href="$rectangle_8h.html" title="mir/geometry/rectangle.h" alt="" coords="510,244,698,271"/>
+<area shape="rect" id="node20" href="$fatal_8h.html" title="mir/fatal.h" alt="" coords="1344,244,1435,271"/>
 </map>

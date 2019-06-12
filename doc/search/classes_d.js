@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rectangle',['Rectangle',['../structmir_1_1geometry_1_1_rectangle.html',1,'mir::geometry']]],
-  ['rectangles',['Rectangles',['../classmir_1_1geometry_1_1_rectangles.html',1,'mir::geometry']]]
+  ['physicalsizemm',['PhysicalSizeMM',['../structmiral_1_1_output_1_1_physical_size_m_m.html',1,'miral::Output']]],
+  ['point',['Point',['../structmir_1_1geometry_1_1_point.html',1,'mir::geometry']]]
 ];

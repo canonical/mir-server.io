@@ -3,6 +3,7 @@ var searchData=
   ['id_5ffor_5fwindow',['id_for_window',['../classmiral_1_1_window_manager_tools.html#a9fd190bc5515c4b90db646ca8e7f1e06',1,'miral::WindowManagerTools']]],
   ['info_5ffor',['info_for',['../classmiral_1_1_window_manager_tools.html#ae4d6a4c82684b3d7aff97db0ff6d48a3',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Session &gt; const &amp;session) const -&gt; ApplicationInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#a8bf2eb7ebd51040022b3b1a4d7a72285',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Surface &gt; const &amp;surface) const -&gt; WindowInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#aa0c0e7396cc4bbd712d2eb84d05cc9fd',1,'miral::WindowManagerTools::info_for(Window const &amp;window) const -&gt; WindowInfo &amp;']]],
   ['info_5ffor_5fwindow_5fid',['info_for_window_id',['../classmiral_1_1_window_manager_tools.html#ab6580d53a8688d83b5b08420b076147e',1,'miral::WindowManagerTools']]],
+  ['init',['init',['../class_globals.html#aab8764627a9fdbee481ba26418b75e5c',1,'Globals']]],
   ['input_5fmode',['input_mode',['../classmiral_1_1_window_specification.html#a9e12c6e4d374dbb96dffc7be45c22103',1,'miral::WindowSpecification::input_mode() const -&gt; mir::optional_value&lt; InputReceptionMode &gt; const &amp;'],['../classmiral_1_1_window_specification.html#ae038f8ae70b66a6835a61c6f61e33de5',1,'miral::WindowSpecification::input_mode() -&gt; mir::optional_value&lt; InputReceptionMode &gt; &amp;']]],
   ['input_5fshape',['input_shape',['../classmiral_1_1_window_specification.html#a352e81bd8c85b02a7c55762a41ff0866',1,'miral::WindowSpecification::input_shape() const -&gt; mir::optional_value&lt; std::vector&lt; Rectangle &gt;&gt; const &amp;'],['../classmiral_1_1_window_specification.html#a898200c2a301bc31ba6794a9c3a6ea57',1,'miral::WindowSpecification::input_shape() -&gt; mir::optional_value&lt; std::vector&lt; Rectangle &gt;&gt; &amp;']]],
   ['internalclientlauncher',['InternalClientLauncher',['../classmiral_1_1_internal_client_launcher.html#a5e44e9bd59f6bf4e4b7834cd046634d8',1,'miral::InternalClientLauncher']]],
@@ -12,6 +13,5 @@ var searchData=
   ['is_5fdecoration',['is_decoration',['../class_decoration_provider.html#a33645b649b36bafcd3719bb58cee1f84',1,'DecorationProvider']]],
   ['is_5fsame_5foutput',['is_same_output',['../classmiral_1_1_output.html#af8e240f437db833b9a88bedbba41d550',1,'miral::Output']]],
   ['is_5fset',['is_set',['../classmir_1_1optional__value.html#aa87ffde015a0f3e374d70c04b2b7abc7',1,'mir::optional_value']]],
-  ['is_5ftitlebar',['is_titlebar',['../class_decoration_provider.html#adcf9e336c4f6a85f90477100c4b037d2',1,'DecorationProvider']]],
   ['is_5fvisible',['is_visible',['../structmiral_1_1_window_info.html#ac3afe2a4965019ee75a4c1d3af350081',1,'miral::WindowInfo']]]
 ];

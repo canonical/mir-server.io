@@ -1,12 +1,8 @@
 <map id="include/client/mir_toolkit/mir_window.h" name="include/client/mir_toolkit/mir_window.h">
-<area shape="rect" id="node2" href="$client_2mir_2client_2window_8h.html" title="include/client/mir\l/client/window.h" alt="" coords="143,102,263,143"/>
-<area shape="rect" id="node7" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="128,206,277,247"/>
-<area shape="rect" id="node8" href="$window__id_8h.html" title="include/client/mir\l/client/window_id.h" alt="" coords="337,102,468,143"/>
-<area shape="rect" id="node9" href="$mir__client__library_8h.html" title="include/client/mir\l_toolkit/mir_client\l_library.h" alt="" coords="501,95,625,151"/>
-<area shape="rect" id="node3" href="$decoration__provider_8h.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.h" alt="" coords="301,206,472,247"/>
-<area shape="rect" id="node6" href="$sw__splash_8cpp.html" title="examples/example&#45;server\l&#45;lib/sw_splash.cpp" alt="" coords="5,303,176,344"/>
-<area shape="rect" id="node4" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="200,303,381,344"/>
-<area shape="rect" id="node5" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="405,303,621,344"/>
-<area shape="rect" id="node10" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="654,206,815,247"/>
-<area shape="rect" id="node11" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="496,199,629,255"/>
+<area shape="rect" id="node2" href="$client_2mir_2client_2window_8h.html" title="include/client/mir\l/client/window.h" alt="" coords="5,102,140,143"/>
+<area shape="rect" id="node3" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="42,206,207,247"/>
+<area shape="rect" id="node4" href="$window__id_8h.html" title="include/client/mir\l/client/window_id.h" alt="" coords="215,102,362,143"/>
+<area shape="rect" id="node5" href="$mir__client__library_8h.html" title="include/client/mir\l_toolkit/mir_client\l_library.h" alt="" coords="387,95,527,151"/>
+<area shape="rect" id="node6" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="299,206,478,247"/>
+<area shape="rect" id="node7" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="503,199,653,255"/>
 </map>

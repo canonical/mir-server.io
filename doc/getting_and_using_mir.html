@@ -63,63 +63,52 @@ $(function() {
 <div class="title">Getting and Using Mir </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>If you are not running Ubuntu things may not work as described below. While some applications are able to use Mir's Wayland support only Ubuntu carries "native" Mir support for GTK+, SDL2 and Qt applications and the Xmir X11 server.</p>
-<p>Mir was initially developed on and for Ubuntu. It is also available on Fedora. We aim to make it available for other distributions, but currently you need to build it yourself. (See <a class="el" href="getting_involved_in_mir.html">Getting Involved in Mir</a>).</p>
-<h2>Getting Mir examples on Ubuntu</h2>
-<p>On Ubuntu the latest Mir release is available from the Mir team's "release PPA". We recommend always using the latest release, but if you don't wish to use the PPA, there will be an earlier release of Mir in the Ubuntu archive, but some things may not work as described here.</p>
-<p>To add the PPA to your system: </p><pre class="fragment">$ sudo add-apt-repository ppa:mir-team/release
-$ sudo apt update
-</pre><p>To remove the PPA from your system: </p><pre class="fragment">$ sudo ppa-purge mir-team/release
-</pre><p>You can install the Mir examples along with the Mir graphics drivers as follows: </p><pre class="fragment">$ sudo apt install mir-demos qterminal qtwayland5
-$ sudo apt install mir-graphics-drivers-desktop
-</pre><h2>Getting Mir examples on Fedora</h2>
-<p>On Fedora Mir is available from the archive. We recommend using qterminal with Mir as Qt currently works better with Mir's Wayland support than other options.</p>
-<p>You can install the Mir examples as follows: </p><pre class="fragment">$ sudo dnf install mir-demos qterminal
-</pre><h2>Using Mir examples </h2>
-<p>For convenient testing under X11 there's a "miral-app" script that wraps the commands used to start a server and then launches a terminal (as the current user): </p><pre class="fragment">$ miral-app
-</pre><p>To run independently of X11 you need to grant access to the graphics hardware (by running as root) and specify a VT to run in. There's a "miral-desktop" script that wraps to start the server (as root) and then launch a terminal (as the current user): </p><pre class="fragment">$ miral-desktop
-</pre><p>For more options see <em>Options when running the Mir example shell</em> below.</p>
+<div class="textblock"><p>Mir is a library for building things, not an end-user product, but it does come with some demos to illustrate the possibilities.</p>
+<h2>Getting Mir demos </h2>
+<p>The Mir libraries and demos are available on Ubuntu, Fedora and Arch. It has also been built and tested on Debian but, at the time or writing, is not in the archive.</p>
+<p>For Linux distributions that don't currently package Mir you need to build it yourself. (See <a class="el" href="getting_involved_in_mir.html">Getting Involved in Mir</a>).</p>
+<h2>Getting Mir on Ubuntu</h2>
+<p>You can install the Mir examples along with the Mir graphics drivers as follows: </p><pre class="fragment">sudo apt install mir-demos mir-graphics-drivers-desktop
+</pre><p>It is also useful to install Wayland support for Qt and qterminal: </p><pre class="fragment">sudo apt install qterminal qtwayland5
+</pre><h3>Getting the latest Mir release on Ubuntu</h3>
+<p>As a matter of policy Ubuntu does not routinely update packages after a series is released. This means the Mir team cannot reasonably guarantee that all series will have the latest Mir release available at all times.</p>
+<p>The latest Mir release is available for all supported Ubuntu series from the Mir team's "release PPA". To add the PPA to your system: </p><pre class="fragment">sudo add-apt-repository --update ppa:mir-team/release
+</pre><p>To remove the PPA from your system: </p><pre class="fragment">sudo ppa-purge mir-team/release
+</pre><h2>Getting Mir on Fedora</h2>
+<p>On Fedora Mir is available from the archive: </p><pre class="fragment">sudo dnf install mir-demos
+</pre><p>It is also useful to install qterminal: </p><pre class="fragment">sudo dnf install qterminal
+</pre><h2>Getting Mir on Arch</h2>
+<p>On Arch Linux, you can install the <a href="https://aur.archlinux.org/packages/mir/">mir</a> package from the AUR.</p>
+<h2>Using Mir demos </h2>
+<p>For convenient testing under X11 there's a "miral-app" script that wraps the commands used to start a server and then launches a terminal (as the current user): </p><pre class="fragment">miral-app
+</pre><p>If you're using a desktop that supports X11 then you can run this in a terminal window. In that case Mir will automatically select a "Mir-on-X11" backend and run in a Window.</p>
+<p>Alternatively, to run Mir "natively" you can run the same command in a Virtual Terminal.</p>
 <h3>Running applications on Mir</h3>
-<p><b>On Ubuntu</b>, if you use the command-line launched by <code>miral-app</code> or <code>miral-desktop</code> native Mir applications (which include native Mir clients and those that use SDL or the GTK+, Qt toolkits) can be started as usual: </p><pre class="fragment">$ sudo apt install kate neverputt 
-$ mir_demo_client_chain_jumping_buffers
-$ kate
-$ neverputt
-$ gedit
-</pre><p><b>On Fedora</b>, we can use the Wayland backends for SDL or Qt: </p><pre class="fragment">$ sudo dnf install kate neverball-neverputt
-$ mir_demo_client_chain_jumping_buffers
-$ kate
-$ neverputt
-</pre><p>From outside the MirAL session applications can be run using the miral-run script: </p><pre class="fragment">$ miral-run kate
-$ miral-run neverputt
-</pre><h3>Running for X11 applications</h3>
-<p>If you want to run X11 applications that do not have native Mir support in the toolkit they use then the answer is an X11 server that runs on Mir. That could be either <code>Xmir</code> or <code>Xwayland</code>.</p>
-<p>On Ubuntu: </p><pre class="fragment">$ sudo apt install xmir xwayland; 
-</pre><p>On Fedora: </p><pre class="fragment">$ sudo dnf install xorg-x11-server-Xwayland 
-</pre><p>Then once you have started a miral shell (as above) you can use <code>miral-xrun</code> to run applications under Xmir or Xwayland: </p><pre class="fragment">$ miral-xrun firefox
-</pre><p>This automatically starts a Xmir X11 server on a new $DISPLAY for the application to use. You can use miral-xrun both from a command-line outside the miral-shell or, for example, from the terminal running in the shell.</p>
-<p>If you have both <code>Xmir</code> and <code>Xwayland</code> installed you can choose as follows: </p><pre class="fragment">$ miral-xrun -Xmir firefox
-$ miral-xrun -Xwayland firefox
+<p>If you use the terminal launched by <code>miral-app</code> Wayland applications can be started as usual: </p><pre class="fragment">kate
+neverputt
+gedit
+</pre><p>From outside the Mir-on-X11 session applications can be run using the <code>miral-run</code> script: </p><pre class="fragment">miral-run kate
+miral-run neverputt
 </pre><h3>Options when running the Mir example shell</h3>
 <h4>Script Options</h4>
-<p>Both the "miral-app" and "miral-desktop" scripts provide options for using an alternative example shell (miral-kiosk) and an alternative to gnome-terminal. </p><pre class="fragment">-kiosk               use miral-kiosk instead of miral-shell
+<p>The <code>miral-app</code> script provides options for using an alternative shell (<code>miral-kiosk</code> as used by the mir-kiosk snap) and an alternative launcher. </p><pre class="fragment">-kiosk               use miral-kiosk instead of miral-shell
 -launcher &lt;launcher&gt; use &lt;launcher&gt; instead of qterminal
-</pre><p>In addition miral-desktop has the option to set the VT that is used: </p><pre class="fragment">-vt       &lt;termid&gt;   set the virtual terminal [4]
+</pre><p>For example: </p><pre class="fragment">miral-app -kiosk -launcher 'glmark2-es2-wayland --fullscreen'
 </pre><p>There are some additional options (listed with "-h") but those are the important ones.</p>
-<h4>miral-shell Options</h4>
-<p>The scripts can also be used to pass options to Mir: they pass everything on the command-line following the first thing they don't understand. These can be listed by <code>miral-shell --help</code>. Most of these options are inherited from Mir, but the following MirAL specific are likely to be of interest: </p><pre class="fragment">--window-management-trace           log trace message
-</pre><p>Probably the main use for MirAL is to test window-management (either of a toolkit or of a server) and this logs all calls to and from the window management policy. This option is supported directly in the MirAL library and works for any MirAL based shell - even one you write yourself. </p><pre class="fragment">--keymap arg (=us)                  keymap &lt;layout&gt;[+&lt;variant&gt;[+&lt;options&gt;]]
-                                    , e,g, "gb" or "cz+qwerty" or 
-                                    "de++compose:caps"
-</pre><p>For those of us not in the USA this is very useful. Both the -shell and -kiosk examples support this option. </p><pre class="fragment">--window-manager arg (=floating)   window management strategy 
+<h4><code>miral-shell</code> Options</h4>
+<p>The script will pass everything on the command-line following the first thing it doesn't understand to <code>miral-shell</code>. The options can be listed by <code>miral-shell --help</code>. The following are likely to be of interest: </p><pre class="fragment">--window-management-trace           log trace message
+</pre><p>Probably the main use for <code>miral-shell</code> is to test window-management (either of a client toolkit or of a server) and this logs all calls to and from the window management policy. This option is supported directly in the MirAL library and works for any MirAL based shell - even one you write yourself. </p><pre class="fragment">--window-manager arg (=floating)   window management strategy 
                                    [{floating|tiling|system-compositor}]
-</pre><p>Is only supported by miral-shell and its main use is to allow an alternative "tiling" window manager to be selected.</p>
-<p>These options can also be specified in a configuration file. For example: </p><pre class="fragment">$ cat ~/.config/miral-shell.config 
+</pre><p>This allows an alternative "tiling" window manager to be selected. <em>Note: <code>--window-manager</code> is only supported by <code>miral-shell</code> (not <code>miral-kiosk</code>).</em></p>
+<p>For example: </p><pre class="fragment">miral-app --window-manager tiling
+</pre><p>These options can also be specified in a configuration file. For example: </p><pre class="fragment">$ cat ~/.config/miral-shell.config 
 keymap=gb
 window-manager=tiling </pre> </div></div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2018
+<p align="center">Copyright &copy; 2012-2019
  Canonical Ltd. <br />
-Generated on Thu 12 Jul 10:49:10 UTC 2018
-</p>
+Generated on Fri May 24 15:24:26 UTC 2019
+<br />
+This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
 </html>
