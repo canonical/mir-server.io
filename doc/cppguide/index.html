@@ -3428,14 +3428,14 @@ bool success = calculate_something(interesting_value,
           link
         </A></SPAN><SPAN class="showhide_button" onclick="javascript:ShowHideByName('Function_Declarations_and_Definitions__body','Function_Declarations_and_Definitions__button')" name="Function_Declarations_and_Definitions__button" id="Function_Declarations_and_Definitions__button">▶</SPAN>
     <DIV style="display:inline;" class="">
-      Return type on the same line as function name, parameters on the
-      same line if they fit.
+      <code>void</code> or <code>auto</code> on the same line as function name,
+      parameters and return type on the same line if they fit.
     </DIV>
     <DIV class=""><DIV class="stylepoint_body" name="Function_Declarations_and_Definitions__body" id="Function_Declarations_and_Definitions__body" style="display: none">
       <p>
         Functions look like this:
       </p>
-      <DIV class=""><PRE>ReturnType ClassName::function_name(Type par_name1, Type par_name2)
+      <DIV class=""><PRE>auto ClassName::function_name(Type par_name1, Type par_name2) -&gt; ReturnType
 {
     do_something();
     ...
@@ -3443,8 +3443,8 @@ bool success = calculate_something(interesting_value,
       <p>
         or:
       </p>
-      <DIV class=""><PRE>ReturnType ClassName::really_long_function_name(Type par_name1, Type par_name2,
-                                                Type par_name3)
+      <DIV class=""><PRE>auto ClassName::long_function_name(Type par_name1, Type par_name2, Type par_name3)
+-&gt; ReturnType
 {
     do_something();
     ...
@@ -3452,66 +3452,67 @@ bool success = calculate_something(interesting_value,
       <p>
         or:
       </p>
-      <DIV class=""><PRE>ReturnType LongClassName::really_really_really_long_function_name(
-    Type par_name1,  // 4 space indent
+      <DIV class=""><PRE>auto ClassName::really_really_really_long_function_name(
+    Type par_name1,
     Type par_name2,
-    Type par_name3)
+    Type par_name3) -&gt; ReturnType
 {
-    do_something();  // 4 space indent
+    do_something();
     ...
 }</PRE></DIV>
       <p>
         Some points to note:
       </p>
       <ul>
-        <li> The return type is always on the same line as the
-             function name.
-             </li>
+        <li> <code>void</code> or <code>auto</code>  is always on the same line
+             as the function name.
+        </li>
         <li> The open parenthesis is always on the same line as the
              function name.
-             </li>
+        </li>
         <li> There is never a space between the function name and the
              open parenthesis.
-             </li>
+        </li>
         <li> There is never a space between the parentheses and the
              parameters.
-             </li>
-        <li> The open curly brace is always on the line following the last parameter.
-             </li>
+        </li>
+        <li> The open curly brace is always on the line following the last parameter
+             or return type.
+       </li>
         <li> The close curly brace is either on the last line by itself
              or (if other style rules permit) on the same line as the
              open curly brace.
-             </li>
+       </li>
         <li> All parameters should be named, with identical names in the
              declaration and implementation. (Except where unused parameters
              are suppressed in the implementation.)
-             </li>
+       </li>
         <li> All parameters should be in a single line if possible, otherwise:
             <ul>
-                <li> Wrap groups of parameters into the next line, and align the 
-                     first wrapped parameter to the first parameter in the previous 
-                     line.
-                     </li>
-                <li> Place each parameter in a separate line and indent each with 4 
-                     spaces.
-                     </li>
+              <li> Place each parameter in a separate line and indent each with 4
+                spaces.
+              </li>
+              <li> Wrap groups of parameters into the next line, and indent each
+                with 4 spaces.
+              </li>
             </ul>
-             </li>
+        </li>
       </ul>
       <p>
         If your function is <code>const</code>, the <code>const</code>
         keyword should be on the same line as the last parameter:
       </p>
       <DIV class=""><PRE>// Everything in this function signature fits on a single line
-ReturnType function_name(Type par) const
+auto function_name(Type par) const -&gt; ReturnType
 {
     ...
 }
 
 // This function signature requires multiple lines, but
 // the const keyword is on the line with the last parameter.
-ReturnType really_long_function_name(Type par1,
-                                     Type par2) const
+void really_long_function_name(
+    Type par1,
+    Type par2) const
 {
     ...
 }</PRE></DIV>
@@ -3558,37 +3559,21 @@ void Circle::rotate(double) {}</PRE></DIV>
       <p>
         If the arguments do not all fit on one line, they should be
         broken up onto multiple lines, with each subsequent line
-        aligned with the first argument.  Do not add spaces after the
+        indented four spaced.  Do not add spaces after the
         open paren or before the close paren:
       </p>
-      <DIV class=""><PRE>bool retval = do_something(averyveryveryverylongargument1,
-                           argument2, argument3);</PRE></DIV>
+      <DIV class=""><PRE>bool retval = do_something(
+    averyveryveryverylongargument1,
+    argument2, argument3);</PRE></DIV>
       <p>
         If the function has many arguments, consider having one per
         line if this makes the code more readable:
       </p>
-      <DIV class=""><PRE>bool retval = do_something(argument1,
-                           argument2,
-                           argument3,
-                           argument4);</PRE></DIV>
-      <p>
-        If the function signature is so long that it cannot fit within
-        the maximum <a href="#Line_Length">line length</a>, you may
-        place all arguments on subsequent lines:
-      </p>
-      <DIV class=""><PRE>if (...)
-{
-    ...
-    ...
-    if (...)
-    {
-        do_something_that_requires_a_long_function_name(
-            very_long_argument1,  // 4 space indent
-            argument2,
-            argument3,
-            argument4);
-    }
-}</PRE></DIV>
+      <DIV class=""><PRE>bool retval = do_something(
+    argument1,
+    argument2,
+    argument3,
+    argument4);</PRE></DIV>
     </DIV></DIV>
   </DIV>
 

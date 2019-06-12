@@ -112,9 +112,9 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ga81b88c1ccfee97a0e839e17e9cfc6381"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga81b88c1ccfee97a0e839e17e9cfc6381">MIR_BYTES_PER_PIXEL</a>(f)</td></tr>
 <tr class="separator:ga81b88c1ccfee97a0e839e17e9cfc6381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabc0d6a7e5edd29c8d5e7a062ab56ef54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#gabc0d6a7e5edd29c8d5e7a062ab56ef54">MIR_CLIENT_API_VERSION_MAJOR</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memitem:gabc0d6a7e5edd29c8d5e7a062ab56ef54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#gabc0d6a7e5edd29c8d5e7a062ab56ef54">MIR_CLIENT_API_VERSION_MAJOR</a>&#160;&#160;&#160;(1)</td></tr>
 <tr class="separator:gabc0d6a7e5edd29c8d5e7a062ab56ef54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e4dff020d07eb1453cd5d3749fa132c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga6e4dff020d07eb1453cd5d3749fa132c">MIR_CLIENT_API_VERSION_MINOR</a>&#160;&#160;&#160;(32)</td></tr>
+<tr class="memitem:ga6e4dff020d07eb1453cd5d3749fa132c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga6e4dff020d07eb1453cd5d3749fa132c">MIR_CLIENT_API_VERSION_MINOR</a>&#160;&#160;&#160;(2)</td></tr>
 <tr class="separator:ga6e4dff020d07eb1453cd5d3749fa132c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8ac1d68949f49571c901ef5c4269147b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mir__toolkit.html#ga8ac1d68949f49571c901ef5c4269147b">MIR_CLIENT_API_VERSION_PATCH</a>&#160;&#160;&#160;(0)</td></tr>
 <tr class="separator:ga8ac1d68949f49571c901ef5c4269147b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -447,6 +447,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4a16e5d4ad7cb9f30fc3b988f767eadb05">mir_window_type_satellite</a>, 
 <br />
 &#160;&#160;<a class="el" href="group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4adf3efa764e49cac1167b511fa952a569">mir_window_type_tip</a>, 
+<a class="el" href="group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4a64d2dec797bc2177f5afdd5c51ef0622">mir_window_type_decoration</a>, 
 <a class="el" href="group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4adab09a1339df023d30d19770e9b1ac37">mir_window_types</a>
 <br />
  }</td></tr>
@@ -2305,11 +2306,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">((f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a>   ? 3 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a>   ? 3 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a>   ? 2 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a> ? 2 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a> ? 2 : \</div><div class="line">                                                                    4)</div><div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a></div><div class="ttdef"><b>Definition:</b> common.h:249</div></div>
-<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a></div><div class="ttdef"><b>Definition:</b> common.h:252</div></div>
-<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a></div><div class="ttdef"><b>Definition:</b> common.h:248</div></div>
-<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a></div><div class="ttdef"><b>Definition:</b> common.h:251</div></div>
-<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a></div><div class="ttdef"><b>Definition:</b> common.h:250</div></div>
+<b>Value:</b><div class="fragment"><div class="line">((f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a>   ? 3 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a>   ? 3 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a>   ? 2 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a> ? 2 : \</div><div class="line">                                (f) == <a class="code" href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a> ? 2 : \</div><div class="line">                                                                    4)</div><div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a></div><div class="ttdef"><b>Definition:</b> common.h:250</div></div>
+<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a></div><div class="ttdef"><b>Definition:</b> common.h:253</div></div>
+<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a></div><div class="ttdef"><b>Definition:</b> common.h:249</div></div>
+<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a></div><div class="ttdef"><b>Definition:</b> common.h:252</div></div>
+<div class="ttc" id="group__mir__toolkit_html_ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945"><div class="ttname"><a href="group__mir__toolkit.html#ggaab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a></div><div class="ttdef"><b>Definition:</b> common.h:251</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2341,7 +2342,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MIR_CLIENT_API_VERSION_MAJOR&#160;&#160;&#160;(0)</td>
+          <td class="memname">#define MIR_CLIENT_API_VERSION_MAJOR&#160;&#160;&#160;(1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2355,7 +2356,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MIR_CLIENT_API_VERSION_MINOR&#160;&#160;&#160;(32)</td>
+          <td class="memname">#define MIR_CLIENT_API_VERSION_MINOR&#160;&#160;&#160;(2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5632,6 +5633,7 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga5a15b379af27169665ac512dcf449cb4adf3efa764e49cac1167b511fa952a569"></a>mir_window_type_tip&#160;</td><td class="fielddoc"><p>AKA "tooltip". </p>
 </td></tr>
+<tr><td class="fieldname"><a id="gga5a15b379af27169665ac512dcf449cb4a64d2dec797bc2177f5afdd5c51ef0622"></a>mir_window_type_decoration&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5a15b379af27169665ac512dcf449cb4adab09a1339df023d30d19770e9b1ac37"></a>mir_window_types&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -13145,7 +13147,7 @@ may return null if connection is invalid </dd></dl>
 
 <p>Get the x coordinate of the top-left point of the output in the virtual display space. </p>
 <p>Outputs can be thought of as viewports into a virtual display space. They may freely overlap, coincide, or be disjoint as desired.</p>
-<p>Output orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
+<p><a class="el" href="class_output.html">Output</a> orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>The MirOutput to query </td></tr>
@@ -13174,7 +13176,7 @@ may return null if connection is invalid </dd></dl>
 
 <p>Get the y coordinate of the top-left point of the output in the virtual display space. </p>
 <p>Outputs can be thought of as viewports into a virtual display space. They may freely overlap, coincide, or be disjoint as desired.</p>
-<p>Output orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
+<p><a class="el" href="class_output.html">Output</a> orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>The MirOutput to query </td></tr>
@@ -13760,7 +13762,7 @@ may return null if connection is invalid </dd></dl>
 
 <p>Set the coordinates of the top-left point of the output in the virtual display space. </p>
 <p>Outputs can be thought of as viewports into a virtual display space. They may freely overlap, coincide, or be disjoint as desired.</p>
-<p>Output orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
+<p><a class="el" href="class_output.html">Output</a> orientation changes the orientation of the output rectangle in virtual display space, but does not change its top-left corner.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>The MirOutput to mutate </td></tr>
@@ -21031,9 +21033,10 @@ popup =&gt; satellite</dd></dl>
 </div>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2018
+<p align="center">Copyright &copy; 2012-2019
  Canonical Ltd. <br />
-Generated on Thu 12 Jul 10:49:10 UTC 2018
-</p>
+Generated on Fri May 24 15:24:26 UTC 2019
+<br />
+This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
 </html>

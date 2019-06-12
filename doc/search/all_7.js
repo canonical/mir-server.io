@@ -9,6 +9,7 @@ var searchData=
   ['getting_20involved_20in_20mir',['Getting Involved in Mir',['../getting_involved_in_mir.html',1,'']]],
   ['getting_5finvolved_5fin_5fmir_2emd',['getting_involved_in_mir.md',['../getting__involved__in__mir_8md.html',1,'']]],
   ['gid',['gid',['../classmiral_1_1_application_credentials.html#abae0cdb26352b5be5f7a08b506974fd1',1,'miral::ApplicationCredentials']]],
+  ['globals',['Globals',['../class_globals.html',1,'Globals'],['../class_globals.html#a846ef35ca517b54642c221c516c3aede',1,'Globals::Globals()']]],
   ['gralloc_5fusage',['gralloc_usage',['../struct_mir_extension_android_buffer_v2.html#a1adeef29d02e215cf0fb1b0dee3082a8',1,'MirExtensionAndroidBufferV2']]],
   ['graphics_5fmodule',['graphics_module',['../struct_mir_extension_graphics_module_v1.html#a7dac3e55dd91b2a9b4e178a76806bce5',1,'MirExtensionGraphicsModuleV1']]],
   ['graphics_5fmodule_2eh',['graphics_module.h',['../graphics__module_8h.html',1,'']]]

@@ -1,15 +1,16 @@
 <map id="include/miral/miral/window_specification.h" name="include/miral/miral/window_specification.h">
-<area shape="rect" id="node2" href="$window__info_8h.html" title="include/miral/miral\l/window_info.h" alt="" coords="430,95,557,136"/>
-<area shape="rect" id="node3" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="1030,452,1218,493"/>
-<area shape="rect" id="node4" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="5,452,221,493"/>
-<area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.cpp" alt="" coords="382,363,583,404"/>
-<area shape="rect" id="node6" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="469,184,640,225"/>
-<area shape="rect" id="node7" href="$decoration__provider_8h.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.h" alt="" coords="181,273,352,315"/>
-<area shape="rect" id="node9" href="$tiling__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.h" alt="" coords="520,273,707,315"/>
-<area shape="rect" id="node11" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="731,273,930,315"/>
-<area shape="rect" id="node8" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="176,363,357,404"/>
-<area shape="rect" id="node10" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="620,452,761,493"/>
-<area shape="rect" id="node12" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="886,363,1061,404"/>
-<area shape="rect" id="node14" href="$floating__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.h" alt="" coords="659,363,861,404"/>
-<area shape="rect" id="node13" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="861,452,1006,493"/>
+<area shape="rect" id="node2" href="$window__info_8h.html" title="include/miral/miral\l/window_info.h" alt="" coords="473,95,619,136"/>
+<area shape="rect" id="node3" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="5,452,215,493"/>
+<area shape="rect" id="node4" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="431,452,675,493"/>
+<area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.cpp" alt="" coords="1135,363,1363,404"/>
+<area shape="rect" id="node6" href="$window__manager__tools_8h.html" title="include/miral/miral\l/window_manager_tools.h" alt="" coords="518,184,710,225"/>
+<area shape="rect" id="node7" href="$decoration__provider_8h.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.h" alt="" coords="543,273,736,315"/>
+<area shape="rect" id="node9" href="$tiling__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.h" alt="" coords="998,273,1211,315"/>
+<area shape="rect" id="node11" href="$canonical__window__manager_8h.html" title="include/miral/miral\l/canonical_window_manager.h" alt="" coords="195,273,417,315"/>
+<area shape="rect" id="node14" href="$minimal__window__manager_8h.html" title="include/miral/miral\l/minimal_window_manager.h" alt="" coords="761,273,974,315"/>
+<area shape="rect" id="node8" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="593,363,795,404"/>
+<area shape="rect" id="node10" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="933,452,1093,493"/>
+<area shape="rect" id="node12" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="209,363,403,404"/>
+<area shape="rect" id="node13" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="239,452,403,493"/>
+<area shape="rect" id="node15" href="$floating__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.h" alt="" coords="819,363,1049,404"/>
 </map>

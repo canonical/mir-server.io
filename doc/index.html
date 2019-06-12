@@ -70,24 +70,15 @@ $(function() {
 <li>If you want to get involved in Mir development, see: <a class="el" href="getting_involved_in_mir.html">Getting Involved in Mir</a></li>
 </ul>
 <h2>Using Mir for server development </h2>
-<p>Install the headers and libraries for using libmiral in development: </p><pre class="fragment">$ sudo apt install libmiral-dev
-</pre><p>A <code>miral.pc</code> file is provided for use with <code>pkg-config</code> or other tools. For example: </p><pre class="fragment">$ pkg-config --cflags miral
-</pre><p>The server API is introduced here: <a class="el" href="introducing_the_miral_api.html">Introducing the Miral API</a></p>
-<h2>Using Mir for client development </h2>
-<p>This is usually something you don't need to do explicitly, it is normally handled by a GUI toolkit (or library).</p>
-<p>A toolkit can run on Mir in three ways: using Wayland protocols, using the Mir client API or using X11 translation by the Xmir server.</p>
-<ul>
-<li>Qt, has "wayland" and "mir" plugins that can be selected by setting the QT_QPA_PLATFORM environment variable to "wayland" or "ubuntumirclient" respectively.</li>
-<li>SDL can be built with "wayland" and "mir" support and these options selected by setting the SDL_VIDEODRIVER environment variable to "wayland" or "mir".</li>
-</ul>
-<p>If want to use the Mir client library directly (e.g. you are working on "mir" support for a toolkit or library) Install the headers and libraries for using libmirclient in development: </p><pre class="fragment">$ sudo apt install libmirclient-dev
-</pre><p>A <code>miral.pc</code> file is provided for use with <code>pkg-config</code> or other tools. For example: </p><pre class="fragment">$ pkg-config --cflags mirclient
-</pre><p>The client API documentation is here: <a class="el" href="group__mir__toolkit.html">MIR graphics tools API</a> </p>
+<p>Install the headers and libraries for using libmiral in development: </p><pre class="fragment">sudo apt install libmiral-dev
+</pre><p>A <code>miral.pc</code> file is provided for use with <code>pkg-config</code> or other tools. For example: </p><pre class="fragment">pkg-config --cflags miral
+</pre><p>The server API is introduced here: <a class="el" href="introducing_the_miral_api.html">Introducing the Miral API</a> </p>
 </div></div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2018
+<p align="center">Copyright &copy; 2012-2019
  Canonical Ltd. <br />
-Generated on Thu 12 Jul 10:49:10 UTC 2018
-</p>
+Generated on Fri May 24 15:24:26 UTC 2019
+<br />
+This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
 </html>

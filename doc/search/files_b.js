@@ -1,8 +1,8 @@
 var searchData=
 [
   ['mainpage_2emd',['mainpage.md',['../mainpage_8md.html',1,'']]],
-  ['measuring_5flatency_2emd',['measuring_latency.md',['../measuring__latency_8md.html',1,'']]],
   ['mesa_5fdrm_5fauth_2eh',['mesa_drm_auth.h',['../mesa__drm__auth_8h.html',1,'']]],
+  ['minimal_5fwindow_5fmanager_2eh',['minimal_window_manager.h',['../minimal__window__manager_8h.html',1,'']]],
   ['mir_5fblob_2eh',['mir_blob.h',['../mir__blob_8h.html',1,'']]],
   ['mir_5fbuffer_2eh',['mir_buffer.h',['../mir__buffer_8h.html',1,'']]],
   ['mir_5fbuffer_5fstream_2eh',['mir_buffer_stream.h',['../mir__buffer__stream_8h.html',1,'']]],

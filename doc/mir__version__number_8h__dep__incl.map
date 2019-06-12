@@ -1,10 +1,8 @@
 <map id="include/core/mir_toolkit/mir_version_number.h" name="include/core/mir_toolkit/mir_version_number.h">
-<area shape="rect" id="node2" href="$client_2mir__toolkit_2version_8h.html" title="include/client/mir\l_toolkit/version.h" alt="" coords="330,95,451,136"/>
-<area shape="rect" id="node9" href="$miral_2miral_2version_8h.html" title="include/miral/miral\l/version.h" alt="" coords="475,95,602,136"/>
-<area shape="rect" id="node3" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="221,191,371,233"/>
-<area shape="rect" id="node6" href="$mir__client__library_8h.html" title="include/client/mir\l_toolkit/mir_client\l_library.h" alt="" coords="425,184,549,240"/>
-<area shape="rect" id="node4" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="5,295,187,337"/>
-<area shape="rect" id="node5" href="$sw__splash_8cpp.html" title="examples/example&#45;server\l&#45;lib/sw_splash.cpp" alt="" coords="211,295,381,337"/>
-<area shape="rect" id="node7" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="406,295,567,337"/>
-<area shape="rect" id="node8" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="592,288,725,344"/>
+<area shape="rect" id="node2" href="$client_2mir__toolkit_2version_8h.html" title="include/client/mir\l_toolkit/version.h" alt="" coords="109,95,243,136"/>
+<area shape="rect" id="node7" href="$miral_2miral_2version_8h.html" title="include/miral/miral\l/version.h" alt="" coords="267,95,413,136"/>
+<area shape="rect" id="node3" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="5,191,171,233"/>
+<area shape="rect" id="node4" href="$mir__client__library_8h.html" title="include/client/mir\l_toolkit/mir_client\l_library.h" alt="" coords="195,184,335,240"/>
+<area shape="rect" id="node5" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="81,295,260,337"/>
+<area shape="rect" id="node6" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="285,288,435,344"/>
 </map>

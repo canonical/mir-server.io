@@ -7,6 +7,7 @@ var searchData=
   ['inches',['inches',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378a9243a98d4f5096338a3fd21f9fd10d51',1,'mir::geometry::Length']]],
   ['info_5ffor',['info_for',['../classmiral_1_1_window_manager_tools.html#ae4d6a4c82684b3d7aff97db0ff6d48a3',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Session &gt; const &amp;session) const -&gt; ApplicationInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#a8bf2eb7ebd51040022b3b1a4d7a72285',1,'miral::WindowManagerTools::info_for(std::weak_ptr&lt; mir::scene::Surface &gt; const &amp;surface) const -&gt; WindowInfo &amp;'],['../classmiral_1_1_window_manager_tools.html#aa0c0e7396cc4bbd712d2eb84d05cc9fd',1,'miral::WindowManagerTools::info_for(Window const &amp;window) const -&gt; WindowInfo &amp;']]],
   ['info_5ffor_5fwindow_5fid',['info_for_window_id',['../classmiral_1_1_window_manager_tools.html#ab6580d53a8688d83b5b08420b076147e',1,'miral::WindowManagerTools']]],
+  ['init',['init',['../class_globals.html#aab8764627a9fdbee481ba26418b75e5c',1,'Globals']]],
   ['input_5fconfiguration_5fevent_2eh',['input_configuration_event.h',['../input__configuration__event_8h.html',1,'']]],
   ['input_5fdevice_5fstate_5fevent_2eh',['input_device_state_event.h',['../input__device__state__event_8h.html',1,'']]],
   ['input_5fevent_2eh',['input_event.h',['../input__event_8h.html',1,'']]],
@@ -35,6 +36,5 @@ var searchData=
   ['is_5fgbm_5fimportable',['is_gbm_importable',['../struct_mir_extension_gbm_buffer_v2.html#a574f6fec461c3ade262cebf9a52d39ab',1,'MirExtensionGbmBufferV2']]],
   ['is_5fsame_5foutput',['is_same_output',['../classmiral_1_1_output.html#af8e240f437db833b9a88bedbba41d550',1,'miral::Output']]],
   ['is_5fset',['is_set',['../classmir_1_1optional__value.html#aa87ffde015a0f3e374d70c04b2b7abc7',1,'mir::optional_value']]],
-  ['is_5ftitlebar',['is_titlebar',['../class_decoration_provider.html#adcf9e336c4f6a85f90477100c4b037d2',1,'DecorationProvider']]],
   ['is_5fvisible',['is_visible',['../structmiral_1_1_window_info.html#ac3afe2a4965019ee75a4c1d3af350081',1,'miral::WindowInfo']]]
 ];

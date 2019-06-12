@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['introducing_20the_20miral_20api',['Introducing the Miral API',['../introducing_the_miral_api.html',1,'']]]
+  ['linux_20kernel_20requirements_20for_20mir',['Linux Kernel Requirements for Mir',['../md_doc_kernel_requirements.html',1,'']]]
 ];

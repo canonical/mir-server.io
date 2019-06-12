@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['wallpaper_5fconfig_2ecpp',['wallpaper_config.cpp',['../wallpaper__config_8cpp.html',1,'']]],
+  ['wallpaper_5fconfig_2eh',['wallpaper_config.h',['../wallpaper__config_8h.html',1,'']]],
+  ['wayland_5fextensions_2eh',['wayland_extensions.h',['../wayland__extensions_8h.html',1,'']]],
+  ['wayland_5fhelpers_2ecpp',['wayland_helpers.cpp',['../wayland__helpers_8cpp.html',1,'']]],
+  ['wayland_5fhelpers_2eh',['wayland_helpers.h',['../wayland__helpers_8h.html',1,'']]],
   ['window_2eh',['window.h',['../client_2mir_2client_2window_8h.html',1,'(Global Namespace)'],['../miral_2miral_2window_8h.html',1,'(Global Namespace)']]],
   ['window_5fcoordinate_5ftranslation_2eh',['window_coordinate_translation.h',['../window__coordinate__translation_8h.html',1,'']]],
   ['window_5fevent_2eh',['window_event.h',['../window__event_8h.html',1,'']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['teardown',['teardown',['../class_globals.html#a4ec3694ee9b4d59b3f3db2f8e0096cf4',1,'Globals']]],
   ['the_5fapplication_5fauthorizer',['the_application_authorizer',['../classmiral_1_1_basic_set_application_authorizer.html#a5bdb22ac35eb30d87fa1402f44810617',1,'miral::BasicSetApplicationAuthorizer']]],
   ['the_5fcustom_5fapplication_5fauthorizer',['the_custom_application_authorizer',['../classmiral_1_1_set_application_authorizer.html#a69496066ccecaa8006d4119ea92e336f',1,'miral::SetApplicationAuthorizer']]],
   ['tilingwindowmanagerpolicy',['TilingWindowManagerPolicy',['../class_tiling_window_manager_policy.html#afd37e73b34b8a7da5f10a59e2a3377e4',1,'TilingWindowManagerPolicy']]],

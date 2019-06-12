@@ -2,6 +2,7 @@ var searchData=
 [
   ['card_5fid',['card_id',['../struct_mir_display_card.html#a30f1b56658f13f1ee4b6466719d052e1',1,'MirDisplayCard::card_id()'],['../struct_mir_display_output.html#a086b48241f807a104a2ce8d4b68581c3',1,'MirDisplayOutput::card_id()']]],
   ['cards',['cards',['../struct_mir_display_configuration.html#af4fa1951d12eed2e4f9a0bb6be021146',1,'MirDisplayConfiguration']]],
+  ['compositor',['compositor',['../class_globals.html#a48866695dcbc52c689a6045d7691f7c9',1,'Globals']]],
   ['connected',['connected',['../struct_mir_display_output.html#a2d99525e09be47e342a59756513b3aa6',1,'MirDisplayOutput']]],
   ['context',['context',['../struct_mir_extension_set_gbm_device_v1.html#a414b78e69c42d5d3f0f8630bef1f9dc3',1,'MirExtensionSetGbmDeviceV1']]],
   ['create_5fbuffer',['create_buffer',['../struct_mir_extension_android_e_g_l_v1.html#a31ae407d74558d526378c0577b8cd621',1,'MirExtensionAndroidEGLV1']]],

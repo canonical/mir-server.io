@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmiral_1_1_cursor_theme.html" title="Load an X&#45;cursor theme, either the supplied default, or through the –cursor&#45;theme config option..." alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node1" href="$classmiral_1_1_basic_set_application_authorizer.html" title="miral::BasicSetApplication\lAuthorizer" alt="" coords="5,5,199,47"/>
+<area shape="rect" id="node2" href="$classmiral_1_1_set_application_authorizer.html" title="miral::SetApplicationAuthorizer\l\&lt; Policy \&gt;" alt="" coords="247,5,472,47"/>
 </map>

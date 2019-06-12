@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmir_1_1client_1_1_connection.html" title="Handle class for MirConnection &#45; provides automatic reference counting. " alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="168,5,307,32"/>
+<area shape="rect" id="node3" href="$classmir_1_1_abnormal_exit.html" title="mir::AbnormalExit" alt="" coords="355,5,495,32"/>
 </map>

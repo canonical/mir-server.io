@@ -40,7 +40,8 @@ var menudata={children:[
 {text:"o",url:"namespacemembers_func.html#index_o"},
 {text:"p",url:"namespacemembers_func.html#index_p"},
 {text:"s",url:"namespacemembers_func.html#index_s"},
-{text:"t",url:"namespacemembers_func.html#index_t"}]},
+{text:"t",url:"namespacemembers_func.html#index_t"},
+{text:"w",url:"namespacemembers_func.html#index_w"}]},
 {text:"Variables",url:"namespacemembers_vars.html"},
 {text:"Typedefs",url:"namespacemembers_type.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
@@ -95,6 +96,7 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.html#index_u"},
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
+{text:"x",url:"functions_func_x.html#index_x"},
 {text:"~",url:"functions_func_0x7e.html#index_0x7e"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},

@@ -77,6 +77,12 @@ $(function() {
 <li>add_child()
 : <a class="el" href="structmiral_1_1_window_info.html#a1911cbb1760198a763716865cc061143">miral::WindowInfo</a>
 </li>
+<li>add_extension()
+: <a class="el" href="classmiral_1_1_wayland_extensions.html#a3d9f7c04d94b4481b11a810c6d05f4a3">miral::WaylandExtensions</a>
+</li>
+<li>add_extension_disabled_by_default()
+: <a class="el" href="classmiral_1_1_wayland_extensions.html#a1ae01d1409759550370dd1f9c435df24">miral::WaylandExtensions</a>
+</li>
 <li>add_start_callback()
 : <a class="el" href="classmiral_1_1_mir_runner.html#a609e8643374b6f60c1a8a2ea281739d1">miral::MirRunner</a>
 </li>
@@ -106,8 +112,7 @@ $(function() {
 , <a class="el" href="class_tiling_window_manager_policy.html#aac6e2e1a8d9995965ab5beb406ed647d">TilingWindowManagerPolicy</a>
 </li>
 <li>advise_delete_window()
-: <a class="el" href="class_floating_window_manager_policy.html#aa8370b79602c57f95ae0c8a3073dfdcf">FloatingWindowManagerPolicy</a>
-, <a class="el" href="classmiral_1_1_window_management_policy.html#a0cba6bd657d78cb12f7509f4ab9048b2">miral::WindowManagementPolicy</a>
+: <a class="el" href="classmiral_1_1_window_management_policy.html#a0cba6bd657d78cb12f7509f4ab9048b2">miral::WindowManagementPolicy</a>
 </li>
 <li>advise_end()
 : <a class="el" href="classmiral_1_1_window_management_policy.html#aee0776004fac61a3a365cad2c3e3756c">miral::WindowManagementPolicy</a>
@@ -117,12 +122,12 @@ $(function() {
 : <a class="el" href="class_floating_window_manager_policy.html#a205fe7f38b87369627617a6757f798de">FloatingWindowManagerPolicy</a>
 , <a class="el" href="class_kiosk_window_manager_policy.html#a537ef42f2644550b1b79b44186fdd324">KioskWindowManagerPolicy</a>
 , <a class="el" href="classmiral_1_1_canonical_window_manager_policy.html#aa6abebf02230958b14009256027baf6e">miral::CanonicalWindowManagerPolicy</a>
+, <a class="el" href="classmiral_1_1_minimal_window_manager.html#a0699ce86721e08f773db96f5bf084396">miral::MinimalWindowManager</a>
 , <a class="el" href="classmiral_1_1_window_management_policy.html#a6d46a01bd4af3c91e08fc71953f66a5f">miral::WindowManagementPolicy</a>
 , <a class="el" href="class_tiling_window_manager_policy.html#a702304c06c3f73b9baa183a1a3a573d6">TilingWindowManagerPolicy</a>
 </li>
 <li>advise_focus_lost()
-: <a class="el" href="class_floating_window_manager_policy.html#a26c86d08838e6ba286ae138b7b37c535">FloatingWindowManagerPolicy</a>
-, <a class="el" href="classmiral_1_1_window_management_policy.html#a31e9e54628ce2f1e0da242c0fa5fbbaf">miral::WindowManagementPolicy</a>
+: <a class="el" href="classmiral_1_1_window_management_policy.html#a31e9e54628ce2f1e0da242c0fa5fbbaf">miral::WindowManagementPolicy</a>
 </li>
 <li>advise_move_to()
 : <a class="el" href="classmiral_1_1_window_management_policy.html#a0f0e5448e03d51c17e1cd7a9c79a13f3">miral::WindowManagementPolicy</a>
@@ -130,9 +135,6 @@ $(function() {
 <li>advise_new_app()
 : <a class="el" href="classmiral_1_1_window_management_policy.html#aefcaff98b16399586cfdbc64aaeb939a">miral::WindowManagementPolicy</a>
 , <a class="el" href="class_tiling_window_manager_policy.html#a90d1e6d2652d540fa84e61506e5b6653">TilingWindowManagerPolicy</a>
-</li>
-<li>advise_new_titlebar()
-: <a class="el" href="class_decoration_provider.html#aa7f132ce0b376a8017b49fefee11d0ac">DecorationProvider</a>
 </li>
 <li>advise_new_window()
 : <a class="el" href="class_floating_window_manager_policy.html#a9165a49808c6a7b82f257d9670bb92e2">FloatingWindowManagerPolicy</a>
@@ -155,13 +157,10 @@ $(function() {
 : <a class="el" href="classmiral_1_1_window_management_policy.html#a142b434829a4beb65c15f77be175d869">miral::WindowManagementPolicy</a>
 </li>
 <li>advise_resize()
-: <a class="el" href="class_floating_window_manager_policy.html#a08151a6816d439cde70c6ab288d45617">FloatingWindowManagerPolicy</a>
-, <a class="el" href="classmiral_1_1_window_management_policy.html#abf08c7731c4000253fabd31dbf0a76ed">miral::WindowManagementPolicy</a>
+: <a class="el" href="classmiral_1_1_window_management_policy.html#abf08c7731c4000253fabd31dbf0a76ed">miral::WindowManagementPolicy</a>
 </li>
 <li>advise_state_change()
-: <a class="el" href="class_decoration_provider.html#af6124bd47f3b9187a386469ba39bab39">DecorationProvider</a>
-, <a class="el" href="class_floating_window_manager_policy.html#a9cb1d12e4e6977f30571b9c2c3d73bf4">FloatingWindowManagerPolicy</a>
-, <a class="el" href="classmiral_1_1_window_management_policy.html#ac5219a76bf9d38096490885a6cf37d92">miral::WindowManagementPolicy</a>
+: <a class="el" href="classmiral_1_1_window_management_policy.html#ac5219a76bf9d38096490885a6cf37d92">miral::WindowManagementPolicy</a>
 </li>
 <li>AnonymousShmFile()
 : <a class="el" href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">mir::AnonymousShmFile</a>
@@ -174,7 +173,7 @@ $(function() {
 , <a class="el" href="classmiral_1_1_window.html#aa958f41f4d048c47fdcad254118e0a5a">miral::Window</a>
 </li>
 <li>ApplicationAuthorizer()
-: <a class="el" href="classmiral_1_1_application_authorizer.html#a7ef2e3b3e34a60ea16fe860575580381">miral::ApplicationAuthorizer</a>
+: <a class="el" href="classmiral_1_1_application_authorizer.html#adae05a43dceeb272f9bf36d31249479f">miral::ApplicationAuthorizer</a>
 </li>
 <li>ApplicationCredentials()
 : <a class="el" href="classmiral_1_1_application_credentials.html#a3e128134a71e54db7f663d5293ffa4b1">miral::ApplicationCredentials</a>
@@ -204,7 +203,7 @@ $(function() {
 : <a class="el" href="classmiral_1_1_window_manager_tools.html#a298b3c7a7ba0e537feb05b84edf5f69f">miral::WindowManagerTools</a>
 </li>
 <li>aux_rect()
-: <a class="el" href="classmiral_1_1_window_specification.html#ab1718869ecf076597bd64835980c64e9">miral::WindowSpecification</a>
+: <a class="el" href="classmiral_1_1_window_specification.html#af46c4fab843f2b1a6097646b2ccd939d">miral::WindowSpecification</a>
 </li>
 <li>aux_rect_placement_gravity()
 : <a class="el" href="classmiral_1_1_window_specification.html#a4ef533155d1b0c9874b97d71b1409e3f">miral::WindowSpecification</a>
@@ -215,9 +214,10 @@ $(function() {
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2018
+<p align="center">Copyright &copy; 2012-2019
  Canonical Ltd. <br />
-Generated on Thu 12 Jul 10:49:10 UTC 2018
-</p>
+Generated on Fri May 24 15:24:26 UTC 2019
+<br />
+This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
 </html>

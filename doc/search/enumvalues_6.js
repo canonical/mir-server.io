@@ -272,6 +272,7 @@ var searchData=
   ['mir_5fwindow_5fstate_5funknown',['mir_window_state_unknown',['../group__mir__toolkit.html#gga767377fc0ee9f2097bc25dce0228d7a6aa37b9710ff465987333310d585977fc3',1,'common.h']]],
   ['mir_5fwindow_5fstate_5fvertmaximized',['mir_window_state_vertmaximized',['../group__mir__toolkit.html#gga767377fc0ee9f2097bc25dce0228d7a6acc7a5f5738c089f3a795d6ab223c004e',1,'common.h']]],
   ['mir_5fwindow_5fstates',['mir_window_states',['../group__mir__toolkit.html#gga767377fc0ee9f2097bc25dce0228d7a6a176d5c92ad445dfae56525eb65c4af32',1,'common.h']]],
+  ['mir_5fwindow_5ftype_5fdecoration',['mir_window_type_decoration',['../group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4a64d2dec797bc2177f5afdd5c51ef0622',1,'common.h']]],
   ['mir_5fwindow_5ftype_5fdialog',['mir_window_type_dialog',['../group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4a95b6d0971f66a18bb5d13486be54dae9',1,'common.h']]],
   ['mir_5fwindow_5ftype_5ffreestyle',['mir_window_type_freestyle',['../group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4afb349baa4776f2365816b492ad301797',1,'common.h']]],
   ['mir_5fwindow_5ftype_5fgloss',['mir_window_type_gloss',['../group__mir__toolkit.html#gga5a15b379af27169665ac512dcf449cb4a66389b1fefe72cbfd1d86d810b796323',1,'common.h']]],

@@ -1,8 +1,8 @@
 <map id="include/miral/miral/window.h" name="include/miral/miral/window.h">
-<area shape="rect" id="node2" href="$application_8h.html" title="miral/application.h" alt="" coords="149,95,275,121"/>
-<area shape="rect" id="node7" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="513,95,655,121"/>
-<area shape="rect" id="node11" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="351,95,489,121"/>
-<area shape="rect" id="node3" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="17,169,164,196"/>
-<area shape="rect" id="node4" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="5,244,176,271"/>
-<area shape="rect" id="node8" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="453,169,552,196"/>
+<area shape="rect" id="node2" href="$application_8h.html" title="miral/application.h" alt="" coords="162,95,306,121"/>
+<area shape="rect" id="node7" href="$point_8h.html" title="mir/geometry/point.h" alt="" coords="559,95,719,121"/>
+<area shape="rect" id="node11" href="$size_8h.html" title="mir/geometry/size.h" alt="" coords="381,95,535,121"/>
+<area shape="rect" id="node3" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="19,169,185,196"/>
+<area shape="rect" id="node4" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="5,244,199,271"/>
+<area shape="rect" id="node8" href="$dimensions_8h.html" title="dimensions.h" alt="" coords="494,169,603,196"/>
 </map>

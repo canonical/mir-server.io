@@ -1,3 +1,6 @@
 <map id="include/core/mir/fd.h" name="include/core/mir/fd.h">
-<area shape="rect" id="node2" href="$anonymous__shm__file_8h.html" title="include/core/mir/anonymous\l_shm_file.h" alt="" coords="5,80,191,121"/>
+<area shape="rect" id="node2" href="$decoration__provider_8h.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.h" alt="" coords="134,80,327,121"/>
+<area shape="rect" id="node5" href="$anonymous__shm__file_8h.html" title="include/core/mir/anonymous\l_shm_file.h" alt="" coords="351,80,558,121"/>
+<area shape="rect" id="node3" href="$decoration__provider_8cpp.html" title="examples/example&#45;server\l&#45;lib/decoration_provider.cpp" alt="" coords="5,169,208,211"/>
+<area shape="rect" id="node4" href="$floating__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/floating_window_manager.cpp" alt="" coords="233,169,477,211"/>
 </map>
