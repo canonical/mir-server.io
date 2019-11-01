@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "global-nav": "2.0.3",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.0",
     "sass-lint": "1.13.1",
-    "vanilla-framework": "1.8.1"
+    "vanilla-framework": "2.4.1"
   }
 }
