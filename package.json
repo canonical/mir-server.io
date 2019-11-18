@@ -3,16 +3,17 @@
     "lint-nginx": "gixy nginx.conf",
     "lint-scss": "sass-lint src/**/*.scss --verbose --no-exit",
     "test": "yarn run lint-nginx && yarn run lint-scss",
-    "build": "cp node_modules/global-nav/dist/index.js src/js/global-nav.js && yarn build-css && bundle exec jekyll build",
+    "build": "yarn run build-js && yarn build-css && bundle exec jekyll build",
     "build-css": "node-sass --include-path node_modules src/scss --output build",
+    "build-js": "mkdir -p src/js/build/global-nav && cp node_modules/@canonical/global-nav/dist/global-nav.js src/js/build/global-nav",
     "watch": "yarn build-css -w",
     "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "dependencies": {
-    "global-nav": "2.0.3",
-    "node-sass": "4.12.0",
+    "@canonical/global-nav": "^2.2.1",
+    "node-sass": "4.13.0",
     "sass-lint": "1.13.1",
-    "vanilla-framework": "1.8.1"
+    "vanilla-framework": "2.4.1"
   }
 }
