@@ -85,7 +85,7 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 }
 
 .p-icon-link__icon {
-  margin-right: $sph-intra--condensed;
+  margin-right: $sph-inner--small;
   max-width: 3rem;
 }
 
@@ -97,4 +97,38 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 // XXX Remove margin-bottom from .p-footer links
 .p-footer__link {
   margin-bottom: 0;
+}
+
+// Navigation
+.p-navigation__banner {
+  background-color: $color-article;
+}
+
+.p-navigation {
+  .p-navigation__row {
+    padding: 0;
+
+    .p-navigation__banner {
+      padding: 0 $sph-inner--large;
+
+      .p-navigation__logo {
+        font-weight: 400;
+        margin-right: 0;
+        
+      }
+
+      .p-navigation__toggle {
+        &--open,
+        &--close {
+          font-weight: 400;
+        }
+      }
+    }
+    
+    .p-navigation__link a {
+      height: 100%;
+      padding-left: $sph-inner--large ;
+      padding-right: $sph-inner--large ;
+    }
+  }
 }
