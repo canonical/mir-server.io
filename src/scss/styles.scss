@@ -1,9 +1,9 @@
 @import 'settings';
-
 @import 'vanilla-framework/scss/vanilla';
+
 @include vanilla;
 
-$strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
+$strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
 
 .p-strip--hero {
   background-image: $strip-gradient;
@@ -11,8 +11,8 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 
   @media (min-width: $breakpoint-medium) {
     background-image: url('https://assets.ubuntu.com/v1/881787a3-grafana-background.jpg');
-    background-repeat: no-repeat;
     background-position: right;
+    background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
 
@@ -30,11 +30,11 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 
     &::before {
       background-image: url('https://assets.ubuntu.com/v1/685ac3e2-mir-suru.svg');
-      content: '';
-      background-size: 100% 100%;
       background-repeat: no-repeat;
-      left: 0;
+      background-size: 100% 100%;
+      content: '';
       height: 100%;
+      left: 0;
       mix-blend-mode: multiply;
       position: absolute;
       right: 0;
@@ -51,13 +51,15 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 
 .p-card--featured {
   @extend %p-card--highlighted;
+
   @include vf-highlight-bar($color-accent);
+
   display: flex;
   flex-direction: column;
 
   &__date {
     color: $color-mid-dark;
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-style: italic;
     margin: 0 0 1.5rem 0;
     padding: 0;
@@ -66,13 +68,15 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
 
 .p-card--article {
   @extend %p-card--highlighted;
+
   @include vf-highlight-bar($color-article);
+
   display: flex;
   flex-direction: column;
 
   &__date {
     color: $color-mid-dark;
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-style: italic;
     margin: 0 0 1.5rem 0;
     padding: 0;
@@ -114,7 +118,6 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
       .p-navigation__logo {
         font-weight: 400;
         margin-right: 0;
-        
       }
 
       .p-navigation__toggle {
@@ -124,11 +127,11 @@ $strip-gradient: linear-gradient(195deg, #E9500E 0%, #6E2953 34%, #25001E 100%);
         }
       }
     }
-    
+
     .p-navigation__link a {
       height: 100%;
-      padding-left: $sph-inner--large ;
-      padding-right: $sph-inner--large ;
+      padding-left: $sph-inner--large;
+      padding-right: $sph-inner--large;
     }
   }
 }
