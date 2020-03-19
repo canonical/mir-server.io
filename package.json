@@ -1,7 +1,7 @@
 {
   "scripts": {
     "lint-nginx": "gixy nginx.conf",
-    "lint-scss": "sass-lint src/**/*.scss --verbose --no-exit",
+    "lint-scss": "stylelint src/**/*.scss",
     "test": "yarn run lint-nginx && yarn run lint-scss",
     "build": "yarn run build-js && yarn build-css && bundle exec jekyll build",
     "build-css": "node-sass --include-path node_modules src/scss --output build",
@@ -13,7 +13,11 @@
   "dependencies": {
     "@canonical/global-nav": "2.3.0",
     "node-sass": "4.13.0",
-    "sass-lint": "1.13.1",
     "vanilla-framework": "2.4.1"
+  },
+  "devDependencies": {
+    "stylelint": "13.2.1",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-order": "4.0.0"
   }
 }
