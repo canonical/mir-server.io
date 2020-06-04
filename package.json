@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "yarn run build && yarn run serve",
     "lint-nginx": "gixy nginx.conf",
     "lint-scss": "stylelint src/**/*.scss",
     "test": "yarn run lint-nginx && yarn run lint-scss",
