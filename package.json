@@ -1,23 +1,28 @@
 {
   "scripts": {
-    "start": "yarn run build && yarn run serve",
+    "start": "yarn run build && concurrently --raw 'yarn run watch-css' 'yarn run watch-js' 'yarn run serve'",
     "lint-nginx": "gixy nginx.conf",
     "lint-scss": "stylelint src/**/*.scss",
     "test": "yarn run lint-nginx && yarn run lint-scss",
-    "build": "yarn run build-js && yarn build-css && bundle exec jekyll build",
-    "build-css": "node-sass --include-path node_modules src/scss --output build",
-    "build-js": "mkdir -p src/js/build/global-nav && cp node_modules/@canonical/global-nav/dist/global-nav.js src/js/build/global-nav",
-    "watch": "yarn build-css -w",
-    "serve": "bundle exec jekyll serve -P ${PORT} -H 0.0.0.0",
+    "build": "yarn run build-css && yarn run build-js && yarn run build-site",
+    "build-site": "eleventy --formats=html,css,js,map,svg --input=src --output=_site",
+    "build-css": "node-sass --include-path node_modules src/sass --source-map true --output-style compressed --output src/css && postcss --use autoprefixer --replace 'src/css/**/*.css'",
+    "build-js": "mkdir -p src/js/build/ && cp node_modules/@canonical/global-nav/dist/global-nav.js src/js/build/",
+    "watch-css": "watch -p 'src/sass/**/*.scss' -c 'yarn run build-css'",
+    "watch-js": "watch -p 'node_modules/global-nav/dist/index.js' -c 'yarn run build-js'",
+    "serve": "eleventy --formats=html,scss,css,js,map,svg --input=src --output=_site --watch --serve --port $PORT",
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "dependencies": {
     "@canonical/global-nav": "2.4.1",
-    "node-sass": "4.14.1",
-    "vanilla-framework": "2.12.1"
+    "vanilla-framework": "2.13.0"
   },
   "devDependencies": {
-    "stylelint": "13.6.0",
+    "@11ty/eleventy": "0.10.0",
+    "concurrently": "5.2.0",
+    "node-sass": "4.14.1",
+    "postcss-cli": "7.1.1",
+    "stylelint": "13.6.1",
     "stylelint-config-standard": "20.0.0",
     "stylelint-order": "4.1.0"
   }

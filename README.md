@@ -5,12 +5,12 @@
 
 Website code for https://mirserver.io
 
-## Usage
+## Local development
 
-After [installing Docker](https://docs.docker.com/install/):
+The simplest way to run the site locally is with the [dotrun snap](https://snapcraft.io/dotrun):
 
-``` bash
-./run
+```bash
+dotrun
 ```
 
 And browse to http://127.0.0.1:8028.
