@@ -1,302 +1,59 @@
-<!DOCTYPE html>
-<html style="cursor: auto !important;" lang="en">
+var origin = window.location.href;
+var site = "mir-server.io";
 
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="copydoc" content="https://docs.google.com/document/d/1wqmWPx4TJ_oJoFt4gBOg4trYMIAsugMYtHGXzYJx8kc/edit">
+addGAEvents("#navigation a", "nav-0");
+addGAEvents(".p-footer a", "nav-footer-0");
+addGAEvents("#main-content", "content");
 
-  <title>Mir display server - The fast, open and secure display server for any device</title>
-
-  <!-- GitHub buttons -->
-  <script defer src="https://buttons.github.io/buttons.js"></script>
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TDTHR7H');</script>
-  <!-- End Google Tag Manager -->
-
-  <script>
-    /* HTML5 element support */
-    for (var e, l = 'article aside footer header nav section time'.split(' '); e = l.pop(); document.createElement(e));
-  </script>
-
-  <meta name="description" content="Mir is the fast, open and secure display server to unlock next-generation user experiences. Mir runs on a range of Linux powered devices including traditional desktops, IoT and embedded products.">
-
-  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32">
-
-  <link rel="apple-touch-icon" sizes="144x144" href="https://assets.ubuntu.com/v1/3361409d-apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://assets.ubuntu.com/v1/5fe4d3c8-apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="https://assets.ubuntu.com/v1/09460d9a-apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" href="https://assets.ubuntu.com/v1/cc66da65-apple-touch-icon.png">
-
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDTHR7H"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <header id="navigation" class="p-navigation">
-    <div class="p-navigation__row">
-      <div class="p-navigation__banner">
-        <div class="p-navigation__logo u-vertically-center">
-          <a class="p-navigation__link" href="/" style="color:white; text-transform: capitalize;">
-            Mir display server
-          </a>
-        </div>
-        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
-      </div>
-      <nav class="p-navigation__nav">
-        <span class="u-off-screen">
-          <a href="#main-content">Jump to main content</a>
-        </span>
-        <ul class="p-navigation__links" role="menu">
-          <li class="p-navigation__link" role="menuitem">
-            <a href="doc/getting_and_using_mir.html">User manual</a>
-          </li>
-          <li class="p-navigation__link" role="menuitem">
-            <a href="/doc/">Developer manual</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <section class="p-strip--hero is-deep">
-      <div class="row p-strip--hero__row">
-        <div class="col-7">
-          <h1>The fast, open and secure display server for any device</h1>
-          <p>Whether you want an information kiosk, digital signage display, in-car entertainment stack, or home automation interface, Mir on Ubuntu is your fastest path to deployment.</p>
-          <p><a href="https://assets.ubuntu.com/v1/bd787c8a-canonical-mir-datasheet-2018-12-20.pdf" class="p-button--positive"><span class="p-link--external">Get the Mir datasheet</span></a></p>
-          <div>
-            <a class="github-button" data-size="large" href="https://github.com/MirServer/mir" aria-label="Follow @MirServer on GitHub"></a>
-            <a class="github-button" data-size="large" href="https://github.com/MirServer/mir" data-icon="octicon-star" data-show-count="true" aria-label="Star MirServer/mir on GitHub"></a>
-            <a class="github-button" data-size="large" href="https://github.com/MirServer/mir/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork MirServer/mir on GitHub"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="p-strip--light is-bordered">
-      <div class="row">
-        <div class="col-8">
-          <h2>What is Mir?</h2>
-          <p>Mir is a system-level component that can be used to unlock next-generation user experiences. It runs on a range of Linux powered devices including traditional desktops, IoT and embedded products. Mir is a replacement for the X window server system, commonly used on Linux desktop devices. It allows device makers and desktop users to have a well-defined, efficient, flexible, and secure platform for their graphical environment.</p>
-        </div>
-      </div>
-    </section>
-    <section class="p-strip is-bordered">
-      <div class="row">
-        <h2>Learn more</h2>
-      </div>
-      <div class="row u-equal-height">
-        <article class="p-card--featured col-4">
-          <h4 class="p-muted-heading">TUTORIAL</h4>
-          <hr />
-          <h3 class="p-heading--four">
-            <a href="https://tutorials.ubuntu.com/tutorial/graphical-snaps#0" target="_blank">How to build a digital signage app for embedded displays&nbsp;&rsaquo;</a>
-          </h3>
-          <p class="p-card--featured__date">21 May 2018</p>
-          <p>A guide to creating graphical snaps for Ubuntu IoT devices on top of an Xwayland stack. Learn how to build a digital signage app for kiosks, advertising screens and other embedded displays.</p>
-        </article>
-        <article class="p-card--featured col-4">
-          <h4 class="p-muted-heading">TUTORIAL</h4>
-          <hr />
-          <h3 class="p-heading--four">
-            <a href="https://tutorials.ubuntu.com/tutorial/graphical-snaps-xwayland#0" target="_blank">How to create graphical snaps for IoT devices on top of a Xwayland stack&nbsp;&rsaquo;</a>
-          </h3>
-          <p class="p-card--featured__date">17 May 2018</p>
-          <p>This is a guide on how to create graphical snaps for Ubuntu with a single GUI application running fullscreen on the display.</p>
-        </article>
-        <article class="p-card--article col-4">
-          <h4 class="p-muted-heading">ARTICLE</h4>
-          <hr />
-          <h3 class="p-heading--four">
-            <a href="https://community.ubuntu.com/t/snaps-to-develop-a-web-kiosk-on-ubuntu-core-using-wayland/" target="_blank">Snaps to develop a Web kiosk on Ubuntu Core (using Wayland)&nbsp;&rsaquo;</a>
-          </h3>
-          <p class="p-card--article__date">8 June 2018</p>
-          <p>Display servers solve a large and complex problem. Mir provides a broad and powerful library to solve those problems, but there is a learning curve to use Mir effectively.</p>
-        </article>
-      </div>
-    </section>
-    <section class="p-strip--light">
-      <div class="row">
-        <h2>Why Mir</h2>
-      </div>
-      <div class="row p-divider">
-        <div class="col-6 p-divider__block">
-          <p>Historically, graphical user interfaces Linux have been powered by the X windowing system. X has a long and successful history and it has served the purposes of both system level and application level UI well for more than 3 decades. However, users nowadays expect a more consistent, integrated and secure user experience than is possible to offer on top of the X windowing system.</p>
-          <p>The X11 protocol (used by X) was not designed with security in mind and a malicious application can obtain information from other running X11 applications. For instance, X11 servers do not protect sensitive information like keystrokes between applications using them.</p>
-        </div>
-        <div class="col-6 p-divider__block">
-          <p>Mir was designed from the ground-up with security in mind. To meet the needs of today's users Mir avoids the X11 protocol and uses Wayland for a more modern and secure approach to graphics. Each application talks exclusively to the Mir server through it’s own socket that is both secure and robust against attack. Wayland is the de facto successor to X11 and is designed to address the problems that have proved intractable with the X windowing system.</p>
-          <p>Like Ubuntu itself, Mir is free to use, and Canonical backs it up with support, consulting and management services. Canonical makes it easy to deploy your graphical solutions using the power of Ubuntu.</p>
-        </div>
-      </div>
-    </section>
-    <section class="p-strip--light u-no-padding--top is-bordered">
-      <div class="row">
-        <div class="col-8 u-sv3">
-          <h2>System architecture</h2>
-          <p>Mir uses Wayland as the primary protocol for connecting to applications. Not all graphical toolkits have native support for Wayland yet. So, depending on the toolkit an application uses, Xwayland may be required. Mir supports a range of “platform” plugins that allow it to work seamlessly across different hardware and graphics drivers.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <img src="https://assets.ubuntu.com/v1/1c5d16e4-Mir-diagram.svg" alt="" />
-        </div>
-      </div>
-    </section>
-    <section class="p-strip is-bordered">
-      <div class="row">
-        <div class="col-8">
-          <h3>Examples of projects using Mir</h3>
-        </div>
-      </div>
-      <div class="row u-equal-height">
-        <div class="p-card col-6">
-          <h4>Mir Kiosk</h4>
-          <p><a href="https://community.ubuntu.com/t/mir-kiosk-a-project-that-uses-mir/" target="_blank">A graphical output or display for everything from washing machines to smart thermostats&nbsp;&rsaquo;</a></p>
-        </div>
-        <div class="p-card col-6">
-          <h4>Unity8</h4>
-          <p><a href="https://community.ubuntu.com/t/unity8-a-project-that-uses-mir/" target="_blank">A graphical shell that targets a range of devices including phones, tablets, laptops and desktops&nbsp;&rsaquo;</a></p>
-        </div>
-      </div>
-      <div class="row u-equal-height">
-        <div class="p-card col-6">
-          <h4>Mir-kiosk snap</h4>
-          <p><a href="https://developer.ubuntu.com/core/examples/snaps-on-mir" target="_blank">How to build a kiosk-style device with Mir and Ubuntu Core&nbsp;&rsaquo;</a></p>
-        </div>
-        <div class="p-card col-6">
-          <h4>Mir Desktop Environment</h4>
-          <p><a href="https://community.ubuntu.com/t/egmde-a-project-that-uses-mir/7129" target="_blank">Egmde is a simple desktop shell that uses Mir&nbsp;&rsaquo;</a></p>
-        </div>
-      </div>
-    </section>
-    <section class="p-strip--light">
-      <div class="row">
-        <h2>Get involved</h2>
-      </div>
-      <div class="row p-divider">
-        <div class="col-6 p-divider__block">
-          <div class="p-heading-icon">
-            <div class="p-heading-icon__header">
-              <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/b2e68410-github.svg">
-              <h3 class="p-heading-icon__title">Code</h3>
-            </div>
-            <p>Get Mir or contribute to its development.</p>
-            <p><a class="p-link--external" href="https://github.com/MirServer/mir">Mir on GitHub</a></p>
-          </div>
-        </div>
-        <div class="col-6 p-divider__block">
-          <div class="p-heading-icon">
-            <div class="p-heading-icon__header">
-              <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/d6146a84-icon-talk-to-us.svg">
-              <h3 class="p-heading-icon__title">Community</h3>
-            </div>
-            <p>Get connected.</p>
-            <p><a class="p-link--external" href="https://community.ubuntu.com/c/mir">Mir in the Ubuntu Community forum</a></p>
-            <p><a class="p-link--external" href="https://webchat.freenode.net/?channels=%23mir-server">#mir-server on Freenode</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="p-strip">
-      <div class="row">
-        <div class="col-12">
-          <p>&copy; 2019 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.</p>
-          <nav>
-            <ul class="p-inline-list--middot">
-              <li class="p-inline-list__item">
-                <a aria-label="External link to the Ubuntu legal information page" href="http://www.ubuntu.com/legal">
-                  Legal information
-                </a>
-              </li>
-              <li class="p-inline-list__item">
-                <a aria-label="External link to report a bug on this site"
-                  href="https://github.com/canonical-websites/mir-server.io/issues/new">
-                  Report a bug on this site
-                </a>
-              </li>
-            </ul>
-            <span class="u-off-screen">
-              <a href="#">Go to the top of the page</a>
-            </span>
-          </nav>
-        </div>
-      </div>
-    </footer>
-  </main>
-  <script src="/js/build/global-nav.js"></script>
-  <script> 
-
-        var origin = window.location.href; 
-        var site = 'mir-server.io';
-
-        addGAEvents('#navigation a', 'nav-0');
-        addGAEvents('.p-footer a', 'nav-footer-0');
-        addGAEvents('#main-content', 'content');
-
-        function addGAEvents(target, category){
-        var t = document.querySelectorAll(target);
-        if (t.length >= 1) {
-        if (category.startsWith('nav-')){
-          t.forEach(function(e) {
-            e.addEventListener('click', function(){
-             sendEvent(category, origin, e.href, e.text);
-            });
-          });
-        } else {
-         // Get form submit events
-         t[0].querySelectorAll('form').forEach(function(e) {
-         var button = e.querySelector('.p-button--positive')
-         if (button) {
-           button.addEventListener('click', function(){
-             sendEvent('content-cta-0', origin, e.returnURL.value, button.innerText);
-           });
-         }
-         });
-          // Get link click events
-          t[0].querySelectorAll('a').forEach(function(e) {
-            if (e.className.includes('p-button--positive')) {
-              category = 'content-cta-0';
-            } else if (e.className.includes('p-button')) {
-              category = 'content-cta-1';
-            } else {
-              category = 'content-link';
-            }
-            e.addEventListener('click', function(){
-              sendEvent(category, origin, e.href, e.text);
-            });
-          });
-        }
-        }
-        }
-    function sendEvent(category, origin, destination, label){
-      if (dataLayer){
-        dataLayer.push({
-
-          'event' : 'GAEvent',
-          'eventCategory' : `${site}-${category}`,
-          'eventAction' : `from:${origin} to:${destination}`,
-          'eventLabel' : label,
-          'eventValue' : undefined
+function addGAEvents(target, category) {
+  var t = document.querySelectorAll(target);
+  if (t.length >= 1) {
+    if (category.startsWith("nav-")) {
+      t.forEach(function (e) {
+        e.addEventListener("click", function () {
+          sendEvent(category, origin, e.href, e.text);
         });
-      }
-  </script> 
-  <script>canonicalGlobalNav.createNav({maxWidth: '72rem'});</script>
-</body>
+      });
+    } else {
+      // Get form submit events
+      t[0].querySelectorAll("form").forEach(function (e) {
+        var button = e.querySelector(".p-button--positive");
+        if (button) {
+          button.addEventListener("click", function () {
+            sendEvent(
+              "content-cta-0",
+              origin,
+              e.returnURL.value,
+              button.innerText
+            );
+          });
+        }
+      });
+      // Get link click events
+      t[0].querySelectorAll("a").forEach(function (e) {
+        if (e.className.includes("p-button--positive")) {
+          category = "content-cta-0";
+        } else if (e.className.includes("p-button")) {
+          category = "content-cta-1";
+        } else {
+          category = "content-link";
+        }
+        e.addEventListener("click", function () {
+          sendEvent(category, origin, e.href, e.text);
+        });
+      });
+    }
+  }
+}
 
-</html>
+function sendEvent(category, origin, destination, label) {
+  if (dataLayer) {
+    dataLayer.push({
+      event: "GAEvent",
+      eventCategory: `${site}-${category}`,
+      eventAction: `from:${origin} to:${destination}`,
+      eventLabel: label,
+      eventValue: undefined,
+    });
+  }
+}
