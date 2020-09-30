@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@canonical/global-nav": "2.4.3",
-    "vanilla-framework": "2.17.0"
+    "vanilla-framework": "2.19.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "0.11.0",
