@@ -7,7 +7,9 @@
     "build": "yarn run build-css && yarn run build-js && yarn run build-site",
     "build-site": "eleventy --formats=html,css,js,map,svg --input=src --output=_site",
     "build-css": "node-sass --include-path node_modules src/sass --source-map true --output-style compressed --output src/css && postcss --use autoprefixer --replace 'src/css/**/*.css'",
-    "build-js": "mkdir -p src/js/build/ && cp node_modules/@canonical/global-nav/dist/global-nav.js src/js/build/",
+    "build-js": "yarn run copy-cookie-policy && yarn run copy-global-nav",
+    "copy-cookie-policy": "mkdir -p src/js/build && cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js src/js/build",
+    "copy-global-nav": "mkdir -p src/js/build && cp node_modules/@canonical/global-nav/dist/global-nav.js src/js/build",
     "watch-css": "watch -p 'src/sass/**/*.scss' -c 'yarn run build-css'",
     "watch-js": "watch -p 'node_modules/global-nav/dist/index.js' -c 'yarn run build-js'",
     "serve": "eleventy --formats=html,scss,css,js,map,svg --input=src --output=_site --watch --serve --port $PORT",
@@ -15,6 +17,7 @@
   },
   "dependencies": {
     "@canonical/global-nav": "2.4.3",
+    "@canonical/cookie-policy": "3.0.4",
     "postcss": "8.1.1",
     "vanilla-framework": "2.19.1"
   },

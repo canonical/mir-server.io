@@ -3,6 +3,9 @@
 
 @include vanilla;
 
+// import cookie policy
+@import "@canonical/cookie-policy/build/css/cookie-policy";
+
 $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
 
 .p-strip--hero {
