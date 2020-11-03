@@ -13,7 +13,7 @@ $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
   color: $color-x-light;
 
   @media (min-width: $breakpoint-medium) {
-    background-image: url('https://assets.ubuntu.com/v1/881787a3-grafana-background.jpg');
+    background-image: url('https://assets.ubuntu.com/v1/e5dfa930-AdobeStock_126396245_x1.jpg');
     background-position: right;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -27,7 +27,7 @@ $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
       position: absolute;
       right: 30%;
       top: 0;
-      transform: skew(-24deg);
+      transform: skew(+24deg);
       width: 95%;
     }
 
