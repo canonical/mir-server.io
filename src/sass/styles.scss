@@ -88,9 +88,15 @@ $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
 }
 
 .p-card__footer {
-  border-top: 1px solid #d9d9d9;
-  margin: 0 -1rem;
+  border-top: 1px dotted #d9d9d9;
+  margin: 0 -0.8rem;
   padding: 1rem 1rem 0 1rem;
+}
+
+.p-card__link-title {
+  display: block;
+  margin: 21px  0 24px 0;
+  text-align: center;
 }
 
 .p-icon-link {
