@@ -7,6 +7,7 @@
 @import "@canonical/cookie-policy/build/css/cookie-policy";
 
 $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
+$strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 100%);
 
 .p-strip--hero {
   background-image: $strip-gradient;
@@ -37,6 +38,46 @@ $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
       background-size: 100% 100%;
       content: "";
       height: 100%;
+      left: 0;
+      mix-blend-mode: multiply;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1;
+    }
+  }
+}
+
+.p-strip--hero__new {
+  background-image: $strip-gradient-new;
+  color: $color-x-light;
+
+  @media (min-width: $breakpoint-medium) {
+    background-image: url("https://assets.ubuntu.com/v1/34132d50-ubuntu-frame-hero.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      background-image: $strip-gradient;
+      content: "";
+      height: 100%;
+      min-width: 700px;
+      position: absolute;
+      right: 30%;
+      top: 0;
+      transform: skew(140deg);
+      width: 95%;
+    }
+
+    &::before {
+      background-image: url("https://assets.ubuntu.com/v1/685ac3e2-mir-suru.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      content: "";
+      height: 70%;
       left: 0;
       mix-blend-mode: multiply;
       position: absolute;
