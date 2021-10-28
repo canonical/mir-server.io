@@ -48,7 +48,7 @@ metadata: Ubuntu Frame is the foundation for any embedded graphical display impl
     <h2>One tool, all key interaction functionalities</h2>
     <p>Besides keyboard and mouse input, Ubuntu Frame also automatically enables all the functionality that end&ndash;users expect while interacting with digital displays. This includes a wide range of touch gestures such as: multi&ndash;finger support, swipe, zoom in and out, touch to focus, and more. It also comes with its own on&ndash;screen keyboard. </p>
   </div>
-  <div class="row">
+  <div class="u-fixed-width">
     <video autoplay="" loop="" muted="">
       <source src="https://assets.ubuntu.com/v1/a1f6a1d8-ubuntu-frame-animation-fast.mp4">
     </video>
@@ -73,8 +73,7 @@ metadata: Ubuntu Frame is the foundation for any embedded graphical display impl
         </li>
       </ol>
     </div>
-    <div class="col-1"></div>
-    <div class="col-5 p-card">
+    <div class="col-5 col-start-large-8 p-card">
       <div class="p-heading-icon--small">
         <div class="p-heading-icon__header">
           <img class="p-heading-icon__img p-heading-icon__img--small" src="https://assets.ubuntu.com/v1/5edefef9-Datasheet.svg"  alt="Datasheet"  width="32" height="28"  loading="lazy" />
@@ -115,11 +114,11 @@ metadata: Ubuntu Frame is the foundation for any embedded graphical display impl
 </section>
 <section class="p-strip">
   <div class="row u-vertically-center">
-    <div class="col-6">
+    <div class="col-7">
       <h2>A reliable graphical server</h2>
       <p>Ubuntu Frame reliability has been widely tested in the field. Its technology has been in development for over 7 years and in production for 5 years. As such, Ubuntu Frame is one of the most mature graphical servers available today for embedded devices.</p>
     </div>
-    <div class="col-6 u-hide--small u-align--center">
+    <div class="col-5 u-hide--small u-align--center">
       <img src="https://assets.ubuntu.com/v1/d127abd7-safety+reliability.svg" alt="Supported for your device lifetime" width="150" height="150" loading="lazy" />
     </div>
   </div>
@@ -144,11 +143,11 @@ metadata: Ubuntu Frame is the foundation for any embedded graphical display impl
       <p><a href="https://ubuntu.com/engage/ubuntu-core-security-audit" class="p-link--external">Learn more about snaps security in this independent cybersecurity evaluation</a></p>
     </div>
     <div class="col-5 u-hide--small u-align--center">
-      <img  src="https://assets.ubuntu.com/v1/9c80823b-confinement.svg" alt="confinement" width="263" height="150" loading="lazy"/>
+      <img src="https://assets.ubuntu.com/v1/9c80823b-confinement.svg" alt="confinement" width="263" height="150" loading="lazy"/>
     </div>
   </div>
   <div class="u-fixed-width u-align--center u-hide--small">
-    <img src="https://assets.ubuntu.com/v1/6d3a64c3-Diagram.png" alt="diagram"/>
+    <img src="https://assets.ubuntu.com/v1/a771b297-Diagram%403x.png" alt="diagram" loading="lazy" width="80%"/>
   </div>
 </section>
 <section class="p-strip--light">
@@ -195,14 +194,3 @@ metadata: Ubuntu Frame is the foundation for any embedded graphical display impl
   </div>
 </section>
 {% endblock content %}
-
-
-{{ image (
-  url="https://assets.ubuntu.com/v1/195fca60-NUC-board.png",
-  alt="",
-  width="198",
-  height="140",
-  hi_def=True,
-  loading="auto|lazy"
-  ) | safe
-}}
