@@ -1,0 +1,4 @@
+<map id="mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;" name="mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;">
+<area shape="rect" id="node1" title="Wraps a geometry value and prevents it from being accidentally used for invalid operations (such as s..." alt="" coords="5,95,176,151"/>
+<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1detail_1_1_value_wrapper_base.html" title=" " alt="" coords="11,5,170,47"/>
+</map>

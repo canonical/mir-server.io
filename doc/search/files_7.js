@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hacking_2emd',['HACKING.md',['../_h_a_c_k_i_n_g_8md.html',1,'']]],
-  ['hardware_5fbuffer_5fstream_2eh',['hardware_buffer_stream.h',['../hardware__buffer__stream_8h.html',1,'']]]
+  ['int_5fwrapper_2eh_1108',['int_wrapper.h',['../int__wrapper_8h.html',1,'']]],
+  ['internal_5fclient_2eh_1109',['internal_client.h',['../internal__client_8h.html',1,'']]],
+  ['introducing_5fthe_5fmiral_5fapi_2emd_1110',['introducing_the_miral_api.md',['../introducing__the__miral__api_8md.html',1,'']]]
 ];

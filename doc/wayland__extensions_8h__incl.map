@@ -1,5 +1,9 @@
 <map id="include/miral/miral/wayland_extensions.h" name="include/miral/miral/wayland_extensions.h">
-<area shape="rect" id="node2" href="$application_8h.html" title="application.h" alt="" coords="137,95,244,121"/>
-<area shape="rect" id="node3" href="$common_8h.html" title="mir_toolkit/common.h" alt="" coords="107,169,274,196"/>
-<area shape="rect" id="node4" href="$deprecations_8h.html" title="mir_toolkit/deprecations.h" alt="" coords="94,244,287,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="196,5,367,47"/>
+<area shape="rect" id="node2" href="$application_8h.html" title=" " alt="" coords="137,95,244,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,83,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="299,169,357,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="319,95,406,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="431,95,473,121"/>
+<area shape="rect" id="node3" href="$common_8h.html" title=" " alt="" coords="107,169,274,196"/>
 </map>

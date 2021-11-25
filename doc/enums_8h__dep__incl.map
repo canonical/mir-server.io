@@ -1,0 +1,12 @@
+<map id="include/core/mir_toolkit/events/enums.h" name="include/core/mir_toolkit/events/enums.h">
+<area shape="rect" id="node1" title=" " alt="" coords="566,5,742,47"/>
+<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="201,95,395,136"/>
+<area shape="rect" id="node5" href="$floating__window__manager_8h.html" title=" " alt="" coords="434,95,663,136"/>
+<area shape="rect" id="node8" href="$tiling__window__manager_8h.html" title=" " alt="" coords="858,95,1071,136"/>
+<area shape="rect" id="node10" href="$toolkit__event_8h.html" title=" " alt="" coords="688,95,833,136"/>
+<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="193,184,403,225"/>
+<area shape="rect" id="node6" href="$shell__main_8cpp.html" title=" " alt="" coords="695,184,855,225"/>
+<area shape="rect" id="node7" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="427,184,671,225"/>
+<area shape="rect" id="node9" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="880,184,1108,225"/>
+</map>

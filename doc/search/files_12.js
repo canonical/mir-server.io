@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['wallpaper_5fconfig_2ecpp',['wallpaper_config.cpp',['../wallpaper__config_8cpp.html',1,'']]],
-  ['wallpaper_5fconfig_2eh',['wallpaper_config.h',['../wallpaper__config_8h.html',1,'']]],
-  ['wayland_5fextensions_2eh',['wayland_extensions.h',['../wayland__extensions_8h.html',1,'']]],
-  ['wayland_5fhelpers_2ecpp',['wayland_helpers.cpp',['../wayland__helpers_8cpp.html',1,'']]],
-  ['wayland_5fhelpers_2eh',['wayland_helpers.h',['../wayland__helpers_8h.html',1,'']]],
-  ['window_2eh',['window.h',['../client_2mir_2client_2window_8h.html',1,'(Global Namespace)'],['../miral_2miral_2window_8h.html',1,'(Global Namespace)']]],
-  ['window_5fcoordinate_5ftranslation_2eh',['window_coordinate_translation.h',['../window__coordinate__translation_8h.html',1,'']]],
-  ['window_5fevent_2eh',['window_event.h',['../window__event_8h.html',1,'']]],
-  ['window_5fid_2eh',['window_id.h',['../window__id_8h.html',1,'']]],
-  ['window_5finfo_2eh',['window_info.h',['../window__info_8h.html',1,'']]],
-  ['window_5fmanagement_5foptions_2eh',['window_management_options.h',['../window__management__options_8h.html',1,'']]],
-  ['window_5fmanagement_5fpolicy_2eh',['window_management_policy.h',['../window__management__policy_8h.html',1,'']]],
-  ['window_5fmanager_5ftools_2eh',['window_manager_tools.h',['../window__manager__tools_8h.html',1,'']]],
-  ['window_5foutput_5fevent_2eh',['window_output_event.h',['../window__output__event_8h.html',1,'']]],
-  ['window_5fplacement_2eh',['window_placement.h',['../window__placement_8h.html',1,'']]],
-  ['window_5fspec_2eh',['window_spec.h',['../window__spec_8h.html',1,'']]],
-  ['window_5fspecification_2eh',['window_specification.h',['../window__specification_8h.html',1,'']]]
+  ['x11_5fsupport_2eh_1168',['x11_support.h',['../x11__support_8h.html',1,'']]]
 ];

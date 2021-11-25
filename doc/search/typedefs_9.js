@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['terminator',['Terminator',['../classmiral_1_1_set_terminator.html#a13a290982bae75a5100f5d6012713ba2',1,'miral::SetTerminator']]],
-  ['type',['type',['../structmiral_1_1detail_1_1_function_type_3_01_return_07_lambda_1_1_5_08_07_arg_8_8_8_08_4.html#a1294c2a5c97a065e0f0e8b574d1374e1',1,'miral::detail::FunctionType&lt; Return(Lambda::*)(Arg...)&gt;::type()'],['../structmiral_1_1detail_1_1_function_type_3_01_return_07_lambda_1_1_5_08_07_arg_8_8_8_08_01const_01_4.html#acdaff93a94023af1125309fff0d4e583',1,'miral::detail::FunctionType&lt; Return(Lambda::*)(Arg...) const &gt;::type()']]]
+  ['size_5ftype_1670',['size_type',['../classmir_1_1geometry_1_1_rectangles.html#a6f245d97e6372e459cdf91010eb6eb1e',1,'mir::geometry::Rectangles']]],
+  ['sizef_1671',['SizeF',['../namespacemir_1_1geometry.html#a22728602b659ada96c9a02b8bb3a8545',1,'mir::geometry']]],
+  ['sizetype_1672',['SizeType',['../structmir_1_1geometry_1_1_displacement.html#a130680da176b2638f72d9306dbc7dc8f',1,'mir::geometry::Displacement::SizeType()'],['../structmir_1_1geometry_1_1generic_1_1_displacement.html#af330fc78bcce702b00877023cca02737',1,'mir::geometry::generic::Displacement::SizeType()'],['../structmir_1_1geometry_1_1_point.html#a4b1ab45a4914ebcd554dcda0fe7712b0',1,'mir::geometry::Point::SizeType()'],['../structmir_1_1geometry_1_1generic_1_1_point.html#ae728e1bddaaa6d5b15346c5d6ffdbb43',1,'mir::geometry::generic::Point::SizeType()']]],
+  ['stride_1673',['Stride',['../namespacemir_1_1geometry.html#a4d17587140b3ca84685f1aa8ac9186ee',1,'mir::geometry']]]
 ];

@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['eglapp_2ecpp',['eglapp.cpp',['../eglapp_8cpp.html',1,'']]],
-  ['eglapp_2eh',['eglapp.h',['../eglapp_8h.html',1,'']]],
-  ['eglspinner_2ecpp',['eglspinner.cpp',['../eglspinner_8cpp.html',1,'']]],
-  ['event_2eh',['event.h',['../client_2event_8h.html',1,'(Global Namespace)'],['../toolkit_2event_8h.html',1,'(Global Namespace)'],['../toolkit_2events_2event_8h.html',1,'(Global Namespace)']]],
-  ['event_5fbuilders_2eh',['event_builders.h',['../event__builders_8h.html',1,'']]],
-  ['event_5fprinter_2eh',['event_printer.h',['../event__printer_8h.html',1,'']]],
-  ['external_5fclient_2eh',['external_client.h',['../external__client_8h.html',1,'']]]
+  ['fatal_2eh_1100',['fatal.h',['../fatal_8h.html',1,'']]],
+  ['fd_2eh_1101',['fd.h',['../fd_8h.html',1,'']]],
+  ['floating_5fwindow_5fmanager_2ecpp_1102',['floating_window_manager.cpp',['../floating__window__manager_8cpp.html',1,'']]],
+  ['floating_5fwindow_5fmanager_2eh_1103',['floating_window_manager.h',['../floating__window__manager_8h.html',1,'']]],
+  ['forward_2eh_1104',['forward.h',['../forward_8h.html',1,'']]]
 ];

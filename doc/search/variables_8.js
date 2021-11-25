@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['left',['left',['../struct_mir_rectangle.html#a4960dffa96e13572f9f81ca32ef08abe',1,'MirRectangle']]]
+  ['policies_1594',['policies',['../classmiral_1_1_window_manager_options.html#a78b267be47834a2b26b8bc5e6824b06c',1,'miral::WindowManagerOptions']]]
 ];

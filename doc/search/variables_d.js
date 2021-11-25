@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['refresh_5frate',['refresh_rate',['../struct_mir_display_mode.html#a17cc8154c27c785fdd4e2eebeed3febf',1,'MirDisplayMode']]],
-  ['region',['region',['../struct_mir_screencast_parameters.html#a4cc34b2abefd59eb9d14535bee1b0c5b',1,'MirScreencastParameters']]],
-  ['request_5fdrag_5fand_5fdrop',['request_drag_and_drop',['../struct_mir_drag_and_drop_v1.html#a8134c8d6f2944e83f1e11f2b57fade3f',1,'MirDragAndDropV1']]]
+  ['waylandoutput_1602',['WaylandOutput',['../class_wayland_app.html#a9f6597e55b03616b53b993f7ed940672',1,'WaylandApp']]],
+  ['width_1603',['width',['../structmir_1_1geometry_1_1generic_1_1_size.html#a47e5d74801eb0beae68626fada0da284',1,'mir::geometry::generic::Size::width()'],['../struct_mir_buffer_package.html#a950aff711bc878c568ff481defdc4267',1,'MirBufferPackage::width()'],['../structmiral_1_1_output_1_1_physical_size_m_m.html#a6255a17a1c8a8f2c6406217455ba47aa',1,'miral::Output::PhysicalSizeMM::width()'],['../structmiral_1_1_window_specification_1_1_aspect_ratio.html#a3f01a29260f135ef0a931e71527226f8',1,'miral::WindowSpecification::AspectRatio::width()']]]
 ];

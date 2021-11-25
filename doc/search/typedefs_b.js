@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['width',['Width',['../namespacemir_1_1geometry.html#a4ac813e98c6e35b57e6b54b37fa05858',1,'mir::geometry']]],
-  ['windowmanagementpolicybuilder',['WindowManagementPolicyBuilder',['../namespacemiral.html#aa2989f2658b6e9d4b8c8c26900122aeb',1,'miral']]]
+  ['valuetype_1677',['ValueType',['../structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#ace8c98de9edb7d1ded00e016929b5b0e',1,'mir::geometry::generic::Value::Wrapper']]]
 ];
