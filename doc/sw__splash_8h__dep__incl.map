@@ -1,9 +1,10 @@
 <map id="examples/example&#45;server&#45;lib/sw_splash.h" name="examples/example&#45;server&#45;lib/sw_splash.h">
-<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.h" alt="" coords="86,95,281,136"/>
-<area shape="rect" id="node5" href="$sw__splash_8cpp.html" title="examples/example&#45;server\l&#45;lib/sw_splash.cpp" alt="" coords="305,95,499,136"/>
-<area shape="rect" id="node6" href="$tiling__window__manager_8h.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.h" alt="" coords="523,95,737,136"/>
-<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_main.cpp" alt="" coords="5,184,169,225"/>
-<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title="examples/miral&#45;kiosk\l/kiosk_window_manager.cpp" alt="" coords="193,184,403,225"/>
-<area shape="rect" id="node7" href="$shell__main_8cpp.html" title="examples/miral&#45;shell\l/shell_main.cpp" alt="" coords="489,184,649,225"/>
-<area shape="rect" id="node8" href="$tiling__window__manager_8cpp.html" title="examples/example&#45;server\l&#45;lib/tiling_window_manager.cpp" alt="" coords="673,184,901,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="305,5,499,47"/>
+<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="86,95,281,136"/>
+<area shape="rect" id="node5" href="$sw__splash_8cpp.html" title=" " alt="" coords="305,95,499,136"/>
+<area shape="rect" id="node6" href="$tiling__window__manager_8h.html" title=" " alt="" coords="523,95,737,136"/>
+<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="193,184,403,225"/>
+<area shape="rect" id="node7" href="$shell__main_8cpp.html" title=" " alt="" coords="489,184,649,225"/>
+<area shape="rect" id="node8" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="673,184,901,225"/>
 </map>

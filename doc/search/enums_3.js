@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type',['Type',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1',1,'miral::Output']]]
+  ['units_1729',['Units',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378',1,'mir::geometry::Length']]]
 ];

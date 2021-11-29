@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mir_5fblob_5frelease',['mir_blob_release',['../classmir_1_1client_1_1_blob.html#ab95c9b692fddafc0e46d5b0c554e49ef',1,'mir::client::Blob']]],
-  ['mir_5fcookie_5frelease',['mir_cookie_release',['../classmir_1_1client_1_1_cookie.html#a7cc2b831c61132c057351f8ef2779f91',1,'mir::client::Cookie']]]
+  ['basicwindowmanager_2002',['BasicWindowManager',['../structmiral_1_1_application_info.html#a8e740f4d09029905e62b5456d61fb752',1,'miral::ApplicationInfo::BasicWindowManager()'],['../structmiral_1_1_window_info.html#a8e740f4d09029905e62b5456d61fb752',1,'miral::WindowInfo::BasicWindowManager()']]]
 ];

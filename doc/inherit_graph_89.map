@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_mir_platform_message_fds.html" title="MirPlatformMessageFds" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node1" href="$class_wayland_surface.html" title=" " alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$class_mir_egl_surface.html" title=" " alt="" coords="180,5,292,32"/>
 </map>

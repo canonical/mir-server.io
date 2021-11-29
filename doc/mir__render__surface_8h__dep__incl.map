@@ -1,9 +1,0 @@
-<map id="include/client/mir_toolkit/rs/mir_render_surface.h" name="include/client/mir_toolkit/rs/mir_render_surface.h">
-<area shape="rect" id="node2" href="$client_2surface_8h.html" title="include/client/mir\l/client/surface.h" alt="" coords="5,117,140,158"/>
-<area shape="rect" id="node3" href="$window__spec_8h.html" title="include/client/mir\l/client/window_spec.h" alt="" coords="165,117,330,158"/>
-<area shape="rect" id="node4" href="$android__egl_8h.html" title="include/client/mir\l_toolkit/extensions\l/android_egl.h" alt="" coords="354,109,501,165"/>
-<area shape="rect" id="node5" href="$hardware__buffer__stream_8h.html" title="include/client/mir\l_toolkit/extensions\l/hardware_buffer_stream.h" alt="" coords="525,109,722,165"/>
-<area shape="rect" id="node6" href="$mir__client__library_8h.html" title="include/client/mir\l_toolkit/mir_client\l_library.h" alt="" coords="747,109,887,165"/>
-<area shape="rect" id="node7" href="$toolkit_2debug_2surface_8h.html" title="include/client/mir\l_toolkit/debug/surface.h" alt="" coords="633,221,811,262"/>
-<area shape="rect" id="node8" href="$mir__prompt__session_8h.html" title="include/client/mir\l_toolkit/mir_prompt\l_session.h" alt="" coords="836,213,987,269"/>
-</map>

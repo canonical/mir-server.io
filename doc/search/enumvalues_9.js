@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['software',['software',['../classmiral_1_1_window_specification.html#ad7356975bcf502f62638360403647e2daf9fa10ba956cacf91d7878861139efb9',1,'miral::WindowSpecification']]],
-  ['svideo',['svideo',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1ad40e4adeb52ada1c9e6e71b5904093b2',1,'miral::Output']]]
+  ['receives_5fall_5finput_1997',['receives_all_input',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75a174d1ebd2ce1ed6433906e0ed9a75e71',1,'miral::WindowSpecification']]]
 ];

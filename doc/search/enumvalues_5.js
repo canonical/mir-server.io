@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lvds',['lvds',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a76ebc34d8fe2bf3f42248b2ced2e0fa5',1,'miral::Output']]]
+  ['inches_1741',['inches',['../classmir_1_1geometry_1_1_length.html#a311a804839094218126cca3a46e45378a9243a98d4f5096338a3fd21f9fd10d51',1,'mir::geometry::Length']]]
 ];
