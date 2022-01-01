@@ -28,6 +28,6 @@
     "postcss-cli": "8.3.1",
     "stylelint": "13.8.0",
     "stylelint-config-standard": "20.0.0",
-    "stylelint-order": "4.1.0"
+    "stylelint-order": "5.0.0"
   }
 }
