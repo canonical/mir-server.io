@@ -18,15 +18,15 @@
   "dependencies": {
     "@canonical/global-nav": "2.5.0",
     "@canonical/cookie-policy": "3.3.0",
-    "postcss": "8.2.10",
+    "postcss": "8.4.5",
     "vanilla-framework": "2.37.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "0.11.1",
+    "@11ty/eleventy": "0.12.1",
     "concurrently": "5.3.0",
-    "sass": "1.27.0",
+    "sass": "1.45.2",
     "postcss-cli": "8.3.1",
-    "stylelint": "13.8.0",
+    "stylelint": "13.13.1",
     "stylelint-config-standard": "20.0.0",
     "stylelint-order": "4.1.0"
   }
