@@ -16,8 +16,8 @@
     "clean": "rm -rf node_modules yarn-error.log css css *.log *.sqlite _site/ build/ .jekyll-metadata .bundle"
   },
   "dependencies": {
-    "@canonical/global-nav": "2.5.0",
-    "@canonical/cookie-policy": "3.3.0",
+    "@canonical/global-nav": "2.6.0",
+    "@canonical/cookie-policy": "3.4.0",
     "postcss": "8.4.5",
     "vanilla-framework": "3.0.1"
   },
