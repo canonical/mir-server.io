@@ -13,7 +13,7 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
   background-image: $strip-gradient;
   color: $color-x-light;
 
-  @media (min-width: $breakpoint-medium) {
+  @media (min-width: $breakpoint-large) {
     background-image: url("https://assets.ubuntu.com/v1/e5dfa930-AdobeStock_126396245_x1.jpg");
     background-position: right;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
   background-image: $strip-gradient-new;
   color: $color-x-light;
 
-  @media (min-width: $breakpoint-medium) {
+  @media (min-width: $breakpoint-small) {
     background-image: url("https://assets.ubuntu.com/v1/34132d50-ubuntu-frame-hero.png");
     background-position: right;
     background-repeat: no-repeat;
@@ -140,16 +140,6 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
   text-align: center;
 }
 
-.p-icon-link {
-  align-items: center;
-  display: flex;
-}
-
-.p-icon-link__icon {
-  margin-right: $sph-inner--small;
-  max-width: 3rem;
-}
-
 // XXX Negative margin-bottom override
 [class^="p-strip"].is-bordered {
   margin-bottom: 0;
@@ -170,7 +160,7 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
     padding: 0;
 
     .p-navigation__banner {
-      padding: 0 $sph-inner--large;
+      padding: 0 ($sph--large + $sph--small);
 
       .p-navigation__logo {
         font-weight: 400;
@@ -187,8 +177,8 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
 
     .p-navigation__link a {
       height: 100%;
-      padding-left: $sph-inner--large;
-      padding-right: $sph-inner--large;
+      padding-left: ($sph--large + $sph--small);
+      padding-right: ($sph--large + $sph--small);
     }
   }
 }
