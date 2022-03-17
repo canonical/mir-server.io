@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['raise_5ftree_741',['raise_tree',['../classmiral_1_1_window_manager_tools.html#a904b24edd671b6acc6b99965f9ddc643',1,'miral::WindowManagerTools']]],
-  ['readme_2emd_742',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['receives_5fall_5finput_743',['receives_all_input',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75a174d1ebd2ce1ed6433906e0ed9a75e71',1,'miral::WindowSpecification']]],
-  ['recommended_744',['recommended',['../classmiral_1_1_wayland_extensions.html#a58e2a04777ba820274a5227d3c2f58c4',1,'miral::WaylandExtensions']]],
-  ['rectangle_745',['Rectangle',['../structmir_1_1geometry_1_1_rectangle.html',1,'mir::geometry::Rectangle'],['../structmir_1_1geometry_1_1generic_1_1_rectangle.html',1,'mir::geometry::generic::Rectangle&lt; P, S &gt;'],['../structmir_1_1geometry_1_1generic_1_1_rectangle.html#a7a1a7ce18f6dfee3f2f02ae3a7a54082',1,'mir::geometry::generic::Rectangle::Rectangle()=default'],['../structmir_1_1geometry_1_1generic_1_1_rectangle.html#a9ef018fe60808fe9e4d06746d9c8be58',1,'mir::geometry::generic::Rectangle::Rectangle(P const &amp;top_left, S const &amp;size)']]],
-  ['rectangle_2eh_746',['rectangle.h',['../rectangle_8h.html',1,'']]],
-  ['rectangle_3c_20point_2c_20size_20_3e_747',['Rectangle&lt; Point, Size &gt;',['../structmir_1_1geometry_1_1generic_1_1_rectangle.html',1,'mir::geometry::generic']]],
-  ['rectangle_5ff_2eh_748',['rectangle_f.h',['../rectangle__f_8h.html',1,'']]],
-  ['rectangle_5fgeneric_2eh_749',['rectangle_generic.h',['../rectangle__generic_8h.html',1,'']]],
-  ['rectanglebase_750',['RectangleBase',['../structmir_1_1geometry_1_1detail_1_1_rectangle_base.html',1,'mir::geometry::detail']]],
-  ['rectanglef_751',['RectangleF',['../namespacemir_1_1geometry.html#a28cb1838a6fcd5d5e67349e057efed34',1,'mir::geometry']]],
-  ['rectangles_752',['Rectangles',['../classmir_1_1geometry_1_1_rectangles.html',1,'mir::geometry::Rectangles'],['../classmir_1_1geometry_1_1_rectangles.html#ae9e98fd90770079f6e362b49d00a54c0',1,'mir::geometry::Rectangles::Rectangles()'],['../classmir_1_1geometry_1_1_rectangles.html#a62c561147338799d805e34836efc88ff',1,'mir::geometry::Rectangles::Rectangles(std::initializer_list&lt; Rectangle &gt; const &amp;rects)']]],
-  ['rectangles_2eh_753',['rectangles.h',['../rectangles_8h.html',1,'']]],
-  ['refresh_5frate_754',['refresh_rate',['../classmiral_1_1_output.html#a6c05559f3d44a7bc681d5cb0b412446a',1,'miral::Output']]],
-  ['remove_755',['remove',['../classmir_1_1geometry_1_1_rectangles.html#a281ca5ad0586ac24e024d99d2edd0dd4',1,'mir::geometry::Rectangles']]],
-  ['remove_5ftree_5ffrom_5fworkspace_756',['remove_tree_from_workspace',['../classmiral_1_1_window_manager_tools.html#ac1a009052845a7ec64673f38793b0aa7',1,'miral::WindowManagerTools']]],
-  ['resize_757',['resize',['../classmiral_1_1_window.html#a68cc9e3f38d950b336d603d6d99f9140',1,'miral::Window']]],
-  ['restore_5frect_758',['restore_rect',['../structmiral_1_1_window_info.html#a5b7c780f53936639a91483fe31b4fd1a',1,'miral::WindowInfo']]],
-  ['right_759',['right',['../structmir_1_1geometry_1_1generic_1_1_rectangle.html#a01c98475f2791c48bf1f334dadb6830e',1,'mir::geometry::generic::Rectangle']]],
-  ['roundtrip_760',['roundtrip',['../class_wayland_app.html#a070a5353b08da72f01daf2261c4ed138',1,'WaylandApp']]],
-  ['run_5fon_5fwayland_5fmainloop_761',['run_on_wayland_mainloop',['../classmiral_1_1_wayland_extensions_1_1_context.html#a42216e71cc38d318c23fec702ea1f936',1,'miral::WaylandExtensions::Context']]],
-  ['run_5fwith_762',['run_with',['../classmiral_1_1_mir_runner.html#ae14748306ca4d34fe3e702081d13e8cd',1,'miral::MirRunner']]],
-  ['runner_2eh_763',['runner.h',['../runner_8h.html',1,'']]]
+  ['query_847',['query',['../classmiroil_1_1_surface.html#a4e019d9a5b5469a26e73fc2ced5c2392',1,'miroil::Surface']]]
 ];

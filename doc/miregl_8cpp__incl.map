@@ -1,14 +1,12 @@
 <map id="examples/miral&#45;shell/spinner/miregl.cpp" name="examples/miral&#45;shell/spinner/miregl.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="564,5,724,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="441,5,601,47"/>
 <area shape="rect" id="node2" href="$miregl_8h.html" title=" " alt="" coords="273,95,349,121"/>
 <area shape="rect" id="node4" href="$wayland__app_8h.html" title=" " alt="" coords="239,244,359,271"/>
 <area shape="rect" id="node19" title=" " alt="" coords="373,95,440,121"/>
-<area shape="rect" id="node20" title=" " alt="" coords="464,95,563,121"/>
-<area shape="rect" id="node21" title=" " alt="" coords="587,95,701,121"/>
-<area shape="rect" id="node22" title=" " alt="" coords="725,95,792,121"/>
-<area shape="rect" id="node23" title=" " alt="" coords="816,95,901,121"/>
-<area shape="rect" id="node24" title=" " alt="" coords="926,95,1013,121"/>
-<area shape="rect" id="node25" title=" " alt="" coords="1037,95,1080,121"/>
+<area shape="rect" id="node20" title=" " alt="" coords="464,95,579,121"/>
+<area shape="rect" id="node21" title=" " alt="" coords="603,95,688,121"/>
+<area shape="rect" id="node22" title=" " alt="" coords="713,95,799,121"/>
+<area shape="rect" id="node23" title=" " alt="" coords="824,95,867,121"/>
 <area shape="rect" id="node3" href="$wayland__surface_8h.html" title=" " alt="" coords="239,169,383,196"/>
 <area shape="rect" id="node6" title=" " alt="" coords="5,319,83,345"/>
 <area shape="rect" id="node17" title=" " alt="" coords="407,169,489,196"/>

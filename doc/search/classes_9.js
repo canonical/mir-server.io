@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['length_999',['Length',['../classmir_1_1geometry_1_1_length.html',1,'mir::geometry']]]
+  ['keymap_1179',['Keymap',['../classmiral_1_1_keymap.html',1,'miral']]],
+  ['kioskwindowmanagerpolicy_1180',['KioskWindowManagerPolicy',['../class_kiosk_window_manager_policy.html',1,'']]]
 ];

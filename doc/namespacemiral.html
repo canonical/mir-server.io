@@ -183,6 +183,9 @@ Functions</h2></td></tr>
 <tr class="separator:a2afe37d47d30b4e5fe5ab96c642aef48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a616bcad20a8b5689a7fae2dd6ba5e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemiral.html#a82a616bcad20a8b5689a7fae2dd6ba5e">pid_of</a> (<a class="el" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> const &amp;application) -&gt; pid_t</td></tr>
 <tr class="separator:a82a616bcad20a8b5689a7fae2dd6ba5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33e0b42c295335e62d45cc75d527ab7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemiral.html#ae33e0b42c295335e62d45cc75d527ab7">socket_fd_of</a> (<a class="el" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> const &amp;application) -&gt; int</td></tr>
+<tr class="memdesc:ae33e0b42c295335e62d45cc75d527ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file descriptor of the client's socket connection, or -1 if there is no client socket. May be used for authentication with apparmor. X11 apps always return -1, since they do not connect directly to the Mir process.  <a href="namespacemiral.html#ae33e0b42c295335e62d45cc75d527ab7">More...</a><br /></td></tr>
+<tr class="separator:ae33e0b42c295335e62d45cc75d527ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca85bbb801308943981066cd4a6e9059"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemiral.html#aca85bbb801308943981066cd4a6e9059">pre_init</a> (<a class="el" href="classmiral_1_1_command_line_option.html">CommandLineOption</a> const &amp;clo) -&gt; <a class="el" href="classmiral_1_1_command_line_option.html">CommandLineOption</a></td></tr>
 <tr class="memdesc:aca85bbb801308943981066cd4a6e9059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the option to be called back <em>before</em> Mir initialization starts.  <a href="namespacemiral.html#aca85bbb801308943981066cd4a6e9059">More...</a><br /></td></tr>
 <tr class="separator:aca85bbb801308943981066cd4a6e9059"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -977,7 +980,7 @@ template&lt;typename Lambda &gt; </div>
 </div><div class="memdoc">
 
 <p>Customization for Google test (to print surface name in errors) </p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/google/googletest/blob/master/docs/advanced.md#teaching-googletest-how-to-print-your-values">https://github.com/google/googletest/blob/master/docs/advanced.md#teaching-googletest-how-to-print-your-values</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/google/googletest/blob/main/docs/advanced.md#teaching-googletest-how-to-print-your-values">https://github.com/google/googletest/blob/main/docs/advanced.md#teaching-googletest-how-to-print-your-values</a> </dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.3 </dd></dl>
 
 </div>
@@ -1000,6 +1003,27 @@ template&lt;typename Policy , typename ... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae33e0b42c295335e62d45cc75d527ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae33e0b42c295335e62d45cc75d527ab7">&#9670;&nbsp;</a></span>socket_fd_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto miral::socket_fd_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> const &amp;&#160;</td>
+          <td class="paramname"><em>application</em></td><td>)</td>
+          <td> -&gt;  int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the file descriptor of the client's socket connection, or -1 if there is no client socket. May be used for authentication with apparmor. X11 apps always return -1, since they do not connect directly to the Mir process. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.4 </dd></dl>
 
 </div>
 </div>
@@ -1027,9 +1051,9 @@ template&lt;typename Policy , typename ... Args&gt; </div>
 </div>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

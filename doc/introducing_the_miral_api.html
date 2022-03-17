@@ -105,10 +105,7 @@ The main() program</h1>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="x11__support_8h.html">miral/x11_support.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="wayland__extensions_8h.html">miral/wayland_extensions.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;xkbcommon/xkbcommon-keysyms.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;boost/filesystem.hpp&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code" href="kiosk__main_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> <span class="keyword">const</span>* argv[])</div>
 <div class="line">{</div>
@@ -233,7 +230,7 @@ The main() program</h1>
 <div class="ttc" id="akeymap_8h_html"><div class="ttname"><a href="keymap_8h.html">keymap.h</a></div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_ac9847181db60721b33a1f13e1df08f9f"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#ac9847181db60721b33a1f13e1df08f9f">miral::toolkit::mir_event_get_input_event</a></div><div class="ttdeci">MirInputEvent const  * mir_event_get_input_event(MirEvent const *event)</div><div class="ttdoc">Retrieve the MirInputEvent associated with a MirEvent of type mir_event_type_input.</div></div>
 <div class="ttc" id="aclassmiral_1_1_mir_runner_html_a381db8f4136d9e057eab666c978a2da9"><div class="ttname"><a href="classmiral_1_1_mir_runner.html#a381db8f4136d9e057eab666c978a2da9">miral::MirRunner::add_stop_callback</a></div><div class="ttdeci">void add_stop_callback(std::function&lt; void()&gt; const &amp;stop_callback)</div><div class="ttdoc">Add a callback to be invoked when the server is about to stop, If multiple callbacks are added they w...</div></div>
-<div class="ttc" id="anamespacewallpaper_html_a04d2d3975f3419fa86277703ff9276f2"><div class="ttname"><a href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">wallpaper::font_file</a></div><div class="ttdeci">void font_file(std::string const &amp;font_file)</div><div class="ttdef"><b>Definition:</b> wallpaper_config.cpp:49</div></div>
+<div class="ttc" id="anamespacewallpaper_html_a04d2d3975f3419fa86277703ff9276f2"><div class="ttname"><a href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">wallpaper::font_file</a></div><div class="ttdeci">void font_file(std::string const &amp;font_file)</div><div class="ttdef"><b>Definition:</b> wallpaper_config.cpp:87</div></div>
 <div class="ttc" id="ainternal__client_8h_html"><div class="ttname"><a href="internal__client_8h.html">internal_client.h</a></div></div>
 <div class="ttc" id="aenums_8h_html_a334b6f462d981b32fd590be762a0ee58a88c9246772cc51cae9e5a216ac98b228"><div class="ttname"><a href="enums_8h.html#a334b6f462d981b32fd590be762a0ee58a88c9246772cc51cae9e5a216ac98b228">mir_input_event_type_key</a></div><div class="ttdeci">@ mir_input_event_type_key</div><div class="ttdef"><b>Definition:</b> enums.h:46</div></div>
 <div class="ttc" id="aenums_8h_html_aff03b40da711a8377d89fd3a6b1436b1"><div class="ttname"><a href="enums_8h.html#aff03b40da711a8377d89fd3a6b1436b1">MirInputEventModifiers</a></div><div class="ttdeci">unsigned int MirInputEventModifiers</div><div class="ttdef"><b>Definition:</b> enums.h:77</div></div>
@@ -256,15 +253,15 @@ The main() program</h1>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html"><div class="ttname"><a href="namespacemiral_1_1toolkit.html">miral::toolkit</a></div><div class="ttdef"><b>Definition:</b> toolkit_event.h:41</div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_af1f8b44a3d3080c8df37005ef52ef625"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#af1f8b44a3d3080c8df37005ef52ef625">miral::toolkit::mir_keyboard_event_modifiers</a></div><div class="ttdeci">MirInputEventModifiers mir_keyboard_event_modifiers(MirKeyboardEvent const *event)</div><div class="ttdoc">Retrieve the modifier keys pressed when the key action occured.</div></div>
 <div class="ttc" id="aclassmiral_1_1_append_event_filter_html"><div class="ttname"><a href="classmiral_1_1_append_event_filter.html">miral::AppendEventFilter</a></div><div class="ttdef"><b>Definition:</b> append_event_filter.h:31</div></div>
-<div class="ttc" id="aclassmiral_1_1_wayland_extensions_html"><div class="ttname"><a href="classmiral_1_1_wayland_extensions.html">miral::WaylandExtensions</a></div><div class="ttdoc">Enable configuration of the Wayland extensions enabled at runtime.</div><div class="ttdef"><b>Definition:</b> wayland_extensions.h:47</div></div>
+<div class="ttc" id="aclassmiral_1_1_wayland_extensions_html"><div class="ttname"><a href="classmiral_1_1_wayland_extensions.html">miral::WaylandExtensions</a></div><div class="ttdoc">Enable configuration of the Wayland extensions enabled at runtime.</div><div class="ttdef"><b>Definition:</b> wayland_extensions.h:48</div></div>
 <div class="ttc" id="aclassmiral_1_1_mir_runner_html"><div class="ttname"><a href="classmiral_1_1_mir_runner.html">miral::MirRunner</a></div><div class="ttdoc">Runner for applying initialization options to Mir.</div><div class="ttdef"><b>Definition:</b> runner.h:39</div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_ae08cabcb6916df8ec96e774395236535"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#ae08cabcb6916df8ec96e774395236535">miral::toolkit::mir_event_get_type</a></div><div class="ttdeci">MirEventType mir_event_get_type(MirEvent const *event)</div><div class="ttdoc">Retrieves the type of a MirEvent.</div></div>
 <div class="ttc" id="asplash_8h_html"><div class="ttname"><a href="splash_8h.html">splash.h</a></div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_ad494c491ff5bb1ddd70e89552ce3c08e"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#ad494c491ff5bb1ddd70e89552ce3c08e">miral::toolkit::mir_keyboard_event_keysym</a></div><div class="ttdeci">xkb_keysym_t mir_keyboard_event_keysym(MirKeyboardEvent const *event)</div><div class="ttdoc">Retrieve the xkb mapped keysym associated with the key acted on.</div></div>
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

@@ -90,11 +90,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions_1_1_context.html">Context</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmiral_1_1_wayland_extensions_1_1_context.html" title="Context information useful for implementing Wayland extensions.">Context</a> information useful for implementing Wayland extensions.  <a href="classmiral_1_1_wayland_extensions_1_1_context.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions_1_1_enable_info.html">EnableInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information that can be used to determine if to enable a conditionally enabled extension.  <a href="classmiral_1_1_wayland_extensions_1_1_enable_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:acb2869181c93e3cd38c7c2e6a93b6183"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#acb2869181c93e3cd38c7c2e6a93b6183">Filter</a> = std::function&lt; bool(<a class="el" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> const  &amp;app, char const  *protocol)&gt;</td></tr>
 <tr class="separator:acb2869181c93e3cd38c7c2e6a93b6183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e06565ebd917aa916e7535713bea4c7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a0e06565ebd917aa916e7535713bea4c7">EnableCallback</a> = std::function&lt; bool(<a class="el" href="classmiral_1_1_wayland_extensions_1_1_enable_info.html">EnableInfo</a> const  &amp;info)&gt;</td></tr>
+<tr class="separator:a0e06565ebd917aa916e7535713bea4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -113,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adcfedcfaed3ece29de811f52933ab605"><td class="mdescLeft">&#160;</td><td class="mdescRight">All Wayland extensions supported. This includes both the <a class="el" href="classmiral_1_1_wayland_extensions.html#a16da6c2442222b02d227b3a33e0d5af5" title="The set of Wayland extensions that core Mir supports. Does not include bespoke extensions A superset ...">supported()</a> provided by Mir and any extensions that have been added using <a class="el" href="classmiral_1_1_wayland_extensions.html#a3d9f7c04d94b4481b11a810c6d05f4a3" title="Add a bespoke Wayland extension both to &quot;supported&quot; and &quot;enabled by default&quot;.">add_extension()</a>.  <a href="classmiral_1_1_wayland_extensions.html#adcfedcfaed3ece29de811f52933ab605">More...</a><br /></td></tr>
 <tr class="separator:adcfedcfaed3ece29de811f52933ab605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae243fbcba5105cb3e6ab0f6671ee62e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#ae243fbcba5105cb3e6ab0f6671ee62e7">set_filter</a> (<a class="el" href="classmiral_1_1_wayland_extensions.html#acb2869181c93e3cd38c7c2e6a93b6183">Filter</a> const &amp;extension_filter)</td></tr>
-<tr class="memdesc:ae243fbcba5105cb3e6ab0f6671ee62e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an extension filter callback to control the extensions available to specific clients.  <a href="classmiral_1_1_wayland_extensions.html#ae243fbcba5105cb3e6ab0f6671ee62e7">More...</a><br /></td></tr>
+<tr class="memdesc:ae243fbcba5105cb3e6ab0f6671ee62e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an extension filter callback to control the extensions available to specific clients. Deprecated in favor of <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>, and not be used in conjunction with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>.  <a href="classmiral_1_1_wayland_extensions.html#ae243fbcba5105cb3e6ab0f6671ee62e7">More...</a><br /></td></tr>
 <tr class="separator:ae243fbcba5105cb3e6ab0f6671ee62e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d9f7c04d94b4481b11a810c6d05f4a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a3d9f7c04d94b4481b11a810c6d05f4a3">add_extension</a> (<a class="el" href="structmiral_1_1_wayland_extensions_1_1_builder.html">Builder</a> const &amp;builder)</td></tr>
 <tr class="memdesc:a3d9f7c04d94b4481b11a810c6d05f4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a bespoke Wayland extension both to "supported" and "enabled by default".  <a href="classmiral_1_1_wayland_extensions.html#a3d9f7c04d94b4481b11a810c6d05f4a3">More...</a><br /></td></tr>
@@ -122,11 +127,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1ae01d1409759550370dd1f9c435df24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a bespoke Wayland extension both to "supported" but not "enabled by default".  <a href="classmiral_1_1_wayland_extensions.html#a1ae01d1409759550370dd1f9c435df24">More...</a><br /></td></tr>
 <tr class="separator:a1ae01d1409759550370dd1f9c435df24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c0f64df8282822d84a7643160740ac"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac">enable</a> (std::string name) -&gt; <a class="el" href="classmiral_1_1_wayland_extensions.html">WaylandExtensions</a> &amp;</td></tr>
-<tr class="memdesc:ab5c0f64df8282822d84a7643160740ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable a Wayland extension Throws a std::runtime_error if the extension is not supported.  <a href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac">More...</a><br /></td></tr>
+<tr class="memdesc:ab5c0f64df8282822d84a7643160740ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable a Wayland extension by default. The user can still disable it with the drop-wayland-extensions or wayland-extensions options. The extension can be forced to be enabled regardless of user options with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>.  <a href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac">More...</a><br /></td></tr>
 <tr class="separator:ab5c0f64df8282822d84a7643160740ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace3663bb963a5055a8044e969c067e3b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#ace3663bb963a5055a8044e969c067e3b">disable</a> (std::string name) -&gt; <a class="el" href="classmiral_1_1_wayland_extensions.html">WaylandExtensions</a> &amp;</td></tr>
-<tr class="memdesc:ace3663bb963a5055a8044e969c067e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable a Wayand extension Throws a std::runtime_error if the extension is not supported.  <a href="classmiral_1_1_wayland_extensions.html#ace3663bb963a5055a8044e969c067e3b">More...</a><br /></td></tr>
+<tr class="memdesc:ace3663bb963a5055a8044e969c067e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable a Wayland extension by default. The user can still enable it with the add-wayland-extensions or wayland-extensions options. The extension can be forced to be disabled regardless of user options with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>.  <a href="classmiral_1_1_wayland_extensions.html#ace3663bb963a5055a8044e969c067e3b">More...</a><br /></td></tr>
 <tr class="separator:ace3663bb963a5055a8044e969c067e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af975fb0a23d6d452d516e457f5346094"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094">conditionally_enable</a> (std::string name, <a class="el" href="classmiral_1_1_wayland_extensions.html#a0e06565ebd917aa916e7535713bea4c7">EnableCallback</a> const &amp;callback) -&gt; <a class="el" href="classmiral_1_1_wayland_extensions.html">WaylandExtensions</a> &amp;</td></tr>
+<tr class="memdesc:af975fb0a23d6d452d516e457f5346094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable a Wayland extension only when the callback returns true. The callback can use info.user_preference() to respect the extension options the user provided, it is not required. Unlike <a class="el" href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac" title="Enable a Wayland extension by default. The user can still disable it with the drop-wayland-extensions...">enable()</a> and <a class="el" href="classmiral_1_1_wayland_extensions.html#ace3663bb963a5055a8044e969c067e3b" title="Disable a Wayland extension by default. The user can still enable it with the add-wayland-extensions ...">disable()</a>, <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a> can override the user options.  <a href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094">More...</a><br /></td></tr>
+<tr class="separator:af975fb0a23d6d452d516e457f5346094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -149,11 +157,15 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ae0450d7bf87fb69a39964bf815199484"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#ae0450d7bf87fb69a39964bf815199484">zwlr_foreign_toplevel_manager_v1</a></td></tr>
 <tr class="memdesc:ae0450d7bf87fb69a39964bf815199484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows a client to get information and gain control over all toplevels of all clients Useful for taskbars and app switchers Could allow a client to extract information about other programs the user is running.  <a href="classmiral_1_1_wayland_extensions.html#ae0450d7bf87fb69a39964bf815199484">More...</a><br /></td></tr>
 <tr class="separator:ae0450d7bf87fb69a39964bf815199484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b811a49ed7063215ebeb2f43a8e4efc"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a1b811a49ed7063215ebeb2f43a8e4efc">zwp_virtual_keyboard_manager_v1</a></td></tr>
+<tr class="memdesc:a1b811a49ed7063215ebeb2f43a8e4efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients to act as a virtual keyboard, useful for on-screen keyboards. Clients are not required to display anything to send keyboard events using this extension, so malicious clients could use it to take actions without user input.  <a href="classmiral_1_1_wayland_extensions.html#a1b811a49ed7063215ebeb2f43a8e4efc">More...</a><br /></td></tr>
+<tr class="separator:a1b811a49ed7063215ebeb2f43a8e4efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f05164029957fd00b9d5b73f580bc2d"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a1f05164029957fd00b9d5b73f580bc2d">zwp_input_method_manager_v2</a></td></tr>
+<tr class="memdesc:a1f05164029957fd00b9d5b73f580bc2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients (such as on-screen keyboards) to intercept physical key events and act as a source of text input for other clients. Input methods are not required to display anything to use this extension, so malicious clients could use it to intercept keys events or take actions without user input.  <a href="classmiral_1_1_wayland_extensions.html#a1f05164029957fd00b9d5b73f580bc2d">More...</a><br /></td></tr>
+<tr class="separator:a1f05164029957fd00b9d5b73f580bc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9291fb6a93cdb4583820bccd1f079d"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a6a9291fb6a93cdb4583820bccd1f079d">zwp_virtual_keyboard_v1</a></td></tr>
-<tr class="memdesc:a6a9291fb6a93cdb4583820bccd1f079d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients to act as a virtual keyboard, useful for on-screen keyboards. Clients are not required to display anything to send keyboard events using this extension, so malicious clients could use it to take actions without user input.  <a href="classmiral_1_1_wayland_extensions.html#a6a9291fb6a93cdb4583820bccd1f079d">More...</a><br /></td></tr>
 <tr class="separator:a6a9291fb6a93cdb4583820bccd1f079d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63829d1fa8f0ad99b6aa1a6e46c30a67"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a63829d1fa8f0ad99b6aa1a6e46c30a67">zwp_input_method_v2</a></td></tr>
-<tr class="memdesc:a63829d1fa8f0ad99b6aa1a6e46c30a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients (such as on-screen keyboards) to intercept physical key events and act as a source of text input for other clients. Input methods are not required to display anything to use this extension, so malicious clients could use it to intercept keys events or take actions without user input.  <a href="classmiral_1_1_wayland_extensions.html#a63829d1fa8f0ad99b6aa1a6e46c30a67">More...</a><br /></td></tr>
 <tr class="separator:a63829d1fa8f0ad99b6aa1a6e46c30a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -165,6 +177,21 @@ Static Public Attributes</h2></td></tr>
 </li>
 </ul>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a0e06565ebd917aa916e7535713bea4c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e06565ebd917aa916e7535713bea4c7">&#9670;&nbsp;</a></span>EnableCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classmiral_1_1_wayland_extensions.html#a0e06565ebd917aa916e7535713bea4c7">miral::WaylandExtensions::EnableCallback</a> =  std::function&lt;bool(<a class="el" href="classmiral_1_1_wayland_extensions_1_1_enable_info.html">EnableInfo</a> const&amp; info)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.4 </dd></dl>
+
+</div>
+</div>
 <a id="acb2869181c93e3cd38c7c2e6a93b6183"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb2869181c93e3cd38c7c2e6a93b6183">&#9670;&nbsp;</a></span>Filter</h2>
 
@@ -298,6 +325,37 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af975fb0a23d6d452d516e457f5346094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af975fb0a23d6d452d516e457f5346094">&#9670;&nbsp;</a></span>conditionally_enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto miral::WaylandExtensions::conditionally_enable </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmiral_1_1_wayland_extensions.html#a0e06565ebd917aa916e7535713bea4c7">EnableCallback</a> const &amp;&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="classmiral_1_1_wayland_extensions.html">WaylandExtensions</a> &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable a Wayland extension only when the callback returns true. The callback can use info.user_preference() to respect the extension options the user provided, it is not required. Unlike <a class="el" href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac" title="Enable a Wayland extension by default. The user can still disable it with the drop-wayland-extensions...">enable()</a> and <a class="el" href="classmiral_1_1_wayland_extensions.html#ace3663bb963a5055a8044e969c067e3b" title="Disable a Wayland extension by default. The user can still enable it with the add-wayland-extensions ...">disable()</a>, <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a> can override the user options. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.4 </dd></dl>
+
+</div>
+</div>
 <a id="ace3663bb963a5055a8044e969c067e3b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace3663bb963a5055a8044e969c067e3b">&#9670;&nbsp;</a></span>disable()</h2>
 
@@ -314,7 +372,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Disable a Wayand extension Throws a std::runtime_error if the extension is not supported. </p>
+<p>Disable a Wayland extension by default. The user can still enable it with the add-wayland-extensions or wayland-extensions options. The extension can be forced to be disabled regardless of user options with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.6 </dd></dl>
 
 </div>
@@ -335,7 +393,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enable a Wayland extension Throws a std::runtime_error if the extension is not supported. </p>
+<p>Enable a Wayland extension by default. The user can still disable it with the drop-wayland-extensions or wayland-extensions options. The extension can be forced to be enabled regardless of user options with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.6 </dd></dl>
 
 </div>
@@ -420,8 +478,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set an extension filter callback to control the extensions available to specific clients. </p>
+<p>Set an extension filter callback to control the extensions available to specific clients. Deprecated in favor of <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>, and not be used in conjunction with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.5 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>In MirAL 3.4, use <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -500,7 +559,32 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Supported wayland extensions that are not enabled by default. </p>
-<p>These can be passed into <a class="el" href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac" title="Enable a Wayland extension Throws a std::runtime_error if the extension is not supported.">WaylandExtensions::enable()</a> to turn them on. Enables shell components such as panels, notifications and lock screens. It is recommended to use this in conjunction with <a class="el" href="classmiral_1_1_wayland_extensions.html#ae243fbcba5105cb3e6ab0f6671ee62e7" title="Set an extension filter callback to control the extensions available to specific clients.">set_filter()</a> as malicious clients could potentially use this protocol to steal input focus or otherwise bother the user. </p><dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.6 </dd></dl>
+<p>These can be passed into <a class="el" href="classmiral_1_1_wayland_extensions.html#ab5c0f64df8282822d84a7643160740ac" title="Enable a Wayland extension by default. The user can still disable it with the drop-wayland-extensions...">WaylandExtensions::enable()</a> to turn them on. Enables shell components such as panels, notifications and lock screens. It is recommended to use this in conjunction with <a class="el" href="classmiral_1_1_wayland_extensions.html#ae243fbcba5105cb3e6ab0f6671ee62e7" title="Set an extension filter callback to control the extensions available to specific clients....">set_filter()</a> as malicious clients could potentially use this protocol to steal input focus or otherwise bother the user. </p><dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.6 </dd></dl>
+
+</div>
+</div>
+<a id="a1f05164029957fd00b9d5b73f580bc2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f05164029957fd00b9d5b73f580bc2d">&#9670;&nbsp;</a></span>zwp_input_method_manager_v2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const* const miral::WaylandExtensions::zwp_input_method_manager_v2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allows clients (such as on-screen keyboards) to intercept physical key events and act as a source of text input for other clients. Input methods are not required to display anything to use this extension, so malicious clients could use it to intercept keys events or take actions without user input. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.4 </dd></dl>
 
 </div>
 </div>
@@ -524,8 +608,30 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Allows clients (such as on-screen keyboards) to intercept physical key events and act as a source of text input for other clients. Input methods are not required to display anything to use this extension, so malicious clients could use it to intercept keys events or take actions without user input. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.3 </dd></dl>
+</div>
+</div>
+<a id="a1b811a49ed7063215ebeb2f43a8e4efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b811a49ed7063215ebeb2f43a8e4efc">&#9670;&nbsp;</a></span>zwp_virtual_keyboard_manager_v1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const* const miral::WaylandExtensions::zwp_virtual_keyboard_manager_v1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allows clients to act as a virtual keyboard, useful for on-screen keyboards. Clients are not required to display anything to send keyboard events using this extension, so malicious clients could use it to take actions without user input. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.4 </dd></dl>
 
 </div>
 </div>
@@ -548,9 +654,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Allows clients to act as a virtual keyboard, useful for on-screen keyboards. Clients are not required to display anything to send keyboard events using this extension, so malicious clients could use it to take actions without user input. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.3 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use the *_manager_* versions instead</dd></dl>
 
 </div>
 </div>
@@ -584,9 +689,9 @@ Static Public Attributes</h2></td></tr>
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

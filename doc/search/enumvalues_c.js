@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unknown_2000',['unknown',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1aad921d60486366258809553a3db49a4a',1,'miral::Output']]]
+  ['white_5fpoint_5fdata_2359',['white_point_data',['../structmiroil_1_1_edid_1_1_descriptor.html#aac6543eb0b865b76e3641ef44ddfb156ae003309a47bdc0c227597adf4dc1e056',1,'miroil::Edid::Descriptor']]]
 ];

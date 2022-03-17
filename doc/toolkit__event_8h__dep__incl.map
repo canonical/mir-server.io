@@ -1,7 +1,8 @@
 <map id="include/miral/miral/toolkit_event.h" name="include/miral/miral/toolkit_event.h">
-<area shape="rect" id="node1" title=" " alt="" coords="360,5,505,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="473,5,619,47"/>
 <area shape="rect" id="node2" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="5,95,215,136"/>
 <area shape="rect" id="node3" href="$shell__main_8cpp.html" title=" " alt="" coords="239,95,399,136"/>
 <area shape="rect" id="node4" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="424,95,668,136"/>
 <area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="692,95,920,136"/>
+<area shape="rect" id="node6" href="$event__builder_8h.html" title=" " alt="" coords="944,95,1097,136"/>
 </map>

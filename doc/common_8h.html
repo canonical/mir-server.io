@@ -77,7 +77,7 @@ $(function() {
 <div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="common_8h__dep__incl.svg" width="1922" height="678"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="common_8h__dep__incl.svg" width="2486" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -207,7 +207,8 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a767377fc0ee9f2097bc25dce0228d7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eecd2576a4167b74674fd614b8c1590"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#a6eecd2576a4167b74674fd614b8c1590">MirWindowFocusState</a> { <a class="el" href="common_8h.html#a6eecd2576a4167b74674fd614b8c1590a25b37e92d0a01110f6ad9d49910b62a1">mir_window_focus_state_unfocused</a> = 0, 
-<a class="el" href="common_8h.html#a6eecd2576a4167b74674fd614b8c1590a25ec31728086bbbebd8dabc71bac46ec">mir_window_focus_state_focused</a>
+<a class="el" href="common_8h.html#a6eecd2576a4167b74674fd614b8c1590a25ec31728086bbbebd8dabc71bac46ec">mir_window_focus_state_focused</a>, 
+<a class="el" href="common_8h.html#a6eecd2576a4167b74674fd614b8c1590a38504862fb8c25c7ade6dbc626a4315a">mir_window_focus_state_active</a>
  }</td></tr>
 <tr class="separator:a6eecd2576a4167b74674fd614b8c1590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc57649fb52ec6b8bbfac0121677de0b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8h.html#acc57649fb52ec6b8bbfac0121677de0b">MirWindowVisibility</a> { <a class="el" href="common_8h.html#acc57649fb52ec6b8bbfac0121677de0bac601d80bd427a4a746d6233d71f4d1cc">mir_window_visibility_occluded</a> = 0, 
@@ -1384,8 +1385,15 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6eecd2576a4167b74674fd614b8c1590a25b37e92d0a01110f6ad9d49910b62a1"></a>mir_window_focus_state_unfocused&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6eecd2576a4167b74674fd614b8c1590a25ec31728086bbbebd8dabc71bac46ec"></a>mir_window_focus_state_focused&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6eecd2576a4167b74674fd614b8c1590a25b37e92d0a01110f6ad9d49910b62a1"></a>mir_window_focus_state_unfocused&#160;</td><td class="fielddoc"><p>Inactive and does not have focus <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6eecd2576a4167b74674fd614b8c1590a25ec31728086bbbebd8dabc71bac46ec"></a>mir_window_focus_state_focused&#160;</td><td class="fielddoc"><p>Active and has keybaord focus <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a6eecd2576a4167b74674fd614b8c1590a38504862fb8c25c7ade6dbc626a4315a"></a>mir_window_focus_state_active&#160;</td><td class="fielddoc"><p>Active but does not have keyboard focus <br  />
+ </p>
+</td></tr>
 </table>
 
 </div>
@@ -1474,15 +1482,15 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
-<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a></div><div class="ttdeci">@ mir_pixel_format_rgba_4444</div><div class="ttdef"><b>Definition:</b> common.h:174</div></div>
-<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a></div><div class="ttdeci">@ mir_pixel_format_bgr_888</div><div class="ttdef"><b>Definition:</b> common.h:170</div></div>
-<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a></div><div class="ttdeci">@ mir_pixel_format_rgba_5551</div><div class="ttdef"><b>Definition:</b> common.h:173</div></div>
-<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a></div><div class="ttdeci">@ mir_pixel_format_rgb_565</div><div class="ttdef"><b>Definition:</b> common.h:172</div></div>
-<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a></div><div class="ttdeci">@ mir_pixel_format_rgb_888</div><div class="ttdef"><b>Definition:</b> common.h:171</div></div>
+<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714ac47f6cb18e6e4cea097835490fd0cd5b">mir_pixel_format_rgba_4444</a></div><div class="ttdeci">@ mir_pixel_format_rgba_4444</div><div class="ttdef"><b>Definition:</b> common.h:175</div></div>
+<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714abd85accf8ab460c9fbfd1f773f62ad97">mir_pixel_format_bgr_888</a></div><div class="ttdeci">@ mir_pixel_format_bgr_888</div><div class="ttdef"><b>Definition:</b> common.h:171</div></div>
+<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a5f75d646b64cec1c5f38bd126b12bf2a">mir_pixel_format_rgba_5551</a></div><div class="ttdeci">@ mir_pixel_format_rgba_5551</div><div class="ttdef"><b>Definition:</b> common.h:174</div></div>
+<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a473fc143ca3199c31b20aaeb09eaf945">mir_pixel_format_rgb_565</a></div><div class="ttdeci">@ mir_pixel_format_rgb_565</div><div class="ttdef"><b>Definition:</b> common.h:173</div></div>
+<div class="ttc" id="acommon_8h_html_aab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f"><div class="ttname"><a href="common_8h.html#aab034964866decf1eee6f624c9009714a464ecd43a1a7c1cd2866f277620a3e4f">mir_pixel_format_rgb_888</a></div><div class="ttdeci">@ mir_pixel_format_rgb_888</div><div class="ttdef"><b>Definition:</b> common.h:172</div></div>
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
