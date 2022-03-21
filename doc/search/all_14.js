@@ -1,9 +1,14 @@
 var searchData=
 [
-  ['valid_842',['valid',['../classmiral_1_1_output.html#a982a7184fe6d244d28b0849748a793ad',1,'miral::Output']]],
-  ['value_843',['Value',['../structmir_1_1geometry_1_1generic_1_1_value.html',1,'mir::geometry::generic::Value&lt; T &gt;'],['../structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#ab77b91aaa55b543fa08f63eadd0d657d',1,'mir::geometry::generic::Value::Wrapper::value()'],['../classmir_1_1optional__value.html#abe9e1fa66ecc38300d171e01f171789d',1,'mir::optional_value::value() const'],['../classmir_1_1optional__value.html#a85ec0708783f882d5adf37b99e8191b3',1,'mir::optional_value::value()']]],
-  ['valuetype_844',['ValueType',['../structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#ace8c98de9edb7d1ded00e016929b5b0e',1,'mir::geometry::generic::Value::Wrapper']]],
-  ['valuewrapperbase_845',['ValueWrapperBase',['../structmir_1_1geometry_1_1detail_1_1_value_wrapper_base.html',1,'mir::geometry::detail']]],
-  ['version_2eh_846',['version.h',['../version_8h.html',1,'']]],
-  ['vga_847',['vga',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1aba0ffa371333a70be28c4071c6e65208',1,'miral::Output']]]
+  ['uid_975',['uid',['../classmiral_1_1_application_credentials.html#ab31e50adab1e14332c8de11920754ba3',1,'miral::ApplicationCredentials']]],
+  ['undefined_976',['undefined',['../structmiroil_1_1_edid_1_1_descriptor.html#aac6543eb0b865b76e3641ef44ddfb156a5e543256c480ac577d30f76f9120eb74',1,'miroil::Edid::Descriptor']]],
+  ['unknown_977',['unknown',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1aad921d60486366258809553a3db49a4a',1,'miral::Output']]],
+  ['unspecified_5ftext_978',['unspecified_text',['../unionmiroil_1_1_edid_1_1_descriptor_1_1_value.html#a0a92e7baa1fa73deb0b1467bc1773283',1,'miroil::Edid::Descriptor::Value::unspecified_text()'],['../structmiroil_1_1_edid_1_1_descriptor.html#aac6543eb0b865b76e3641ef44ddfb156a4817fee9015f06e0f946b1c95ac8b8c5',1,'miroil::Edid::Descriptor::unspecified_text()']]],
+  ['unused0_979',['unused0',['../struct_mir_buffer_package.html#ad3f7eb8bb35543f46a47dd99a963340c',1,'MirBufferPackage']]],
+  ['updateanimation_980',['updateAnimation',['../eglspinner_8cpp.html#a2a27030a33cc7e65bb3b8af0dc7b71f0',1,'eglspinner.cpp']]],
+  ['uploadtexture_981',['uploadTexture',['../eglspinner_8cpp.html#acc1984ceb9ba3787568fc90afff8363c',1,'eglspinner.cpp']]],
+  ['use_982',['use',['../class_wayland_shm_buffer.html#a197ba7e6374ef5af38f2ae02c2c7046e',1,'WaylandShmBuffer']]],
+  ['used_983',['used',['../structmiroil_1_1_display_configuration_options.html#a5177021c333c6dc7aeec74bfae097bd6',1,'miroil::DisplayConfigurationOptions::used()'],['../classmiral_1_1_output.html#af815918242dda9f5d4e044b993a344e9',1,'miral::Output::used()']]],
+  ['user_5fpreference_984',['user_preference',['../classmiral_1_1_wayland_extensions_1_1_enable_info.html#adedd86d317c1d8be9577f4cd66940444',1,'miral::WaylandExtensions::EnableInfo']]],
+  ['userdata_985',['userdata',['../structmiral_1_1_application_info.html#ab3304b1e749a6ae8bc690fb9bf5f5845',1,'miral::ApplicationInfo::userdata() const -&gt; std::shared_ptr&lt; void &gt;'],['../structmiral_1_1_application_info.html#a14b52dd907126a8b69a7c2c24cf1a124',1,'miral::ApplicationInfo::userdata(std::shared_ptr&lt; void &gt; userdata)'],['../structmiral_1_1_window_info.html#a2ccde9e4e4a3f8cf5d172301b78bdcdb',1,'miral::WindowInfo::userdata() const -&gt; std::shared_ptr&lt; void &gt;'],['../structmiral_1_1_window_info.html#ae599b5b3a7ffae6663dac327b93df8a0',1,'miral::WindowInfo::userdata(std::shared_ptr&lt; void &gt; userdata)'],['../classmiral_1_1_window_specification.html#ae8163960556d132848774708d6494b03',1,'miral::WindowSpecification::userdata() const -&gt; mir::optional_value&lt; std::shared_ptr&lt; void &gt;&gt; const &amp;'],['../classmiral_1_1_window_specification.html#a58181650e83aba737a39c08c263042d7',1,'miral::WindowSpecification::userdata() -&gt; mir::optional_value&lt; std::shared_ptr&lt; void &gt;&gt; &amp;']]]
 ];

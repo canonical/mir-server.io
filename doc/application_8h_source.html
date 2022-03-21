@@ -109,9 +109,11 @@ $(function() {
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacemiral.html#a8ea718a9ca45e67a09630e022af689ea">kill</a>(<a class="code" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> <span class="keyword">const</span>&amp; application, <span class="keywordtype">int</span> sig);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacemiral.html#a2afe37d47d30b4e5fe5ab96c642aef48">name_of</a>(<a class="code" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> <span class="keyword">const</span>&amp; application) -&gt; std::string;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacemiral.html#a82a616bcad20a8b5689a7fae2dd6ba5e">pid_of</a>(<a class="code" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> <span class="keyword">const</span>&amp; application) -&gt; pid_t;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif //MIRAL_APPLICATION_H</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacemiral.html#ae33e0b42c295335e62d45cc75d527ab7">socket_fd_of</a>(<a class="code" href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">Application</a> <span class="keyword">const</span>&amp; application) -&gt; int;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif //MIRAL_APPLICATION_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="anamespacemiral_html_a213cbf32576354cb70085016d4924f4f"><div class="ttname"><a href="namespacemiral.html#a213cbf32576354cb70085016d4924f4f">miral::apply_lifecycle_state_to</a></div><div class="ttdeci">void apply_lifecycle_state_to(Application const &amp;application, MirLifecycleState state)</div></div>
 <div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:31</div></div>
@@ -119,13 +121,14 @@ $(function() {
 <div class="ttc" id="anamespacemiral_html_a85dce511f40e7b6b46d62a84731b9b60"><div class="ttname"><a href="namespacemiral.html#a85dce511f40e7b6b46d62a84731b9b60">miral::Application</a></div><div class="ttdeci">std::shared_ptr&lt; mir::scene::Session &gt; Application</div><div class="ttdef"><b>Definition:</b> application.h:34</div></div>
 <div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:24</div></div>
 <div class="ttc" id="anamespacemiral_html_a2afe37d47d30b4e5fe5ab96c642aef48"><div class="ttname"><a href="namespacemiral.html#a2afe37d47d30b4e5fe5ab96c642aef48">miral::name_of</a></div><div class="ttdeci">auto name_of(Application const &amp;application) -&gt; std::string</div></div>
-<div class="ttc" id="acommon_8h_html_a58319ffb4da6d914911b049e1fec2f89"><div class="ttname"><a href="common_8h.html#a58319ffb4da6d914911b049e1fec2f89">MirLifecycleState</a></div><div class="ttdeci">MirLifecycleState</div><div class="ttdef"><b>Definition:</b> common.h:101</div></div>
+<div class="ttc" id="anamespacemiral_html_ae33e0b42c295335e62d45cc75d527ab7"><div class="ttname"><a href="namespacemiral.html#ae33e0b42c295335e62d45cc75d527ab7">miral::socket_fd_of</a></div><div class="ttdeci">auto socket_fd_of(Application const &amp;application) -&gt; int</div><div class="ttdoc">Returns the file descriptor of the client's socket connection, or -1 if there is no client socket....</div></div>
+<div class="ttc" id="acommon_8h_html_a58319ffb4da6d914911b049e1fec2f89"><div class="ttname"><a href="common_8h.html#a58319ffb4da6d914911b049e1fec2f89">MirLifecycleState</a></div><div class="ttdeci">MirLifecycleState</div><div class="ttdef"><b>Definition:</b> common.h:102</div></div>
 <div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
 <div class="ttc" id="anamespacemiral_html_a8ea718a9ca45e67a09630e022af689ea"><div class="ttname"><a href="namespacemiral.html#a8ea718a9ca45e67a09630e022af689ea">miral::kill</a></div><div class="ttdeci">void kill(Application const &amp;application, int sig)</div></div>
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['width_1678',['Width',['../namespacemir_1_1geometry.html#ad543a2f306a4473626655b3f6980da76',1,'mir::geometry::Width()'],['../namespacemir_1_1geometry_1_1generic.html#a278ea7384e183739dbb6c5f2524d22ea',1,'mir::geometry::generic::Width()']]],
-  ['widthf_1679',['WidthF',['../namespacemir_1_1geometry.html#a900b7b78edcb74bb0cc7a24255b7de8e',1,'mir::geometry']]],
-  ['windowmanagementpolicybuilder_1680',['WindowManagementPolicyBuilder',['../namespacemiral.html#aa2989f2658b6e9d4b8c8c26900122aeb',1,'miral']]]
+  ['tagtype_2025',['TagType',['../structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#ad56814eb20be2594a6219f25cab561f4',1,'mir::geometry::generic::Value::Wrapper']]],
+  ['terminator_2026',['Terminator',['../classmiral_1_1_set_terminator.html#a13a290982bae75a5100f5d6012713ba2',1,'miral::SetTerminator']]],
+  ['type_2027',['type',['../structmiral_1_1detail_1_1_function_type_3_01_return_07_lambda_1_1_5_08_07_arg_8_8_8_08_4.html#a1294c2a5c97a065e0f0e8b574d1374e1',1,'miral::detail::FunctionType&lt; Return(Lambda::*)(Arg...)&gt;::type()'],['../structmiral_1_1detail_1_1_function_type_3_01_return_07_lambda_1_1_5_08_07_arg_8_8_8_08_01const_01_4.html#acdaff93a94023af1125309fff0d4e583',1,'miral::detail::FunctionType&lt; Return(Lambda::*)(Arg...) const &gt;::type()']]]
 ];

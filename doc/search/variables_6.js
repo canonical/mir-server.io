@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mir_5feglapp_5fbackground_5fopacity_1591',['mir_eglapp_background_opacity',['../eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b',1,'eglapp.h']]],
-  ['modifier_5fmask_1592',['modifier_mask',['../class_floating_window_manager_policy.html#ac7d2ea4a715d90f03986322bbacb633e',1,'FloatingWindowManagerPolicy']]]
+  ['height_1913',['height',['../structmir_1_1geometry_1_1generic_1_1_size.html#aaf945d05b8ad28520ec84adc9b9982c6',1,'mir::geometry::generic::Size::height()'],['../struct_mir_buffer_package.html#a20ae1bad0fbd14706f213d63b58d58a4',1,'MirBufferPackage::height()'],['../structmiral_1_1_output_1_1_physical_size_m_m.html#afb21c2bd1e4afe87d549f249acf26d97',1,'miral::Output::PhysicalSizeMM::height()'],['../structmiral_1_1_window_specification_1_1_aspect_ratio.html#a04e10e428d3a784a0494419bcc6eb314',1,'miral::WindowSpecification::AspectRatio::height()'],['../structmiroil_1_1_edid_1_1_physical_size_m_m.html#a574ef18208c38da7352089d1fac828f2',1,'miroil::Edid::PhysicalSizeMM::height()']]]
 ];

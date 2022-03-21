@@ -65,9 +65,13 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_o"></a>- o -</h3><ul>
+<li>OpenGLContext()
+: <a class="el" href="classmiroil_1_1_open_g_l_context.html#a44ff0964a7ea2959e6350c5702e79879">miroil::OpenGLContext</a>
+</li>
 <li>operator bool()
 : <a class="el" href="classmir_1_1optional__value.html#a25f3e1b26f4e9892edb7878ab6ecadb5">mir::optional_value&lt; T &gt;</a>
 , <a class="el" href="classmiral_1_1_window.html#a9281106aebca4ae4b76a361a02dc7af9">miral::Window</a>
+, <a class="el" href="classmiroil_1_1_g_l_buffer.html#a8169601f3c18d4b81fb55a930dc89317">miroil::GLBuffer</a>
 </li>
 <li>operator int()
 : <a class="el" href="classmir_1_1_fd.html#a33f78234c47b28aa1de7951451cd817f">mir::Fd</a>
@@ -87,11 +91,10 @@ $(function() {
 </li>
 <li>operator!=()
 : <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#a2b69869f1476061a041a8aeb49972a55">mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;</a>
-, <a class="el" href="classmir_1_1geometry_1_1_length.html#a4c8b83ce973f854ee3e027acd2734cb6">mir::geometry::Length</a>
 , <a class="el" href="classmir_1_1geometry_1_1_rectangles.html#aafcbdec1cf2184d79fb05363d89a9735">mir::geometry::Rectangles</a>
 </li>
 <li>operator()()
-: <a class="el" href="class_decoration_provider.html#abc2c00c2b0ff4e7daee53b551bb3fac0">DecorationProvider</a>
+: <a class="el" href="class_decoration_provider.html#ad0eda6f896f6c46e12d5d6c8276b6b7a">DecorationProvider</a>
 , <a class="el" href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">miral::AddInitCallback</a>
 , <a class="el" href="classmiral_1_1_append_event_filter.html#a7cdf3828d8e068356e463b53da0c585c">miral::AppendEventFilter</a>
 , <a class="el" href="classmiral_1_1_basic_set_application_authorizer.html#a4beafdb8583a86b1f47dd46390a6db6f">miral::BasicSetApplicationAuthorizer</a>
@@ -108,6 +111,10 @@ $(function() {
 , <a class="el" href="classmiral_1_1_wayland_extensions.html#a9772cc125e2ed34bf5f4a6bb7ae71c74">miral::WaylandExtensions</a>
 , <a class="el" href="classmiral_1_1_window_manager_options.html#a4aa81fa486ce53b1a235343d3361243c">miral::WindowManagerOptions</a>
 , <a class="el" href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">miral::X11Support</a>
+, <a class="el" href="classmiroil_1_1_mir_server_hooks.html#a64efdefb97a3c0777671bc5716564aa3">miroil::MirServerHooks</a>
+, <a class="el" href="classmiroil_1_1_open_g_l_context.html#a595699a67240dbb68d80f15d1a3e201f">miroil::OpenGLContext</a>
+, <a class="el" href="classmiroil_1_1_persist_display_config.html#a5395c03cfc71e81441ada58f05609a05">miroil::PersistDisplayConfig</a>
+, <a class="el" href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">miroil::SetCompositor</a>
 , <a class="el" href="class_spinner_splash.html#a7e47142aeb787211d672e582b6067e82">SpinnerSplash</a>
 , <a class="el" href="structstd_1_1hash_3_01_1_1mir_1_1_int_wrapper_3_01_tag_00_01_value_type_01_4_01_4.html#ac05f97f2c650a47d7533ab3d66399b3d">std::hash&lt; ::mir::IntWrapper&lt; Tag, ValueType &gt; &gt;</a>
 , <a class="el" href="class_sw_splash.html#ad9abd470f504b34a8de268f52a7c7b04">SwSplash</a>
@@ -125,7 +132,6 @@ $(function() {
 , <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a54c3fb0ec5d0c9066e605d88619bfc9e">mir::geometry::generic::Point&lt; T &gt;</a>
 , <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a1190c0ca955df85df2305ee07fb3d0f1">mir::geometry::generic::Size&lt; T &gt;</a>
 , <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#a99ebf9982215dfda2ccefda1aac4ff9f">mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;</a>
-, <a class="el" href="classmir_1_1geometry_1_1_length.html#aa1bfdd6f0aa32d06444e14ee966635dc">mir::geometry::Length</a>
 , <a class="el" href="classmir_1_1optional__value.html#a543cdf06a7a196dd865bb400b630a918">mir::optional_value&lt; T &gt;</a>
 , <a class="el" href="classmir_1_1_proof_of_mutex_lock.html#a1c773707152f2588c436ad7dd38f520a">mir::ProofOfMutexLock</a>
 , <a class="el" href="classmir_1_1_shm_file.html#a78e5f5cd485d569481adfdfe2ee0a43a">mir::ShmFile</a>
@@ -143,14 +149,25 @@ $(function() {
 , <a class="el" href="classmiral_1_1_window_specification.html#aaf06121c2abface7462bc96c3843143f">miral::WindowSpecification</a>
 , <a class="el" href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">miral::X11Support</a>
 , <a class="el" href="classmiral_1_1_zone.html#a44773c6b565d35616ba9ac3c73447a7e">miral::Zone</a>
+, <a class="el" href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">miroil::Compositor</a>
+, <a class="el" href="classmiroil_1_1_display_configuration_policy.html#af067b62b4ca1e60470ac1f5ae729f5dd">miroil::DisplayConfigurationPolicy</a>
+, <a class="el" href="classmiroil_1_1_input_device.html#a0fda29b3ba59f835aaae0b526e5ee250">miroil::InputDevice</a>
+, <a class="el" href="classmiroil_1_1_input_device_observer.html#a2877fe9e13a426c9f200ad51a7332c28">miroil::InputDeviceObserver</a>
+, <a class="el" href="classmiroil_1_1_mir_prompt_session.html#acc39bc17075e427c54891584f01067de">miroil::MirPromptSession</a>
+, <a class="el" href="classmiroil_1_1_persist_display_config.html#a6b193e26f5d535a02b0c63211989c1d8">miroil::PersistDisplayConfig</a>
+, <a class="el" href="classmiroil_1_1_prompt_session_listener.html#a4ec6dc25f85d45b4710cd8431f218e3f">miroil::PromptSessionListener</a>
+, <a class="el" href="classmiroil_1_1_prompt_session_manager.html#a8dd6ca6b1a74c1c223f541e561736219">miroil::PromptSessionManager</a>
+, <a class="el" href="classmiroil_1_1_surface_observer.html#a2bd030773b5dd652a0948636a04de015">miroil::SurfaceObserver</a>
 , <a class="el" href="class_splash_session.html#a70ac36f0f6a2381eac92f172d5fba6a8">SplashSession</a>
 </li>
 <li>operator==()
 : <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#acd13b05b7f931650b0b9198860da861f">mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;</a>
-, <a class="el" href="classmir_1_1geometry_1_1_length.html#a1c64dfdba665ae42ccaee8c986e5d9d0">mir::geometry::Length</a>
 , <a class="el" href="classmir_1_1geometry_1_1_rectangles.html#a5b04a70a402c57e770229b3dc639f569">mir::geometry::Rectangles</a>
-, <a class="el" href="classmiral_1_1_window.html#a1e2a07e36687fe9b8f5a5a4f2b8fef6a">miral::Window</a>
+, <a class="el" href="classmiral_1_1_window.html#a5ee923e7f8a25c317b9081ab63c8ac3c">miral::Window</a>
 , <a class="el" href="classmiral_1_1_zone.html#aff4fadd3b1af95ad7aab748fe602cc37">miral::Zone</a>
+, <a class="el" href="classmiroil_1_1_input_device.html#aae898bbf8692fc885ad466feff4206fa">miroil::InputDevice</a>
+, <a class="el" href="classmiroil_1_1_mir_prompt_session.html#a2faea9a49a369668bcb47b81eeb5c3e1">miroil::MirPromptSession</a>
+, <a class="el" href="classmiroil_1_1_prompt_session_manager.html#a4f15f992e812527b42e27ca7c84277eb">miroil::PromptSessionManager</a>
 , <a class="el" href="class_wayland_output.html#a5bc4467899a590c69d12a0d3b9f31ca2">WaylandOutput</a>
 </li>
 <li>operator&gt;()
@@ -160,13 +177,17 @@ $(function() {
 : <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#afb6c33e0e8a09f9200ae88dce9979994">mir::geometry::generic::Value&lt; T &gt;::Wrapper&lt; Tag &gt;</a>
 </li>
 <li>optional_value()
-: <a class="el" href="classmir_1_1optional__value.html#aa6177adf2fc205b8180e9d5da658eb61">mir::optional_value&lt; T &gt;</a>
+: <a class="el" href="classmir_1_1optional__value.html#a457727ddafd30b6674dbb1397ad56da9">mir::optional_value&lt; T &gt;</a>
 </li>
 <li>orientation()
 : <a class="el" href="classmiral_1_1_output.html#a892df8d0e793fe5ffc047b2d6e488874">miral::Output</a>
+, <a class="el" href="structmiroil_1_1_display_configuration_options.html#ab15ee33749cdff9551be4bfe1eab1eb2">miroil::DisplayConfigurationOptions</a>
+</li>
+<li>orientation_set_to()
+: <a class="el" href="classmiroil_1_1_surface_observer.html#adfcc81098acf151b3eb34ae9d60b20bb">miroil::SurfaceObserver</a>
 </li>
 <li>Output()
-: <a class="el" href="classmiral_1_1_output.html#a41d93048a01a7f6a03c667828243a9b9">miral::Output</a>
+: <a class="el" href="classmiral_1_1_output.html#a2786c6ce5a50c4416c79d4f0ea639319">miral::Output</a>
 </li>
 <li>output_changed()
 : <a class="el" href="class_wayland_app.html#ab9805bced4239a604cea24f11800b232">WaylandApp</a>
@@ -176,7 +197,8 @@ $(function() {
 </li>
 <li>output_id()
 : <a class="el" href="structmiral_1_1_window_info.html#a4524d6545a926e735a675c76ab636e43">miral::WindowInfo</a>
-, <a class="el" href="classmiral_1_1_window_specification.html#a795468f86f26a4ec06ff844136afcfe4">miral::WindowSpecification</a>
+, <a class="el" href="classmiral_1_1_window_specification.html#aee75779a0c9917ba8c56a69e9901ef8a">miral::WindowSpecification</a>
+, <a class="el" href="structmiroil_1_1_display_id.html#a0eee489bfe21224384e068772fa892df">miroil::DisplayId</a>
 </li>
 <li>output_ready()
 : <a class="el" href="class_wayland_app.html#a5ca13336cf50198ed1bda2f382b5f511">WaylandApp</a>
@@ -187,9 +209,9 @@ $(function() {
 </ul>
 </div><!-- contents -->
 <hr>
-<p align="center">Copyright &copy; 2012-2021
+<p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on Wed Oct  6 15:21:46 UTC 2021
+Generated on Thu Feb 24 10:34:44 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

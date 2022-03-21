@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_1593',['name',['../structmiral_1_1_wayland_extensions_1_1_builder.html#aaffc2e218ab3fc5e018f5bcb1e3c7a01',1,'miral::WaylandExtensions::Builder::name()'],['../structmiral_1_1_window_manager_option.html#a2b8fb421198c1fdc72758491f21acc18',1,'miral::WindowManagerOption::name()']]]
+  ['int_5fowned_5ffd_1914',['int_owned_fd',['../structmir_1_1_int_owned_fd.html#aa621ef26ef8c148091b36083b0ef4b19',1,'mir::IntOwnedFd']]],
+  ['invalid_1915',['invalid',['../classmir_1_1_fd.html#ae98cbc0252b1625213fa24004b8594e4',1,'mir::Fd']]]
 ];

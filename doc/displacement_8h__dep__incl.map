@@ -1,23 +1,25 @@
 <map id="include/core/mir/geometry/displacement.h" name="include/core/mir/geometry/displacement.h">
-<area shape="rect" id="node1" title=" " alt="" coords="411,5,605,47"/>
-<area shape="rect" id="node2" href="$tiling__window__manager_8h.html" title=" " alt="" coords="5,541,219,583"/>
-<area shape="rect" id="node5" href="$rectangle_8h.html" title=" " alt="" coords="411,95,605,136"/>
-<area shape="rect" id="node10" href="$window__manager__tools_8h.html" title=" " alt="" coords="739,452,931,493"/>
-<area shape="rect" id="node18" href="$window__management__policy_8h.html" title=" " alt="" coords="235,452,461,493"/>
-<area shape="rect" id="node19" href="$window__specification_8h.html" title=" " alt="" coords="925,273,1102,315"/>
-<area shape="rect" id="node3" href="$shell__main_8cpp.html" title=" " alt="" coords="125,720,285,761"/>
-<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="693,631,921,672"/>
-<area shape="rect" id="node6" href="$rectangles_8h.html" title=" " alt="" coords="605,184,800,225"/>
-<area shape="rect" id="node20" href="$output_8h.html" title=" " alt="" coords="435,184,581,225"/>
-<area shape="rect" id="node21" href="$zone_8h.html" title=" " alt="" coords="726,541,871,583"/>
-<area shape="rect" id="node7" href="$window__info_8h.html" title=" " alt="" coords="917,363,1062,404"/>
-<area shape="rect" id="node8" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="1233,720,1442,761"/>
-<area shape="rect" id="node9" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="837,720,1081,761"/>
-<area shape="rect" id="node11" href="$decoration__provider_8h.html" title=" " alt="" coords="1003,541,1197,583"/>
-<area shape="rect" id="node13" href="$canonical__window__manager_8h.html" title=" " alt="" coords="480,541,701,583"/>
-<area shape="rect" id="node16" href="$minimal__window__manager_8h.html" title=" " alt="" coords="243,541,456,583"/>
-<area shape="rect" id="node12" href="$decoration__provider_8cpp.html" title=" " alt="" coords="996,631,1199,672"/>
-<area shape="rect" id="node14" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="423,631,617,672"/>
-<area shape="rect" id="node15" href="$kiosk__main_8cpp.html" title=" " alt="" coords="438,720,602,761"/>
-<area shape="rect" id="node17" href="$floating__window__manager_8h.html" title=" " alt="" coords="169,631,399,672"/>
+<area shape="rect" id="node1" title=" " alt="" coords="399,5,593,47"/>
+<area shape="rect" id="node2" href="$tiling__window__manager_8h.html" title=" " alt="" coords="5,556,219,597"/>
+<area shape="rect" id="node5" href="$rectangle_8h.html" title=" " alt="" coords="651,95,845,136"/>
+<area shape="rect" id="node10" href="$window__manager__tools_8h.html" title=" " alt="" coords="731,467,923,508"/>
+<area shape="rect" id="node18" href="$window__management__policy_8h.html" title=" " alt="" coords="332,467,559,508"/>
+<area shape="rect" id="node19" href="$window__specification_8h.html" title=" " alt="" coords="1258,288,1435,329"/>
+<area shape="rect" id="node3" href="$shell__main_8cpp.html" title=" " alt="" coords="120,735,280,776"/>
+<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="687,645,915,687"/>
+<area shape="rect" id="node6" href="$rectangles_8h.html" title=" " alt="" coords="1123,191,1317,233"/>
+<area shape="rect" id="node20" href="$output_8h.html" title=" " alt="" coords="585,191,730,233"/>
+<area shape="rect" id="node21" href="$zone_8h.html" title=" " alt="" coords="726,556,871,597"/>
+<area shape="rect" id="node22" href="$display__configuration__storage_8h.html" title=" " alt="" coords="755,184,920,240"/>
+<area shape="rect" id="node23" href="$surface__observer_8h.html" title=" " alt="" coords="945,191,1098,233"/>
+<area shape="rect" id="node7" href="$window__info_8h.html" title=" " alt="" coords="1202,377,1347,419"/>
+<area shape="rect" id="node8" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="1227,735,1437,776"/>
+<area shape="rect" id="node9" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="831,735,1075,776"/>
+<area shape="rect" id="node11" href="$decoration__provider_8h.html" title=" " alt="" coords="998,556,1191,597"/>
+<area shape="rect" id="node13" href="$canonical__window__manager_8h.html" title=" " alt="" coords="480,556,701,597"/>
+<area shape="rect" id="node16" href="$minimal__window__manager_8h.html" title=" " alt="" coords="243,556,456,597"/>
+<area shape="rect" id="node12" href="$decoration__provider_8cpp.html" title=" " alt="" coords="991,645,1193,687"/>
+<area shape="rect" id="node14" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="417,645,612,687"/>
+<area shape="rect" id="node15" href="$kiosk__main_8cpp.html" title=" " alt="" coords="433,735,597,776"/>
+<area shape="rect" id="node17" href="$floating__window__manager_8h.html" title=" " alt="" coords="164,645,393,687"/>
 </map>

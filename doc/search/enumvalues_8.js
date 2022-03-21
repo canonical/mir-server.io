@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ninepindin_1995',['ninepindin',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1a8d2de1f6a0a1b84fb808b2bd857d2364',1,'miral::Output']]],
-  ['normal_1996',['normal',['../classmiral_1_1_window_specification.html#a2574c94dbad58f5237570f8b5f2aab75afea087517c26fadd409bd4b9dc642555',1,'miral::WindowSpecification']]]
+  ['serial_5fnumber_2351',['serial_number',['../structmiroil_1_1_edid_1_1_descriptor.html#aac6543eb0b865b76e3641ef44ddfb156a87da425e91c92b2f5d360a2c60693425',1,'miroil::Edid::Descriptor']]],
+  ['svideo_2352',['svideo',['../classmiral_1_1_output.html#a3e0fd2054c8b5bd5170cb0977f723ec1ad40e4adeb52ada1c9e6e71b5904093b2',1,'miral::Output']]]
 ];

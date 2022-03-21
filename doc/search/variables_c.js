@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['value_1601',['value',['../structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#ab77b91aaa55b543fa08f63eadd0d657d',1,'mir::geometry::generic::Value::Wrapper']]]
+  ['refresh_5frate_1926',['refresh_rate',['../structmiroil_1_1_display_configuration_options_1_1_display_mode.html#ad3493b9a7deab79bf5a54c14c99b4afe',1,'miroil::DisplayConfigurationOptions::DisplayMode']]],
+  ['relative_5fx_1927',['relative_x',['../classmiroil_1_1_event_builder_1_1_event_info.html#a296f84014ba921bcd78087cd6e4b7554',1,'miroil::EventBuilder::EventInfo']]],
+  ['relative_5fy_1928',['relative_y',['../classmiroil_1_1_event_builder_1_1_event_info.html#a654b78e93e9ca1a73fe1b9a865d6e4db',1,'miroil::EventBuilder::EventInfo']]]
 ];
