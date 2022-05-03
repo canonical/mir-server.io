@@ -19,7 +19,7 @@
     "@canonical/global-nav": "2.7.0",
     "@canonical/cookie-policy": "3.4.0",
     "postcss": "8.4.5",
-    "vanilla-framework": "3.2.0"
+    "vanilla-framework": "3.3.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "0.12.1",
