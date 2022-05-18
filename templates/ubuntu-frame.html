@@ -1,9 +1,8 @@
----
-layout: base_layout
-title: Mir server | Ubuntu frame
-copydoc: https://docs.google.com/document/d/1P4xOahtq6VVY6llAAAmQ4cX7ip4zzNXxXciuZ9joxMw/edit#
-metadata: Ubuntu Frame is the foundation for any embedded graphical display implementation. Secured by design, tested on the field and long term supported by Canonical.
----
+{% extends 'base_layout.html' %}
+
+{% block title %}Mir server | Ubuntu frame{% endblock title %}
+{% block copydoc %}https://docs.google.com/document/d/1P4xOahtq6VVY6llAAAmQ4cX7ip4zzNXxXciuZ9joxMw/edit#{% endblock copydoc %}
+{% block meta_description %}Ubuntu Frame is the foundation for any embedded graphical display implementation. Secured by design, tested on the field and long term supported by Canonical.{% endblock %}
 
 {% block content %}
 <section class="p-strip--hero__new is-deep">

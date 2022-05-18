@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="copydoc" content="https://docs.google.com/document/d/1wqmWPx4TJ_oJoFt4gBOg4trYMIAsugMYtHGXzYJx8kc/edit">
 
-  <title>{{ title }}</title>
+  <title>
+    {% block title %}Mir Server{% endblock %}
+  </title>
 
   <!-- GitHub buttons -->
   <script defer src="https://buttons.github.io/buttons.js"></script>
@@ -26,9 +28,20 @@
     for (var e, l = 'article aside footer header nav section time'.split(' '); e = l.pop(); document.createElement(e));
   </script>
 
-  <meta name="description" content="{{ metadata }}">
-  <meta name="copydoc" content="{{ copydoc }}">
+  <meta name="description" content="{% block meta_description %}The fast, open and secure display server for any device.{% endblock %}">
+  <meta name="copydoc" content="{% block meta_copydoc %}{% endblock %}">
 
+  {% if self.title() %}
+  <meta name="twitter:title" content="{{ self.title() }} | Dqlite">
+  <meta property="og:title" content="{{ self.title() }} | Dqlite">
+  {% endif %}
+
+  {% if self.meta_description() %}
+  <meta name="twitter:description" content="{{ self.meta_description() }}">
+  <meta property="og:description" content="{{ self.meta_description() }}">
+  {% endif %}
+
+  <link rel="canonical" href="{% block canonical_url %}{{ request.url }}{% endblock %}">
   <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/cb22ba5d-favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png" sizes="32x32">
 
@@ -37,7 +50,11 @@
   <link rel="apple-touch-icon" sizes="72x72" href="https://assets.ubuntu.com/v1/09460d9a-apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" href="https://assets.ubuntu.com/v1/cc66da65-apple-touch-icon.png">
 
-  <link rel="stylesheet" href="/css/styles.css">
+  {% block head_extra %}{% endblock %}
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script src="/static/js/build/cookie-policy.js"></script>
+  <script src="/static/js/build/global-nav.js"></script>
 </head>
 
 <body>
@@ -109,7 +126,6 @@
     </div>
   </footer>
 </main>
-<script src="/js/build/global-nav.js"></script>
 <script>
 var origin = window.location.href;
 var site = "mir-server.io";
@@ -119,62 +135,63 @@ addGAEvents(".p-footer a", "nav-footer-0");
 addGAEvents("#main-content", "content");
 
 function addGAEvents(target, category) {
-var t = document.querySelectorAll(target);
-if (t.length >= 1) {
-  if (category.startsWith("nav-")) {
-    t.forEach(function (e) {
-      e.addEventListener("click", function () {
-        sendEvent(category, origin, e.href, e.text);
-      });
-    });
-  } else {
-    // Get form submit events
-    t[0].querySelectorAll("form").forEach(function (e) {
-      var button = e.querySelector(".p-button--positive");
-      if (button) {
-        button.addEventListener("click", function () {
-          sendEvent(
-            "content-cta-0",
-            origin,
-            e.returnURL.value,
-            button.innerText
-          );
+  var t = document.querySelectorAll(target);
+  if (t.length >= 1) {
+    if (category.startsWith("nav-")) {
+      t.forEach(function (e) {
+        e.addEventListener("click", function () {
+          sendEvent(category, origin, e.href, e.text);
         });
-      }
-    });
-    // Get link click events
-    t[0].querySelectorAll("a").forEach(function (e) {
-      if (e.className.includes("p-button--positive")) {
-        category = "content-cta-0";
-      } else if (e.className.includes("p-button")) {
-        category = "content-cta-1";
-      } else {
-        category = "content-link";
-      }
-      e.addEventListener("click", function () {
-        sendEvent(category, origin, e.href, e.text);
       });
+    } else {
+      // Get form submit events
+      t[0].querySelectorAll("form").forEach(function (e) {
+        var button = e.querySelector(".p-button--positive");
+        if (button) {
+          button.addEventListener("click", function () {
+            sendEvent(
+              "content-cta-0",
+              origin,
+              e.returnURL.value,
+              button.innerText
+            );
+          });
+        }
+      });
+      // Get link click events
+      t[0].querySelectorAll("a").forEach(function (e) {
+        if (e.className.includes("p-button--positive")) {
+          category = "content-cta-0";
+        } else if (e.className.includes("p-button")) {
+          category = "content-cta-1";
+        } else {
+          category = "content-link";
+        }
+        e.addEventListener("click", function () {
+          sendEvent(category, origin, e.href, e.text);
+        });
+      });
+    }
+  }
+  }
+
+function sendEvent(category, origin, destination, label) {
+  if (dataLayer) {
+    dataLayer.push({
+      event: "GAEvent",
+      eventCategory: `${site}-${category}`,
+      eventAction: `from:${origin} to:${destination}`,
+      eventLabel: label,
+      eventValue: undefined,
     });
   }
 }
-}
-
-function sendEvent(category, origin, destination, label) {
-if (dataLayer) {
-  dataLayer.push({
-    event: "GAEvent",
-    eventCategory: `${site}-${category}`,
-    eventAction: `from:${origin} to:${destination}`,
-    eventLabel: label,
-    eventValue: undefined,
-  });
-}
-}
 
 </script>
-<script src="/js/build/cookie-policy.js"></script>
 <script>
-  cpNs.cookiePolicy();
+  if (typeof cpNs !== "undefined") {
+    cpNs.cookiePolicy();
+  }
   canonicalGlobalNav.createNav({maxWidth:"72rem"});
 </script>
 </body>
