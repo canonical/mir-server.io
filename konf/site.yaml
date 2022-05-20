@@ -13,8 +13,6 @@ env:
       key: google-custom-search-key
       name: google-api
 
-useProxy: false
-
 extraHosts:
   - domain: mirserver.io
     useParentTLS: True

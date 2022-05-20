@@ -55,7 +55,7 @@ app.add_url_rule(
     "docs-search",
     build_search_view(
         session=session,
-        site="mir-server.io/docs",
+        site="mir-server.io",
         template_path="docs/search.html",
     ),
 )
