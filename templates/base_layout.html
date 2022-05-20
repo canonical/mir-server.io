@@ -85,6 +85,9 @@
           <li class="p-navigation__item" role="menuitem">
             <a href="/tutorials/" class="p-navigation__link">Tutorials</a>
           </li>
+          <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}" role="menuitem">
+            <a class="p-navigation__link" href="/docs">Docs</a>
+          </li>
           <li class="p-navigation__item" role="menuitem">
             <a href="https://discourse.ubuntu.com/c/mir" class="p-navigation__link">Community</a>
           </li>

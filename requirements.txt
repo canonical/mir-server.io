@@ -1,3 +1,5 @@
 canonicalwebteam.flask-base==1.0.5
 canonicalwebteam.templatefinder==1.0.0
+canonicalwebteam.discourse==4.0.8
+canonicalwebteam.search==1.0.0
 vcrpy-unittest==0.1.7
