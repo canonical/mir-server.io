@@ -1,6 +1,19 @@
+import os
+import talisker.requests
+
 from canonicalwebteam.flask_base.app import FlaskBase
 from flask import render_template, make_response
+
 from canonicalwebteam.templatefinder import TemplateFinder
+from canonicalwebteam.discourse import (
+    DiscourseAPI,
+    Docs,
+    DocParser,
+)
+from canonicalwebteam.search import build_search_view
+
+DISCOURSE_API_KEY = os.getenv("DISCOURSE_API_KEY")
+DISCOURSE_API_USERNAME = os.getenv("DISCOURSE_API_USERNAME")
 
 # Rename your project below
 app = FlaskBase(
@@ -10,6 +23,41 @@ app = FlaskBase(
     static_folder="../static",
     template_404="404.html",
     template_500="500.html",
+)
+
+session = talisker.requests.get_session()
+discourse_api = DiscourseAPI(
+    base_url="https://discourse.ubuntu.com/",
+    session=session,
+    api_key=DISCOURSE_API_KEY,
+    api_username=DISCOURSE_API_USERNAME,
+)
+
+DISCOURSE_API_KEY = os.getenv("DISCOURSE_API_KEY")
+DISCOURSE_API_USERNAME = os.getenv("DISCOURSE_API_USERNAME")
+
+url_prefix = "/docs"
+docs_app = Docs(
+    parser=DocParser(
+        api=discourse_api,
+        index_topic_id=27559,
+        url_prefix="/docs",
+    ),
+    document_template="docs/document.html",
+    url_prefix="/docs",
+    blueprint_name="mir-server-docs",
+)
+docs_app.init_app(app)
+
+
+app.add_url_rule(
+    "/docs/search",
+    "docs-search",
+    build_search_view(
+        session=session,
+        site="mir-server.io",
+        template_path="docs/search.html",
+    ),
 )
 
 

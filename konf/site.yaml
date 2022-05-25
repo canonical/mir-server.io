@@ -2,7 +2,16 @@ domain: mir-server.io
 
 image: prod-comms.docker-registry.canonical.com/mir-server.io
 
-useProxy: false
+env:
+  - name: DISCOURSE_API_KEY
+    secretKeyRef:
+      key: ubuntu-api-key
+      name: discourse-api
+    
+  - name: SEARCH_API_KEY
+    secretKeyRef:
+      key: google-custom-search-key
+      name: google-api
 
 extraHosts:
   - domain: mirserver.io
