@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="168,5,307,32"/>
-<area shape="rect" id="node3" href="$classmir_1_1_abnormal_exit.html" title="Indicates Mir should exit with an error message printed to stderr." alt="" coords="355,5,495,32"/>
-<area shape="rect" id="node4" href="$classmir_1_1_exit_with_output.html" title="Indicates Mir should exit with the given output (such as help text) printed to stdout." alt="" coords="543,5,693,32"/>
-</map>

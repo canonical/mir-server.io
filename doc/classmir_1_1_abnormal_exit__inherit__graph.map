@@ -1,6 +1,0 @@
-<map id="mir::AbnormalExit" name="mir::AbnormalExit">
-<area shape="rect" id="node1" title="Indicates Mir should exit with an error message printed to stderr." alt="" coords="11,155,151,181"/>
-<area shape="rect" id="node4" href="$classmir_1_1_exit_with_output.html" title="Indicates Mir should exit with the given output (such as help text) printed to stdout." alt="" coords="5,229,156,256"/>
-<area shape="rect" id="node2" title="STL class." alt="" coords="11,80,150,107"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="23,5,138,32"/>
-</map>
