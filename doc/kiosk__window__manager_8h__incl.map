@@ -1,39 +1,39 @@
 <map id="examples/miral&#45;kiosk/kiosk_window_manager.h" name="examples/miral&#45;kiosk/kiosk_window_manager.h">
-<area shape="rect" id="node1" title=" " alt="" coords="893,5,1088,47"/>
-<area shape="rect" id="node2" href="$sw__splash_8h.html" title=" " alt="" coords="940,102,1041,129"/>
-<area shape="rect" id="node5" href="$canonical__window__manager_8h.html" title=" " alt="" coords="724,95,903,136"/>
-<area shape="rect" id="node37" href="$enums_8h.html" title=" " alt="" coords="1048,273,1189,315"/>
-<area shape="rect" id="node3" href="$splash__session_8h.html" title=" " alt="" coords="925,191,1057,218"/>
-<area shape="rect" id="node4" title=" " alt="" coords="829,527,907,553"/>
-<area shape="rect" id="node6" href="$window__management__policy_8h.html" title=" " alt="" coords="134,363,338,404"/>
-<area shape="rect" id="node25" href="$window__manager__tools_8h.html" title=" " alt="" coords="726,184,901,225"/>
-<area shape="rect" id="node7" href="$displacement_8h.html" title=" " alt="" coords="183,601,398,628"/>
-<area shape="rect" id="node19" href="$rectangles_8h.html" title=" " alt="" coords="139,452,333,479"/>
-<area shape="rect" id="node24" href="$common_8h.html" title=" " alt="" coords="931,527,1098,553"/>
-<area shape="rect" id="node8" href="$displacement__generic_8h.html" title=" " alt="" coords="455,751,633,777"/>
-<area shape="rect" id="node13" href="$dimensions_8h.html" title=" " alt="" coords="321,751,431,777"/>
-<area shape="rect" id="node15" href="$point_8h.html" title=" " alt="" coords="412,676,479,703"/>
-<area shape="rect" id="node17" href="$size_8h.html" title=" " alt="" coords="507,676,567,703"/>
-<area shape="rect" id="node9" href="$dimensions__generic_8h.html" title=" " alt="" coords="635,825,799,852"/>
-<area shape="rect" id="node12" title=" " alt="" coords="823,825,899,852"/>
-<area shape="rect" id="node10" title=" " alt="" coords="1036,900,1100,927"/>
-<area shape="rect" id="node11" title=" " alt="" coords="671,900,763,927"/>
-<area shape="rect" id="node14" title=" " alt="" coords="343,825,409,852"/>
-<area shape="rect" id="node16" href="$point__generic_8h.html" title=" " alt="" coords="657,751,780,777"/>
-<area shape="rect" id="node18" href="$size__generic_8h.html" title=" " alt="" coords="804,751,919,777"/>
-<area shape="rect" id="node20" href="$rectangle_8h.html" title=" " alt="" coords="418,527,606,553"/>
-<area shape="rect" id="node22" title=" " alt="" coords="94,527,157,553"/>
-<area shape="rect" id="node23" title=" " alt="" coords="181,527,291,553"/>
-<area shape="rect" id="node21" href="$rectangle__generic_8h.html" title=" " alt="" coords="786,676,937,703"/>
-<area shape="rect" id="node26" href="$application_8h.html" title=" " alt="" coords="980,452,1124,479"/>
-<area shape="rect" id="node28" href="$window__info_8h.html" title=" " alt="" coords="609,281,725,307"/>
-<area shape="rect" id="node35" title=" " alt="" coords="1411,527,1498,553"/>
-<area shape="rect" id="node27" title=" " alt="" coords="1123,527,1181,553"/>
-<area shape="rect" id="node29" href="$window_8h.html" title=" " alt="" coords="991,370,1113,397"/>
-<area shape="rect" id="node30" href="$window__specification_8h.html" title=" " alt="" coords="484,370,695,397"/>
-<area shape="rect" id="node31" href="$optional__value_8h.html" title=" " alt="" coords="495,452,651,479"/>
-<area shape="rect" id="node36" title=" " alt="" coords="719,370,804,397"/>
-<area shape="rect" id="node34" href="$int__wrapper_8h.html" title=" " alt="" coords="1307,452,1443,479"/>
-<area shape="rect" id="node32" href="$fatal_8h.html" title=" " alt="" coords="715,527,805,553"/>
-<area shape="rect" id="node33" title=" " alt="" coords="630,527,690,553"/>
+<area shape="rect" id="node1" title=" " alt="" coords="819,5,995,47"/>
+<area shape="rect" id="node2" href="$sw__splash_8h.html" title=" " alt="" coords="859,102,954,129"/>
+<area shape="rect" id="node5" href="$canonical__window__manager_8h.html" title=" " alt="" coords="664,95,824,136"/>
+<area shape="rect" id="node37" href="$enums_8h.html" title=" " alt="" coords="1001,273,1127,315"/>
+<area shape="rect" id="node3" href="$splash__session_8h.html" title=" " alt="" coords="845,191,968,218"/>
+<area shape="rect" id="node4" title=" " alt="" coords="773,527,843,553"/>
+<area shape="rect" id="node6" href="$window__management__policy_8h.html" title=" " alt="" coords="135,363,315,404"/>
+<area shape="rect" id="node25" href="$window__manager__tools_8h.html" title=" " alt="" coords="667,184,821,225"/>
+<area shape="rect" id="node7" href="$displacement_8h.html" title=" " alt="" coords="179,601,370,628"/>
+<area shape="rect" id="node19" href="$rectangles_8h.html" title=" " alt="" coords="139,452,312,479"/>
+<area shape="rect" id="node24" href="$common_8h.html" title=" " alt="" coords="867,527,1013,553"/>
+<area shape="rect" id="node8" href="$displacement__generic_8h.html" title=" " alt="" coords="429,751,587,777"/>
+<area shape="rect" id="node13" href="$dimensions_8h.html" title=" " alt="" coords="305,751,404,777"/>
+<area shape="rect" id="node15" href="$point_8h.html" title=" " alt="" coords="391,676,452,703"/>
+<area shape="rect" id="node17" href="$size_8h.html" title=" " alt="" coords="481,676,538,703"/>
+<area shape="rect" id="node9" href="$dimensions__generic_8h.html" title=" " alt="" coords="593,825,741,852"/>
+<area shape="rect" id="node12" title=" " alt="" coords="765,825,835,852"/>
+<area shape="rect" id="node10" title=" " alt="" coords="965,900,1025,927"/>
+<area shape="rect" id="node11" title=" " alt="" coords="625,900,708,927"/>
+<area shape="rect" id="node14" title=" " alt="" coords="324,825,385,852"/>
+<area shape="rect" id="node16" href="$point__generic_8h.html" title=" " alt="" coords="611,751,722,777"/>
+<area shape="rect" id="node18" href="$size__generic_8h.html" title=" " alt="" coords="747,751,853,777"/>
+<area shape="rect" id="node20" href="$rectangle_8h.html" title=" " alt="" coords="401,527,567,553"/>
+<area shape="rect" id="node22" title=" " alt="" coords="93,527,152,553"/>
+<area shape="rect" id="node23" title=" " alt="" coords="177,527,274,553"/>
+<area shape="rect" id="node21" href="$rectangle__generic_8h.html" title=" " alt="" coords="733,676,867,703"/>
+<area shape="rect" id="node26" href="$application_8h.html" title=" " alt="" coords="913,452,1039,479"/>
+<area shape="rect" id="node28" href="$window__info_8h.html" title=" " alt="" coords="559,281,665,307"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1317,527,1395,553"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1038,527,1093,553"/>
+<area shape="rect" id="node29" href="$window_8h.html" title=" " alt="" coords="922,370,1030,397"/>
+<area shape="rect" id="node30" href="$window__specification_8h.html" title=" " alt="" coords="448,370,637,397"/>
+<area shape="rect" id="node31" href="$optional__value_8h.html" title=" " alt="" coords="445,452,584,479"/>
+<area shape="rect" id="node36" title=" " alt="" coords="661,370,736,397"/>
+<area shape="rect" id="node34" href="$int__wrapper_8h.html" title=" " alt="" coords="1219,452,1341,479"/>
+<area shape="rect" id="node32" href="$fatal_8h.html" title=" " alt="" coords="669,527,749,553"/>
+<area shape="rect" id="node33" title=" " alt="" coords="592,527,645,553"/>
 </map>

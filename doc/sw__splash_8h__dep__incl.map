@@ -1,10 +1,10 @@
 <map id="examples/example&#45;server&#45;lib/sw_splash.h" name="examples/example&#45;server&#45;lib/sw_splash.h">
-<area shape="rect" id="node1" title=" " alt="" coords="305,5,499,47"/>
-<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="86,95,281,136"/>
-<area shape="rect" id="node5" href="$sw__splash_8cpp.html" title=" " alt="" coords="305,95,499,136"/>
-<area shape="rect" id="node6" href="$tiling__window__manager_8h.html" title=" " alt="" coords="523,95,737,136"/>
-<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,169,225"/>
-<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="193,184,403,225"/>
-<area shape="rect" id="node7" href="$shell__main_8cpp.html" title=" " alt="" coords="489,184,649,225"/>
-<area shape="rect" id="node8" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="673,184,901,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="278,5,449,47"/>
+<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="78,95,254,136"/>
+<area shape="rect" id="node5" href="$sw__splash_8cpp.html" title=" " alt="" coords="278,95,449,136"/>
+<area shape="rect" id="node6" href="$tiling__window__manager_8h.html" title=" " alt="" coords="473,95,662,136"/>
+<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,151,225"/>
+<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="175,184,365,225"/>
+<area shape="rect" id="node7" href="$shell__main_8cpp.html" title=" " alt="" coords="443,184,585,225"/>
+<area shape="rect" id="node8" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="609,184,811,225"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="include/miroil/miroil/input_device_observer.h" name="include/miroil/miroil/input_device_observer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="95,5,279,47"/>
-<area shape="rect" id="node2" href="$input__device_8h.html" title=" " alt="" coords="107,95,266,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,177,83,203"/>
-<area shape="rect" id="node6" title=" " alt="" coords="291,177,349,203"/>
-<area shape="rect" id="node3" href="$mir__input__device__types_8h.html" title=" " alt="" coords="107,169,266,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="151,259,222,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="85,5,251,47"/>
+<area shape="rect" id="node2" href="$input__device_8h.html" title=" " alt="" coords="97,95,239,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,177,75,203"/>
+<area shape="rect" id="node6" title=" " alt="" coords="262,177,317,203"/>
+<area shape="rect" id="node3" href="$mir__input__device__types_8h.html" title=" " alt="" coords="99,169,237,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="135,259,201,285"/>
 </map>

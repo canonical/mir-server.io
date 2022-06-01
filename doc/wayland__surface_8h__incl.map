@@ -1,16 +1,16 @@
 <map id="examples/example&#45;server&#45;lib/wayland_surface.h" name="examples/example&#45;server&#45;lib/wayland_surface.h">
-<area shape="rect" id="node1" title=" " alt="" coords="334,5,527,47"/>
-<area shape="rect" id="node2" href="$wayland__app_8h.html" title=" " alt="" coords="251,95,371,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="387,169,474,196"/>
-<area shape="rect" id="node8" href="$size_8h.html" title=" " alt="" coords="477,95,630,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,169,136,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="160,169,237,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="261,169,312,196"/>
-<area shape="rect" id="node7" title=" " alt="" coords="348,244,415,271"/>
-<area shape="rect" id="node9" href="$size__generic_8h.html" title=" " alt="" coords="632,169,747,196"/>
-<area shape="rect" id="node14" href="$dimensions_8h.html" title=" " alt="" coords="499,169,608,196"/>
-<area shape="rect" id="node10" href="$dimensions__generic_8h.html" title=" " alt="" coords="471,244,635,271"/>
-<area shape="rect" id="node13" title=" " alt="" coords="659,244,735,271"/>
-<area shape="rect" id="node11" title=" " alt="" coords="469,319,533,345"/>
-<area shape="rect" id="node12" title=" " alt="" coords="558,319,650,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="317,5,487,47"/>
+<area shape="rect" id="node2" href="$wayland__app_8h.html" title=" " alt="" coords="233,95,342,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="363,169,441,196"/>
+<area shape="rect" id="node8" href="$size_8h.html" title=" " alt="" coords="447,95,584,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,121,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="146,169,215,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="240,169,287,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="325,244,386,271"/>
+<area shape="rect" id="node9" href="$size__generic_8h.html" title=" " alt="" coords="589,169,695,196"/>
+<area shape="rect" id="node14" href="$dimensions_8h.html" title=" " alt="" coords="466,169,565,196"/>
+<area shape="rect" id="node10" href="$dimensions__generic_8h.html" title=" " alt="" coords="441,244,589,271"/>
+<area shape="rect" id="node13" title=" " alt="" coords="614,244,683,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="437,319,497,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="522,319,605,345"/>
 </map>

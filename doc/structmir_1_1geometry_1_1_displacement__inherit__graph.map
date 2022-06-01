@@ -1,5 +1,5 @@
 <map id="mir::geometry::Displacement" name="mir::geometry::Displacement">
-<area shape="rect" id="node1" title=" " alt="" coords="5,199,217,225"/>
-<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1generic_1_1_displacement.html" title=" " alt="" coords="25,95,197,151"/>
-<area shape="rect" id="node3" href="$structmir_1_1geometry_1_1detail_1_1_displacement_base.html" title=" " alt="" coords="32,5,191,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,199,196,225"/>
+<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1generic_1_1_displacement.html" title=" " alt="" coords="24,95,177,151"/>
+<area shape="rect" id="node3" href="$structmir_1_1geometry_1_1detail_1_1_displacement_base.html" title="Used for determining if a type is a displacement." alt="" coords="30,5,171,47"/>
 </map>
