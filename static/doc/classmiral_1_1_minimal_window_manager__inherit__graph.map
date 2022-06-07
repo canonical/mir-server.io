@@ -1,0 +1,5 @@
+<map id="miral::MinimalWindowManager" name="miral::MinimalWindowManager">
+<area shape="rect" id="node1" title="Minimal implementation of a floating window management policy." alt="" coords="13,80,239,107"/>
+<area shape="rect" id="node3" href="$class_floating_window_manager_policy.html" title=" " alt="" coords="15,155,237,181"/>
+<area shape="rect" id="node2" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined." alt="" coords="5,5,247,32"/>
+</map>
