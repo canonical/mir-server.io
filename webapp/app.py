@@ -2,7 +2,7 @@ import os
 import talisker.requests
 
 from canonicalwebteam.flask_base.app import FlaskBase
-from flask import render_template, make_response
+from flask import render_template, make_response, send_from_directory
 
 from canonicalwebteam.templatefinder import TemplateFinder
 from canonicalwebteam.discourse import (
@@ -36,6 +36,16 @@ discourse_api = DiscourseAPI(
 DISCOURSE_API_KEY = os.getenv("DISCOURSE_API_KEY")
 DISCOURSE_API_USERNAME = os.getenv("DISCOURSE_API_USERNAME")
 
+
+# Old docs
+# ===
+@app.route("/doc/<path:path>")
+def doc(path):
+    return send_from_directory(f"{os.getcwd()}/doc", path)
+
+
+# New docs
+# ===
 url_prefix = "/docs"
 docs_app = Docs(
     parser=DocParser(
