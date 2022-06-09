@@ -1,4 +1,4 @@
 <map id="mir::geometry::generic::Rectangle&lt; P, S &gt;" name="mir::geometry::generic::Rectangle&lt; P, S &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,176,136"/>
-<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1detail_1_1_rectangle_base.html" title=" " alt="" coords="11,5,170,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,157,136"/>
+<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1detail_1_1_rectangle_base.html" title="Used for determining if a type is a rectangle." alt="" coords="11,5,152,47"/>
 </map>

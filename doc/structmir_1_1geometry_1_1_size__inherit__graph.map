@@ -1,4 +1,5 @@
 <map id="mir::geometry::Size" name="mir::geometry::Size">
-<area shape="rect" id="node1" title=" " alt="" coords="33,95,182,121"/>
-<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1generic_1_1_size.html" title=" " alt="" coords="5,5,209,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="29,184,165,211"/>
+<area shape="rect" id="node2" href="$structmir_1_1geometry_1_1generic_1_1_size.html" title=" " alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$structmir_1_1geometry_1_1detail_1_1_size_base.html" title="Used for determining if a type is a size." alt="" coords="26,5,167,47"/>
 </map>
