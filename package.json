@@ -21,7 +21,7 @@
   "dependencies": {
     "@canonical/global-nav": "2.7.0",
     "@canonical/cookie-policy": "3.4.0",
-    "vanilla-framework": "3.6.0"
+    "vanilla-framework": "3.6.1"
   },
   "devDependencies": {
     "autoprefixer": "9.7.5",
