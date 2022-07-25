@@ -53,8 +53,14 @@
   {% block head_extra %}{% endblock %}
 
   <link rel="stylesheet" href="/static/css/styles.css">
-  <script src="/static/js/build/cookie-policy.js"></script>
-  <script src="/static/js/build/global-nav.js"></script>
+  <script src="{{ versioned_static('js/build/global-nav/global-nav.js') }}"></script>
+  <script src="{{ versioned_static('js/build/cookie-policy/cookie-policy.js') }}"></script>
+  <script>
+    canonicalGlobalNav.createNav({
+      maxWidth: '72rem',
+    });
+    cpNs.cookiePolicy();
+  </script>
 </head>
 
 <body>
@@ -63,12 +69,15 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <header id="navigation" class="p-navigation">
+  <header id="navigation" class="p-navigation is-dark">
     <div class="p-navigation__row">
       <div class="p-navigation__banner">
-        <div class="p-navigation__logo u-vertically-center">
-          <a class="p-navigation__item" href="/" style="color:white; text-transform: capitalize;">
-            Mir display server
+        <div class="p-navigation__tagged-logo ">
+          <a class="p-navigation__link" href="/">
+            <div class="p-navigation__logo-tag">
+              <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
+            </div>
+            <span class="p-navigation__logo-title">Mir display server</span>
           </a>
         </div>
         <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
@@ -78,19 +87,21 @@
         <span class="u-off-screen">
           <a href="#main-content">Jump to main content</a>
         </span>
-        <ul class="p-navigation__items" role="menu">
-          <li class="p-navigation__item" role="menuitem">
+        <ul class="p-navigation__items">
+          <li class="p-navigation__item">
             <a href="/ubuntu-frame/" class="p-navigation__link">Ubuntu Frame </a>
           </li>
-          <li class="p-navigation__item" role="menuitem">
+          <li class="p-navigation__item">
             <a href="/tutorials/" class="p-navigation__link">Tutorials</a>
           </li>
-          <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}" role="menuitem">
+          <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}">
             <a class="p-navigation__link" href="/docs">Docs</a>
           </li>
-          <li class="p-navigation__item" role="menuitem">
+          <li class="p-navigation__item">
             <a href="https://discourse.ubuntu.com/c/mir" class="p-navigation__link">Community</a>
           </li>
+        </ul>
+        <ul class="p-navigation__items global-nav">
         </ul>
       </nav>
     </div>

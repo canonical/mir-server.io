@@ -150,39 +150,6 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
   margin-bottom: 0;
 }
 
-// Navigation
-.p-navigation__banner {
-  background-color: $color-article;
-}
-
-.p-navigation {
-  .p-navigation__row {
-    padding: 0;
-
-    .p-navigation__banner {
-      padding: 0 ($sph--large + $sph--small);
-
-      .p-navigation__logo {
-        font-weight: 400;
-        margin-right: 0;
-      }
-
-      .p-navigation__toggle {
-        &--open,
-        &--close {
-          font-weight: 400;
-        }
-      }
-    }
-
-    .p-navigation__link a {
-      height: 100%;
-      padding-left: ($sph--large + $sph--small);
-      padding-right: ($sph--large + $sph--small);
-    }
-  }
-}
-
 .p-tutorials-meter {
   background-image: url(https://assets.ubuntu.com/v1/19c4273e-level+of+difficulty.svg);
   background-position-x: -75px;
