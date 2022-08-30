@@ -68,25 +68,26 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">displacement.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="displacement__generic_8h_source.html">displacement_generic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="forward_8h_source.html">forward.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dimensions_8h_source.html">dimensions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point_8h_source.html">point.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="size_8h_source.html">size.h</a>&quot;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for displacement.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="displacement_8h__incl.svg" width="560" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="displacement_8h__incl.svg" width="392" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="displacement_8h__dep__incl.svg" width="1326" height="782"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="displacement_8h__dep__incl.svg" width="1500" height="782"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -94,7 +95,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1_displacement.html">mir::geometry::Displacement</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_displacement.html">mir::geometry::generic::Displacement&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -104,12 +105,74 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemir_1_1geometry"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html">mir::geometry</a></td></tr>
 <tr class="memdesc:namespacemir_1_1geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic geometry types. Types for dimensions, displacements, etc. and the operations that they support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemir_1_1geometry_1_1generic"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html">mir::geometry::generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5834df9f6615af92159d3759e7ca74aa"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5834df9f6615af92159d3759e7ca74aa"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a5834df9f6615af92159d3759e7ca74aa">mir::geometry::generic::operator==</a> (Displacement&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a5834df9f6615af92159d3759e7ca74aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4bbbe15b1c6e99a78961e1506e945a9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac4bbbe15b1c6e99a78961e1506e945a9"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ac4bbbe15b1c6e99a78961e1506e945a9">mir::geometry::generic::operator!=</a> (Displacement&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:ac4bbbe15b1c6e99a78961e1506e945a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b4e935b8be472ba0420e6b5f9f139c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a82b4e935b8be472ba0420e6b5f9f139c"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a82b4e935b8be472ba0420e6b5f9f139c">mir::geometry::generic::operator&lt;&lt;</a> (std::ostream &amp;out, Displacement&lt; T &gt; const &amp;value)</td></tr>
+<tr class="separator:a82b4e935b8be472ba0420e6b5f9f139c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ea1247e5f1e8f1cc4cd43ca861b110"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a02ea1247e5f1e8f1cc4cd43ca861b110"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a02ea1247e5f1e8f1cc4cd43ca861b110">mir::geometry::generic::operator+</a> (Displacement&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a02ea1247e5f1e8f1cc4cd43ca861b110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f7c36ab8a0567d9dcb733974bb7d03"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac7f7c36ab8a0567d9dcb733974bb7d03"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ac7f7c36ab8a0567d9dcb733974bb7d03">mir::geometry::generic::operator-</a> (Displacement&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:ac7f7c36ab8a0567d9dcb733974bb7d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112f9b7b1bd24249bcc73db7b24156b4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a112f9b7b1bd24249bcc73db7b24156b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a112f9b7b1bd24249bcc73db7b24156b4">mir::geometry::generic::operator-</a> (Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a112f9b7b1bd24249bcc73db7b24156b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c7e474a060936e31ddeddf72541731"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a10c7e474a060936e31ddeddf72541731"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a10c7e474a060936e31ddeddf72541731">mir::geometry::generic::operator+</a> (Point&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a10c7e474a060936e31ddeddf72541731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c63e95b3b7f55344a0f99a3c70cf98"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa3c63e95b3b7f55344a0f99a3c70cf98"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aa3c63e95b3b7f55344a0f99a3c70cf98">mir::geometry::generic::operator+</a> (Displacement&lt; T &gt; const &amp;lhs, Point&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:aa3c63e95b3b7f55344a0f99a3c70cf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9123f327bffffec92d294f586c37a2a7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9123f327bffffec92d294f586c37a2a7"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a9123f327bffffec92d294f586c37a2a7">mir::geometry::generic::operator-</a> (Point&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a9123f327bffffec92d294f586c37a2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39bab0118a09b7643105a1d92c1608ad"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a39bab0118a09b7643105a1d92c1608ad"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a39bab0118a09b7643105a1d92c1608ad">mir::geometry::generic::operator-</a> (Point&lt; T &gt; const &amp;lhs, Point&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a39bab0118a09b7643105a1d92c1608ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb622c01757c875a47770a634754a2d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abeb622c01757c875a47770a634754a2d"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#abeb622c01757c875a47770a634754a2d">mir::geometry::generic::operator+=</a> (Point&lt; T &gt; &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:abeb622c01757c875a47770a634754a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109eb7762802452d3f92f6c7db76dc8d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a109eb7762802452d3f92f6c7db76dc8d"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a109eb7762802452d3f92f6c7db76dc8d">mir::geometry::generic::operator-=</a> (Point&lt; T &gt; &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a109eb7762802452d3f92f6c7db76dc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646295f94e8356d254f471acafe9d282"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a646295f94e8356d254f471acafe9d282"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a646295f94e8356d254f471acafe9d282">mir::geometry::generic::operator&lt;</a> (Displacement&lt; T &gt; const &amp;lhs, Displacement&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a646295f94e8356d254f471acafe9d282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a4cb20d39d1d06f1eeec6c47a4bb19"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a36a4cb20d39d1d06f1eeec6c47a4bb19"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a36a4cb20d39d1d06f1eeec6c47a4bb19">mir::geometry::generic::operator*</a> (Scalar scale, Displacement&lt; T &gt; const &amp;disp)</td></tr>
+<tr class="separator:a36a4cb20d39d1d06f1eeec6c47a4bb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327d7dadfcd290b6ef9d6b32393afa7a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a327d7dadfcd290b6ef9d6b32393afa7a"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a327d7dadfcd290b6ef9d6b32393afa7a">mir::geometry::generic::operator*</a> (Displacement&lt; T &gt; const &amp;disp, Scalar scale)</td></tr>
+<tr class="separator:a327d7dadfcd290b6ef9d6b32393afa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fdec3ebbf531d87fd33a7328ba8f202"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6fdec3ebbf531d87fd33a7328ba8f202"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a6fdec3ebbf531d87fd33a7328ba8f202">mir::geometry::generic::as_displacement</a> (Size&lt; T &gt; const &amp;size)</td></tr>
+<tr class="separator:a6fdec3ebbf531d87fd33a7328ba8f202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86d1d3301d737c15444da63565a907c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae86d1d3301d737c15444da63565a907c"><td class="memTemplItemLeft" align="right" valign="top">constexpr Size&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ae86d1d3301d737c15444da63565a907c">mir::geometry::generic::as_size</a> (Displacement&lt; T &gt; const &amp;disp)</td></tr>
+<tr class="separator:ae86d1d3301d737c15444da63565a907c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17eac292e88bd242631a38da2aa7de46"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a17eac292e88bd242631a38da2aa7de46"><td class="memTemplItemLeft" align="right" valign="top">constexpr Displacement&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a17eac292e88bd242631a38da2aa7de46">mir::geometry::generic::as_displacement</a> (Point&lt; T &gt; const &amp;point)</td></tr>
+<tr class="separator:a17eac292e88bd242631a38da2aa7de46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4723a61d867aee5b1d398fd442a8e2c2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4723a61d867aee5b1d398fd442a8e2c2"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a4723a61d867aee5b1d398fd442a8e2c2">mir::geometry::generic::as_point</a> (Displacement&lt; T &gt; const &amp;disp)</td></tr>
+<tr class="separator:a4723a61d867aee5b1d398fd442a8e2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

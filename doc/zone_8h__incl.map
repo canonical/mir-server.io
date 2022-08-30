@@ -1,21 +1,17 @@
 <map id="include/miral/miral/zone.h" name="include/miral/miral/zone.h">
-<area shape="rect" id="node1" title=" " alt="" coords="452,5,579,47"/>
-<area shape="rect" id="node2" href="$common_8h.html" title=" " alt="" coords="170,95,317,121"/>
-<area shape="rect" id="node3" href="$rectangle_8h.html" title=" " alt="" coords="341,95,508,121"/>
-<area shape="rect" id="node17" href="$int__wrapper_8h.html" title=" " alt="" coords="545,95,667,121"/>
-<area shape="rect" id="node19" title=" " alt="" coords="691,95,761,121"/>
-<area shape="rect" id="node4" href="$rectangle__generic_8h.html" title=" " alt="" coords="135,244,269,271"/>
-<area shape="rect" id="node12" href="$point_8h.html" title=" " alt="" coords="294,244,355,271"/>
-<area shape="rect" id="node15" href="$size_8h.html" title=" " alt="" coords="431,244,488,271"/>
-<area shape="rect" id="node16" href="$displacement_8h.html" title=" " alt="" coords="363,169,473,196"/>
-<area shape="rect" id="node5" href="$point__generic_8h.html" title=" " alt="" coords="25,319,136,345"/>
-<area shape="rect" id="node9" title=" " alt="" coords="126,393,195,420"/>
-<area shape="rect" id="node10" href="$size__generic_8h.html" title=" " alt="" coords="343,319,450,345"/>
-<area shape="rect" id="node11" href="$displacement__generic_8h.html" title=" " alt="" coords="160,319,319,345"/>
-<area shape="rect" id="node6" href="$dimensions__generic_8h.html" title=" " alt="" coords="321,393,469,420"/>
-<area shape="rect" id="node7" title=" " alt="" coords="521,468,581,495"/>
-<area shape="rect" id="node8" title=" " alt="" coords="354,468,437,495"/>
-<area shape="rect" id="node13" href="$dimensions_8h.html" title=" " alt="" coords="474,319,573,345"/>
-<area shape="rect" id="node14" title=" " alt="" coords="494,393,555,420"/>
-<area shape="rect" id="node18" title=" " alt="" coords="648,169,727,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="311,5,456,47"/>
+<area shape="rect" id="node2" href="$common_8h.html" title=" " alt="" coords="5,95,172,121"/>
+<area shape="rect" id="node3" href="$rectangle_8h.html" title=" " alt="" coords="196,95,384,121"/>
+<area shape="rect" id="node13" href="$int__wrapper_8h.html" title=" " alt="" coords="409,95,545,121"/>
+<area shape="rect" id="node15" title=" " alt="" coords="569,95,646,121"/>
+<area shape="rect" id="node4" href="$forward_8h.html" title=" " alt="" coords="221,393,305,420"/>
+<area shape="rect" id="node5" href="$point_8h.html" title=" " alt="" coords="170,244,237,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="211,319,287,345"/>
+<area shape="rect" id="node11" href="$size_8h.html" title=" " alt="" coords="363,244,423,271"/>
+<area shape="rect" id="node12" href="$displacement_8h.html" title=" " alt="" coords="233,169,355,196"/>
+<area shape="rect" id="node6" href="$dimensions_8h.html" title=" " alt="" coords="413,319,522,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="538,393,602,420"/>
+<area shape="rect" id="node8" title=" " alt="" coords="421,393,513,420"/>
+<area shape="rect" id="node9" title=" " alt="" coords="330,393,397,420"/>
+<area shape="rect" id="node14" title=" " alt="" coords="433,169,520,196"/>
 </map>

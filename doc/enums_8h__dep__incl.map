@@ -1,13 +1,13 @@
 <map id="include/core/mir_toolkit/events/enums.h" name="include/core/mir_toolkit/events/enums.h">
-<area shape="rect" id="node1" title=" " alt="" coords="573,5,729,47"/>
-<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="182,95,358,136"/>
-<area shape="rect" id="node5" href="$floating__window__manager_8h.html" title=" " alt="" coords="644,95,848,136"/>
-<area shape="rect" id="node8" href="$tiling__window__manager_8h.html" title=" " alt="" coords="873,95,1062,136"/>
-<area shape="rect" id="node10" href="$toolkit__event_8h.html" title=" " alt="" coords="493,95,620,136"/>
-<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,151,225"/>
-<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="175,184,365,225"/>
-<area shape="rect" id="node6" href="$shell__main_8cpp.html" title=" " alt="" coords="790,184,931,225"/>
-<area shape="rect" id="node7" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="547,184,766,225"/>
-<area shape="rect" id="node9" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="955,184,1158,225"/>
-<area shape="rect" id="node11" href="$event__builder_8h.html" title=" " alt="" coords="390,184,523,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="627,5,803,47"/>
+<area shape="rect" id="node2" href="$kiosk__window__manager_8h.html" title=" " alt="" coords="201,95,395,136"/>
+<area shape="rect" id="node5" href="$toolkit__event_8h.html" title=" " alt="" coords="541,95,687,136"/>
+<area shape="rect" id="node10" href="$tiling__window__manager_8h.html" title=" " alt="" coords="711,95,925,136"/>
+<area shape="rect" id="node11" href="$floating__window__manager_8h.html" title=" " alt="" coords="949,95,1178,136"/>
+<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node4" href="$kiosk__window__manager_8cpp.html" title=" " alt="" coords="193,184,403,225"/>
+<area shape="rect" id="node6" href="$shell__main_8cpp.html" title=" " alt="" coords="857,184,1017,225"/>
+<area shape="rect" id="node7" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="1041,184,1285,225"/>
+<area shape="rect" id="node8" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="604,184,832,225"/>
+<area shape="rect" id="node9" href="$event__builder_8h.html" title=" " alt="" coords="427,184,580,225"/>
 </map>

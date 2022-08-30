@@ -86,27 +86,24 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef __EGLAPP_H__</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define __EGLAPP_H__</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">__EGLAPP_H__</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">__EGLAPP_H__</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">vector</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span><a class="code" href="class_mir_egl_surface.html">MirEglSurface</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class</span> <a class="code" href="class_mir_egl_surface.html">MirEglSurface</a>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">float</span> <a class="code" href="eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b">mir_eglapp_background_opacity</a>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;std::vector&lt;std::shared_ptr&lt;MirEglSurface&gt;&gt; <a class="code" href="eglapp_8h.html#ad45b7101702fb1a81faefa0afbc261a3">mir_eglapp_init</a>(<span class="keyword">struct</span> wl_display* display);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">std</a>::<a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">vector</a>&lt;<a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">std</a>::<a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">shared_ptr</a>&lt;<a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">MirEglSurface</a>&gt;&gt; <a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">mir_eglapp_init</a>(<span class="keyword">struct</span> <a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">wl_display</a>* <a class="code" href="eglapp_8cpp.html#ad45b7101702fb1a81faefa0afbc261a3">display</a>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_mir_egl_surface_html"><div class="ttname"><a href="class_mir_egl_surface.html">MirEglSurface</a></div><div class="ttdef"><b>Definition:</b> miregl.h:34</div></div>
-<div class="ttc" id="aeglapp_8h_html_a4dfab6216e6bbf44b8d70212e568a42b"><div class="ttname"><a href="eglapp_8h.html#a4dfab6216e6bbf44b8d70212e568a42b">mir_eglapp_background_opacity</a></div><div class="ttdeci">float mir_eglapp_background_opacity</div></div>
-<div class="ttc" id="aeglapp_8h_html_ad45b7101702fb1a81faefa0afbc261a3"><div class="ttname"><a href="eglapp_8h.html#ad45b7101702fb1a81faefa0afbc261a3">mir_eglapp_init</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; MirEglSurface &gt; &gt; mir_eglapp_init(struct wl_display *display)</div><div class="ttdef"><b>Definition:</b> eglapp.cpp:21</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

@@ -76,23 +76,12 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="point__generic_8h_source.html">point_generic.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mir::geometry::generic::Point&lt; T &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structmir_1_1geometry_1_1generic_1_1_point__inherit__graph.svg" width="163" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="point_8h_source.html">point.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7622183380c636a364c8c824382f3ad0"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a7622183380c636a364c8c824382f3ad0"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a7622183380c636a364c8c824382f3ad0">Corresponding</a> = T&lt; Tag &gt;</td></tr>
-<tr class="separator:a7622183380c636a364c8c824382f3ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae728e1bddaaa6d5b15346c5d6ffdbb43"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#ae728e1bddaaa6d5b15346c5d6ffdbb43">SizeType</a> = <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt; T &gt;</td></tr>
-<tr class="separator:ae728e1bddaaa6d5b15346c5d6ffdbb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b93fb012aa1e224a135fd44108f25d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a25b93fb012aa1e224a135fd44108f25d">DisplacementType</a> = <a class="el" href="structmir_1_1geometry_1_1generic_1_1_displacement.html">Displacement</a>&lt; T &gt;</td></tr>
-<tr class="separator:a25b93fb012aa1e224a135fd44108f25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5de8c0ca7dafb48fa5c50b1e00a468"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#ace5de8c0ca7dafb48fa5c50b1e00a468">ValueType</a> = T</td></tr>
+<tr class="separator:ace5de8c0ca7dafb48fa5c50b1e00a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -102,65 +91,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae059e6c292840a8a4b1d7b764a7a698b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c3fb0ec5d0c9066e605d88619bfc9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a54c3fb0ec5d0c9066e605d88619bfc9e">operator=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a> const &amp;)=default</td></tr>
 <tr class="separator:a54c3fb0ec5d0c9066e605d88619bfc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6bafac2afaab3e723b3da79aefb117a"><td class="memTemplParams" colspan="2">template&lt;typename P , typename std::enable_if&lt; std::is_base_of&lt; detail::PointBase, P &gt;::value, bool &gt;::type  = true&gt; </td></tr>
-<tr class="memitem:aa6bafac2afaab3e723b3da79aefb117a"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#aa6bafac2afaab3e723b3da79aefb117a">Point</a> (P const &amp;other) noexcept</td></tr>
-<tr class="separator:aa6bafac2afaab3e723b3da79aefb117a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f190c76a4422c52b5232ba3154cbd5"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a30f190c76a4422c52b5232ba3154cbd5"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">Point</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a>&lt; U &gt; const &amp;other) noexcept</td></tr>
+<tr class="separator:a30f190c76a4422c52b5232ba3154cbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc955c945d5005be00e301bb33971e72"><td class="memTemplParams" colspan="2">template&lt;typename XType , typename YType &gt; </td></tr>
-<tr class="memitem:afc955c945d5005be00e301bb33971e72"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">Point</a> (XType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a07ab23a9551fa54fe2fbf8f7066f358d">x</a>, YType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8917b52a580245b5d39ec8aa862fbfcd">y</a>)</td></tr>
+<tr class="memitem:afc955c945d5005be00e301bb33971e72"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">Point</a> (XType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">x</a>, YType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">y</a>)</td></tr>
 <tr class="separator:afc955c945d5005be00e301bb33971e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a07ab23a9551fa54fe2fbf8f7066f358d"><td class="memItemLeft" align="right" valign="top">T&lt; <a class="el" href="structmir_1_1geometry_1_1_x_tag.html">XTag</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a07ab23a9551fa54fe2fbf8f7066f358d">x</a></td></tr>
-<tr class="separator:a07ab23a9551fa54fe2fbf8f7066f358d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8917b52a580245b5d39ec8aa862fbfcd"><td class="memItemLeft" align="right" valign="top">T&lt; <a class="el" href="structmir_1_1geometry_1_1_y_tag.html">YTag</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8917b52a580245b5d39ec8aa862fbfcd">y</a></td></tr>
-<tr class="separator:a8917b52a580245b5d39ec8aa862fbfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139ba0cd0ed0d39fe40d6016873c88bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ab6e222f2b016730e793cfa5815a67f38">X</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">x</a></td></tr>
+<tr class="separator:a139ba0cd0ed0d39fe40d6016873c88bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df833a0d0dd9bbbd0d61b20f8905ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a7c99dd824ffd32e662a9898f1e9f0519">Y</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">y</a></td></tr>
+<tr class="separator:a8df833a0d0dd9bbbd0d61b20f8905ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a7622183380c636a364c8c824382f3ad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7622183380c636a364c8c824382f3ad0">&#9670;&nbsp;</a></span>Corresponding</h2>
+<a id="ace5de8c0ca7dafb48fa5c50b1e00a468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5de8c0ca7dafb48fa5c50b1e00a468">&#9670;&nbsp;</a></span>ValueType</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a7622183380c636a364c8c824382f3ad0">Corresponding</a> =  T&lt;Tag&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25b93fb012aa1e224a135fd44108f25d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25b93fb012aa1e224a135fd44108f25d">&#9670;&nbsp;</a></span>DisplacementType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#a25b93fb012aa1e224a135fd44108f25d">DisplacementType</a> =  <a class="el" href="structmir_1_1geometry_1_1generic_1_1_displacement.html">Displacement</a>&lt;T&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae728e1bddaaa6d5b15346c5d6ffdbb43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae728e1bddaaa6d5b15346c5d6ffdbb43">&#9670;&nbsp;</a></span>SizeType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#ae728e1bddaaa6d5b15346c5d6ffdbb43">SizeType</a> =  <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html#ace5de8c0ca7dafb48fa5c50b1e00a468">ValueType</a> =  T</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -174,7 +129,7 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -201,7 +156,7 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -223,15 +178,15 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 
 </div>
 </div>
-<a id="aa6bafac2afaab3e723b3da79aefb117a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6bafac2afaab3e723b3da79aefb117a">&#9670;&nbsp;</a></span>Point() <span class="overload">[3/4]</span></h2>
+<a id="a30f190c76a4422c52b5232ba3154cbd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f190c76a4422c52b5232ba3154cbd5">&#9670;&nbsp;</a></span>Point() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <div class="memtemplate">
-template&lt;typename P , typename std::enable_if&lt; std::is_base_of&lt; detail::PointBase, P &gt;::value, bool &gt;::type  = true&gt; </div>
+template&lt;typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -239,7 +194,7 @@ template&lt;typename P , typename std::enable_if&lt; std::is_base_of&lt; detail:
         <tr>
           <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a> </td>
           <td>(</td>
-          <td class="paramtype">P const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a>&lt; U &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -259,7 +214,7 @@ template&lt;typename P , typename std::enable_if&lt; std::is_base_of&lt; detail:
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <div class="memtemplate">
 template&lt;typename XType , typename YType &gt; </div>
 <table class="mlabels">
@@ -300,7 +255,7 @@ template&lt;typename XType , typename YType &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -323,32 +278,32 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a07ab23a9551fa54fe2fbf8f7066f358d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07ab23a9551fa54fe2fbf8f7066f358d">&#9670;&nbsp;</a></span>x</h2>
+<a id="a139ba0cd0ed0d39fe40d6016873c88bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139ba0cd0ed0d39fe40d6016873c88bb">&#9670;&nbsp;</a></span>x</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T&lt;<a class="el" href="structmir_1_1geometry_1_1_x_tag.html">XTag</a>&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::x</td>
+          <td class="memname"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ab6e222f2b016730e793cfa5815a67f38">X</a>&lt;T&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::x</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8917b52a580245b5d39ec8aa862fbfcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8917b52a580245b5d39ec8aa862fbfcd">&#9670;&nbsp;</a></span>y</h2>
+<a id="a8df833a0d0dd9bbbd0d61b20f8905ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df833a0d0dd9bbbd0d61b20f8905ef6">&#9670;&nbsp;</a></span>y</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T&lt;<a class="el" href="structmir_1_1geometry_1_1_y_tag.html">YTag</a>&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::y</td>
+          <td class="memname"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a7c99dd824ffd32e662a9898f1e9f0519">Y</a>&lt;T&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a>&lt; T &gt;::y</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -356,14 +311,14 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>include/core/mir/geometry/<a class="el" href="displacement__generic_8h_source.html">displacement_generic.h</a></li>
-<li>include/core/mir/geometry/<a class="el" href="point__generic_8h_source.html">point_generic.h</a></li>
+<li>include/core/mir/geometry/<a class="el" href="size_8h_source.html">size.h</a></li>
+<li>include/core/mir/geometry/<a class="el" href="point_8h_source.html">point.h</a></li>
 </ul>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

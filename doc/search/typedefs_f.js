@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['x_2050',['X',['../namespacemir_1_1geometry.html#a9592ef630e5112b49adaaaf5ddf35cf6',1,'mir::geometry::X()'],['../namespacemir_1_1geometry_1_1generic.html#adbe234c78912af6adcfbc8703eecd863',1,'mir::geometry::generic::X()']]],
-  ['xf_2051',['XF',['../namespacemir_1_1geometry.html#a016e8d8131e0356a497c9b890ccbc35f',1,'mir::geometry']]]
+  ['width_2037',['Width',['../namespacemir_1_1geometry_1_1generic.html#acf3c7584b23033a54a9e9018bb69248b',1,'mir::geometry::generic::Width()'],['../namespacemir_1_1geometry.html#a2b23fb4d376939d56f0bb968a82e5c67',1,'mir::geometry::Width()']]],
+  ['widthf_2038',['WidthF',['../namespacemir_1_1geometry.html#a900b7b78edcb74bb0cc7a24255b7de8e',1,'mir::geometry']]],
+  ['windowmanagementpolicybuilder_2039',['WindowManagementPolicyBuilder',['../namespacemiral.html#aa2989f2658b6e9d4b8c8c26900122aeb',1,'miral']]]
 ];

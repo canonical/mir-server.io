@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['persistdisplayconfig_1206',['PersistDisplayConfig',['../classmiroil_1_1_persist_display_config.html',1,'miroil']]],
-  ['physicalsizemm_1207',['PhysicalSizeMM',['../structmiral_1_1_output_1_1_physical_size_m_m.html',1,'miral::Output::PhysicalSizeMM'],['../structmiroil_1_1_edid_1_1_physical_size_m_m.html',1,'miroil::Edid::PhysicalSizeMM']]],
-  ['point_1208',['Point',['../structmir_1_1geometry_1_1generic_1_1_point.html',1,'mir::geometry::generic::Point&lt; T &gt;'],['../structmir_1_1geometry_1_1_point.html',1,'mir::geometry::Point']]],
-  ['point_3c_20detail_3a_3aintwrapper_20_3e_1209',['Point&lt; detail::IntWrapper &gt;',['../structmir_1_1geometry_1_1generic_1_1_point.html',1,'mir::geometry::generic']]],
-  ['pointbase_1210',['PointBase',['../structmir_1_1geometry_1_1detail_1_1_point_base.html',1,'mir::geometry::detail']]],
-  ['promptsessionlistener_1211',['PromptSessionListener',['../classmiroil_1_1_prompt_session_listener.html',1,'miroil']]],
-  ['promptsessionmanager_1212',['PromptSessionManager',['../classmiroil_1_1_prompt_session_manager.html',1,'miroil']]],
-  ['proofofmutexlock_1213',['ProofOfMutexLock',['../classmir_1_1_proof_of_mutex_lock.html',1,'mir']]]
+  ['openglcontext_1190',['OpenGLContext',['../classmiroil_1_1_open_g_l_context.html',1,'miroil']]],
+  ['optional_5fvalue_1191',['optional_value',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20bool_20_3e_1192',['optional_value&lt; bool &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20float_20_3e_1193',['optional_value&lt; float &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20mirformfactor_20_3e_1194',['optional_value&lt; MirFormFactor &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20miroil_3a_3adisplayconfigurationoptions_3a_3adisplaymode_20_3e_1195',['optional_value&lt; miroil::DisplayConfigurationOptions::DisplayMode &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20mirorientation_20_3e_1196',['optional_value&lt; MirOrientation &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['optional_5fvalue_3c_20uint_20_3e_1197',['optional_value&lt; uint &gt;',['../classmir_1_1optional__value.html',1,'mir']]],
+  ['output_1198',['Output',['../classmiral_1_1_output.html',1,'miral']]]
 ];

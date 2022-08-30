@@ -166,6 +166,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ae1e7e44da329fd6257bd6bfd09237bd0"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#ae1e7e44da329fd6257bd6bfd09237bd0">zwlr_screencopy_manager_v1</a></td></tr>
 <tr class="memdesc:ae1e7e44da329fd6257bd6bfd09237bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients to take screenshots and record the screen. Only enable for clients that are trusted to view all displayed content, including windows of other apps.  <a href="classmiral_1_1_wayland_extensions.html#ae1e7e44da329fd6257bd6bfd09237bd0">More...</a><br /></td></tr>
 <tr class="separator:ae1e7e44da329fd6257bd6bfd09237bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a012afc2f413c466c7b7b07b74a6c5"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a44a012afc2f413c466c7b7b07b74a6c5">zwlr_virtual_pointer_manager_v1</a></td></tr>
+<tr class="memdesc:a44a012afc2f413c466c7b7b07b74a6c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows clients to act as a virtual pointer, useful for remote control and automation. Clients are not required to display anything to send pointer events using this extension, so malicious clients could use it to take actions without user input.  <a href="classmiral_1_1_wayland_extensions.html#a44a012afc2f413c466c7b7b07b74a6c5">More...</a><br /></td></tr>
+<tr class="separator:a44a012afc2f413c466c7b7b07b74a6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9291fb6a93cdb4583820bccd1f079d"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a6a9291fb6a93cdb4583820bccd1f079d">zwp_virtual_keyboard_v1</a></td></tr>
 <tr class="separator:a6a9291fb6a93cdb4583820bccd1f079d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63829d1fa8f0ad99b6aa1a6e46c30a67"><td class="memItemLeft" align="right" valign="top">static char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_wayland_extensions.html#a63829d1fa8f0ad99b6aa1a6e46c30a67">zwp_input_method_v2</a></td></tr>
@@ -483,7 +486,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Set an extension filter callback to control the extensions available to specific clients. Deprecated in favor of <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>, and not be used in conjunction with <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a>. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 2.5 </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>In MirAL 3.4, use <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a> instead </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>In MirAL 3.4, use <a class="el" href="classmiral_1_1_wayland_extensions.html#af975fb0a23d6d452d516e457f5346094" title="Enable a Wayland extension only when the callback returns true. The callback can use info....">conditionally_enable()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -591,6 +594,31 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a44a012afc2f413c466c7b7b07b74a6c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44a012afc2f413c466c7b7b07b74a6c5">&#9670;&nbsp;</a></span>zwlr_virtual_pointer_manager_v1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char const* const miral::WaylandExtensions::zwlr_virtual_pointer_manager_v1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allows clients to act as a virtual pointer, useful for remote control and automation. Clients are not required to display anything to send pointer events using this extension, so malicious clients could use it to take actions without user input. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.6 </dd></dl>
+
+</div>
+</div>
 <a id="a1f05164029957fd00b9d5b73f580bc2d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f05164029957fd00b9d5b73f580bc2d">&#9670;&nbsp;</a></span>zwp_input_method_manager_v2</h2>
 
@@ -683,7 +711,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.3 </dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use the *_manager_* versions instead</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use the *_manager_* versions instead</dd></dl>
 
 </div>
 </div>
@@ -719,7 +747,7 @@ Static Public Attributes</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

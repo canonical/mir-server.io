@@ -68,23 +68,25 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">point.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="point__generic_8h_source.html">point_generic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="forward_8h_source.html">forward.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dimensions_8h_source.html">dimensions.h</a>&quot;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for point.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="point_8h__incl.svg" width="339" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="point_8h__incl.svg" width="392" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="point_8h__dep__incl.svg" width="1420" height="871"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="point_8h__dep__incl.svg" width="1588" height="871"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -92,7 +94,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1_point.html">mir::geometry::Point</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -102,12 +104,50 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemir_1_1geometry"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html">mir::geometry</a></td></tr>
 <tr class="memdesc:namespacemir_1_1geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic geometry types. Types for dimensions, displacements, etc. and the operations that they support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemir_1_1geometry_1_1generic"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html">mir::geometry::generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a24bb60a02d0fe64eb83e912c293c4fc2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a24bb60a02d0fe64eb83e912c293c4fc2"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a24bb60a02d0fe64eb83e912c293c4fc2">mir::geometry::generic::operator==</a> (Point&lt; T &gt; const &amp;lhs, Point&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a24bb60a02d0fe64eb83e912c293c4fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c5d2dd4c77f2ae94a43152a44c6a1d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4c5d2dd4c77f2ae94a43152a44c6a1d4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a4c5d2dd4c77f2ae94a43152a44c6a1d4">mir::geometry::generic::operator!=</a> (Point&lt; T &gt; const &amp;lhs, Point&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:a4c5d2dd4c77f2ae94a43152a44c6a1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac600d20596e724e16825e1bcd99ce0cc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac600d20596e724e16825e1bcd99ce0cc"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ac600d20596e724e16825e1bcd99ce0cc">mir::geometry::generic::operator+</a> (Point&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ac600d20596e724e16825e1bcd99ce0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43b6ddb0eabcb490474ae06bc83bf18"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad43b6ddb0eabcb490474ae06bc83bf18"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad43b6ddb0eabcb490474ae06bc83bf18">mir::geometry::generic::operator+</a> (Point&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad43b6ddb0eabcb490474ae06bc83bf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735bb86526f8d317ff170b05fd4b7634"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a735bb86526f8d317ff170b05fd4b7634"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a735bb86526f8d317ff170b05fd4b7634">mir::geometry::generic::operator-</a> (Point&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a735bb86526f8d317ff170b05fd4b7634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05063e0745a0d0627d223abe8a1ebf3f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a05063e0745a0d0627d223abe8a1ebf3f"><td class="memTemplItemLeft" align="right" valign="top">constexpr Point&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a05063e0745a0d0627d223abe8a1ebf3f">mir::geometry::generic::operator-</a> (Point&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a05063e0745a0d0627d223abe8a1ebf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4e8e236257a7c2a3a0a954dbe65897"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0b4e8e236257a7c2a3a0a954dbe65897"><td class="memTemplItemLeft" align="right" valign="top">Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a0b4e8e236257a7c2a3a0a954dbe65897">mir::geometry::generic::operator+=</a> (Point&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a0b4e8e236257a7c2a3a0a954dbe65897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6444847cbb5bf9738d84667cff3af0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aba6444847cbb5bf9738d84667cff3af0"><td class="memTemplItemLeft" align="right" valign="top">Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aba6444847cbb5bf9738d84667cff3af0">mir::geometry::generic::operator+=</a> (Point&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:aba6444847cbb5bf9738d84667cff3af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e9e8676e548c8d41a67dac595e2f53b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6e9e8676e548c8d41a67dac595e2f53b"><td class="memTemplItemLeft" align="right" valign="top">Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a6e9e8676e548c8d41a67dac595e2f53b">mir::geometry::generic::operator-=</a> (Point&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a6e9e8676e548c8d41a67dac595e2f53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a1760f32dab0b9b678a439299dd257"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad7a1760f32dab0b9b678a439299dd257"><td class="memTemplItemLeft" align="right" valign="top">Point&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad7a1760f32dab0b9b678a439299dd257">mir::geometry::generic::operator-=</a> (Point&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad7a1760f32dab0b9b678a439299dd257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dcce1955a8257b3e9b20a61fef287fd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7dcce1955a8257b3e9b20a61fef287fd"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a7dcce1955a8257b3e9b20a61fef287fd">mir::geometry::generic::operator&lt;&lt;</a> (std::ostream &amp;out, Point&lt; T &gt; const &amp;value)</td></tr>
+<tr class="separator:a7dcce1955a8257b3e9b20a61fef287fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

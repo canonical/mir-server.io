@@ -92,20 +92,39 @@ $(function() {
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * stack trace to maximize the chances of it being readable.</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifndef MIR_FATAL_H_</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define MIR_FATAL_H_</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_FATAL_H_</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_FATAL_H_</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">extern</span> void (*<a class="code" href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006">fatal_error</a>)(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * fatal_error() is strictly for &quot;this should never happen&quot; situations that</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> * you cannot recover from. By default it points at fatal_error_abort().</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * Note the reason parameter is a simple char* so its value is clearly visible</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * in stack trace output.</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> * \remark There is no attempt to make this thread-safe, if it needs to be changed</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * that should be done before spinning up the Mir server.</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> *   \param [in] reason  A printf-style format string.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> (*<a class="code" href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006">fatal_error</a>)(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"> * Throws an exception that will typically kill the Mir server and propagate from</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"> * mir::run_mir.</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"> *   \param [in] reason  A printf-style format string.</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacemir.html#ad0317ca6f21212ca7364b2e14a06f971">   44</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacemir.html#ad0317ca6f21212ca7364b2e14a06f971">fatal_error_except</a>(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;[[noreturn]]</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"> * An alternative to fatal_error_except() that kills the program and dump core</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"> * as cleanly as possible.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment"> *   \param [in] reason  A printf-style format string.</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;[[<a class="code" href="namespacemir.html">noreturn</a>]]</div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="namespacemir.html#a984aad4cff67e4ff302485cb123b3408">   52</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacemir.html#a984aad4cff67e4ff302485cb123b3408">fatal_error_abort</a>(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">// Utility class to override &amp; restore existing error handler</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classmir_1_1_fatal_error_strategy.html">   55</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classmir_1_1_fatal_error_strategy.html">   55</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classmir_1_1_fatal_error_strategy.html#a2e54fd79b71eca4bd1781c8d653bf7de">   58</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classmir_1_1_fatal_error_strategy.html#a2e54fd79b71eca4bd1781c8d653bf7de">FatalErrorStrategy</a>(<span class="keywordtype">void</span> (*fatal_error_handler)(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...)) :</div>
@@ -114,31 +133,24 @@ $(function() {
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006">fatal_error</a> = fatal_error_handler;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5">   64</a></span>&#160;    <a class="code" href="classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5">~FatalErrorStrategy</a>()</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5">   64</a></span>&#160;    ~<a class="code" href="classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5">FatalErrorStrategy</a>()</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006">fatal_error</a> = old_fatal_error_handler;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    void (*old_fatal_error_handler)(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="classmir_1_1_fatal_error_strategy.html#a2e54fd79b71eca4bd1781c8d653bf7de">FatalErrorStrategy</a>(<a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> (*old_fatal_error_handler)(<span class="keywordtype">char</span> <span class="keyword">const</span>* reason, ...);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    FatalErrorStrategy(<a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a>&amp; operator=(<a class="code" href="classmir_1_1_fatal_error_strategy.html">FatalErrorStrategy</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;} <span class="comment">// namespace mir</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MIR_FATAL_H_</span></div>
-<div class="ttc" id="aclassmir_1_1_fatal_error_strategy_html"><div class="ttname"><a href="classmir_1_1_fatal_error_strategy.html">mir::FatalErrorStrategy</a></div><div class="ttdef"><b>Definition:</b> fatal.h:56</div></div>
-<div class="ttc" id="aclassmir_1_1_fatal_error_strategy_html_a2e54fd79b71eca4bd1781c8d653bf7de"><div class="ttname"><a href="classmir_1_1_fatal_error_strategy.html#a2e54fd79b71eca4bd1781c8d653bf7de">mir::FatalErrorStrategy::FatalErrorStrategy</a></div><div class="ttdeci">FatalErrorStrategy(void(*fatal_error_handler)(char const *reason,...))</div><div class="ttdef"><b>Definition:</b> fatal.h:58</div></div>
-<div class="ttc" id="aclassmir_1_1_fatal_error_strategy_html_adee9207bc1d1df42ef4d19117ba351f5"><div class="ttname"><a href="classmir_1_1_fatal_error_strategy.html#adee9207bc1d1df42ef4d19117ba351f5">mir::FatalErrorStrategy::~FatalErrorStrategy</a></div><div class="ttdeci">~FatalErrorStrategy()</div><div class="ttdef"><b>Definition:</b> fatal.h:64</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemir_html_a984aad4cff67e4ff302485cb123b3408"><div class="ttname"><a href="namespacemir.html#a984aad4cff67e4ff302485cb123b3408">mir::fatal_error_abort</a></div><div class="ttdeci">void fatal_error_abort(char const *reason,...)</div><div class="ttdoc">An alternative to fatal_error_except() that kills the program and dump core as cleanly as possible.</div></div>
-<div class="ttc" id="anamespacemir_html_ad0317ca6f21212ca7364b2e14a06f971"><div class="ttname"><a href="namespacemir.html#ad0317ca6f21212ca7364b2e14a06f971">mir::fatal_error_except</a></div><div class="ttdeci">void fatal_error_except(char const *reason,...)</div><div class="ttdoc">Throws an exception that will typically kill the Mir server and propagate from mir::run_mir.</div></div>
-<div class="ttc" id="anamespacemir_html_adbd3f807eb6d8ff75ef448788480a006"><div class="ttname"><a href="namespacemir.html#adbd3f807eb6d8ff75ef448788480a006">mir::fatal_error</a></div><div class="ttdeci">void(* fatal_error)(char const *reason,...)</div><div class="ttdoc">fatal_error() is strictly for &quot;this should never happen&quot; situations that you cannot recover from.</div></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// MIR_FATAL_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
