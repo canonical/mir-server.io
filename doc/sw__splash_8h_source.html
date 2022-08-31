@@ -86,40 +86,34 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_SHELL_SW_SPLASH_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_SHELL_SW_SPLASH_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_SHELL_SW_SPLASH_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_SHELL_SW_SPLASH_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="splash__session_8h.html">splash_session.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="splash__session_8h.html">&quot;splash_session.h&quot;</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// A very simple s/w rendered splash animation</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_sw_splash.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_sw_splash.html">SwSplash</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_sw_splash.html">   23</a></span>&#160;<span class="keyword">class</span> <a class="code" href="class_sw_splash.html">SwSplash</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="class_sw_splash.html#a9c08c94c311a25ac7fda1b1dba4822e7">SwSplash</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f">   27</a></span>&#160;    <a class="code" href="class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f">~SwSplash</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f">   27</a></span>&#160;    ~<a class="code" href="class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f">SwSplash</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sw_splash.html#ad9abd470f504b34a8de268f52a7c7b04">operator()</a>(<span class="keyword">struct</span> wl_display* display);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sw_splash.html#ad9abd470f504b34a8de268f52a7c7b04">operator()</a>(std::weak_ptr&lt;mir::scene::Session&gt; <span class="keyword">const</span>&amp; session);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sw_splash.html">operator</a>()(<span class="keyword">struct</span> wl_display* display);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sw_splash.html#a9b8209ee1364a018cdc4dc08cdf5a05e">operator</a>()(std::weak_ptr&lt;<a class="code" href="namespacemir.html">mir</a>::<a class="code" href="namespacemir_1_1scene.html">scene</a>::Session&gt; <span class="keyword">const</span>&amp; session);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_sw_splash.html#a386ad6856624bbbc439939f7cc028843">enable</a> (<span class="keywordtype">bool</span> show_splash_opt);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">operator</span> std::shared_ptr&lt;SplashSession&gt;() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_sw_splash.html#a9b68e6883b670d69e2f2d21e8fbe0c20">operator</a> std::shared_ptr&lt;<a class="code" href="class_splash_session.html">SplashSession</a>&gt;() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">struct </span>Self;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::shared_ptr&lt;Self&gt; <span class="keyword">const</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">struct</span> Self;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::shared_ptr&lt;Self&gt; <span class="keyword">const</span> self;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_SHELL_SW_SPLASH_H</span></div>
-<div class="ttc" id="aclass_sw_splash_html"><div class="ttname"><a href="class_sw_splash.html">SwSplash</a></div><div class="ttdef"><b>Definition:</b> sw_splash.h:24</div></div>
-<div class="ttc" id="aclass_sw_splash_html_a386ad6856624bbbc439939f7cc028843"><div class="ttname"><a href="class_sw_splash.html#a386ad6856624bbbc439939f7cc028843">SwSplash::enable</a></div><div class="ttdeci">void enable(bool show_splash_opt)</div><div class="ttdef"><b>Definition:</b> sw_splash.cpp:96</div></div>
-<div class="ttc" id="aclass_sw_splash_html_a9c08c94c311a25ac7fda1b1dba4822e7"><div class="ttname"><a href="class_sw_splash.html#a9c08c94c311a25ac7fda1b1dba4822e7">SwSplash::SwSplash</a></div><div class="ttdeci">SwSplash()</div><div class="ttdef"><b>Definition:</b> sw_splash.cpp:92</div></div>
-<div class="ttc" id="aclass_sw_splash_html_ac576871031b1f84cadd139519fff1c3f"><div class="ttname"><a href="class_sw_splash.html#ac576871031b1f84cadd139519fff1c3f">SwSplash::~SwSplash</a></div><div class="ttdeci">~SwSplash()</div></div>
-<div class="ttc" id="aclass_sw_splash_html_ad9abd470f504b34a8de268f52a7c7b04"><div class="ttname"><a href="class_sw_splash.html#ad9abd470f504b34a8de268f52a7c7b04">SwSplash::operator()</a></div><div class="ttdeci">void operator()(struct wl_display *display)</div><div class="ttdef"><b>Definition:</b> sw_splash.cpp:150</div></div>
-<div class="ttc" id="asplash__session_8h_html"><div class="ttname"><a href="splash__session_8h.html">splash_session.h</a></div></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_SHELL_SW_SPLASH_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

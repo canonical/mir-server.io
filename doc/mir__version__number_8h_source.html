@@ -87,18 +87,31 @@ $(function() {
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef MIR_VERSION_NUMBER_H_</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define MIR_VERSION_NUMBER_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_VERSION_NUMBER_H_</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_VERSION_NUMBER_H_</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="mir__version__number_8h.html#ae07f483f06aff1d127e3ea1582f8723a">   34</a></span>&#160;<span class="preprocessor">#define MIR_VERSION_NUMBER(major,minor,micro) \</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">    (((major) &lt;&lt; 22) + ((minor) &lt;&lt; 12) + (micro))</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * MIR_VERSION_NUMBER</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * \param major [in]    The major version (eg: 3 for version 3.2.33)</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * \param minor [in]    The minor version (eg: 2 for version 3.2.33)</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * \param micro [in]    The micro version (eg: 33 for version 3.2.33)</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * Returns the combined version information as a single 32-bit value for</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * logical comparisons. For example:</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> *     \#if MIR_CLIENT_VERSION &gt;= MIR_VERSION_NUMBER(2,3,4)</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * This can be useful to conditionally build code depending on new features or</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * specific bugfixes in the Mir client library.</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="mir__version__number_8h.html#ae07f483f06aff1d127e3ea1582f8723a">   34</a></span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_VERSION_NUMBER</span><span class="preprocessor">(</span><span class="preprocessor">major</span><span class="preprocessor">,</span><span class="preprocessor">minor</span><span class="preprocessor">,</span><span class="preprocessor">micro</span><span class="preprocessor">)</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="preprocessor">(</span><span class="preprocessor">(</span><span class="preprocessor">(</span><span class="preprocessor">major</span><span class="preprocessor">)</span> <span class="preprocessor">&lt;&lt;</span> 22<span class="preprocessor">)</span> <span class="preprocessor">+</span> <span class="preprocessor">(</span><span class="preprocessor">(</span><span class="preprocessor">minor</span><span class="preprocessor">)</span> <span class="preprocessor">&lt;&lt;</span> 12<span class="preprocessor">)</span> <span class="preprocessor">+</span> <span class="preprocessor">(</span><span class="preprocessor">micro</span><span class="preprocessor">)</span><span class="preprocessor">)</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MIR_VERSION_NUMBER_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">/* MIR_VERSION_NUMBER_H_ */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

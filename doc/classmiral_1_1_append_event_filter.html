@@ -78,27 +78,39 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a54754ee9c85b6bbe4df3aa0898d411d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_append_event_filter.html#a54754ee9c85b6bbe4df3aa0898d411d3">AppendEventFilter</a> (std::function&lt; int(<a class="el" href="append__event__filter_8h.html#acf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> const *event)&gt; const &amp;filter)</td></tr>
-<tr class="separator:a54754ee9c85b6bbe4df3aa0898d411d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185323f180fe9d5a45c3e98ff1f1c6a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_append_event_filter.html#a185323f180fe9d5a45c3e98ff1f1c6a1">AppendEventFilter</a> (std::function&lt; bool(<a class="el" href="append__event__filter_8h.html#acf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> const *event)&gt; const &amp;filter)</td></tr>
+<tr class="memdesc:a185323f180fe9d5a45c3e98ff1f1c6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append an event filter (after any existing filters, including the window manager). The supplied filter should return true if and only if it handles the event as filters later in the list will not be called.  <a href="classmiral_1_1_append_event_filter.html#a185323f180fe9d5a45c3e98ff1f1c6a1">More...</a><br /></td></tr>
+<tr class="separator:a185323f180fe9d5a45c3e98ff1f1c6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cdf3828d8e068356e463b53da0c585c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_append_event_filter.html#a7cdf3828d8e068356e463b53da0c585c">operator()</a> (mir::Server &amp;server)</td></tr>
 <tr class="separator:a7cdf3828d8e068356e463b53da0c585c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a54754ee9c85b6bbe4df3aa0898d411d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54754ee9c85b6bbe4df3aa0898d411d3">&#9670;&nbsp;</a></span>AppendEventFilter()</h2>
+<a id="a185323f180fe9d5a45c3e98ff1f1c6a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185323f180fe9d5a45c3e98ff1f1c6a1">&#9670;&nbsp;</a></span>AppendEventFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">miral::AppendEventFilter::AppendEventFilter </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; int(<a class="el" href="append__event__filter_8h.html#acf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> const *event)&gt; const &amp;&#160;</td>
+          <td class="paramtype">std::function&lt; bool(<a class="el" href="append__event__filter_8h.html#acf322761dc4f8106854e8eaa3f125e6f">MirEvent</a> const *event)&gt; const &amp;&#160;</td>
           <td class="paramname"><em>filter</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Append an event filter (after any existing filters, including the window manager). The supplied filter should return true if and only if it handles the event as filters later in the list will not be called. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>the filter return type changed to bool in MirAL 3.6 </dd></dl>
 
 </div>
 </div>
@@ -128,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

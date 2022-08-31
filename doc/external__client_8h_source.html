@@ -86,54 +86,65 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_EXTERNAL_CLIENT_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_EXTERNAL_CLIENT_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_EXTERNAL_CLIENT_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_EXTERNAL_CLIENT_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">sys</span><span class="preprocessor">/</span><span class="preprocessor">types</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">string</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">vector</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiral_1_1_external_client_launcher.html">ExternalClientLauncher</a></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html">   30</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_external_client_launcher.html">ExternalClientLauncher</a></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ac6d43bd341356230d5f49eb88822b1ed">   33</a></span>&#160;    <a class="code" href="classmiral_1_1_external_client_launcher.html#ac6d43bd341356230d5f49eb88822b1ed">ExternalClientLauncher</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#aa9d4c11ce559f7be312ab98e007321c7">   34</a></span>&#160;    <a class="code" href="classmiral_1_1_external_client_launcher.html#aa9d4c11ce559f7be312ab98e007321c7">~ExternalClientLauncher</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#aa9d4c11ce559f7be312ab98e007321c7">   34</a></span>&#160;    ~<a class="code" href="classmiral_1_1_external_client_launcher.html#aa9d4c11ce559f7be312ab98e007321c7">ExternalClientLauncher</a>();</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ae32cd97fb220c000b18c3667623b91c6">   36</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#ae32cd97fb220c000b18c3667623b91c6">operator()</a>(mir::Server&amp; server);</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ae32cd97fb220c000b18c3667623b91c6">   36</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#ae32cd97fb220c000b18c3667623b91c6">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">/// Launch with client environment configured for Wayland.</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">/// If X11 is enabled, then DISPLAY will also be set accordingly.</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">/// \return The pid of the process that was launched.</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">/// \remark Return type changed from void in MirAL 3.0</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#a087827a0fad0511e6707249b43509383">   42</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#a087827a0fad0511e6707249b43509383">launch</a>(std::vector&lt;std::string&gt; <span class="keyword">const</span>&amp; command_line) <span class="keyword">const</span> -&gt; pid_t;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/// If X11 is enabled, then launch with client environment configured for X11.</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">/// For the occasions it is desired to coerce applications into using X11</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">/// \return The pid of the process that was launched (or -1 if X11 is not enabled)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">/// \remark Return type changed from void in MirAL 3.0</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#a3e0558b9ad13fc1f998f5990f778bfbe">   48</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#a3e0558b9ad13fc1f998f5990f778bfbe">launch_using_x11</a>(std::vector&lt;std::string&gt; <span class="keyword">const</span>&amp; command_line) <span class="keyword">const</span> -&gt; pid_t;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ad27b17bbdd161ed5138e6c18f42076c2">   52</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#ad27b17bbdd161ed5138e6c18f42076c2">snapcraft_launch</a>(std::string <span class="keyword">const</span>&amp; desktop_file) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">/// Use the proposed `desktop-entry` snap interface to launch another snap</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">/// \remark Since MirAL 3.0</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ad27b17bbdd161ed5138e6c18f42076c2">   52</a></span>&#160;    <span class="keywordtype">void</span> snapcraft_launch(std::string <span class="keyword">const</span>&amp; desktop_file) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">struct </span>Self;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::shared_ptr&lt;Self&gt; <span class="keyword">self</span>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_EXTERNAL_CLIENT_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html">miral::ExternalClientLauncher</a></div><div class="ttdef"><b>Definition:</b> external_client.h:31</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_a087827a0fad0511e6707249b43509383"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#a087827a0fad0511e6707249b43509383">miral::ExternalClientLauncher::launch</a></div><div class="ttdeci">auto launch(std::vector&lt; std::string &gt; const &amp;command_line) const -&gt; pid_t</div><div class="ttdoc">Launch with client environment configured for Wayland. If X11 is enabled, then DISPLAY will also be s...</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_a3e0558b9ad13fc1f998f5990f778bfbe"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#a3e0558b9ad13fc1f998f5990f778bfbe">miral::ExternalClientLauncher::launch_using_x11</a></div><div class="ttdeci">auto launch_using_x11(std::vector&lt; std::string &gt; const &amp;command_line) const -&gt; pid_t</div><div class="ttdoc">If X11 is enabled, then launch with client environment configured for X11. For the occasions it is de...</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_aa9d4c11ce559f7be312ab98e007321c7"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#aa9d4c11ce559f7be312ab98e007321c7">miral::ExternalClientLauncher::~ExternalClientLauncher</a></div><div class="ttdeci">~ExternalClientLauncher()</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_ac6d43bd341356230d5f49eb88822b1ed"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#ac6d43bd341356230d5f49eb88822b1ed">miral::ExternalClientLauncher::ExternalClientLauncher</a></div><div class="ttdeci">ExternalClientLauncher()</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_ad27b17bbdd161ed5138e6c18f42076c2"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#ad27b17bbdd161ed5138e6c18f42076c2">miral::ExternalClientLauncher::snapcraft_launch</a></div><div class="ttdeci">void snapcraft_launch(std::string const &amp;desktop_file) const</div><div class="ttdoc">Use the proposed desktop-entry snap interface to launch another snap.</div></div>
-<div class="ttc" id="aclassmiral_1_1_external_client_launcher_html_ae32cd97fb220c000b18c3667623b91c6"><div class="ttname"><a href="classmiral_1_1_external_client_launcher.html#ae32cd97fb220c000b18c3667623b91c6">miral::ExternalClientLauncher::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server)</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">/// Split out the tokens of a (possibly escaped) command</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">/// \remark Since MirAL 3.6</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#ad26304b1de03ca3a4036a3d2bf49f2b9">   56</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">auto</span> split_command(std::string <span class="keyword">const</span>&amp; command) -&gt; std::vector&lt;std::string&gt;;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">/// Launch with client environment configured for Wayland.</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">/// If X11 is enabled, then DISPLAY will also be set accordingly.</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">/// \return The pid of the process that was launched.</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">/// \remark Since MirAL 3.6</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classmiral_1_1_external_client_launcher.html#a22d2c1292684baa4ab8aeb477a8e9146">   62</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classmiral_1_1_external_client_launcher.html#a087827a0fad0511e6707249b43509383">launch</a>(std::string <span class="keyword">const</span>&amp; command) <span class="keyword">const</span> -&gt; pid_t;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">struct</span> Self;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::shared_ptr&lt;Self&gt; self;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_EXTERNAL_CLIENT_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

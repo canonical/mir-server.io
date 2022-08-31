@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="forward_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2012 Canonical Ltd.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2022 Canonical Ltd.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify it</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * under the terms of the GNU Lesser General Public License version 2 or 3,</span></div>
@@ -86,28 +86,88 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIR_GEOMETRY_FORWARD_H_</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIR_GEOMETRY_FORWARD_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_GEOMETRY_FORWARD_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_GEOMETRY_FORWARD_H_</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span>geometry</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// Declarations of geometric concepts I think we&#39;ll need</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">struct </span>Point;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">struct </span>Size;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span>Displacement;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">struct </span>Rectangle;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* FORWARD_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">/// Basic geometry types. Types for dimensions, displacements, etc.</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">/// and the operations that they support.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry.html">geometry</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/// These tag types determine what type of dimension a value holds and what operations are possible with it. They are</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/// only used as template parameters, are never instantiated and should only require forward declarations, but some</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/// compiler versions seem to fail if they aren&#39;t given real declarations.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">/// @{</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_width_tag.html">   30</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_width_tag.html">WidthTag</a>{};</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_height_tag.html">   31</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_height_tag.html">HeightTag</a>{};</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_x_tag.html">   32</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_x_tag.html">XTag</a>{};</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_y_tag.html">   33</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_y_tag.html">YTag</a>{};</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_delta_x_tag.html">   34</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_delta_x_tag.html">DeltaXTag</a>{};</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_delta_y_tag.html">   35</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_delta_y_tag.html">DeltaYTag</a>{};</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_stride_tag.html">   36</a></span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1_stride_tag.html">StrideTag</a>{};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/// @}</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> Tag&gt;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">struct</span> Value;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">struct</span> Point;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">struct</span> Displacement;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">struct</span> Rectangle;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#acf3c7584b23033a54a9e9018bb69248b">   56</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> Width = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_width_tag.html">WidthTag</a>&gt;;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a78752a318aa581de23ad5ee3e2fa2dd7">   57</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> Height = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_height_tag.html">HeightTag</a>&gt;;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#ab6e222f2b016730e793cfa5815a67f38">   58</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> X = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_x_tag.html">XTag</a>&gt;;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a7c99dd824ffd32e662a9898f1e9f0519">   59</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> Y = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_y_tag.html">YTag</a>&gt;;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a5046d6ce675d6e7daac4c393c7c563ec">   60</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> DeltaX = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_delta_x_tag.html">DeltaXTag</a>&gt;;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#ac54be23a9cf64f7eb637b7262280f6d6">   61</a></span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> DeltaY = Value&lt;T, <a class="code" href="structmir_1_1geometry_1_1_delta_y_tag.html">DeltaYTag</a>&gt;;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a2b23fb4d376939d56f0bb968a82e5c67">   64</a></span>&#160;<span class="keyword">using</span> Width = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Width&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#aacc9520fa7f3ab97db5c87906e8be719">   65</a></span>&#160;<span class="keyword">using</span> Height = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Height&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#ad1455133d89fd8d90a9fb529feb663f5">   66</a></span>&#160;<span class="keyword">using</span> X = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::X&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#acb3e4a02fb273515faa7379e4758fee1">   67</a></span>&#160;<span class="keyword">using</span> Y = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Y&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#ade85ddf61eaa73bc5fc5cf7f88920b90">   68</a></span>&#160;<span class="keyword">using</span> DeltaX = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::DeltaX&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a447c6963c75aa4ca6c6a63d9333c16a9">   69</a></span>&#160;<span class="keyword">using</span> DeltaY = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::DeltaY&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a900b7b78edcb74bb0cc7a24255b7de8e">   71</a></span>&#160;<span class="keyword">using</span> WidthF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Width&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#aaae70e815f128f35d7cc28688e15287a">   72</a></span>&#160;<span class="keyword">using</span> HeightF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Height&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a016e8d8131e0356a497c9b890ccbc35f">   73</a></span>&#160;<span class="keyword">using</span> XF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::X&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#afeae4b2468ec034db23508cad5edd5c2">   74</a></span>&#160;<span class="keyword">using</span> YF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Y&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a821d1409546d45933d4260eeeaec5540">   75</a></span>&#160;<span class="keyword">using</span> DeltaXF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::DeltaX&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#ad176a26d98486bb6be5941fa0e8311d6">   76</a></span>&#160;<span class="keyword">using</span> DeltaYF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::DeltaY&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">// Just to be clear, mir::geometry::Stride is the stride of the buffer in bytes</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#ae1538211aaabf520e474df18aa18aa7b">   79</a></span>&#160;<span class="keyword">using</span> Stride = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Value&lt;<span class="keywordtype">int</span>, <a class="code" href="structmir_1_1geometry_1_1_stride_tag.html">StrideTag</a>&gt;;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a2c44532d52df40fe265b24ce514756ef">   81</a></span>&#160;<span class="keyword">using</span> Point = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Point&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a3a6ede03fc30da2d830a9999ef9f26bd">   82</a></span>&#160;<span class="keyword">using</span> Size = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::<a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#ab06429a81e923cb5af8a07ac76059745">   83</a></span>&#160;<span class="keyword">using</span> Displacement = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Displacement&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">   84</a></span>&#160;<span class="keyword">using</span> Rectangle = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Rectangle&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a91aadfe8a6fa1192529458a15ceefbed">   86</a></span>&#160;<span class="keyword">using</span> PointF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Point&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a2712b44e5d3a1fafc1d93f754bfbd4a7">   87</a></span>&#160;<span class="keyword">using</span> SizeF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::<a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#aa8a6d4422a097d8f796619945eb93142">   88</a></span>&#160;<span class="keyword">using</span> DisplacementF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Displacement&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry.html#a0269dc9052c824ac5c3b91341edda9f6">   89</a></span>&#160;<span class="keyword">using</span> RectangleF = <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a>::Rectangle&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// MIR_GEOMETRY_FORWARD_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

@@ -81,7 +81,7 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa25b1cc25b9a3623e113095eca5e6c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#aaa25b1cc25b9a3623e113095eca5e6c7">Zone</a> (<a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;<a class="el" href="classmiral_1_1_zone.html#a997db538c002a419e0ef0de1d6eb7eaf">extents</a>)</td></tr>
+<tr class="memitem:aaa25b1cc25b9a3623e113095eca5e6c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#aaa25b1cc25b9a3623e113095eca5e6c7">Zone</a> (<a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a> const &amp;<a class="el" href="classmiral_1_1_zone.html#a997db538c002a419e0ef0de1d6eb7eaf">extents</a>)</td></tr>
 <tr class="memdesc:aaa25b1cc25b9a3623e113095eca5e6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new zone with the given extents.  <a href="classmiral_1_1_zone.html#aaa25b1cc25b9a3623e113095eca5e6c7">More...</a><br /></td></tr>
 <tr class="separator:aaa25b1cc25b9a3623e113095eca5e6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c45071b21cd9a0b70bcba93d121ccd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#ad5c45071b21cd9a0b70bcba93d121ccd">Zone</a> (<a class="el" href="classmiral_1_1_zone.html">Zone</a> const &amp;other)</td></tr>
@@ -93,17 +93,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e78eb72b2ecba2d1481a87cff0845ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a3e78eb72b2ecba2d1481a87cff0845ac">~Zone</a> ()</td></tr>
 <tr class="separator:a3e78eb72b2ecba2d1481a87cff0845ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff4fadd3b1af95ad7aab748fe602cc37"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#aff4fadd3b1af95ad7aab748fe602cc37">operator==</a> (<a class="el" href="classmiral_1_1_zone.html">Zone</a> const &amp;other) const -&gt; bool</td></tr>
-<tr class="memdesc:aff4fadd3b1af95ad7aab748fe602cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns false if any properties are different (even if they are the same zone) Will always return false if they are different zones (even if they have the same extents)  <a href="classmiral_1_1_zone.html#aff4fadd3b1af95ad7aab748fe602cc37">More...</a><br /></td></tr>
+<tr class="memdesc:aff4fadd3b1af95ad7aab748fe602cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true only if all properties including IDs match.  <a href="classmiral_1_1_zone.html#aff4fadd3b1af95ad7aab748fe602cc37">More...</a><br /></td></tr>
 <tr class="separator:aff4fadd3b1af95ad7aab748fe602cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd10939134c3a58a0e8acb5a2ba5179"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a3dd10939134c3a58a0e8acb5a2ba5179">is_same_zone</a> (<a class="el" href="classmiral_1_1_zone.html">Zone</a> const &amp;other) const -&gt; bool</td></tr>
-<tr class="memdesc:a3dd10939134c3a58a0e8acb5a2ba5179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiple zone objects with different extents may be the "same" zone. For example, the arguments of <a class="el" href="classmiral_1_1_window_management_policy.html#a64cae830e43fe0b4cbf4729f9a39b5dc">miral::WindowManagementPolicy::advise_output_update()</a> are old and new instances of the same zone, so updated.is_same_zone(original) will return true even though the extents may not be equal.  <a href="classmiral_1_1_zone.html#a3dd10939134c3a58a0e8acb5a2ba5179">More...</a><br /></td></tr>
+<tr class="memdesc:a3dd10939134c3a58a0e8acb5a2ba5179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if true if zone IDs match, even if extents are different.  <a href="classmiral_1_1_zone.html#a3dd10939134c3a58a0e8acb5a2ba5179">More...</a><br /></td></tr>
 <tr class="separator:a3dd10939134c3a58a0e8acb5a2ba5179"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a997db538c002a419e0ef0de1d6eb7eaf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a997db538c002a419e0ef0de1d6eb7eaf">extents</a> () const -&gt; <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a></td></tr>
+<tr class="memitem:a997db538c002a419e0ef0de1d6eb7eaf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a997db538c002a419e0ef0de1d6eb7eaf">extents</a> () const -&gt; <a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a></td></tr>
 <tr class="memdesc:a997db538c002a419e0ef0de1d6eb7eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The area of this zone in global display coordinates.  <a href="classmiral_1_1_zone.html#a997db538c002a419e0ef0de1d6eb7eaf">More...</a><br /></td></tr>
 <tr class="separator:a997db538c002a419e0ef0de1d6eb7eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a167f9127b9b31f0be033750e945cf079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a167f9127b9b31f0be033750e945cf079">extents</a> (<a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;extents)</td></tr>
+<tr class="memitem:a167f9127b9b31f0be033750e945cf079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a167f9127b9b31f0be033750e945cf079">extents</a> (<a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a> const &amp;extents)</td></tr>
 <tr class="memdesc:a167f9127b9b31f0be033750e945cf079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the extents of this zone Does not make this a different zone.  <a href="classmiral_1_1_zone.html#a167f9127b9b31f0be033750e945cf079">More...</a><br /></td></tr>
 <tr class="separator:a167f9127b9b31f0be033750e945cf079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a04fc1821f05c3e955ed0ce605778d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmiral_1_1_zone.html#a21a04fc1821f05c3e955ed0ce605778d">id</a> () const -&gt; int</td></tr>
+<tr class="memdesc:a21a04fc1821f05c3e955ed0ce605778d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An arbitrary number that uniquely identifies this zone, reguardless of how it is resized and moved.  <a href="classmiral_1_1_zone.html#a21a04fc1821f05c3e955ed0ce605778d">More...</a><br /></td></tr>
+<tr class="separator:a21a04fc1821f05c3e955ed0ce605778d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A rectangular area of the display. Not tied to a specific output. </p>
@@ -117,7 +120,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">miral::Zone::Zone </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a> const &amp;&#160;</td>
           <td class="paramname"><em>extents</em></td><td>)</td>
           <td></td>
         </tr>
@@ -176,7 +179,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">auto miral::Zone::extents </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt;  <a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a></td>
+          <td> const -&gt;  <a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -194,7 +197,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void miral::Zone::extents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacemir_1_1geometry.html#a0b496a04ef755c93de3c851e34d6f85e">Rectangle</a> const &amp;&#160;</td>
           <td class="paramname"><em>extents</em></td><td>)</td>
           <td></td>
         </tr>
@@ -202,6 +205,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the extents of this zone Does not make this a different zone. </p>
+
+</div>
+</div>
+<a id="a21a04fc1821f05c3e955ed0ce605778d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a04fc1821f05c3e955ed0ce605778d">&#9670;&nbsp;</a></span>id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto miral::Zone::id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt;  int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An arbitrary number that uniquely identifies this zone, reguardless of how it is resized and moved. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>Since MirAL 3.6 </dd></dl>
 
 </div>
 </div>
@@ -221,7 +244,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Multiple zone objects with different extents may be the "same" zone. For example, the arguments of <a class="el" href="classmiral_1_1_window_management_policy.html#a64cae830e43fe0b4cbf4729f9a39b5dc">miral::WindowManagementPolicy::advise_output_update()</a> are old and new instances of the same zone, so updated.is_same_zone(original) will return true even though the extents may not be equal. </p>
+<p>Returns if true if zone IDs match, even if extents are different. </p>
 
 </div>
 </div>
@@ -261,7 +284,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns false if any properties are different (even if they are the same zone) Will always return false if they are different zones (even if they have the same extents) </p>
+<p>Returns true only if all properties including IDs match. </p>
 
 </div>
 </div>
@@ -272,7 +295,7 @@ Public Member Functions</h2></td></tr>
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

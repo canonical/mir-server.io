@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y_2052',['Y',['../namespacemir_1_1geometry.html#a6e4df76ea242d5bda814b042c4725d23',1,'mir::geometry::Y()'],['../namespacemir_1_1geometry_1_1generic.html#a4ef7e298706e6108eb28d1cedce82e0c',1,'mir::geometry::generic::Y()']]],
-  ['yf_2053',['YF',['../namespacemir_1_1geometry.html#afeae4b2468ec034db23508cad5edd5c2',1,'mir::geometry']]]
+  ['x_2040',['X',['../namespacemir_1_1geometry_1_1generic.html#ab6e222f2b016730e793cfa5815a67f38',1,'mir::geometry::generic::X()'],['../namespacemir_1_1geometry.html#ad1455133d89fd8d90a9fb529feb663f5',1,'mir::geometry::X()']]],
+  ['xf_2041',['XF',['../namespacemir_1_1geometry.html#a016e8d8131e0356a497c9b890ccbc35f',1,'mir::geometry']]]
 ];

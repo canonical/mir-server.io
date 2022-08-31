@@ -86,30 +86,30 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="wayland__surface_8h.html">wayland_surface.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="wayland__surface_8h.html">&quot;wayland_surface.h&quot;</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;EGL/egl.h&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">EGL</span><span class="preprocessor">/</span><span class="preprocessor">egl</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">vector</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span>MirEglApp;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="class_mir_egl_surface.html">MirEglSurface</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class</span> MirEglApp;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class</span> <a class="code" href="class_mir_egl_surface.html">MirEglSurface</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;std::shared_ptr&lt;MirEglApp&gt; <a class="code" href="miregl_8h.html#adc4861605ca0f83ad94703c80ab47d1a">make_mir_eglapp</a>(<span class="keyword">struct</span> wl_display* display);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;std::vector&lt;std::shared_ptr&lt;MirEglSurface&gt;&gt; <a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">mir_surface_init</a>(std::shared_ptr&lt;MirEglApp&gt; <span class="keyword">const</span>&amp; <a class="code" href="class_wayland_surface.html#a6a6a55b4cba13f6b37213c43c883f718">app</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">std</a>::<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">vector</a>&lt;<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">std</a>::<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">shared_ptr</a>&lt;<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">MirEglSurface</a>&gt;&gt; <a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">mir_surface_init</a>(<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">std</a>::<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">shared_ptr</a>&lt;<a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">MirEglApp</a>&gt; <span class="keyword">const</span>&amp; <a class="code" href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">app</a>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mir_egl_surface.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mir_egl_surface.html">MirEglSurface</a> : <a class="code" href="class_wayland_surface.html">WaylandSurface</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mir_egl_surface.html">   33</a></span>&#160;<span class="keyword">class</span> <a class="code" href="class_mir_egl_surface.html">MirEglSurface</a> : <a class="code" href="class_wayland_surface.html">WaylandSurface</a></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_mir_egl_surface.html#aaf6dffdbec5a581937a46c35d6a63d96">MirEglSurface</a>(std::shared_ptr&lt;MirEglApp&gt; <span class="keyword">const</span>&amp; mir_egl_app, <span class="keyword">struct</span> wl_output* wl_output);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_mir_egl_surface.html#ad85f43762ab6a1e1036dbbc005879690">~MirEglSurface</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    ~<a class="code" href="class_mir_egl_surface.html#ad85f43762ab6a1e1036dbbc005879690">MirEglSurface</a>();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Pa<span class="keywordtype">int</span>er&gt;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Painter&gt;</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_mir_egl_surface.html#a800ed73122130de3a04bef90d4397481">   41</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_mir_egl_surface.html#a800ed73122130de3a04bef90d4397481">paint</a>(Painter <span class="keyword">const</span>&amp; functor)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        egl_make_current();</div>
@@ -130,21 +130,12 @@ $(function() {
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
-<div class="ttc" id="aclass_mir_egl_surface_html"><div class="ttname"><a href="class_mir_egl_surface.html">MirEglSurface</a></div><div class="ttdef"><b>Definition:</b> miregl.h:34</div></div>
-<div class="ttc" id="aclass_mir_egl_surface_html_a800ed73122130de3a04bef90d4397481"><div class="ttname"><a href="class_mir_egl_surface.html#a800ed73122130de3a04bef90d4397481">MirEglSurface::paint</a></div><div class="ttdeci">void paint(Painter const &amp;functor)</div><div class="ttdef"><b>Definition:</b> miregl.h:41</div></div>
-<div class="ttc" id="aclass_mir_egl_surface_html_aaf6dffdbec5a581937a46c35d6a63d96"><div class="ttname"><a href="class_mir_egl_surface.html#aaf6dffdbec5a581937a46c35d6a63d96">MirEglSurface::MirEglSurface</a></div><div class="ttdeci">MirEglSurface(std::shared_ptr&lt; MirEglApp &gt; const &amp;mir_egl_app, struct wl_output *wl_output)</div><div class="ttdef"><b>Definition:</b> miregl.cpp:73</div></div>
-<div class="ttc" id="aclass_mir_egl_surface_html_ad85f43762ab6a1e1036dbbc005879690"><div class="ttname"><a href="class_mir_egl_surface.html#ad85f43762ab6a1e1036dbbc005879690">MirEglSurface::~MirEglSurface</a></div><div class="ttdeci">~MirEglSurface()</div><div class="ttdef"><b>Definition:</b> miregl.cpp:89</div></div>
-<div class="ttc" id="aclass_wayland_surface_html"><div class="ttname"><a href="class_wayland_surface.html">WaylandSurface</a></div><div class="ttdef"><b>Definition:</b> wayland_surface.h:27</div></div>
-<div class="ttc" id="aclass_wayland_surface_html_a6a6a55b4cba13f6b37213c43c883f718"><div class="ttname"><a href="class_wayland_surface.html#a6a6a55b4cba13f6b37213c43c883f718">WaylandSurface::app</a></div><div class="ttdeci">auto app() const -&gt; WaylandApp const *</div><div class="ttdef"><b>Definition:</b> wayland_surface.h:38</div></div>
-<div class="ttc" id="amiregl_8h_html_a0861dcfc9d2a4e2e8f41ebd6759a4071"><div class="ttname"><a href="miregl_8h.html#a0861dcfc9d2a4e2e8f41ebd6759a4071">mir_surface_init</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; MirEglSurface &gt; &gt; mir_surface_init(std::shared_ptr&lt; MirEglApp &gt; const &amp;app)</div><div class="ttdef"><b>Definition:</b> miregl.cpp:61</div></div>
-<div class="ttc" id="amiregl_8h_html_adc4861605ca0f83ad94703c80ab47d1a"><div class="ttname"><a href="miregl_8h.html#adc4861605ca0f83ad94703c80ab47d1a">make_mir_eglapp</a></div><div class="ttdeci">std::shared_ptr&lt; MirEglApp &gt; make_mir_eglapp(struct wl_display *display)</div><div class="ttdef"><b>Definition:</b> miregl.cpp:56</div></div>
-<div class="ttc" id="awayland__surface_8h_html"><div class="ttname"><a href="wayland__surface_8h.html">wayland_surface.h</a></div></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//UNITYSYSTEMCOMPOSITOR_MIREGL_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

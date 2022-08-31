@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="point_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2012, 2016 Canonical Ltd.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2020 Canonical Ltd.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify it</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * under the terms of the GNU Lesser General Public License version 2 or 3,</span></div>
@@ -86,39 +86,96 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIR_GEOMETRY_POINT_H_</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIR_GEOMETRY_POINT_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_GEOMETRY_POINT_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_GEOMETRY_POINT_H_</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="point__generic_8h.html">point_generic.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dimensions_8h.html">dimensions.h</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span>geometry</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">struct </span>Size;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">struct </span>Displacement;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_point.html">   29</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structmir_1_1geometry_1_1_point.html">Point</a> : <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html">generic::Point</a>&lt;detail::IntWrapper&gt;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_point.html#a4b1ab45a4914ebcd554dcda0fe7712b0">   31</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structmir_1_1geometry_1_1_size.html">SizeType</a> = <a class="code" href="structmir_1_1geometry_1_1_size.html">Size</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_point.html#adfce6376e1fefccd03be1161cb42ad3f">   32</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structmir_1_1geometry_1_1_displacement.html">DisplacementType</a> = <a class="code" href="structmir_1_1geometry_1_1_displacement.html">Displacement</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">using</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html">generic::Point&lt;detail::IntWrapper&gt;::Point</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MIR_GEOMETRY_POINT_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="adimensions_8h_html"><div class="ttname"><a href="dimensions_8h.html">dimensions.h</a></div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="apoint__generic_8h_html"><div class="ttname"><a href="point__generic_8h.html">point_generic.h</a></div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1_displacement_html"><div class="ttname"><a href="structmir_1_1geometry_1_1_displacement.html">mir::geometry::Displacement</a></div><div class="ttdef"><b>Definition:</b> displacement.h:30</div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1_point_html"><div class="ttname"><a href="structmir_1_1geometry_1_1_point.html">mir::geometry::Point</a></div><div class="ttdef"><b>Definition:</b> point.h:30</div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1_size_html"><div class="ttname"><a href="structmir_1_1geometry_1_1_size.html">mir::geometry::Size</a></div><div class="ttdef"><b>Definition:</b> size.h:30</div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1generic_1_1_point_html"><div class="ttname"><a href="structmir_1_1geometry_1_1generic_1_1_point.html">mir::geometry::generic::Point</a></div><div class="ttdef"><b>Definition:</b> point_generic.h:40</div></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="forward_8h.html">&quot;forward.h&quot;</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="dimensions_8h.html">&quot;dimensions.h&quot;</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">ostream</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry.html">geometry</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">struct</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">struct</span> Displacement;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html">   36</a></span>&#160;<span class="keyword">struct</span> Point</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#ace5de8c0ca7dafb48fa5c50b1e00a468">   38</a></span>&#160;    <span class="keyword">using</span> ValueType = T;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#ab363343f79f6f76a0ad40f3546d32bbc">   40</a></span>&#160;    <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#ab363343f79f6f76a0ad40f3546d32bbc">Point</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#ae059e6c292840a8a4b1d7b764a7a698b">   41</a></span>&#160;    <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#ae059e6c292840a8a4b1d7b764a7a698b">Point</a>(Point <span class="keyword">const</span>&amp;) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#a54c3fb0ec5d0c9066e605d88619bfc9e">   42</a></span>&#160;    Point&amp; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a54c3fb0ec5d0c9066e605d88619bfc9e">operator</a>=(Point <span class="keyword">const</span>&amp;) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> U&gt;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">   45</a></span>&#160;    <span class="keyword">explicit</span> <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">Point</a>(Point&lt;U&gt; <span class="keyword">const</span>&amp; other) <span class="keyword">noexcept</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        : <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">x</a>{<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">X</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">T</a>&gt;{<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">other</a>.<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">x</a>}},</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">y</a>{<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">Y</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">T</a>&gt;{<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">other</a>.<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a30f190c76a4422c52b5232ba3154cbd5">y</a>}}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> XType, <span class="keyword">typename</span> YType&gt;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">   52</a></span>&#160;    <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">Point</a>(XType&amp;&amp; x, YType&amp;&amp; y) : <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">x</a>(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">x</a>), <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">y</a>(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#afc955c945d5005be00e301bb33971e72">y</a>) {}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">   54</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">X</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a139ba0cd0ed0d39fe40d6016873c88bb">x</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">   55</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">Y</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_point.html#a8df833a0d0dd9bbbd0d61b20f8905ef6">y</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a24bb60a02d0fe64eb83e912c293c4fc2">   59</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a24bb60a02d0fe64eb83e912c293c4fc2">operator</a> == (Point&lt;T&gt; <span class="keyword">const</span>&amp; lhs, Point&lt;T&gt; <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> lhs.x == rhs.x &amp;&amp; lhs.y == rhs.y;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a4c5d2dd4c77f2ae94a43152a44c6a1d4">   65</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a4c5d2dd4c77f2ae94a43152a44c6a1d4">operator</a> != (Point&lt;T&gt; <span class="keyword">const</span>&amp; lhs, Point&lt;T&gt; <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;{</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">return</span> lhs.x != rhs.x || lhs.y != rhs.y;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#ac600d20596e724e16825e1bcd99ce0cc">   71</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> Point&lt;T&gt; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#ac600d20596e724e16825e1bcd99ce0cc">operator</a>+(Point&lt;T&gt; lhs, DeltaX&lt;T&gt; rhs) { <span class="keywordflow">return</span>{lhs.x + rhs, lhs.y}; }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#ad43b6ddb0eabcb490474ae06bc83bf18">   73</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> Point&lt;T&gt; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#ac600d20596e724e16825e1bcd99ce0cc">operator</a>+(Point&lt;T&gt; lhs, DeltaY&lt;T&gt; rhs) { <span class="keywordflow">return</span>{lhs.x, lhs.y + rhs}; }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a735bb86526f8d317ff170b05fd4b7634">   76</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> Point&lt;T&gt; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a735bb86526f8d317ff170b05fd4b7634">operator</a>-(Point&lt;T&gt; lhs, DeltaX&lt;T&gt; rhs) { <span class="keywordflow">return</span>{lhs.x - rhs, lhs.y}; }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a05063e0745a0d0627d223abe8a1ebf3f">   78</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> Point&lt;T&gt; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a735bb86526f8d317ff170b05fd4b7634">operator</a>-(Point&lt;T&gt; lhs, DeltaY&lt;T&gt; rhs) { <span class="keywordflow">return</span>{lhs.x, lhs.y - rhs}; }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a0b4e8e236257a7c2a3a0a954dbe65897">   81</a></span>&#160;<span class="keyword">inline</span> Point&lt;T&gt;&amp; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a0b4e8e236257a7c2a3a0a954dbe65897">operator</a>+=(Point&lt;T&gt;&amp; lhs, DeltaX&lt;T&gt; rhs) { lhs.x += rhs; <span class="keywordflow">return</span> lhs; }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#aba6444847cbb5bf9738d84667cff3af0">   83</a></span>&#160;<span class="keyword">inline</span> Point&lt;T&gt;&amp; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a0b4e8e236257a7c2a3a0a954dbe65897">operator</a>+=(Point&lt;T&gt;&amp; lhs, DeltaY&lt;T&gt; rhs) { lhs.y += rhs; <span class="keywordflow">return</span> lhs; }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a6e9e8676e548c8d41a67dac595e2f53b">   86</a></span>&#160;<span class="keyword">inline</span> Point&lt;T&gt;&amp; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a6e9e8676e548c8d41a67dac595e2f53b">operator</a>-=(Point&lt;T&gt;&amp; lhs, DeltaX&lt;T&gt; rhs) { lhs.x -= rhs; <span class="keywordflow">return</span> lhs; }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#ad7a1760f32dab0b9b678a439299dd257">   88</a></span>&#160;<span class="keyword">inline</span> Point&lt;T&gt;&amp; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a6e9e8676e548c8d41a67dac595e2f53b">operator</a>-=(Point&lt;T&gt;&amp; lhs, DeltaY&lt;T&gt; rhs) { lhs.y -= rhs; <span class="keywordflow">return</span> lhs; }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a7dcce1955a8257b3e9b20a61fef287fd">   91</a></span>&#160;std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, Point&lt;T&gt; <span class="keyword">const</span>&amp; value)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    out &lt;&lt; value.x &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; value.y;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">return</span> out;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// MIR_GEOMETRY_POINT_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

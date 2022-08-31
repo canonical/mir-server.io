@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mir: mir::geometry::generic::Value&lt; T &gt; Struct Template Reference</title>
+<title>Mir: mir::geometry::generic::Value&lt; T, Tag &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,29 +67,543 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structmir_1_1geometry_1_1generic_1_1_value-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mir::geometry::generic::Value&lt; T &gt; Struct Template Reference</div>  </div>
+<div class="title">mir::geometry::generic::Value&lt; T, Tag &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="dimensions__generic_8h_source.html">dimensions_generic.h</a>&gt;</code></p>
+<p>Wraps a geometry value and prevents it from being accidentally used for invalid operations (such as setting a width to a height or adding two x positions together). Of course, explicit casts are possible to get around these restrictions (see the as_*() functions).  
+ <a href="structmir_1_1geometry_1_1generic_1_1_value.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="dimensions_8h_source.html">dimensions.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html">Wrapper</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps a geometry value and prevents it from being accidentally used for invalid operations (such as setting a width to a height or adding two x positions together). Of course, explicit casts are possible to get around these restrictions (see the as_*() functions). int values (which are most values) should use the derived <a class="el" href="classmir_1_1_int_wrapper.html">IntWrapper</a> class, and other types should use this directly.  <a href="structmir_1_1geometry_1_1generic_1_1_value_1_1_wrapper.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a92167702c70f980ea84736acb8df5493"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a92167702c70f980ea84736acb8df5493">ValueType</a> = T</td></tr>
+<tr class="separator:a92167702c70f980ea84736acb8df5493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af34e7cfc2e5651b0f3b414efc569f5e5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#af34e7cfc2e5651b0f3b414efc569f5e5">TagType</a> = Tag</td></tr>
+<tr class="separator:af34e7cfc2e5651b0f3b414efc569f5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab598fc3c498ad867e9ac6a1318cddf8f"><td class="memTemplParams" colspan="2">template&lt;typename Q  = T&gt; </td></tr>
+<tr class="memitem:ab598fc3c498ad867e9ac6a1318cddf8f"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::enable_if&lt; std::is_integral&lt; Q &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>, int &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#ab598fc3c498ad867e9ac6a1318cddf8f">as_int</a> () const</td></tr>
+<tr class="separator:ab598fc3c498ad867e9ac6a1318cddf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ca989e1bfbe0c7fd766073834272bb"><td class="memTemplParams" colspan="2">template&lt;typename Q  = T&gt; </td></tr>
+<tr class="memitem:a59ca989e1bfbe0c7fd766073834272bb"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::enable_if&lt; std::is_integral&lt; Q &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>, uint32_t &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a59ca989e1bfbe0c7fd766073834272bb">as_uint32_t</a> () const</td></tr>
+<tr class="separator:a59ca989e1bfbe0c7fd766073834272bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee7525c4bc0c65fcd65fad6212ac2b8"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a2ee7525c4bc0c65fcd65fad6212ac2b8">as_value</a> () const noexcept</td></tr>
+<tr class="separator:a2ee7525c4bc0c65fcd65fad6212ac2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e85529e5aca2160dbe96c7eb63e541"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a58e85529e5aca2160dbe96c7eb63e541">Value</a> () noexcept</td></tr>
+<tr class="separator:a58e85529e5aca2160dbe96c7eb63e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6c9482ea54112bc2564f97d863a9ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#aac6c9482ea54112bc2564f97d863a9ec">operator=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> const &amp;that) noexcept</td></tr>
+<tr class="separator:aac6c9482ea54112bc2564f97d863a9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a588a396bc3b266ab335294d1957eb1"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a2a588a396bc3b266ab335294d1957eb1">Value</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> const &amp;that) noexcept</td></tr>
+<tr class="separator:a2a588a396bc3b266ab335294d1957eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98fb4d4ae22c0522d7fcae398f86119c"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a98fb4d4ae22c0522d7fcae398f86119c"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a98fb4d4ae22c0522d7fcae398f86119c">Value</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; U, Tag &gt; const &amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>) noexcept</td></tr>
+<tr class="separator:a98fb4d4ae22c0522d7fcae398f86119c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6819b978eb0e4d4f95dde3e19e3b326"><td class="memTemplParams" colspan="2">template&lt;typename U , typename std::enable_if&lt; std::is_scalar&lt; U &gt;::value, bool &gt;::type  = true&gt; </td></tr>
+<tr class="memitem:ac6819b978eb0e4d4f95dde3e19e3b326"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#ac6819b978eb0e4d4f95dde3e19e3b326">Value</a> (U const &amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>) noexcept</td></tr>
+<tr class="separator:ac6819b978eb0e4d4f95dde3e19e3b326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acceb8f4adaa49067edfcb375986cf888"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#acceb8f4adaa49067edfcb375986cf888">operator==</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:acceb8f4adaa49067edfcb375986cf888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f805f0a4053f9962fed2e996c74cd50"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a9f805f0a4053f9962fed2e996c74cd50">operator!=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:a9f805f0a4053f9962fed2e996c74cd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818fd01e619f1a145a2b56b8e8f12a02"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a818fd01e619f1a145a2b56b8e8f12a02">operator&lt;=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:a818fd01e619f1a145a2b56b8e8f12a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ba42215d32ada6b00ff63081a88222"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a58ba42215d32ada6b00ff63081a88222">operator&gt;=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:a58ba42215d32ada6b00ff63081a88222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383ebdd7080415048a4304544ce07a35"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a383ebdd7080415048a4304544ce07a35">operator&lt;</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:a383ebdd7080415048a4304544ce07a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bda19aac12cc015d647d540f05f736"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#aa3bda19aac12cc015d647d540f05f736">operator&gt;</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;rhs) const -&gt; bool</td></tr>
+<tr class="separator:aa3bda19aac12cc015d647d540f05f736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:afcea6d529d5925d15734565d1362bb1d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a></td></tr>
+<tr class="separator:afcea6d529d5925d15734565d1362bb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/core/mir/geometry/<a class="el" href="dimensions__generic_8h_source.html">dimensions_generic.h</a></li>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, typename Tag&gt;<br />
+struct mir::geometry::generic::Value&lt; T, Tag &gt;</h3>
+
+<p>Wraps a geometry value and prevents it from being accidentally used for invalid operations (such as setting a width to a height or adding two x positions together). Of course, explicit casts are possible to get around these restrictions (see the as_*() functions). </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="af34e7cfc2e5651b0f3b414efc569f5e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34e7cfc2e5651b0f3b414efc569f5e5">&#9670;&nbsp;</a></span>TagType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#af34e7cfc2e5651b0f3b414efc569f5e5">TagType</a> =  Tag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92167702c70f980ea84736acb8df5493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92167702c70f980ea84736acb8df5493">&#9670;&nbsp;</a></span>ValueType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#a92167702c70f980ea84736acb8df5493">ValueType</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a58e85529e5aca2160dbe96c7eb63e541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e85529e5aca2160dbe96c7eb63e541">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a588a396bc3b266ab335294d1957eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a588a396bc3b266ab335294d1957eb1">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>that</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98fb4d4ae22c0522d7fcae398f86119c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98fb4d4ae22c0522d7fcae398f86119c">&#9670;&nbsp;</a></span>Value() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; U, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6819b978eb0e4d4f95dde3e19e3b326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6819b978eb0e4d4f95dde3e19e3b326">&#9670;&nbsp;</a></span>Value() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<div class="memtemplate">
+template&lt;typename U , typename std::enable_if&lt; std::is_scalar&lt; U &gt;::value, bool &gt;::type  = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a> </td>
+          <td>(</td>
+          <td class="paramtype">U const &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab598fc3c498ad867e9ac6a1318cddf8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab598fc3c498ad867e9ac6a1318cddf8f">&#9670;&nbsp;</a></span>as_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<div class="memtemplate">
+template&lt;typename Q  = T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::enable_if&lt;std::is_integral&lt;Q&gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>, int&gt;::type <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::as_int </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59ca989e1bfbe0c7fd766073834272bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ca989e1bfbe0c7fd766073834272bb">&#9670;&nbsp;</a></span>as_uint32_t()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<div class="memtemplate">
+template&lt;typename Q  = T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::enable_if&lt;std::is_integral&lt;Q&gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html#afcea6d529d5925d15734565d1362bb1d">value</a>, uint32_t&gt;::type <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::as_uint32_t </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ee7525c4bc0c65fcd65fad6212ac2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee7525c4bc0c65fcd65fad6212ac2b8">&#9670;&nbsp;</a></span>as_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr T <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::as_value </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f805f0a4053f9962fed2e996c74cd50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f805f0a4053f9962fed2e996c74cd50">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a383ebdd7080415048a4304544ce07a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a383ebdd7080415048a4304544ce07a35">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a818fd01e619f1a145a2b56b8e8f12a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818fd01e619f1a145a2b56b8e8f12a02">&#9670;&nbsp;</a></span>operator&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac6c9482ea54112bc2564f97d863a9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6c9482ea54112bc2564f97d863a9ec">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&amp; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>that</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acceb8f4adaa49067edfcb375986cf888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acceb8f4adaa49067edfcb375986cf888">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3bda19aac12cc015d647d540f05f736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bda19aac12cc015d647d540f05f736">&#9670;&nbsp;</a></span>operator&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58ba42215d32ada6b00ff63081a88222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ba42215d32ada6b00ff63081a88222">&#9670;&nbsp;</a></span>operator&gt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">Value</a>&lt; T, Tag &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afcea6d529d5925d15734565d1362bb1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcea6d529d5925d15734565d1362bb1d">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Tag &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value</a>&lt; T, Tag &gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following files:<ul>
+<li>include/core/mir/geometry/<a class="el" href="forward_8h_source.html">forward.h</a></li>
+<li>include/core/mir/geometry/<a class="el" href="dimensions_8h_source.html">dimensions.h</a></li>
 </ul>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

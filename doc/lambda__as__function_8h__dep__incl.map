@@ -1,6 +1,7 @@
 <map id="include/miral/miral/lambda_as_function.h" name="include/miral/miral/lambda_as_function.h">
-<area shape="rect" id="node1" title=" " alt="" coords="85,5,239,47"/>
-<area shape="rect" id="node2" href="$command__line__option_8h.html" title=" " alt="" coords="81,95,243,136"/>
-<area shape="rect" id="node3" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,184,151,225"/>
-<area shape="rect" id="node4" href="$shell__main_8cpp.html" title=" " alt="" coords="175,184,317,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="96,5,265,47"/>
+<area shape="rect" id="node2" href="$configuration__option_8h.html" title=" " alt="" coords="95,95,266,136"/>
+<area shape="rect" id="node3" href="$command__line__option_8h.html" title=" " alt="" coords="89,184,272,225"/>
+<area shape="rect" id="node4" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,273,169,315"/>
+<area shape="rect" id="node5" href="$shell__main_8cpp.html" title=" " alt="" coords="194,273,354,315"/>
 </map>

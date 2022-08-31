@@ -86,56 +86,48 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">functional</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span>Server;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class</span> Server;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span>WindowManagerTools;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>WindowManagementPolicy;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_window_management_policy.html">WindowManagementPolicy</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiral_1_1_set_window_management_policy.html">SetWindowManagementPolicy</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html">   33</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_set_window_management_policy.html">SetWindowManagementPolicy</a></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#abd65ce5fc64da1247cafcd57e0b98c27">   36</a></span>&#160;    <a class="code" href="classmiral_1_1_set_window_management_policy.html#abd65ce5fc64da1247cafcd57e0b98c27">SetWindowManagementPolicy</a>(std::function&lt;std::unique_ptr&lt;WindowManagementPolicy&gt;(<a class="code" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a> <span class="keyword">const</span>&amp; tools)&gt; <span class="keyword">const</span>&amp; builder);</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68">   37</a></span>&#160;    <a class="code" href="classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68">~SetWindowManagementPolicy</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#abd65ce5fc64da1247cafcd57e0b98c27">   36</a></span>&#160;    <a class="code" href="classmiral_1_1_set_window_management_policy.html#abd65ce5fc64da1247cafcd57e0b98c27">SetWindowManagementPolicy</a>(std::function&lt;std::unique_ptr&lt;WindowManagementPolicy&gt;(WindowManagerTools <span class="keyword">const</span>&amp; tools)&gt; <span class="keyword">const</span>&amp; builder);</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68">   37</a></span>&#160;    ~<a class="code" href="classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68">SetWindowManagementPolicy</a>();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#a59f316f3208dd8af232b6551ef77459e">   39</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_set_window_management_policy.html#a59f316f3208dd8af232b6551ef77459e">operator()</a>(mir::Server&amp; server) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classmiral_1_1_set_window_management_policy.html#a59f316f3208dd8af232b6551ef77459e">   39</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_set_window_management_policy.html#a59f316f3208dd8af232b6551ef77459e">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::function&lt;std::unique_ptr&lt;WindowManagementPolicy&gt;(<a class="code" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a> <span class="keyword">const</span>&amp; tools)&gt; builder;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::function&lt;std::unique_ptr&lt;WindowManagementPolicy&gt;(WindowManagerTools <span class="keyword">const</span>&amp; tools)&gt; builder;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Policy, <span class="keyword">typename</span> ...Args&gt;</div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespacemiral.html#ab1201343029116dfcb9e9b21505b98e6">   46</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacemiral.html#ab1201343029116dfcb9e9b21505b98e6">set_window_management_policy</a>(Args&amp; ... args) -&gt; <a class="code" href="classmiral_1_1_set_window_management_policy.html">SetWindowManagementPolicy</a></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classmiral_1_1_set_window_management_policy.html">SetWindowManagementPolicy</a>{[&amp;args...](<a class="code" href="classmiral_1_1_window_manager_tools.html">WindowManagerTools</a> <span class="keyword">const</span>&amp; tools) -&gt; std::unique_ptr&lt;WindowManagementPolicy&gt;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> SetWindowManagementPolicy{[&amp;args...](WindowManagerTools <span class="keyword">const</span>&amp; tools) -&gt; std::unique_ptr&lt;WindowManagementPolicy&gt;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        { <span class="keywordflow">return</span> std::make_unique&lt;Policy&gt;(tools, args...); }};</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_set_window_management_policy_html"><div class="ttname"><a href="classmiral_1_1_set_window_management_policy.html">miral::SetWindowManagementPolicy</a></div><div class="ttdef"><b>Definition:</b> set_window_management_policy.h:34</div></div>
-<div class="ttc" id="aclassmiral_1_1_set_window_management_policy_html_a59f316f3208dd8af232b6551ef77459e"><div class="ttname"><a href="classmiral_1_1_set_window_management_policy.html#a59f316f3208dd8af232b6551ef77459e">miral::SetWindowManagementPolicy::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server) const</div></div>
-<div class="ttc" id="aclassmiral_1_1_set_window_management_policy_html_a7f2808a47eae8d98d61304680ed91c68"><div class="ttname"><a href="classmiral_1_1_set_window_management_policy.html#a7f2808a47eae8d98d61304680ed91c68">miral::SetWindowManagementPolicy::~SetWindowManagementPolicy</a></div><div class="ttdeci">~SetWindowManagementPolicy()</div></div>
-<div class="ttc" id="aclassmiral_1_1_set_window_management_policy_html_abd65ce5fc64da1247cafcd57e0b98c27"><div class="ttname"><a href="classmiral_1_1_set_window_management_policy.html#abd65ce5fc64da1247cafcd57e0b98c27">miral::SetWindowManagementPolicy::SetWindowManagementPolicy</a></div><div class="ttdeci">SetWindowManagementPolicy(std::function&lt; std::unique_ptr&lt; WindowManagementPolicy &gt;(WindowManagerTools const &amp;tools)&gt; const &amp;builder)</div></div>
-<div class="ttc" id="aclassmiral_1_1_window_manager_tools_html"><div class="ttname"><a href="classmiral_1_1_window_manager_tools.html">miral::WindowManagerTools</a></div><div class="ttdoc">Window management functions for querying and updating MirAL's model.</div><div class="ttdef"><b>Definition:</b> window_manager_tools.h:58</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
-<div class="ttc" id="anamespacemiral_html_ab1201343029116dfcb9e9b21505b98e6"><div class="ttname"><a href="namespacemiral.html#ab1201343029116dfcb9e9b21505b98e6">miral::set_window_management_policy</a></div><div class="ttdeci">auto set_window_management_policy(Args &amp;... args) -&gt; SetWindowManagementPolicy</div><div class="ttdef"><b>Definition:</b> set_window_management_policy.h:46</div></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_SET_WINDOW_MANAGEMENT_POLICY_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

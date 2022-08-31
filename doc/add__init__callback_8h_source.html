@@ -86,44 +86,40 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_ADD_INIT_CALLBACK_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_ADD_INIT_CALLBACK_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_ADD_INIT_CALLBACK_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_ADD_INIT_CALLBACK_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">functional</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html">   29</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiral_1_1_add_init_callback.html">AddInitCallback</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/// Add a callback to be invoked when the server has been initialized, but </span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/// before it starts.</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/// If multiple callbacks are added they will be invoked in the sequence added.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html">   29</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_add_init_callback.html">AddInitCallback</a></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">   32</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">Callback</a> = std::function&lt;void()&gt;;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">   32</a></span>&#160;    <span class="keyword">using</span> Callback = std::function&lt;<span class="keywordtype">void</span>()&gt;;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#aee497fdf5cbb23b3e322068739cd53f8">   34</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classmiral_1_1_add_init_callback.html#aee497fdf5cbb23b3e322068739cd53f8">AddInitCallback</a>(<a class="code" href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">Callback</a> <span class="keyword">const</span>&amp; callback);</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a">   35</a></span>&#160;    <a class="code" href="classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a">~AddInitCallback</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#aee497fdf5cbb23b3e322068739cd53f8">   34</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classmiral_1_1_add_init_callback.html#aee497fdf5cbb23b3e322068739cd53f8">AddInitCallback</a>(Callback <span class="keyword">const</span>&amp; callback);</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a">   35</a></span>&#160;    ~<a class="code" href="classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a">AddInitCallback</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">   37</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">operator()</a>(mir::Server&amp; server) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">   37</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">Callback</a> callback;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    Callback callback;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_ADD_INIT_CALLBACK_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_add_init_callback_html"><div class="ttname"><a href="classmiral_1_1_add_init_callback.html">miral::AddInitCallback</a></div><div class="ttdoc">Add a callback to be invoked when the server has been initialized, but before it starts....</div><div class="ttdef"><b>Definition:</b> add_init_callback.h:30</div></div>
-<div class="ttc" id="aclassmiral_1_1_add_init_callback_html_a46163666c5ad7a0cd2830ff9e380b86a"><div class="ttname"><a href="classmiral_1_1_add_init_callback.html#a46163666c5ad7a0cd2830ff9e380b86a">miral::AddInitCallback::~AddInitCallback</a></div><div class="ttdeci">~AddInitCallback()</div></div>
-<div class="ttc" id="aclassmiral_1_1_add_init_callback_html_a507c016f9a5dccd2d89b9efe7857448a"><div class="ttname"><a href="classmiral_1_1_add_init_callback.html#a507c016f9a5dccd2d89b9efe7857448a">miral::AddInitCallback::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server) const</div></div>
-<div class="ttc" id="aclassmiral_1_1_add_init_callback_html_ae8b3743f9831d6f7902b37d1b71caa06"><div class="ttname"><a href="classmiral_1_1_add_init_callback.html#ae8b3743f9831d6f7902b37d1b71caa06">miral::AddInitCallback::Callback</a></div><div class="ttdeci">std::function&lt; void()&gt; Callback</div><div class="ttdef"><b>Definition:</b> add_init_callback.h:32</div></div>
-<div class="ttc" id="aclassmiral_1_1_add_init_callback_html_aee497fdf5cbb23b3e322068739cd53f8"><div class="ttname"><a href="classmiral_1_1_add_init_callback.html#aee497fdf5cbb23b3e322068739cd53f8">miral::AddInitCallback::AddInitCallback</a></div><div class="ttdeci">AddInitCallback(Callback const &amp;callback)</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_ADD_INIT_CALLBACK_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

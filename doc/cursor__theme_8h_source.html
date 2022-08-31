@@ -86,22 +86,24 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_CURSOR_THEME_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_CURSOR_THEME_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_CURSOR_THEME_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_CURSOR_THEME_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">string</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiral_1_1_cursor_theme.html">CursorTheme</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/// Load an X-cursor theme, either the supplied default, or through the --cursor-theme config option</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html">   27</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_cursor_theme.html">CursorTheme</a></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">/// Specify a default theme</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html#a15c14cebde2c7106e7f2189be86a68c6">   31</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classmiral_1_1_cursor_theme.html#a15c14cebde2c7106e7f2189be86a68c6">CursorTheme</a>(std::string <span class="keyword">const</span>&amp; theme);</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411">   32</a></span>&#160;    <a class="code" href="classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411">~CursorTheme</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411">   32</a></span>&#160;    ~<a class="code" href="classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411">CursorTheme</a>();</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html#a5ad2a66dbb3f6240a06c90334d4f3c1b">   34</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_cursor_theme.html#a5ad2a66dbb3f6240a06c90334d4f3c1b">operator()</a>(mir::Server&amp; server) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_cursor_theme.html#a5ad2a66dbb3f6240a06c90334d4f3c1b">   34</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_cursor_theme.html#a5ad2a66dbb3f6240a06c90334d4f3c1b">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::string <span class="keyword">const</span> theme;</div>
@@ -109,18 +111,12 @@ $(function() {
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_CURSOR_THEME_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_cursor_theme_html"><div class="ttname"><a href="classmiral_1_1_cursor_theme.html">miral::CursorTheme</a></div><div class="ttdoc">Load an X-cursor theme, either the supplied default, or through the –cursor-theme config option.</div><div class="ttdef"><b>Definition:</b> cursor_theme.h:28</div></div>
-<div class="ttc" id="aclassmiral_1_1_cursor_theme_html_a02ac6b01ae0a1f82eb1d1b365bb24411"><div class="ttname"><a href="classmiral_1_1_cursor_theme.html#a02ac6b01ae0a1f82eb1d1b365bb24411">miral::CursorTheme::~CursorTheme</a></div><div class="ttdeci">~CursorTheme()</div></div>
-<div class="ttc" id="aclassmiral_1_1_cursor_theme_html_a15c14cebde2c7106e7f2189be86a68c6"><div class="ttname"><a href="classmiral_1_1_cursor_theme.html#a15c14cebde2c7106e7f2189be86a68c6">miral::CursorTheme::CursorTheme</a></div><div class="ttdeci">CursorTheme(std::string const &amp;theme)</div><div class="ttdoc">Specify a default theme.</div></div>
-<div class="ttc" id="aclassmiral_1_1_cursor_theme_html_a5ad2a66dbb3f6240a06c90334d4f3c1b"><div class="ttname"><a href="classmiral_1_1_cursor_theme.html#a5ad2a66dbb3f6240a06c90334d4f3c1b">miral::CursorTheme::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server) const</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_CURSOR_THEME_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
