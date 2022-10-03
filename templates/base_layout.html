@@ -79,10 +79,10 @@
           <a href="#main-content">Jump to main content</a>
         </span>
         <ul class="p-navigation__items" role="menu">
-          <li class="p-navigation__item" role="menuitem">
+          <li class="p-navigation__item {% if '/ubuntu-frame' in request.path %}is-selected{% endif %}" role="menuitem">
             <a href="/ubuntu-frame/" class="p-navigation__link">Ubuntu Frame </a>
           </li>
-          <li class="p-navigation__item" role="menuitem">
+          <li class="p-navigation__item {% if '/tutorials' in request.path %}is-selected{% endif %}" role="menuitem">
             <a href="/tutorials/" class="p-navigation__link">Tutorials</a>
           </li>
           <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}" role="menuitem">
