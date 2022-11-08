@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['width_2047',['Width',['../namespacemir_1_1geometry.html#ad543a2f306a4473626655b3f6980da76',1,'mir::geometry::Width()'],['../namespacemir_1_1geometry_1_1generic.html#a278ea7384e183739dbb6c5f2524d22ea',1,'mir::geometry::generic::Width()']]],
-  ['widthf_2048',['WidthF',['../namespacemir_1_1geometry.html#a900b7b78edcb74bb0cc7a24255b7de8e',1,'mir::geometry']]],
-  ['windowmanagementpolicybuilder_2049',['WindowManagementPolicyBuilder',['../namespacemiral.html#aa2989f2658b6e9d4b8c8c26900122aeb',1,'miral']]]
+  ['valuetype_2036',['ValueType',['../structmir_1_1geometry_1_1generic_1_1_size.html#abc1967ef1eb7c5bff028beb6b30912a9',1,'mir::geometry::generic::Size::ValueType()'],['../structmir_1_1geometry_1_1generic_1_1_value.html#a92167702c70f980ea84736acb8df5493',1,'mir::geometry::generic::Value::ValueType()'],['../structmir_1_1geometry_1_1generic_1_1_displacement.html#a1d836c993af3457bff1647ad82766dde',1,'mir::geometry::generic::Displacement::ValueType()'],['../structmir_1_1geometry_1_1generic_1_1_point.html#ace5de8c0ca7dafb48fa5c50b1e00a468',1,'mir::geometry::generic::Point::ValueType()']]]
 ];

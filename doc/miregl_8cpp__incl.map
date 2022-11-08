@@ -1,25 +1,24 @@
 <map id="examples/miral&#45;shell/spinner/miregl.cpp" name="examples/miral&#45;shell/spinner/miregl.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="411,5,552,47"/>
-<area shape="rect" id="node2" href="$miregl_8h.html" title=" " alt="" coords="251,95,319,121"/>
-<area shape="rect" id="node4" href="$wayland__app_8h.html" title=" " alt="" coords="220,244,329,271"/>
-<area shape="rect" id="node19" title=" " alt="" coords="344,95,405,121"/>
-<area shape="rect" id="node20" title=" " alt="" coords="430,95,533,121"/>
-<area shape="rect" id="node21" title=" " alt="" coords="557,95,632,121"/>
-<area shape="rect" id="node22" title=" " alt="" coords="657,95,735,121"/>
-<area shape="rect" id="node23" title=" " alt="" coords="760,95,800,121"/>
-<area shape="rect" id="node3" href="$wayland__surface_8h.html" title=" " alt="" coords="220,169,351,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,319,75,345"/>
-<area shape="rect" id="node17" title=" " alt="" coords="375,169,455,196"/>
-<area shape="rect" id="node18" title=" " alt="" coords="479,169,537,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="362,319,441,345"/>
-<area shape="rect" id="node10" href="$size_8h.html" title=" " alt="" coords="446,244,583,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="99,319,215,345"/>
-<area shape="rect" id="node7" title=" " alt="" coords="239,319,286,345"/>
-<area shape="rect" id="node9" title=" " alt="" coords="324,393,385,420"/>
-<area shape="rect" id="node11" href="$size__generic_8h.html" title=" " alt="" coords="588,319,695,345"/>
-<area shape="rect" id="node16" href="$dimensions_8h.html" title=" " alt="" coords="465,319,564,345"/>
-<area shape="rect" id="node12" href="$dimensions__generic_8h.html" title=" " alt="" coords="441,393,589,420"/>
-<area shape="rect" id="node15" title=" " alt="" coords="613,393,683,420"/>
-<area shape="rect" id="node13" title=" " alt="" coords="437,468,497,495"/>
-<area shape="rect" id="node14" title=" " alt="" coords="521,468,604,495"/>
+<area shape="rect" id="node1" title=" " alt="" coords="399,5,559,47"/>
+<area shape="rect" id="node2" href="$miregl_8h.html" title=" " alt="" coords="230,95,306,121"/>
+<area shape="rect" id="node4" href="$wayland__app_8h.html" title=" " alt="" coords="180,244,300,271"/>
+<area shape="rect" id="node18" title=" " alt="" coords="331,95,397,121"/>
+<area shape="rect" id="node19" title=" " alt="" coords="421,95,536,121"/>
+<area shape="rect" id="node20" title=" " alt="" coords="560,95,645,121"/>
+<area shape="rect" id="node21" title=" " alt="" coords="670,95,757,121"/>
+<area shape="rect" id="node22" title=" " alt="" coords="781,95,824,121"/>
+<area shape="rect" id="node3" href="$wayland__surface_8h.html" title=" " alt="" coords="375,169,519,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="285,319,363,345"/>
+<area shape="rect" id="node16" title=" " alt="" coords="129,169,212,196"/>
+<area shape="rect" id="node17" title=" " alt="" coords="237,169,299,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="387,319,474,345"/>
+<area shape="rect" id="node10" href="$size_8h.html" title=" " alt="" coords="482,244,635,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,319,136,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="160,319,211,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="288,393,355,420"/>
+<area shape="rect" id="node11" href="$forward_8h.html" title=" " alt="" coords="681,393,765,420"/>
+<area shape="rect" id="node12" href="$dimensions_8h.html" title=" " alt="" coords="499,319,608,345"/>
+<area shape="rect" id="node15" title=" " alt="" coords="633,319,709,345"/>
+<area shape="rect" id="node13" title=" " alt="" coords="545,393,609,420"/>
+<area shape="rect" id="node14" title=" " alt="" coords="429,393,521,420"/>
 </map>

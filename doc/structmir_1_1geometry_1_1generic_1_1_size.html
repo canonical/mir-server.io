@@ -76,23 +76,12 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="size__generic_8h_source.html">size_generic.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for mir::geometry::generic::Size&lt; T &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structmir_1_1geometry_1_1generic_1_1_size__inherit__graph.svg" width="163" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="size_8h_source.html">size.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3d8e95dfb289e049a907f4770a386567"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a3d8e95dfb289e049a907f4770a386567"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a3d8e95dfb289e049a907f4770a386567">Corresponding</a> = T&lt; Tag &gt;</td></tr>
-<tr class="separator:a3d8e95dfb289e049a907f4770a386567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4afdb76185f92ead38dfb854aad7a87a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a4afdb76185f92ead38dfb854aad7a87a">PointType</a> = <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a>&lt; T &gt;</td></tr>
-<tr class="separator:a4afdb76185f92ead38dfb854aad7a87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae87762cbe27dc9433f91a52c5ba44a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aae87762cbe27dc9433f91a52c5ba44a1">DisplacementType</a> = <a class="el" href="structmir_1_1geometry_1_1generic_1_1_displacement.html">Displacement</a>&lt; T &gt;</td></tr>
-<tr class="separator:aae87762cbe27dc9433f91a52c5ba44a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1967ef1eb7c5bff028beb6b30912a9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#abc1967ef1eb7c5bff028beb6b30912a9">ValueType</a> = T</td></tr>
+<tr class="separator:abc1967ef1eb7c5bff028beb6b30912a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -102,65 +91,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad850e910f59e3aa49dce8ab2a4bb6205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1190c0ca955df85df2305ee07fb3d0f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a1190c0ca955df85df2305ee07fb3d0f1">operator=</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a> const &amp;) noexcept=default</td></tr>
 <tr class="separator:a1190c0ca955df85df2305ee07fb3d0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6304fbda3b9bf66b36eb7bf2aacac06e"><td class="memTemplParams" colspan="2">template&lt;typename S , typename std::enable_if&lt; std::is_base_of&lt; detail::SizeBase, S &gt;::value, bool &gt;::type  = true&gt; </td></tr>
-<tr class="memitem:a6304fbda3b9bf66b36eb7bf2aacac06e"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a6304fbda3b9bf66b36eb7bf2aacac06e">Size</a> (S const &amp;other) noexcept</td></tr>
-<tr class="separator:a6304fbda3b9bf66b36eb7bf2aacac06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bea3a5aff58c34f0d821a6381d6243"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a95bea3a5aff58c34f0d821a6381d6243"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a95bea3a5aff58c34f0d821a6381d6243">Size</a> (<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt; U &gt; const &amp;other) noexcept</td></tr>
+<tr class="separator:a95bea3a5aff58c34f0d821a6381d6243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa864f8886ce50a6c10753b461686f008"><td class="memTemplParams" colspan="2">template&lt;typename WidthType , typename HeightType &gt; </td></tr>
-<tr class="memitem:aa864f8886ce50a6c10753b461686f008"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aa864f8886ce50a6c10753b461686f008">Size</a> (WidthType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a47e5d74801eb0beae68626fada0da284">width</a>, HeightType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aaf945d05b8ad28520ec84adc9b9982c6">height</a>) noexcept</td></tr>
+<tr class="memitem:aa864f8886ce50a6c10753b461686f008"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aa864f8886ce50a6c10753b461686f008">Size</a> (WidthType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#afbf79b393760cce94fa23d281002d6e2">width</a>, HeightType &amp;&amp;<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#acae17fa4fc4e303657adf6416c8f6d67">height</a>) noexcept</td></tr>
 <tr class="separator:aa864f8886ce50a6c10753b461686f008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a47e5d74801eb0beae68626fada0da284"><td class="memItemLeft" align="right" valign="top">T&lt; <a class="el" href="structmir_1_1geometry_1_1_width_tag.html">WidthTag</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a47e5d74801eb0beae68626fada0da284">width</a></td></tr>
-<tr class="separator:a47e5d74801eb0beae68626fada0da284"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf945d05b8ad28520ec84adc9b9982c6"><td class="memItemLeft" align="right" valign="top">T&lt; <a class="el" href="structmir_1_1geometry_1_1_height_tag.html">HeightTag</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aaf945d05b8ad28520ec84adc9b9982c6">height</a></td></tr>
-<tr class="separator:aaf945d05b8ad28520ec84adc9b9982c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf79b393760cce94fa23d281002d6e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#acf3c7584b23033a54a9e9018bb69248b">Width</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#afbf79b393760cce94fa23d281002d6e2">width</a></td></tr>
+<tr class="separator:afbf79b393760cce94fa23d281002d6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae17fa4fc4e303657adf6416c8f6d67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a78752a318aa581de23ad5ee3e2fa2dd7">Height</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#acae17fa4fc4e303657adf6416c8f6d67">height</a></td></tr>
+<tr class="separator:acae17fa4fc4e303657adf6416c8f6d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a3d8e95dfb289e049a907f4770a386567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8e95dfb289e049a907f4770a386567">&#9670;&nbsp;</a></span>Corresponding</h2>
+<a id="abc1967ef1eb7c5bff028beb6b30912a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1967ef1eb7c5bff028beb6b30912a9">&#9670;&nbsp;</a></span>ValueType</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a3d8e95dfb289e049a907f4770a386567">Corresponding</a> =  T&lt;Tag&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aae87762cbe27dc9433f91a52c5ba44a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae87762cbe27dc9433f91a52c5ba44a1">&#9670;&nbsp;</a></span>DisplacementType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#aae87762cbe27dc9433f91a52c5ba44a1">DisplacementType</a> =  <a class="el" href="structmir_1_1geometry_1_1generic_1_1_displacement.html">Displacement</a>&lt;T&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4afdb76185f92ead38dfb854aad7a87a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4afdb76185f92ead38dfb854aad7a87a">&#9670;&nbsp;</a></span>PointType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#a4afdb76185f92ead38dfb854aad7a87a">PointType</a> =  <a class="el" href="structmir_1_1geometry_1_1generic_1_1_point.html">Point</a>&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html#abc1967ef1eb7c5bff028beb6b30912a9">ValueType</a> =  T</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -174,7 +129,7 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -201,7 +156,7 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -223,15 +178,15 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 
 </div>
 </div>
-<a id="a6304fbda3b9bf66b36eb7bf2aacac06e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6304fbda3b9bf66b36eb7bf2aacac06e">&#9670;&nbsp;</a></span>Size() <span class="overload">[3/4]</span></h2>
+<a id="a95bea3a5aff58c34f0d821a6381d6243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bea3a5aff58c34f0d821a6381d6243">&#9670;&nbsp;</a></span>Size() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <div class="memtemplate">
-template&lt;typename S , typename std::enable_if&lt; std::is_base_of&lt; detail::SizeBase, S &gt;::value, bool &gt;::type  = true&gt; </div>
+template&lt;typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -239,7 +194,7 @@ template&lt;typename S , typename std::enable_if&lt; std::is_base_of&lt; detail:
         <tr>
           <td class="memname">constexpr <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::<a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a> </td>
           <td>(</td>
-          <td class="paramtype">S const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt; U &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -259,7 +214,7 @@ template&lt;typename S , typename std::enable_if&lt; std::is_base_of&lt; detail:
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <div class="memtemplate">
 template&lt;typename WidthType , typename HeightType &gt; </div>
 <table class="mlabels">
@@ -300,7 +255,7 @@ template&lt;typename WidthType , typename HeightType &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -323,47 +278,46 @@ template&lt;template&lt; typename &gt; typename T&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aaf945d05b8ad28520ec84adc9b9982c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf945d05b8ad28520ec84adc9b9982c6">&#9670;&nbsp;</a></span>height</h2>
+<a id="acae17fa4fc4e303657adf6416c8f6d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae17fa4fc4e303657adf6416c8f6d67">&#9670;&nbsp;</a></span>height</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T&lt;<a class="el" href="structmir_1_1geometry_1_1_height_tag.html">HeightTag</a>&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::height</td>
+          <td class="memname"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a78752a318aa581de23ad5ee3e2fa2dd7">Height</a>&lt;T&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::height</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a47e5d74801eb0beae68626fada0da284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47e5d74801eb0beae68626fada0da284">&#9670;&nbsp;</a></span>width</h2>
+<a id="afbf79b393760cce94fa23d281002d6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf79b393760cce94fa23d281002d6e2">&#9670;&nbsp;</a></span>width</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename &gt; typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T&lt;<a class="el" href="structmir_1_1geometry_1_1_width_tag.html">WidthTag</a>&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::width</td>
+          <td class="memname"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#acf3c7584b23033a54a9e9018bb69248b">Width</a>&lt;T&gt; <a class="el" href="structmir_1_1geometry_1_1generic_1_1_size.html">mir::geometry::generic::Size</a>&lt; T &gt;::width</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following files:<ul>
-<li>include/core/mir/geometry/<a class="el" href="displacement__generic_8h_source.html">displacement_generic.h</a></li>
-<li>include/core/mir/geometry/<a class="el" href="size__generic_8h_source.html">size_generic.h</a></li>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>include/core/mir/geometry/<a class="el" href="size_8h_source.html">size.h</a></li>
 </ul>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

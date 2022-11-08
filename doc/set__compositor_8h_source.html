@@ -86,54 +86,49 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIROIL_SET_COMPOSITOR_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIROIL_SET_COMPOSITOR_H</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIROIL_SET_COMPOSITOR_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIROIL_SET_COMPOSITOR_H</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">functional</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">namespace </span>graphics { <span class="keyword">class </span>Display; } }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">namespace </span>compositor { <span class="keyword">class </span>DisplayListener; } } </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; }</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1graphics.html">graphics</a> { <span class="keyword">class</span> Display; } }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1compositor.html">compositor</a> { <span class="keyword">class</span> DisplayListener; } }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiroil.html">miroil</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiroil.html">miroil</a></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">class </span>Compositor;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;       </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">class</span> <a class="code" href="classmiroil_1_1_compositor.html">Compositor</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// Configure the server for using the Qt compositor</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmiroil_1_1_set_compositor.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiroil_1_1_set_compositor.html">SetCompositor</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmiroil_1_1_set_compositor.html">   31</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiroil_1_1_set_compositor.html">SetCompositor</a></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">using</span> InitFunction = std::function&lt;void(<span class="keyword">const</span> std::shared_ptr&lt;mir::graphics::Display&gt;&amp; display,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                       <span class="keyword">const</span> std::shared_ptr&lt;Compositor&gt; &amp; compositor,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                       <span class="keyword">const</span> std::shared_ptr&lt;mir::compositor::DisplayListener&gt;&amp; displayListener)&gt;;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                       </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">using</span> ConstructorFunction = std::function&lt;std::shared_ptr&lt;Compositor&gt;()&gt;;    </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">using</span> InitFunction = std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> std::shared_ptr&lt;<a class="code" href="namespacemir.html">mir</a>::<a class="code" href="namespacemir_1_1graphics.html">graphics</a>::Display&gt;&amp; display,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                       <span class="keyword">const</span> std::shared_ptr&lt;<a class="code" href="classmiroil_1_1_compositor.html">Compositor</a>&gt; &amp; compositor,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                       <span class="keyword">const</span> std::shared_ptr&lt;<a class="code" href="namespacemir.html">mir</a>::<a class="code" href="namespacemir_1_1compositor.html">compositor</a>::DisplayListener&gt;&amp; displayListener)&gt;;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">using</span> ConstructorFunction = std::function&lt;std::shared_ptr&lt;<a class="code" href="classmiroil_1_1_compositor.html">Compositor</a>&gt;()&gt;;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classmiroil_1_1_set_compositor.html#ab6f1e0fc45c383428957061e678ca736">   40</a></span>&#160;    <a class="code" href="classmiroil_1_1_set_compositor.html#ab6f1e0fc45c383428957061e678ca736">SetCompositor</a>(ConstructorFunction constructor, InitFunction init);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">operator()</a>(mir::Server&amp; server);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">struct </span>CompositorImpl;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">struct</span> CompositorImpl;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    std::weak_ptr&lt;CompositorImpl&gt; compositor_impl;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    ConstructorFunction           constructor_function;    </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    InitFunction                  init_function;    </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    ConstructorFunction           constructor_function;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    InitFunction                  init_function;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIROIL_SET_COMPOSITOR_H</span></div>
-<div class="ttc" id="aclassmiroil_1_1_set_compositor_html"><div class="ttname"><a href="classmiroil_1_1_set_compositor.html">miroil::SetCompositor</a></div><div class="ttdef"><b>Definition:</b> set_compositor.h:32</div></div>
-<div class="ttc" id="aclassmiroil_1_1_set_compositor_html_ab6f1e0fc45c383428957061e678ca736"><div class="ttname"><a href="classmiroil_1_1_set_compositor.html#ab6f1e0fc45c383428957061e678ca736">miroil::SetCompositor::SetCompositor</a></div><div class="ttdeci">SetCompositor(ConstructorFunction constructor, InitFunction init)</div></div>
-<div class="ttc" id="aclassmiroil_1_1_set_compositor_html_af9853364fa2ddfc79a4faaddc335310c"><div class="ttname"><a href="classmiroil_1_1_set_compositor.html#af9853364fa2ddfc79a4faaddc335310c">miroil::SetCompositor::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server)</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiroil_html"><div class="ttname"><a href="namespacemiroil.html">miroil</a></div><div class="ttdef"><b>Definition:</b> compositor.h:21</div></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIROIL_SET_COMPOSITOR_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

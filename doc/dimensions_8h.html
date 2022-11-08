@@ -69,23 +69,25 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">dimensions.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="dimensions__generic_8h_source.html">dimensions_generic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="forward_8h_source.html">forward.h</a>&quot;</code><br />
+<code>#include &lt;iosfwd&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for dimensions.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dimensions_8h__incl.svg" width="250" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dimensions_8h__incl.svg" width="392" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dimensions_8h__dep__incl.svg" width="2200" height="960"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="dimensions_8h__dep__incl.svg" width="2398" height="960"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -93,7 +95,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmir_1_1geometry_1_1detail_1_1_int_wrapper.html">mir::geometry::detail::IntWrapper&lt; Tag &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_value.html">mir::geometry::generic::Value&lt; T, Tag &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps a geometry value and prevents it from being accidentally used for invalid operations (such as setting a width to a height or adding two x positions together). Of course, explicit casts are possible to get around these restrictions (see the as_*() functions).  <a href="structmir_1_1geometry_1_1generic_1_1_value.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -103,31 +106,194 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemir_1_1geometry"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html">mir::geometry</a></td></tr>
 <tr class="memdesc:namespacemir_1_1geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic geometry types. Types for dimensions, displacements, etc. and the operations that they support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemir_1_1geometry_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1detail.html">mir::geometry::detail</a></td></tr>
+<tr class="memitem:namespacemir_1_1geometry_1_1generic"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html">mir::geometry::generic</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad543a2f306a4473626655b3f6980da76"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; WidthTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#ad543a2f306a4473626655b3f6980da76">mir::geometry::Width</a></td></tr>
-<tr class="separator:ad543a2f306a4473626655b3f6980da76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa70e77947f970657c843654e20bb7724"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; HeightTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#aa70e77947f970657c843654e20bb7724">mir::geometry::Height</a></td></tr>
-<tr class="separator:aa70e77947f970657c843654e20bb7724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d17587140b3ca84685f1aa8ac9186ee"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; struct StrideTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a4d17587140b3ca84685f1aa8ac9186ee">mir::geometry::Stride</a></td></tr>
-<tr class="separator:a4d17587140b3ca84685f1aa8ac9186ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9592ef630e5112b49adaaaf5ddf35cf6"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; XTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a9592ef630e5112b49adaaaf5ddf35cf6">mir::geometry::X</a></td></tr>
-<tr class="separator:a9592ef630e5112b49adaaaf5ddf35cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e4df76ea242d5bda814b042c4725d23"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; YTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a6e4df76ea242d5bda814b042c4725d23">mir::geometry::Y</a></td></tr>
-<tr class="separator:a6e4df76ea242d5bda814b042c4725d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ec87033d44a16c90631e6169bafe6b"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; DeltaXTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a79ec87033d44a16c90631e6169bafe6b">mir::geometry::DeltaX</a></td></tr>
-<tr class="separator:a79ec87033d44a16c90631e6169bafe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a071ea9c5d66b90628bfc319abfeb6a31"><td class="memItemLeft" align="right" valign="top">typedef detail::IntWrapper&lt; DeltaYTag &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a071ea9c5d66b90628bfc319abfeb6a31">mir::geometry::DeltaY</a></td></tr>
-<tr class="separator:a071ea9c5d66b90628bfc319abfeb6a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab07a93a35b952ff5aac29355d9f5785d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Tag &gt; </td></tr>
+<tr class="memitem:ab07a93a35b952ff5aac29355d9f5785d"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ab07a93a35b952ff5aac29355d9f5785d">mir::geometry::generic::operator&lt;&lt;</a> (std::ostream &amp;out, Value&lt; T, Tag &gt; const &amp;value)</td></tr>
+<tr class="separator:ab07a93a35b952ff5aac29355d9f5785d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181fa4ae6e7300c27f95a52a44add7ed"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a181fa4ae6e7300c27f95a52a44add7ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a181fa4ae6e7300c27f95a52a44add7ed">mir::geometry::generic::operator+</a> (DeltaX&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a181fa4ae6e7300c27f95a52a44add7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ee0b3871f8f281a16e3f7c91b6f37d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad6ee0b3871f8f281a16e3f7c91b6f37d"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad6ee0b3871f8f281a16e3f7c91b6f37d">mir::geometry::generic::operator+</a> (DeltaY&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad6ee0b3871f8f281a16e3f7c91b6f37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9e8f5e22faba96d2572d543ff3bf15"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6b9e8f5e22faba96d2572d543ff3bf15"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a6b9e8f5e22faba96d2572d543ff3bf15">mir::geometry::generic::operator-</a> (DeltaX&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a6b9e8f5e22faba96d2572d543ff3bf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d441595497e0f077f01c0d7a126a23"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a38d441595497e0f077f01c0d7a126a23"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a38d441595497e0f077f01c0d7a126a23">mir::geometry::generic::operator-</a> (DeltaY&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a38d441595497e0f077f01c0d7a126a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b6858cef3e945d286fa429c605b95a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa4b6858cef3e945d286fa429c605b95a"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aa4b6858cef3e945d286fa429c605b95a">mir::geometry::generic::operator-</a> (DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:aa4b6858cef3e945d286fa429c605b95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8277fe26a17132931a9d044f88925e94"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8277fe26a17132931a9d044f88925e94"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a8277fe26a17132931a9d044f88925e94">mir::geometry::generic::operator-</a> (DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a8277fe26a17132931a9d044f88925e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0220805628fdb0779b03fe071c3e509"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad0220805628fdb0779b03fe071c3e509"><td class="memTemplItemLeft" align="right" valign="top">DeltaX&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad0220805628fdb0779b03fe071c3e509">mir::geometry::generic::operator+=</a> (DeltaX&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad0220805628fdb0779b03fe071c3e509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ffc062c66b2d04af0f446d96ae7db7b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4ffc062c66b2d04af0f446d96ae7db7b"><td class="memTemplItemLeft" align="right" valign="top">DeltaY&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a4ffc062c66b2d04af0f446d96ae7db7b">mir::geometry::generic::operator+=</a> (DeltaY&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a4ffc062c66b2d04af0f446d96ae7db7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410f06abe96430e2414d98bec21739e1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a410f06abe96430e2414d98bec21739e1"><td class="memTemplItemLeft" align="right" valign="top">DeltaX&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a410f06abe96430e2414d98bec21739e1">mir::geometry::generic::operator-=</a> (DeltaX&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a410f06abe96430e2414d98bec21739e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade7217983a9876ca270c2b4fc5ac5627"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ade7217983a9876ca270c2b4fc5ac5627"><td class="memTemplItemLeft" align="right" valign="top">DeltaY&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ade7217983a9876ca270c2b4fc5ac5627">mir::geometry::generic::operator-=</a> (DeltaY&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ade7217983a9876ca270c2b4fc5ac5627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9f8465557fc10bb54430b6f4cac14e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3d9f8465557fc10bb54430b6f4cac14e"><td class="memTemplItemLeft" align="right" valign="top">constexpr X&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a3d9f8465557fc10bb54430b6f4cac14e">mir::geometry::generic::operator+</a> (X&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a3d9f8465557fc10bb54430b6f4cac14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa302fcf5b8dfebb141aed6683e5334a6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa302fcf5b8dfebb141aed6683e5334a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr Y&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aa302fcf5b8dfebb141aed6683e5334a6">mir::geometry::generic::operator+</a> (Y&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:aa302fcf5b8dfebb141aed6683e5334a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d05ab1ee87461fe630c540cd2184c7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a27d05ab1ee87461fe630c540cd2184c7"><td class="memTemplItemLeft" align="right" valign="top">constexpr X&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a27d05ab1ee87461fe630c540cd2184c7">mir::geometry::generic::operator-</a> (X&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a27d05ab1ee87461fe630c540cd2184c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a50e37f4aafe08289262bdc168219a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab2a50e37f4aafe08289262bdc168219a"><td class="memTemplItemLeft" align="right" valign="top">constexpr Y&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ab2a50e37f4aafe08289262bdc168219a">mir::geometry::generic::operator-</a> (Y&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ab2a50e37f4aafe08289262bdc168219a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b38fb03856dead54d56ecc35e1504a7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9b38fb03856dead54d56ecc35e1504a7"><td class="memTemplItemLeft" align="right" valign="top">X&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a9b38fb03856dead54d56ecc35e1504a7">mir::geometry::generic::operator+=</a> (X&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a9b38fb03856dead54d56ecc35e1504a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedc49564d417066f2f78643742dd3ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abedc49564d417066f2f78643742dd3ae"><td class="memTemplItemLeft" align="right" valign="top">Y&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#abedc49564d417066f2f78643742dd3ae">mir::geometry::generic::operator+=</a> (Y&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:abedc49564d417066f2f78643742dd3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed30b72d2e8c2d544ce7f15d2f08351a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aed30b72d2e8c2d544ce7f15d2f08351a"><td class="memTemplItemLeft" align="right" valign="top">X&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aed30b72d2e8c2d544ce7f15d2f08351a">mir::geometry::generic::operator-=</a> (X&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:aed30b72d2e8c2d544ce7f15d2f08351a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0051909d409dc3d357b0e8b92c14cce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab0051909d409dc3d357b0e8b92c14cce"><td class="memTemplItemLeft" align="right" valign="top">Y&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ab0051909d409dc3d357b0e8b92c14cce">mir::geometry::generic::operator-=</a> (Y&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ab0051909d409dc3d357b0e8b92c14cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6141971b8939c74eefdcb5cb8b7703ea"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6141971b8939c74eefdcb5cb8b7703ea"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a6141971b8939c74eefdcb5cb8b7703ea">mir::geometry::generic::operator+</a> (Width&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a6141971b8939c74eefdcb5cb8b7703ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a1ddedf02b64e741acbebb99b81cf1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad5a1ddedf02b64e741acbebb99b81cf1"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad5a1ddedf02b64e741acbebb99b81cf1">mir::geometry::generic::operator+</a> (Height&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad5a1ddedf02b64e741acbebb99b81cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390e0fb8f25d5d246c1fd1e992899005"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a390e0fb8f25d5d246c1fd1e992899005"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a390e0fb8f25d5d246c1fd1e992899005">mir::geometry::generic::operator-</a> (Width&lt; T &gt; lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a390e0fb8f25d5d246c1fd1e992899005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1278fea71479248fee2ab542e6079a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2c1278fea71479248fee2ab542e6079a"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a2c1278fea71479248fee2ab542e6079a">mir::geometry::generic::operator-</a> (Height&lt; T &gt; lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a2c1278fea71479248fee2ab542e6079a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f931e457fcac596811555cd22cbcae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a78f931e457fcac596811555cd22cbcae"><td class="memTemplItemLeft" align="right" valign="top">Width&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a78f931e457fcac596811555cd22cbcae">mir::geometry::generic::operator+=</a> (Width&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a78f931e457fcac596811555cd22cbcae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2fa2d45cfb9e1fa937685b1e81f565"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abf2fa2d45cfb9e1fa937685b1e81f565"><td class="memTemplItemLeft" align="right" valign="top">Height&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#abf2fa2d45cfb9e1fa937685b1e81f565">mir::geometry::generic::operator+=</a> (Height&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:abf2fa2d45cfb9e1fa937685b1e81f565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8416ea0cf2661d6d0e49648c09de2c2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad8416ea0cf2661d6d0e49648c09de2c2"><td class="memTemplItemLeft" align="right" valign="top">Width&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad8416ea0cf2661d6d0e49648c09de2c2">mir::geometry::generic::operator-=</a> (Width&lt; T &gt; &amp;lhs, DeltaX&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ad8416ea0cf2661d6d0e49648c09de2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcb33a72d7e95ca5dad24967742ca4e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4dcb33a72d7e95ca5dad24967742ca4e"><td class="memTemplItemLeft" align="right" valign="top">Height&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a4dcb33a72d7e95ca5dad24967742ca4e">mir::geometry::generic::operator-=</a> (Height&lt; T &gt; &amp;lhs, DeltaY&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a4dcb33a72d7e95ca5dad24967742ca4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6217d7137611057780105a56d556339d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6217d7137611057780105a56d556339d"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a6217d7137611057780105a56d556339d">mir::geometry::generic::operator+</a> (Width&lt; T &gt; lhs, Width&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a6217d7137611057780105a56d556339d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7ee345df77dad0f11f259399643d53"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5d7ee345df77dad0f11f259399643d53"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a5d7ee345df77dad0f11f259399643d53">mir::geometry::generic::operator+</a> (Height&lt; T &gt; lhs, Height&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a5d7ee345df77dad0f11f259399643d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce81d2b19b054ac262af757398f08c0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9ce81d2b19b054ac262af757398f08c0"><td class="memTemplItemLeft" align="right" valign="top">Width&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a9ce81d2b19b054ac262af757398f08c0">mir::geometry::generic::operator+=</a> (Width&lt; T &gt; &amp;lhs, Width&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a9ce81d2b19b054ac262af757398f08c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1accce5b736f2fa8f2f965472466e0f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af1accce5b736f2fa8f2f965472466e0f"><td class="memTemplItemLeft" align="right" valign="top">Height&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#af1accce5b736f2fa8f2f965472466e0f">mir::geometry::generic::operator+=</a> (Height&lt; T &gt; &amp;lhs, Height&lt; T &gt; rhs)</td></tr>
+<tr class="separator:af1accce5b736f2fa8f2f965472466e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc492b7f136d63db0c6ed89b54a87512"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:adc492b7f136d63db0c6ed89b54a87512"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#adc492b7f136d63db0c6ed89b54a87512">mir::geometry::generic::operator-</a> (X&lt; T &gt; lhs, X&lt; T &gt; rhs)</td></tr>
+<tr class="separator:adc492b7f136d63db0c6ed89b54a87512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32fff222528775d0a1132b3f0416ed29"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a32fff222528775d0a1132b3f0416ed29"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a32fff222528775d0a1132b3f0416ed29">mir::geometry::generic::operator-</a> (Y&lt; T &gt; lhs, Y&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a32fff222528775d0a1132b3f0416ed29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a23425544ee9e092820da592275438"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac1a23425544ee9e092820da592275438"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ac1a23425544ee9e092820da592275438">mir::geometry::generic::operator-</a> (Width&lt; T &gt; lhs, Width&lt; T &gt; rhs)</td></tr>
+<tr class="separator:ac1a23425544ee9e092820da592275438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251256833e77be6423d620459f83c86a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a251256833e77be6423d620459f83c86a"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a251256833e77be6423d620459f83c86a">mir::geometry::generic::operator-</a> (Height&lt; T &gt; lhs, Height&lt; T &gt; rhs)</td></tr>
+<tr class="separator:a251256833e77be6423d620459f83c86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e6f5c47e7c77382fad44a6314a431d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:af4e6f5c47e7c77382fad44a6314a431d"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#af4e6f5c47e7c77382fad44a6314a431d">mir::geometry::generic::operator*</a> (Scalar scale, Width&lt; T &gt; const &amp;w)</td></tr>
+<tr class="separator:af4e6f5c47e7c77382fad44a6314a431d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9d47c8d835299a27eb59faba3a5bdb"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a5f9d47c8d835299a27eb59faba3a5bdb"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a5f9d47c8d835299a27eb59faba3a5bdb">mir::geometry::generic::operator*</a> (Scalar scale, Height&lt; T &gt; const &amp;h)</td></tr>
+<tr class="separator:a5f9d47c8d835299a27eb59faba3a5bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52dad8556887799c66fc8c7196a5698f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a52dad8556887799c66fc8c7196a5698f"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a52dad8556887799c66fc8c7196a5698f">mir::geometry::generic::operator*</a> (Scalar scale, DeltaX&lt; T &gt; const &amp;dx)</td></tr>
+<tr class="separator:a52dad8556887799c66fc8c7196a5698f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae370ca2d975d1256705b9eb649b9384d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:ae370ca2d975d1256705b9eb649b9384d"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ae370ca2d975d1256705b9eb649b9384d">mir::geometry::generic::operator*</a> (Scalar scale, DeltaY&lt; T &gt; const &amp;dy)</td></tr>
+<tr class="separator:ae370ca2d975d1256705b9eb649b9384d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0c21fa7fa756a62d9aabcd405ebc33"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:afd0c21fa7fa756a62d9aabcd405ebc33"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#afd0c21fa7fa756a62d9aabcd405ebc33">mir::geometry::generic::operator*</a> (Width&lt; T &gt; const &amp;w, Scalar scale)</td></tr>
+<tr class="separator:afd0c21fa7fa756a62d9aabcd405ebc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97122825b863b6f2ccd0270848446e8"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:ae97122825b863b6f2ccd0270848446e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ae97122825b863b6f2ccd0270848446e8">mir::geometry::generic::operator*</a> (Height&lt; T &gt; const &amp;h, Scalar scale)</td></tr>
+<tr class="separator:ae97122825b863b6f2ccd0270848446e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323aae0d2a9cb8c1af50a38edfeae01d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a323aae0d2a9cb8c1af50a38edfeae01d"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a323aae0d2a9cb8c1af50a38edfeae01d">mir::geometry::generic::operator*</a> (DeltaX&lt; T &gt; const &amp;dx, Scalar scale)</td></tr>
+<tr class="separator:a323aae0d2a9cb8c1af50a38edfeae01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7791334394328be4b0151b98528f2fe4"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a7791334394328be4b0151b98528f2fe4"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a7791334394328be4b0151b98528f2fe4">mir::geometry::generic::operator*</a> (DeltaY&lt; T &gt; const &amp;dy, Scalar scale)</td></tr>
+<tr class="separator:a7791334394328be4b0151b98528f2fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad831cce03545ad50748c7fdac5d54968"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:ad831cce03545ad50748c7fdac5d54968"><td class="memTemplItemLeft" align="right" valign="top">constexpr Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#ad831cce03545ad50748c7fdac5d54968">mir::geometry::generic::operator/</a> (Width&lt; T &gt; const &amp;w, Scalar scale)</td></tr>
+<tr class="separator:ad831cce03545ad50748c7fdac5d54968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55db8b115ef746e13eac140084e57b0a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a55db8b115ef746e13eac140084e57b0a"><td class="memTemplItemLeft" align="right" valign="top">constexpr Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a55db8b115ef746e13eac140084e57b0a">mir::geometry::generic::operator/</a> (Height&lt; T &gt; const &amp;h, Scalar scale)</td></tr>
+<tr class="separator:a55db8b115ef746e13eac140084e57b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8b7786dbddb8f1be29a71f48bdeadc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a7b8b7786dbddb8f1be29a71f48bdeadc"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a7b8b7786dbddb8f1be29a71f48bdeadc">mir::geometry::generic::operator/</a> (DeltaX&lt; T &gt; const &amp;dx, Scalar scale)</td></tr>
+<tr class="separator:a7b8b7786dbddb8f1be29a71f48bdeadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f44d7badfa2ffcedca9f17665d80d6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar &gt; </td></tr>
+<tr class="memitem:a95f44d7badfa2ffcedca9f17665d80d6"><td class="memTemplItemLeft" align="right" valign="top">constexpr DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a95f44d7badfa2ffcedca9f17665d80d6">mir::geometry::generic::operator/</a> (DeltaY&lt; T &gt; const &amp;dy, Scalar scale)</td></tr>
+<tr class="separator:a95f44d7badfa2ffcedca9f17665d80d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbe7fe3168e0941690699065bac1a518"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afbe7fe3168e0941690699065bac1a518"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#afbe7fe3168e0941690699065bac1a518">mir::geometry::as_width</a> (generic::DeltaX&lt; T &gt; const &amp;dx)</td></tr>
+<tr class="separator:afbe7fe3168e0941690699065bac1a518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53dc926685665977b288eab6d6e2bab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa53dc926685665977b288eab6d6e2bab"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#aa53dc926685665977b288eab6d6e2bab">mir::geometry::as_height</a> (generic::DeltaY&lt; T &gt; const &amp;dy)</td></tr>
+<tr class="separator:aa53dc926685665977b288eab6d6e2bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a700f17260561d27ab685533a9795274f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a700f17260561d27ab685533a9795274f"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::X&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a700f17260561d27ab685533a9795274f">mir::geometry::as_x</a> (generic::DeltaX&lt; T &gt; const &amp;dx)</td></tr>
+<tr class="separator:a700f17260561d27ab685533a9795274f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cdf1cf189d9e5a9d0abdb71fd2840f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2cdf1cf189d9e5a9d0abdb71fd2840f6"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Y&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a2cdf1cf189d9e5a9d0abdb71fd2840f6">mir::geometry::as_y</a> (generic::DeltaY&lt; T &gt; const &amp;dy)</td></tr>
+<tr class="separator:a2cdf1cf189d9e5a9d0abdb71fd2840f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8657dff455ecd336d440165e2f50630"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa8657dff455ecd336d440165e2f50630"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#aa8657dff455ecd336d440165e2f50630">mir::geometry::as_delta</a> (generic::X&lt; T &gt; const &amp;x)</td></tr>
+<tr class="separator:aa8657dff455ecd336d440165e2f50630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051b35d8f1400da4b13e9b31c0f4872b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a051b35d8f1400da4b13e9b31c0f4872b"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a051b35d8f1400da4b13e9b31c0f4872b">mir::geometry::as_delta</a> (generic::Y&lt; T &gt; const &amp;y)</td></tr>
+<tr class="separator:a051b35d8f1400da4b13e9b31c0f4872b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87515389d72fc13d0bc74c81081ec160"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a87515389d72fc13d0bc74c81081ec160"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::X&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a87515389d72fc13d0bc74c81081ec160">mir::geometry::as_x</a> (generic::Width&lt; T &gt; const &amp;w)</td></tr>
+<tr class="separator:a87515389d72fc13d0bc74c81081ec160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd055ae974dddfd77d5c0a261b02e5b8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afd055ae974dddfd77d5c0a261b02e5b8"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Y&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#afd055ae974dddfd77d5c0a261b02e5b8">mir::geometry::as_y</a> (generic::Height&lt; T &gt; const &amp;h)</td></tr>
+<tr class="separator:afd055ae974dddfd77d5c0a261b02e5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dd1ec96ef9ef14b53448cb197bb8e48"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6dd1ec96ef9ef14b53448cb197bb8e48"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Width&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a6dd1ec96ef9ef14b53448cb197bb8e48">mir::geometry::as_width</a> (generic::X&lt; T &gt; const &amp;x)</td></tr>
+<tr class="separator:a6dd1ec96ef9ef14b53448cb197bb8e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4877ed73af1441ca5349f1b0d1de7d80"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4877ed73af1441ca5349f1b0d1de7d80"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::Height&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#a4877ed73af1441ca5349f1b0d1de7d80">mir::geometry::as_height</a> (generic::Y&lt; T &gt; const &amp;y)</td></tr>
+<tr class="separator:a4877ed73af1441ca5349f1b0d1de7d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea8715e1c445ce076b12e0d6f56ba6fe"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aea8715e1c445ce076b12e0d6f56ba6fe"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::DeltaX&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#aea8715e1c445ce076b12e0d6f56ba6fe">mir::geometry::as_delta</a> (generic::Width&lt; T &gt; const &amp;w)</td></tr>
+<tr class="separator:aea8715e1c445ce076b12e0d6f56ba6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86e34196ec541f958eab5edb7f83168"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab86e34196ec541f958eab5edb7f83168"><td class="memTemplItemLeft" align="right" valign="top">constexpr generic::DeltaY&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html#ab86e34196ec541f958eab5edb7f83168">mir::geometry::as_delta</a> (generic::Height&lt; T &gt; const &amp;h)</td></tr>
+<tr class="separator:ab86e34196ec541f958eab5edb7f83168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

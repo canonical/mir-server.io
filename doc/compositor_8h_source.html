@@ -86,18 +86,18 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIROIL_COMPOSITOR_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIROIL_COMPOSITOR_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIROIL_COMPOSITOR_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIROIL_COMPOSITOR_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespacemiroil.html">   20</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiroil.html">miroil</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespacemiroil.html">   20</a></span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiroil.html">miroil</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiroil_1_1_compositor.html">Compositor</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html">   23</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiroil_1_1_compositor.html">Compositor</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#a316fd2feb9c8ce2a929910c800edad4c">   26</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classmiroil_1_1_compositor.html#a316fd2feb9c8ce2a929910c800edad4c">~Compositor</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#a316fd2feb9c8ce2a929910c800edad4c">   26</a></span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classmiroil_1_1_compositor.html#a316fd2feb9c8ce2a929910c800edad4c">Compositor</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">   28</a></span>&#160;    <a class="code" href="classmiroil_1_1_compositor.html">Compositor</a>&amp; <a class="code" href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">operator=</a>(<a class="code" href="classmiroil_1_1_compositor.html">Compositor</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">   28</a></span>&#160;    <a class="code" href="classmiroil_1_1_compositor.html">Compositor</a>&amp; <a class="code" href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">operator</a>=(<a class="code" href="classmiroil_1_1_compositor.html">Compositor</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#a9d8443ef8e518af13de80413ca99836d">   30</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classmiroil_1_1_compositor.html#a9d8443ef8e518af13de80413ca99836d">start</a>() = 0;</div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classmiroil_1_1_compositor.html#ad3a5214c1d32adf3a5f96f36910c12df">   31</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classmiroil_1_1_compositor.html#ad3a5214c1d32adf3a5f96f36910c12df">stop</a>()  = 0;</div>
@@ -109,20 +109,12 @@ $(function() {
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MIROIL_COMPOSITOR_H</span></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html"><div class="ttname"><a href="classmiroil_1_1_compositor.html">miroil::Compositor</a></div><div class="ttdef"><b>Definition:</b> compositor.h:24</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_a316fd2feb9c8ce2a929910c800edad4c"><div class="ttname"><a href="classmiroil_1_1_compositor.html#a316fd2feb9c8ce2a929910c800edad4c">miroil::Compositor::~Compositor</a></div><div class="ttdeci">virtual ~Compositor()</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_a9c1a7498235bc31cf6e1c81f2f9bc27b"><div class="ttname"><a href="classmiroil_1_1_compositor.html#a9c1a7498235bc31cf6e1c81f2f9bc27b">miroil::Compositor::operator=</a></div><div class="ttdeci">Compositor &amp; operator=(Compositor const &amp;)=delete</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_a9d8443ef8e518af13de80413ca99836d"><div class="ttname"><a href="classmiroil_1_1_compositor.html#a9d8443ef8e518af13de80413ca99836d">miroil::Compositor::start</a></div><div class="ttdeci">virtual void start()=0</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_a9e1828f48b936feb40bdf111df917877"><div class="ttname"><a href="classmiroil_1_1_compositor.html#a9e1828f48b936feb40bdf111df917877">miroil::Compositor::Compositor</a></div><div class="ttdeci">Compositor(Compositor const &amp;)=delete</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_aa822bd94f51c6ccc5e2d91dc263d7d8a"><div class="ttname"><a href="classmiroil_1_1_compositor.html#aa822bd94f51c6ccc5e2d91dc263d7d8a">miroil::Compositor::Compositor</a></div><div class="ttdeci">Compositor()=default</div></div>
-<div class="ttc" id="aclassmiroil_1_1_compositor_html_ad3a5214c1d32adf3a5f96f36910c12df"><div class="ttname"><a href="classmiroil_1_1_compositor.html#ad3a5214c1d32adf3a5f96f36910c12df">miroil::Compositor::stop</a></div><div class="ttdeci">virtual void stop()=0</div></div>
-<div class="ttc" id="anamespacemiroil_html"><div class="ttname"><a href="namespacemiroil.html">miroil</a></div><div class="ttdef"><b>Definition:</b> compositor.h:21</div></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// MIROIL_COMPOSITOR_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

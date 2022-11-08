@@ -86,33 +86,30 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIR_SPLASH_SESSION_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIR_SPLASH_SESSION_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_SPLASH_SESSION_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_SPLASH_SESSION_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespacemir.html">   22</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; <span class="keyword">namespace </span>scene { <span class="keyword">class </span>Session; }}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; <span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1scene.html">scene</a> { <span class="keyword">class</span> Session; }}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_splash_session.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_splash_session.html">SplashSession</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_splash_session.html">   24</a></span>&#160;<span class="keyword">class</span> <a class="code" href="class_splash_session.html">SplashSession</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_splash_session.html#a0a025e65905f1c3c512c59f83fd17390">   27</a></span>&#160;    <span class="keyword">virtual</span> <span class="keyword">auto</span> <a class="code" href="class_splash_session.html#a0a025e65905f1c3c512c59f83fd17390">session</a>() const -&gt; std::shared_ptr&lt;<a class="code" href="namespacemir.html">mir</a>::scene::Session&gt; = 0;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_splash_session.html#a0a025e65905f1c3c512c59f83fd17390">   27</a></span>&#160;    <span class="keyword">virtual</span> <span class="keyword">auto</span> <a class="code" href="class_splash_session.html#a0a025e65905f1c3c512c59f83fd17390">session</a>() <span class="keyword">const</span> -&gt; std::shared_ptr&lt;<a class="code" href="namespacemir.html">mir</a>::<a class="code" href="namespacemir_1_1scene.html">scene</a>::Session&gt; = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_splash_session.html#a7ec386589ddcd68ff941b0005a00b5b3">   29</a></span>&#160;    <a class="code" href="class_splash_session.html">SplashSession</a>() = default;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_splash_session.html#a6f149d5511642e4f9773acce73c5d0d5">   30</a></span>&#160;    virtual ~<a class="code" href="class_splash_session.html">SplashSession</a>() = default;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_splash_session.html#ae3f55942f9cca6af4e4540ead3e6d192">   31</a></span>&#160;    <a class="code" href="class_splash_session.html">SplashSession</a>(<a class="code" href="class_splash_session.html">SplashSession</a> const&amp;) = delete;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_splash_session.html#a70ac36f0f6a2381eac92f172d5fba6a8">   32</a></span>&#160;    <a class="code" href="class_splash_session.html">SplashSession</a>&amp; operator=(<a class="code" href="class_splash_session.html">SplashSession</a> const&amp;) = delete;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_splash_session.html#a7ec386589ddcd68ff941b0005a00b5b3">   29</a></span>&#160;    <a class="code" href="class_splash_session.html#a7ec386589ddcd68ff941b0005a00b5b3">SplashSession</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_splash_session.html#a6f149d5511642e4f9773acce73c5d0d5">   30</a></span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="class_splash_session.html#a6f149d5511642e4f9773acce73c5d0d5">SplashSession</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_splash_session.html#ae3f55942f9cca6af4e4540ead3e6d192">   31</a></span>&#160;    <a class="code" href="class_splash_session.html#ae3f55942f9cca6af4e4540ead3e6d192">SplashSession</a>(<a class="code" href="class_splash_session.html">SplashSession</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_splash_session.html#a70ac36f0f6a2381eac92f172d5fba6a8">   32</a></span>&#160;    <a class="code" href="class_splash_session.html">SplashSession</a>&amp; <a class="code" href="class_splash_session.html#a70ac36f0f6a2381eac92f172d5fba6a8">operator</a>=(<a class="code" href="class_splash_session.html">SplashSession</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIR_SPLASH_SESSION_H</span></div>
-<div class="ttc" id="aclass_splash_session_html"><div class="ttname"><a href="class_splash_session.html">SplashSession</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:25</div></div>
-<div class="ttc" id="aclass_splash_session_html_a0a025e65905f1c3c512c59f83fd17390"><div class="ttname"><a href="class_splash_session.html#a0a025e65905f1c3c512c59f83fd17390">SplashSession::session</a></div><div class="ttdeci">virtual auto session() const -&gt; std::shared_ptr&lt; mir::scene::Session &gt;=0</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIR_SPLASH_SESSION_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

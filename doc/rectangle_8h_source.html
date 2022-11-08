@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="rectangle_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2012, 2016 Canonical Ltd.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright © 2021 Canonical Ltd.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This program is free software: you can redistribute it and/or modify it</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * under the terms of the GNU Lesser General Public License version 2 or 3,</span></div>
@@ -86,46 +86,143 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIR_GEOMETRY_RECTANGLE_H_</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIR_GEOMETRY_RECTANGLE_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_GEOMETRY_RECTANGLE_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_GEOMETRY_RECTANGLE_H_</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="rectangle__generic_8h.html">rectangle_generic.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="point_8h.html">point.h</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="size_8h.html">size.h</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="displacement_8h.html">displacement.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="forward_8h.html">&quot;forward.h&quot;</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="point_8h.html">&quot;point.h&quot;</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="size_8h.html">&quot;size.h&quot;</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="displacement_8h.html">&quot;displacement.h&quot;</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace </span>geometry</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">ostream</span><span class="preprocessor">&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_rectangle.html">   30</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> : <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html">generic::Rectangle</a>&lt;Point, Size&gt;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">using</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html">generic::Rectangle&lt;Point, Size&gt;::Rectangle</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1_rectangle.html#aef63553265e6af95ab913edaab67373f">   34</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> <a class="code" href="structmir_1_1geometry_1_1_rectangle.html#aef63553265e6af95ab913edaab67373f">intersection_with</a>(<a class="code" href="structmir_1_1geometry_1_1_rectangle.html">Rectangle</a> <span class="keyword">const</span>&amp; r)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a8b2c9d9c5691a48ba4bf87f9d5c8a551">intersection_of</a>(*<span class="keyword">this</span>, r);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MIR_GEOMETRY_RECTANGLE_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="adisplacement_8h_html"><div class="ttname"><a href="displacement_8h.html">displacement.h</a></div></div>
-<div class="ttc" id="anamespacemir_1_1geometry_1_1generic_html_a8b2c9d9c5691a48ba4bf87f9d5c8a551"><div class="ttname"><a href="namespacemir_1_1geometry_1_1generic.html#a8b2c9d9c5691a48ba4bf87f9d5c8a551">mir::geometry::generic::intersection_of</a></div><div class="ttdeci">R intersection_of(R const &amp;a, R const &amp;b)</div><div class="ttdef"><b>Definition:</b> rectangle_generic.h:114</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="apoint_8h_html"><div class="ttname"><a href="point_8h.html">point.h</a></div></div>
-<div class="ttc" id="arectangle__generic_8h_html"><div class="ttname"><a href="rectangle__generic_8h.html">rectangle_generic.h</a></div></div>
-<div class="ttc" id="asize_8h_html"><div class="ttname"><a href="size_8h.html">size.h</a></div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1_rectangle_html"><div class="ttname"><a href="structmir_1_1geometry_1_1_rectangle.html">mir::geometry::Rectangle</a></div><div class="ttdef"><b>Definition:</b> rectangle.h:31</div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1_rectangle_html_aef63553265e6af95ab913edaab67373f"><div class="ttname"><a href="structmir_1_1geometry_1_1_rectangle.html#aef63553265e6af95ab913edaab67373f">mir::geometry::Rectangle::intersection_with</a></div><div class="ttdeci">Rectangle intersection_with(Rectangle const &amp;r) const</div><div class="ttdef"><b>Definition:</b> rectangle.h:34</div></div>
-<div class="ttc" id="astructmir_1_1geometry_1_1generic_1_1_rectangle_html"><div class="ttname"><a href="structmir_1_1geometry_1_1generic_1_1_rectangle.html">mir::geometry::generic::Rectangle</a></div><div class="ttdef"><b>Definition:</b> rectangle_generic.h:38</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry.html">geometry</a></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html">generic</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html">   34</a></span>&#160;<span class="keyword">struct</span> Rectangle</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a9df6a94b5af685ab0e9473aba1550e01">   36</a></span>&#160;    <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a9df6a94b5af685ab0e9473aba1550e01">Rectangle</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a0beb5488f7638afbb8e3c4e3dfe15858">   38</a></span>&#160;    <span class="keyword">constexpr</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a0beb5488f7638afbb8e3c4e3dfe15858">Rectangle</a>(Point&lt;T&gt; <span class="keyword">const</span>&amp; top_left, <a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt;T&gt; <span class="keyword">const</span>&amp; size)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        : <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a>{top_left}, <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>{size}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">/**</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">     * The bottom right boundary point of the rectangle.</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">     *</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">     * Note that the returned point is *not* included in the rectangle</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">     * area, that is, the rectangle is represented as [top_left,bottom_right).</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">   49</a></span>&#160;    Point&lt;T&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">bottom_right</a>() <span class="keyword">const</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a> + as_displacement(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#acc937579618d4a1cc15ae79624cddd6b">   54</a></span>&#160;    Point&lt;T&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#acc937579618d4a1cc15ae79624cddd6b">top_right</a>() <span class="keyword">const</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a> + as_delta(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.width);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a886a3a598e752740e625c729c78a9d0b">   59</a></span>&#160;    Point&lt;T&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a886a3a598e752740e625c729c78a9d0b">bottom_left</a>() <span class="keyword">const</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a> + as_delta(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.height);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a4043475314a65e412efada01326282ca">   64</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a4043475314a65e412efada01326282ca">contains</a>(Point&lt;T&gt; <span class="keyword">const</span>&amp; p) <span class="keyword">const</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.width == <span class="keyword">decltype</span>(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.width){} || <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.height == <span class="keyword">decltype</span>(<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>.height){})</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">auto</span> br = <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">bottom_right</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">(</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">)</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> p.x &gt;= left() &amp;&amp; p.x &lt; br.x &amp;&amp;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;               p.y &gt;= top() &amp;&amp; p.y &lt; br.y;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">/**</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">     * Test if the rectangle contains another.</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">     *</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">     * Note that an empty rectangle can still contain other empty rectangles,</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">     * which are treated as points or lines of thickness zero.</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#ac79b41cf1e7c5407000efb99905fc705">   80</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#ac79b41cf1e7c5407000efb99905fc705">contains</a>(Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; r) <span class="keyword">const</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> r.left() &gt;= left() &amp;&amp;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;               r.left() + as_delta(r.size.width) &lt;= left() + as_delta(size.width) &amp;&amp;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;               r.top() &gt;= top() &amp;&amp;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;               r.top() + as_delta(r.size.height) &lt;= top() + as_delta(size.height);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#adefd0fb2e8d5165031600329ca08b15b">   88</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#adefd0fb2e8d5165031600329ca08b15b">overlaps</a>(Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; r) <span class="keyword">const</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">bool</span> disjoint = r.left() &gt;= right()</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                     || r.right() &lt;= left()</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                     || r.top() &gt;= bottom()</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                     || r.bottom() &lt;= top()</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                     || size.width == <span class="keyword">decltype</span>(size.width){}</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                     || size.height == <span class="keyword">decltype</span>(size.height){}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                     || r.size.width == <span class="keyword">decltype</span>(r.size.width){}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                     || r.size.height == <span class="keyword">decltype</span>(r.size.height){};</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> !disjoint;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a921e01c8abc91412186452fd918ef1da">  101</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a921e01c8abc91412186452fd918ef1da">X</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a921e01c8abc91412186452fd918ef1da">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a921e01c8abc91412186452fd918ef1da">left</a>() <span class="keyword">const</span>   { <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a>.x; }</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af2aef733633a2e210e5aa1f0364c5a08">  102</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af2aef733633a2e210e5aa1f0364c5a08">X</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af2aef733633a2e210e5aa1f0364c5a08">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af2aef733633a2e210e5aa1f0364c5a08">right</a>() <span class="keyword">const</span>  { <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">bottom_right</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">(</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">)</a>.x; }</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a3ce66dc92584b5119d617c4d1552f312">  103</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a3ce66dc92584b5119d617c4d1552f312">Y</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a3ce66dc92584b5119d617c4d1552f312">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a3ce66dc92584b5119d617c4d1552f312">top</a>() <span class="keyword">const</span>    { <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a>.y; }</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a439d82479e76d8932a05d92a642a4bc7">  104</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a439d82479e76d8932a05d92a642a4bc7">Y</a>&lt;<a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a439d82479e76d8932a05d92a642a4bc7">T</a>&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a439d82479e76d8932a05d92a642a4bc7">bottom</a>() <span class="keyword">const</span> { <span class="keywordflow">return</span> <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">bottom_right</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">(</a><a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#af002eee1d16034457ac6fea702876d8b">)</a>.y; }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">  106</a></span>&#160;    Point&lt;T&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a15754efbd925cd8134228de93b4185cb">top_left</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">  107</a></span>&#160;    <a class="code" href="structmir_1_1geometry_1_1generic_1_1_size.html">Size</a>&lt;T&gt; <a class="code" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html#a61bd637dd5a50a00405806d2d4c1b1eb">size</a>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a20b3092cf1efc41b3ab45efdf628e790">  111</a></span>&#160;Rectangle&lt;T&gt; <a class="code" href="namespacemir_1_1geometry_1_1generic.html#a20b3092cf1efc41b3ab45efdf628e790">intersection_of</a>(Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; a, Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; b)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span> max_left   = std::max(a.left(),   b.left());</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span> min_right  = std::min(a.right(),  b.right());</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span> max_top    = std::max(a.top(),    b.top());</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span> min_bottom = std::min(a.bottom(), b.bottom());</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (max_left &lt; min_right &amp;&amp; max_top &lt; min_bottom)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> {{max_left, max_top},</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                {(min_right - max_left).as_value(),</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                (min_bottom - max_top).as_value()}};</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">return</span> {};</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#abcbcff7f531ec20306eca2e499fe3db9">  127</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html#abcbcff7f531ec20306eca2e499fe3db9">operator</a> == (Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; lhs, Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> lhs.top_left == rhs.top_left &amp;&amp; lhs.size == rhs.size;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#aed22d42bc204bf3dd46912550b4ea7b1">  133</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">constexpr</span> <span class="keywordtype">bool</span> <a class="code" href="namespacemir_1_1geometry_1_1generic.html#aed22d42bc204bf3dd46912550b4ea7b1">operator</a> != (Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; lhs, Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; rhs)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> lhs.top_left != rhs.top_left || lhs.size != rhs.size;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="namespacemir_1_1geometry_1_1generic.html#a27b75d9b65f6a054f82cce34178ad379">  139</a></span>&#160;std::ostream&amp; operator&lt;&lt;(std::ostream&amp; out, Rectangle&lt;T&gt; <span class="keyword">const</span>&amp; value)</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    out &lt;&lt; <span class="stringliteral">&#39;(&#39;</span> &lt;&lt; value.top_left &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; value.size &lt;&lt; <span class="stringliteral">&#39;)&#39;</span>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">return</span> out;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// MIR_GEOMETRY_RECTANGLE_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

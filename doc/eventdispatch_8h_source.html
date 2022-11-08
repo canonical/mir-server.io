@@ -86,28 +86,24 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIROIL_EVENTDISPATCH_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIROIL_EVENTDISPATCH_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIROIL_EVENTDISPATCH_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIROIL_EVENTDISPATCH_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a> { <span class="keyword">class </span>Window; }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a> { <span class="keyword">class</span> <a class="code" href="classmiral_1_1_window.html">Window</a>; }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">struct </span>MirInputEvent;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">struct</span> MirInputEvent;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiroil.html">miroil</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiroil.html">miroil</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespacemiroil.html#a31807a727abc72073f7c7309f47590c0">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacemiroil.html#a31807a727abc72073f7c7309f47590c0">dispatch_input_event</a>(<span class="keyword">const</span> <a class="code" href="classmiral_1_1_window.html">miral::Window</a>&amp; window, <span class="keyword">const</span> MirInputEvent* event);</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespacemiroil.html#a31807a727abc72073f7c7309f47590c0">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacemiroil.html#a31807a727abc72073f7c7309f47590c0">dispatch_input_event</a>(<span class="keyword">const</span> <a class="code" href="namespacemiral.html">miral</a>::<a class="code" href="classmiral_1_1_window.html">Window</a>&amp; window, <span class="keyword">const</span> MirInputEvent* event);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIROIL_EVENTDISPATCH_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_window_html"><div class="ttname"><a href="classmiral_1_1_window.html">miral::Window</a></div><div class="ttdoc">Handle class to manage a Mir surface. It may be null (e.g. default initialized)</div><div class="ttdef"><b>Definition:</b> window.h:36</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
-<div class="ttc" id="anamespacemiroil_html"><div class="ttname"><a href="namespacemiroil.html">miroil</a></div><div class="ttdef"><b>Definition:</b> compositor.h:21</div></div>
-<div class="ttc" id="anamespacemiroil_html_a31807a727abc72073f7c7309f47590c0"><div class="ttname"><a href="namespacemiroil.html#a31807a727abc72073f7c7309f47590c0">miroil::dispatch_input_event</a></div><div class="ttdeci">void dispatch_input_event(const miral::Window &amp;window, const MirInputEvent *event)</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIROIL_EVENTDISPATCH_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

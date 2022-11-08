@@ -86,47 +86,41 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIRAL_X11_SUPPORT_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIRAL_X11_SUPPORT_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIRAL_X11_SUPPORT_H</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIRAL_X11_SUPPORT_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">memory</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class </span>Server; }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a> { <span class="keyword">class</span> Server; }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemiral.html">miral</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemiral.html">miral</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html">   28</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmiral_1_1_x11_support.html">X11Support</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/// Add a user configuration option for X11 support.</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/// \remark Since MirAL 2.4</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html">   28</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmiral_1_1_x11_support.html">X11Support</a></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">   32</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">operator()</a>(mir::Server&amp; server) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">   32</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">operator</a>()(<a class="code" href="namespacemir.html">mir</a>::Server&amp; server) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a9f2f85a80340dd8630d9d8071a8a17ab">   34</a></span>&#160;    <a class="code" href="classmiral_1_1_x11_support.html#a9f2f85a80340dd8630d9d8071a8a17ab">X11Support</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a92135bdf99485dadc4237e65a854148c">   35</a></span>&#160;    <a class="code" href="classmiral_1_1_x11_support.html#a92135bdf99485dadc4237e65a854148c">~X11Support</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a92135bdf99485dadc4237e65a854148c">   35</a></span>&#160;    ~<a class="code" href="classmiral_1_1_x11_support.html#a92135bdf99485dadc4237e65a854148c">X11Support</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#ab1e0c8bd6ff7b330bacc9c80565e06a6">   36</a></span>&#160;    <a class="code" href="classmiral_1_1_x11_support.html#ab1e0c8bd6ff7b330bacc9c80565e06a6">X11Support</a>(<a class="code" href="classmiral_1_1_x11_support.html">X11Support</a> <span class="keyword">const</span>&amp;);</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">   37</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">operator=</a>(<a class="code" href="classmiral_1_1_x11_support.html">X11Support</a> <span class="keyword">const</span>&amp;) -&gt; <a class="code" href="classmiral_1_1_x11_support.html">X11Support</a>&amp;;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">   37</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">operator</a>=(<a class="code" href="classmiral_1_1_x11_support.html">X11Support</a> <span class="keyword">const</span>&amp;) -&gt; <a class="code" href="classmiral_1_1_x11_support.html">X11Support</a>&amp;;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">struct </span>Self;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    std::shared_ptr&lt;Self&gt; <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">struct</span> Self;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    std::shared_ptr&lt;Self&gt; self;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//MIRAL_X11_SUPPORT_H</span></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html"><div class="ttname"><a href="classmiral_1_1_x11_support.html">miral::X11Support</a></div><div class="ttdoc">Add a user configuration option for X11 support.</div><div class="ttdef"><b>Definition:</b> x11_support.h:29</div></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html_a0faea57b11d29f7d3d7dfe16aabd3610"><div class="ttname"><a href="classmiral_1_1_x11_support.html#a0faea57b11d29f7d3d7dfe16aabd3610">miral::X11Support::operator=</a></div><div class="ttdeci">auto operator=(X11Support const &amp;) -&gt; X11Support &amp;</div></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html_a92135bdf99485dadc4237e65a854148c"><div class="ttname"><a href="classmiral_1_1_x11_support.html#a92135bdf99485dadc4237e65a854148c">miral::X11Support::~X11Support</a></div><div class="ttdeci">~X11Support()</div></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html_a93e303bf8796dc40ad92c39da1295db4"><div class="ttname"><a href="classmiral_1_1_x11_support.html#a93e303bf8796dc40ad92c39da1295db4">miral::X11Support::operator()</a></div><div class="ttdeci">void operator()(mir::Server &amp;server) const</div></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html_a9f2f85a80340dd8630d9d8071a8a17ab"><div class="ttname"><a href="classmiral_1_1_x11_support.html#a9f2f85a80340dd8630d9d8071a8a17ab">miral::X11Support::X11Support</a></div><div class="ttdeci">X11Support()</div></div>
-<div class="ttc" id="aclassmiral_1_1_x11_support_html_ab1e0c8bd6ff7b330bacc9c80565e06a6"><div class="ttname"><a href="classmiral_1_1_x11_support.html#ab1e0c8bd6ff7b330bacc9c80565e06a6">miral::X11Support::X11Support</a></div><div class="ttdeci">X11Support(X11Support const &amp;)</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">//MIRAL_X11_SUPPORT_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

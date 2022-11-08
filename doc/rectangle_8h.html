@@ -68,25 +68,27 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">rectangle.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="rectangle__generic_8h_source.html">rectangle_generic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="forward_8h_source.html">forward.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="point_8h_source.html">point.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="size_8h_source.html">size.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="displacement_8h_source.html">displacement.h</a>&quot;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for rectangle.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="rectangle_8h__incl.svg" width="578" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="rectangle_8h__incl.svg" width="522" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="rectangle_8h__dep__incl.svg" width="1846" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="rectangle_8h__dep__incl.svg" width="2048" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -94,7 +96,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1_rectangle.html">mir::geometry::Rectangle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmir_1_1geometry_1_1generic_1_1_rectangle.html">mir::geometry::generic::Rectangle&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -104,12 +106,29 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemir_1_1geometry"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry.html">mir::geometry</a></td></tr>
 <tr class="memdesc:namespacemir_1_1geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic geometry types. Types for dimensions, displacements, etc. and the operations that they support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemir_1_1geometry_1_1generic"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html">mir::geometry::generic</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a20b3092cf1efc41b3ab45efdf628e790"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a20b3092cf1efc41b3ab45efdf628e790"><td class="memTemplItemLeft" align="right" valign="top">Rectangle&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a20b3092cf1efc41b3ab45efdf628e790">mir::geometry::generic::intersection_of</a> (Rectangle&lt; T &gt; const &amp;a, Rectangle&lt; T &gt; const &amp;b)</td></tr>
+<tr class="separator:a20b3092cf1efc41b3ab45efdf628e790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbcff7f531ec20306eca2e499fe3db9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abcbcff7f531ec20306eca2e499fe3db9"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#abcbcff7f531ec20306eca2e499fe3db9">mir::geometry::generic::operator==</a> (Rectangle&lt; T &gt; const &amp;lhs, Rectangle&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:abcbcff7f531ec20306eca2e499fe3db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed22d42bc204bf3dd46912550b4ea7b1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aed22d42bc204bf3dd46912550b4ea7b1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#aed22d42bc204bf3dd46912550b4ea7b1">mir::geometry::generic::operator!=</a> (Rectangle&lt; T &gt; const &amp;lhs, Rectangle&lt; T &gt; const &amp;rhs)</td></tr>
+<tr class="separator:aed22d42bc204bf3dd46912550b4ea7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b75d9b65f6a054f82cce34178ad379"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a27b75d9b65f6a054f82cce34178ad379"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemir_1_1geometry_1_1generic.html#a27b75d9b65f6a054f82cce34178ad379">mir::geometry::generic::operator&lt;&lt;</a> (std::ostream &amp;out, Rectangle&lt; T &gt; const &amp;value)</td></tr>
+<tr class="separator:a27b75d9b65f6a054f82cce34178ad379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

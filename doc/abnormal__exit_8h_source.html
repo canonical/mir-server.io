@@ -87,14 +87,15 @@ $(function() {
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef MIR_ABNORMAL_EXIT_H_</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define MIR_ABNORMAL_EXIT_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_ABNORMAL_EXIT_H_</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_ABNORMAL_EXIT_H_</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">stdexcept</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classmir_1_1_abnormal_exit.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a> : <span class="keyword">public</span> std::runtime_error</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">/// Indicates Mir should exit with an error message printed to stderr</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classmir_1_1_abnormal_exit.html">   26</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a> : <span class="keyword">public</span> std::runtime_error</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classmir_1_1_abnormal_exit.html#a95be15d46a3558d0beb721646d0062bb">   29</a></span>&#160;    <a class="code" href="classmir_1_1_abnormal_exit.html#a95be15d46a3558d0beb721646d0062bb">AbnormalExit</a>(std::string <span class="keyword">const</span>&amp; what) :</div>
@@ -103,28 +104,24 @@ $(function() {
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmir_1_1_exit_with_output.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmir_1_1_exit_with_output.html">ExitWithOutput</a> : <span class="keyword">public</span> <a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/// Indicates Mir should exit with the given output (such as help text) printed to stdout</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmir_1_1_exit_with_output.html">   36</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmir_1_1_exit_with_output.html">ExitWithOutput</a> : <span class="keyword">public</span> <a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classmir_1_1_exit_with_output.html#a6349e714b2da7c307923e190cf5c9d63">   39</a></span>&#160;    <a class="code" href="classmir_1_1_exit_with_output.html#a6349e714b2da7c307923e190cf5c9d63">ExitWithOutput</a>(std::string <span class="keyword">const</span>&amp; what) :</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a>(what)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classmir_1_1_abnormal_exit.html">AbnormalExit</a><a class="code" href="classmir_1_1_abnormal_exit.html#a95be15d46a3558d0beb721646d0062bb">(</a>what<a class="code" href="classmir_1_1_abnormal_exit.html#a95be15d46a3558d0beb721646d0062bb">)</a></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MIR_ABNORMAL_EXIT_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclassmir_1_1_abnormal_exit_html"><div class="ttname"><a href="classmir_1_1_abnormal_exit.html">mir::AbnormalExit</a></div><div class="ttdoc">Indicates Mir should exit with an error message printed to stderr.</div><div class="ttdef"><b>Definition:</b> abnormal_exit.h:27</div></div>
-<div class="ttc" id="aclassmir_1_1_abnormal_exit_html_a95be15d46a3558d0beb721646d0062bb"><div class="ttname"><a href="classmir_1_1_abnormal_exit.html#a95be15d46a3558d0beb721646d0062bb">mir::AbnormalExit::AbnormalExit</a></div><div class="ttdeci">AbnormalExit(std::string const &amp;what)</div><div class="ttdef"><b>Definition:</b> abnormal_exit.h:29</div></div>
-<div class="ttc" id="aclassmir_1_1_exit_with_output_html"><div class="ttname"><a href="classmir_1_1_exit_with_output.html">mir::ExitWithOutput</a></div><div class="ttdoc">Indicates Mir should exit with the given output (such as help text) printed to stdout.</div><div class="ttdef"><b>Definition:</b> abnormal_exit.h:37</div></div>
-<div class="ttc" id="aclassmir_1_1_exit_with_output_html_a6349e714b2da7c307923e190cf5c9d63"><div class="ttname"><a href="classmir_1_1_exit_with_output.html#a6349e714b2da7c307923e190cf5c9d63">mir::ExitWithOutput::ExitWithOutput</a></div><div class="ttdeci">ExitWithOutput(std::string const &amp;what)</div><div class="ttdef"><b>Definition:</b> abnormal_exit.h:39</div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">/* MIR_ABNORMAL_EXIT_H_ */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

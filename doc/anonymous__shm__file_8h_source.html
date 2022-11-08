@@ -86,52 +86,42 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef MIR_CORE_ANONYMOUS_SHM_FILE_H_</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define MIR_CORE_ANONYMOUS_SHM_FILE_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">MIR_CORE_ANONYMOUS_SHM_FILE_H_</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">define</span> <span class="preprocessor">MIR_CORE_ANONYMOUS_SHM_FILE_H_</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shm__file_8h.html">shm_file.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="fd_8h.html">mir/fd.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="shm__file_8h.html">&quot;shm_file.h&quot;</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&quot;mir/fd.h&quot;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacemir.html">mir</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir.html">mir</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespacemir_1_1detail.html">   26</a></span>&#160;<span class="keyword">namespace </span>detail</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespacemir_1_1detail.html">   26</a></span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespacemir_1_1detail.html">detail</a></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classmir_1_1_anonymous_shm_file.html">AnonymousShmFile</a> : <span class="keyword">public</span> <a class="code" href="classmir_1_1_shm_file.html">ShmFile</a></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html">   30</a></span>&#160;<span class="keyword">class</span> <a class="code" href="classmir_1_1_anonymous_shm_file.html">AnonymousShmFile</a> : <span class="keyword">public</span> <a class="code" href="classmir_1_1_shm_file.html">ShmFile</a></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">   33</a></span>&#160;    <a class="code" href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">AnonymousShmFile</a>(<span class="keywordtype">size_t</span> size);</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc">   34</a></span>&#160;    <a class="code" href="classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc">~AnonymousShmFile</a>() noexcept;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">   33</a></span>&#160;    <a class="code" href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">AnonymousShmFile</a>(size_t size);</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc">   34</a></span>&#160;    ~<a class="code" href="classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc">AnonymousShmFile</a>() <span class="keyword">noexcept</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#ae84f1ef7cd64d301abf8d91e95fd3964">   36</a></span>&#160;    <span class="keywordtype">void</span>* <a class="code" href="classmir_1_1_anonymous_shm_file.html#ae84f1ef7cd64d301abf8d91e95fd3964">base_ptr</a>() const override;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a2899159872b3a8df323a209e1387466a">   37</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classmir_1_1_anonymous_shm_file.html#a2899159872b3a8df323a209e1387466a">fd</a>() const override;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#ae84f1ef7cd64d301abf8d91e95fd3964">   36</a></span>&#160;    <span class="keywordtype">void</span>* <a class="code" href="classmir_1_1_anonymous_shm_file.html#ae84f1ef7cd64d301abf8d91e95fd3964">base_ptr</a>() <span class="keyword">const</span> <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classmir_1_1_anonymous_shm_file.html#a2899159872b3a8df323a209e1387466a">   37</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classmir_1_1_anonymous_shm_file.html#a2899159872b3a8df323a209e1387466a">fd</a>() <span class="keyword">const</span> <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;private:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classmir_1_1_fd.html">Fd</a> const fd_;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    class MapHandle;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::unique_ptr&lt;MapHandle&gt; const mapping;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classmir_1_1_fd.html">Fd</a> <span class="keyword">const</span> fd_;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">class</span> MapHandle;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::unique_ptr&lt;MapHandle&gt; <span class="keyword">const</span> mapping;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MIR_CORE_ANONYMOUS_SHM_FILE_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclassmir_1_1_anonymous_shm_file_html"><div class="ttname"><a href="classmir_1_1_anonymous_shm_file.html">mir::AnonymousShmFile</a></div><div class="ttdef"><b>Definition:</b> anonymous_shm_file.h:31</div></div>
-<div class="ttc" id="aclassmir_1_1_anonymous_shm_file_html_a2899159872b3a8df323a209e1387466a"><div class="ttname"><a href="classmir_1_1_anonymous_shm_file.html#a2899159872b3a8df323a209e1387466a">mir::AnonymousShmFile::fd</a></div><div class="ttdeci">int fd() const override</div></div>
-<div class="ttc" id="aclassmir_1_1_anonymous_shm_file_html_a2fc73f948a41722f728bf8218d402fcc"><div class="ttname"><a href="classmir_1_1_anonymous_shm_file.html#a2fc73f948a41722f728bf8218d402fcc">mir::AnonymousShmFile::~AnonymousShmFile</a></div><div class="ttdeci">~AnonymousShmFile() noexcept</div></div>
-<div class="ttc" id="aclassmir_1_1_anonymous_shm_file_html_a88178f8a2b96b0ed1f7440d7e4758cec"><div class="ttname"><a href="classmir_1_1_anonymous_shm_file.html#a88178f8a2b96b0ed1f7440d7e4758cec">mir::AnonymousShmFile::AnonymousShmFile</a></div><div class="ttdeci">AnonymousShmFile(size_t size)</div></div>
-<div class="ttc" id="aclassmir_1_1_anonymous_shm_file_html_ae84f1ef7cd64d301abf8d91e95fd3964"><div class="ttname"><a href="classmir_1_1_anonymous_shm_file.html#ae84f1ef7cd64d301abf8d91e95fd3964">mir::AnonymousShmFile::base_ptr</a></div><div class="ttdeci">void * base_ptr() const override</div></div>
-<div class="ttc" id="aclassmir_1_1_fd_html"><div class="ttname"><a href="classmir_1_1_fd.html">mir::Fd</a></div><div class="ttdef"><b>Definition:</b> fd.h:32</div></div>
-<div class="ttc" id="aclassmir_1_1_shm_file_html"><div class="ttname"><a href="classmir_1_1_shm_file.html">mir::ShmFile</a></div><div class="ttdef"><b>Definition:</b> shm_file.h:26</div></div>
-<div class="ttc" id="afd_8h_html"><div class="ttname"><a href="fd_8h.html">fd.h</a></div></div>
-<div class="ttc" id="anamespacemir_html"><div class="ttname"><a href="namespacemir.html">mir</a></div><div class="ttdef"><b>Definition:</b> splash_session.h:22</div></div>
-<div class="ttc" id="ashm__file_8h_html"><div class="ttname"><a href="shm__file_8h.html">shm_file.h</a></div></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">/* MIR_CORE_ANONYMOUS_SHM_FILE_H_ */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>

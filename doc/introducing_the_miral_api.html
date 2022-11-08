@@ -192,11 +192,11 @@ The main() program</h1>
 <div class="line">            config_keymap,</div>
 <div class="line">            AppendEventFilter{quit_on_ctrl_alt_bksp},</div>
 <div class="line">            StartupInternalClient{spinner},</div>
-<div class="line">            CommandLineOption{run_startup_apps, <span class="stringliteral">&quot;startup-apps&quot;</span>, <span class="stringliteral">&quot;Colon separated list of startup apps&quot;</span>, <span class="stringliteral">&quot;&quot;</span>},</div>
-<div class="line">            <a class="code" href="namespacemiral.html#aca85bbb801308943981066cd4a6e9059">pre_init</a>(CommandLineOption{[&amp;](std::string <span class="keyword">const</span>&amp; typeface) { <a class="code" href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">::wallpaper::font_file</a>(typeface); },</div>
-<div class="line">                                       <span class="stringliteral">&quot;shell-wallpaper-font&quot;</span>, <span class="stringliteral">&quot;font file to use for wallpaper&quot;</span>, <a class="code" href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">::wallpaper::font_file</a>()}),</div>
-<div class="line">            CommandLineOption{[&amp;](std::string <span class="keyword">const</span>&amp; cmd) { terminal_cmd = cmd; },</div>
-<div class="line">                              <span class="stringliteral">&quot;shell-terminal-emulator&quot;</span>, <span class="stringliteral">&quot;terminal emulator to use&quot;</span>, terminal_cmd}</div>
+<div class="line">            ConfigurationOption{run_startup_apps, <span class="stringliteral">&quot;startup-apps&quot;</span>, <span class="stringliteral">&quot;Colon separated list of startup apps&quot;</span>, <span class="stringliteral">&quot;&quot;</span>},</div>
+<div class="line">            <a class="code" href="namespacemiral.html#acb83bfca4dec79501f36047818b5f53e">pre_init</a>(ConfigurationOption{[&amp;](std::string <span class="keyword">const</span>&amp; typeface) { <a class="code" href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">::wallpaper::font_file</a>(typeface); },</div>
+<div class="line">                                         <span class="stringliteral">&quot;shell-wallpaper-font&quot;</span>, <span class="stringliteral">&quot;font file to use for wallpaper&quot;</span>, <a class="code" href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">::wallpaper::font_file</a>()}),</div>
+<div class="line">            ConfigurationOption{[&amp;](std::string <span class="keyword">const</span>&amp; cmd) { terminal_cmd = cmd; },</div>
+<div class="line">                                <span class="stringliteral">&quot;shell-terminal-emulator&quot;</span>, <span class="stringliteral">&quot;terminal emulator to use&quot;</span>, terminal_cmd}</div>
 <div class="line">        });</div>
 <div class="line">}</div>
 <div class="ttc" id="aappend__event__filter_8h_html"><div class="ttname"><a href="append__event__filter_8h.html">append_event_filter.h</a></div></div>
@@ -224,9 +224,9 @@ The main() program</h1>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_ad494c491ff5bb1ddd70e89552ce3c08e"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#ad494c491ff5bb1ddd70e89552ce3c08e">miral::toolkit::mir_keyboard_event_keysym</a></div><div class="ttdeci">xkb_keysym_t mir_keyboard_event_keysym(MirKeyboardEvent const *event)</div><div class="ttdoc">Retrieve the xkb mapped keysym associated with the key acted on.</div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_ae08cabcb6916df8ec96e774395236535"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#ae08cabcb6916df8ec96e774395236535">miral::toolkit::mir_event_get_type</a></div><div class="ttdeci">MirEventType mir_event_get_type(MirEvent const *event)</div><div class="ttdoc">Retrieves the type of a MirEvent.</div></div>
 <div class="ttc" id="anamespacemiral_1_1toolkit_html_af1f8b44a3d3080c8df37005ef52ef625"><div class="ttname"><a href="namespacemiral_1_1toolkit.html#af1f8b44a3d3080c8df37005ef52ef625">miral::toolkit::mir_keyboard_event_modifiers</a></div><div class="ttdeci">MirInputEventModifiers mir_keyboard_event_modifiers(MirKeyboardEvent const *event)</div><div class="ttdoc">Retrieve the modifier keys pressed when the key action occured.</div></div>
-<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> floating_window_manager.h:29</div></div>
+<div class="ttc" id="anamespacemiral_html"><div class="ttname"><a href="namespacemiral.html">miral</a></div><div class="ttdoc">Mir Abstraction Layer.</div><div class="ttdef"><b>Definition:</b> runner.h:34</div></div>
 <div class="ttc" id="anamespacemiral_html_a7a992b36731bb6543092e39776640ba8"><div class="ttname"><a href="namespacemiral.html#a7a992b36731bb6543092e39776640ba8">miral::display_configuration_options</a></div><div class="ttdeci">void display_configuration_options(mir::Server &amp;server)</div><div class="ttdoc">Enable the display configuration options.</div></div>
-<div class="ttc" id="anamespacemiral_html_aca85bbb801308943981066cd4a6e9059"><div class="ttname"><a href="namespacemiral.html#aca85bbb801308943981066cd4a6e9059">miral::pre_init</a></div><div class="ttdeci">auto pre_init(CommandLineOption const &amp;clo) -&gt; CommandLineOption</div><div class="ttdoc">Update the option to be called back before Mir initialization starts.</div></div>
+<div class="ttc" id="anamespacemiral_html_acb83bfca4dec79501f36047818b5f53e"><div class="ttname"><a href="namespacemiral.html#acb83bfca4dec79501f36047818b5f53e">miral::pre_init</a></div><div class="ttdeci">auto pre_init(ConfigurationOption const &amp;clo) -&gt; ConfigurationOption</div><div class="ttdoc">Update the option to be called back before Mir initialization starts.</div></div>
 <div class="ttc" id="anamespacewallpaper_html_a04d2d3975f3419fa86277703ff9276f2"><div class="ttname"><a href="namespacewallpaper.html#a04d2d3975f3419fa86277703ff9276f2">wallpaper::font_file</a></div><div class="ttdeci">void font_file(std::string const &amp;font_file)</div><div class="ttdef"><b>Definition:</b> wallpaper_config.cpp:85</div></div>
 <div class="ttc" id="arunner_8h_html"><div class="ttname"><a href="runner_8h.html">runner.h</a></div></div>
 <div class="ttc" id="asplash_8h_html"><div class="ttname"><a href="splash_8h.html">splash.h</a></div></div>
@@ -246,7 +246,7 @@ The main() program</h1>
 <hr>
 <p align="center">Copyright &copy; 2012-2022
  Canonical Ltd. <br />
-Generated on śro, 1 cze 2022, 16:52:55 UTC
+Generated on Fri Aug 26 13:27:37 UTC 2022
 <br />
 This documentation is licensed under the GPL version 2 or 3.</p>
 </body>
