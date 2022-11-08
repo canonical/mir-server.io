@@ -96,28 +96,11 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
 .p-card--featured {
   @extend %p-card--highlighted;
 
-  @include vf-highlight-bar($color-accent);
+  @include vf-highlight-bar($color-aubergine);
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  &__date {
-    color: $color-mid-dark;
-    font-size: 0.875rem;
-    font-style: italic;
-    margin: 0 0 1.5rem 0;
-    padding: 0;
-  }
-}
-
-.p-card--article {
-  @extend %p-card--highlighted;
-
-  @include vf-highlight-bar($color-article);
-
-  display: flex;
-  flex-direction: column;
 
   &__date {
     color: $color-mid-dark;
@@ -140,47 +123,9 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
   text-align: center;
 }
 
-// XXX Negative margin-bottom override
-[class^="p-strip"].is-bordered {
-  margin-bottom: 0;
-}
-
 // XXX Remove margin-bottom from .p-footer links
 .p-footer__link {
   margin-bottom: 0;
-}
-
-// Navigation
-.p-navigation__banner {
-  background-color: $color-article;
-}
-
-.p-navigation {
-  .p-navigation__row {
-    padding: 0;
-
-    .p-navigation__banner {
-      padding: 0 ($sph--large + $sph--small);
-
-      .p-navigation__logo {
-        font-weight: 400;
-        margin-right: 0;
-      }
-
-      .p-navigation__toggle {
-        &--open,
-        &--close {
-          font-weight: 400;
-        }
-      }
-    }
-
-    .p-navigation__link a {
-      height: 100%;
-      padding-left: ($sph--large + $sph--small);
-      padding-right: ($sph--large + $sph--small);
-    }
-  }
 }
 
 .p-tutorials-meter {
