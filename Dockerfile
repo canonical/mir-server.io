@@ -2,7 +2,7 @@
 
 # Build stage: Install python dependencies
 # ===
-FROM ubuntu:focal AS python-dependencies
+FROM ubuntu:jammy AS python-dependencies
 RUN apt-get update && apt-get install --no-install-recommends --yes python3-pip python3-setuptools
 COPY requirements.txt /tmp/requirements.txt
 RUN pip3 config set global.disable-pip-version-check true
@@ -28,7 +28,7 @@ RUN yarn run build-js
 
 # Build the production image
 # ===
-FROM ubuntu:focal
+FROM ubuntu:jammy
 
 ENV LANG C.UTF-8
 WORKDIR /srv
