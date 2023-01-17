@@ -1,13 +1,17 @@
 @import "settings";
 @import "vanilla-framework/scss/vanilla";
-
 @include vanilla;
 
 // import cookie policy
 @import "@canonical/cookie-policy/build/css/cookie-policy";
 
 $strip-gradient: linear-gradient(195deg, #e9500e 0%, #6e2953 34%, #25001e 100%);
-$strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 100%);
+$strip-gradient-new: linear-gradient(
+  195deg,
+  #e9500e 0%,
+  #6e2953 47%,
+  #25001e 100%
+);
 
 .p-strip--hero {
   background-image: $strip-gradient;
@@ -95,7 +99,6 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
 
 .p-card--featured {
   @extend %p-card--highlighted;
-
   @include vf-highlight-bar($color-aubergine);
 
   display: flex;
@@ -106,7 +109,7 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
     color: $color-mid-dark;
     font-size: 0.875rem;
     font-style: italic;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.5rem;
     padding: 0;
   }
 }
@@ -114,12 +117,12 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
 .p-card__footer {
   border-top: 1px dotted #d9d9d9;
   margin: 0 -0.8rem;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 0;
 }
 
 .p-card__link-title {
   display: block;
-  margin: 21px 0 24px 0;
+  margin: 21px 0 24px;
   text-align: center;
 }
 
@@ -129,7 +132,7 @@ $strip-gradient-new: linear-gradient(195deg, #e9500e 0%, #6e2953 47%, #25001e 10
 }
 
 .p-tutorials-meter {
-  background-image: url(https://assets.ubuntu.com/v1/19c4273e-level+of+difficulty.svg);
+  background-image: url("https://assets.ubuntu.com/v1/19c4273e-level+of+difficulty.svg");
   background-position-x: -75px;
   background-position-y: center;
   background-repeat: no-repeat;

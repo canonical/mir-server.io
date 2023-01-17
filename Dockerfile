@@ -10,7 +10,7 @@ RUN --mount=type=cache,target=/root/.cache/pip pip3 install --user --requirement
 
 # Build stage: Install yarn dependencies
 # ===
-FROM node:16 AS yarn-dependencies
+FROM node:18 AS yarn-dependencies
 WORKDIR /srv
 COPY . .
 RUN --mount=type=cache,target=/usr/local/share/.cache/yarn yarn install
@@ -34,7 +34,7 @@ ENV LANG C.UTF-8
 WORKDIR /srv
 
 # Install python and import python dependencies
-RUN apt-get update && apt-get install --no-install-recommends --yes python3 python3-lib2to3 python3-pkg-resources python3-setuptools
+RUN apt-get update --fix-missing && apt-get install --no-install-recommends --yes python3 python3-lib2to3 python3-pkg-resources python3-setuptools
 ENV PATH="/root/.local/bin:${PATH}"
 
 # Copy python dependencies
