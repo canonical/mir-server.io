@@ -11,6 +11,8 @@ from canonicalwebteam.discourse import (
     DocParser,
 )
 from canonicalwebteam.search import build_search_view
+from canonicalwebteam import image_template
+
 
 DISCOURSE_API_KEY = os.getenv("DISCOURSE_API_KEY")
 DISCOURSE_API_USERNAME = os.getenv("DISCOURSE_API_USERNAME")
@@ -92,3 +94,8 @@ def sitemap_links():
 template_finder_view = TemplateFinder.as_view("template_finder")
 app.add_url_rule("/", view_func=template_finder_view)
 app.add_url_rule("/<path:subpath>", view_func=template_finder_view)
+
+
+@app.context_processor
+def utility_processor():
+    return {"image": image_template}
