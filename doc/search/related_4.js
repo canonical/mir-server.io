@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['synchronised_2375',['Synchronised',['../classmir_1_1_synchronised_1_1_locked_impl.html#a7878e2cdd112e868538591ca3f8d0608',1,'mir::Synchronised::LockedImpl']]]
+  ['pre_5finit_0',['pre_init',['../classmiral_1_1_configuration_option.html#ad917b3a0da492949290b9028afb9c0fa',1,'miral::ConfigurationOption']]]
 ];

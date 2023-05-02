@@ -1,8 +1,8 @@
 <map id="include/miral/miral/internal_client.h" name="include/miral/miral/internal_client.h">
-<area shape="rect" id="node1" title=" " alt="" coords="207,5,352,47"/>
-<area shape="rect" id="node2" href="$kiosk__main_8cpp.html" title=" " alt="" coords="5,95,169,136"/>
-<area shape="rect" id="node3" href="$shell__main_8cpp.html" title=" " alt="" coords="127,184,287,225"/>
-<area shape="rect" id="node4" href="$tiling__window__manager_8h.html" title=" " alt="" coords="245,95,458,136"/>
-<area shape="rect" id="node6" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="483,95,727,136"/>
-<area shape="rect" id="node5" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="312,184,540,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="345,5,471,47"/>
+<area shape="rect" id="node2" href="$floating__window__manager_8cpp.html" title=" " alt="" coords="5,95,224,136"/>
+<area shape="rect" id="node3" href="$tiling__window__manager_8h.html" title=" " alt="" coords="248,95,437,136"/>
+<area shape="rect" id="node5" href="$shell__main_8cpp.html" title=" " alt="" coords="404,184,545,225"/>
+<area shape="rect" id="node6" href="$kiosk__main_8cpp.html" title=" " alt="" coords="513,95,658,136"/>
+<area shape="rect" id="node4" href="$tiling__window__manager_8cpp.html" title=" " alt="" coords="177,184,380,225"/>
 </map>
