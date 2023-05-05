@@ -1,12 +1,12 @@
 <map id="include/core/mir/geometry/rectangle.h" name="include/core/mir/geometry/rectangle.h">
-<area shape="rect" id="node1" title=" " alt="" coords="321,5,515,47"/>
-<area shape="rect" id="node2" href="$forward_8h.html" title=" " alt="" coords="301,319,385,345"/>
-<area shape="rect" id="node3" href="$point_8h.html" title=" " alt="" coords="313,169,379,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="359,244,435,271"/>
-<area shape="rect" id="node9" href="$size_8h.html" title=" " alt="" coords="228,169,288,196"/>
-<area shape="rect" id="node10" href="$displacement_8h.html" title=" " alt="" coords="357,95,479,121"/>
-<area shape="rect" id="node4" href="$dimensions_8h.html" title=" " alt="" coords="123,244,233,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="213,319,277,345"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,319,97,345"/>
-<area shape="rect" id="node7" title=" " alt="" coords="122,319,189,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="307,5,479,47"/>
+<area shape="rect" id="node2" href="$forward_8h.html" title=" " alt="" coords="282,319,358,345"/>
+<area shape="rect" id="node3" href="$point_8h.html" title=" " alt="" coords="291,169,352,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="337,244,407,271"/>
+<area shape="rect" id="node9" href="$size_8h.html" title=" " alt="" coords="209,169,266,196"/>
+<area shape="rect" id="node10" href="$displacement_8h.html" title=" " alt="" coords="338,95,449,121"/>
+<area shape="rect" id="node4" href="$dimensions_8h.html" title=" " alt="" coords="113,244,212,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="198,319,258,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,319,88,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="112,319,173,345"/>
 </map>

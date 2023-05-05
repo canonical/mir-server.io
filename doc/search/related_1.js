@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['make_5fsurface_5fspec_2371',['make_surface_spec',['../classmiral_1_1_window_specification.html#ae1587bb48f90f3750b5d8a9b67d37096',1,'miral::WindowSpecification']]]
+  ['close_0',['close',['../classmir_1_1_fd.html#a235747dbf1463c0a8ddebc236bde23e9',1,'mir::Fd']]]
 ];
