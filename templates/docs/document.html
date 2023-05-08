@@ -4,20 +4,40 @@
 
 {% block content %}
 
-{% macro create_navigation(nav_items) %}
-  <ul>
+{% macro create_navigation(nav_items, expandable=False, expanded=False) %}
+  <ul class="p-side-navigation__list">
     {% for element in nav_items %}
-    <li>
+    <li class="p-side-navigation__item">
       {% if element.navlink_href %}
-        <a href="{{ element.navlink_href }}"
-          {% if request.path == element.navlink_href %}aria-current="page"{% endif %}
-        >{{ element.navlink_text }}</a>
+        <a
+          href="{{ element.navlink_href }}"
+          class="p-side-navigation__link {% if expandable and element.children %}is-expandable{% endif %}"
+          {% if expandable and element.children %}aria-expanded={% if expanded or element.is_active %}"true"{% else %}"false"{% endif %}{% endif %}
+          {% if element.is_active and not element.navlink_fragment %}aria-current="page"{% endif %}>
+            {{ element.navlink_text }}
+        </a>
       {% else %}
-        <strong>{{ element.navlink_text }}</strong>
+        <strong
+          class="p-side-navigation__text {% if expandable and element.children %}is-expandable{% endif %}"
+          {% if expandable and element.children %}aria-expanded={% if expanded %}"true"{% else %}"false"{% endif %}{% endif %}
+          {% if element.is_active %}aria-current="page"{% endif %}>
+            {{ element.navlink_text }}
+        </strong>
       {% endif %}
 
-      {% if element.children %}
-        {{ create_navigation(element.children) }}
+      {% if expandable %}
+        {% if element.children %}
+          <button
+            class="p-side-navigation__expand"
+            aria-expanded={% if element.is_active or element.has_active_child %}"true"{% else %}"false"{% endif %}
+            aria-label="show submenu for {{ element.navlink_text }}">
+          </button>
+        {% endif %}
+        {{ create_navigation(element.children, True, element.is_active or element.has_active_child) }}
+      {% else %}
+        {% if element.children %}
+          {{ create_navigation(element.children, True) }}
+        {% endif %}
       {% endif %}
     </li>
     {% endfor %}
@@ -66,7 +86,7 @@
       </div>
     </aside>
 
-    <main class="col-9">
+    <main class="col-9" id="main-content">
       <h1>{{ document.title }}</h1>
       {{ document.body_html | safe }}
 			<div class="p-strip is-shallow">
@@ -79,73 +99,5 @@
     </main>
   </div>
 </div>
-
-<script>
-  var links = [].slice.call(document.querySelectorAll('.p-side-navigation--raw-html li > a'));
-  var currentPath = window.location.pathname;
-
-  links.forEach(function (link) {
-    link.addEventListener('click', function () {
-      links.forEach(function (link) {
-        link.removeAttribute('aria-current');
-      });
-      this.setAttribute('aria-current', 'page');
-      this.blur();
-    });
-
-    if (link.getAttribute('href') === currentPath) {
-      link.setAttribute('aria-current', 'page');
-    }
-  });
-
-  /**
-    Toggles the expanded/collapsed classed on side navigation element.
-
-    @param {HTMLElement} sideNavigation The side navigation element.
-    @param {Boolean} show Whether to show or hide the drawer.
-  */
-  function toggleDrawer(sideNavigation, show) {
-    if (sideNavigation) {
-      if (show) {
-        sideNavigation.classList.remove('is-collapsed');
-        sideNavigation.classList.add('is-expanded');
-      } else {
-        sideNavigation.classList.remove('is-expanded');
-        sideNavigation.classList.add('is-collapsed');
-      }
-    }
-  }
-
-  /**
-    Attaches event listeners for the side navigation toggles
-    @param {HTMLElement} sideNavigation The side navigation element.
-  */
-  function setupSideNavigation(sideNavigation) {
-    var toggles = [].slice.call(sideNavigation.querySelectorAll('.js-drawer-toggle'));
-
-    toggles.forEach(function (toggle) {
-      toggle.addEventListener('click', function (event) {
-        event.preventDefault();
-        var sideNav = document.getElementById(toggle.getAttribute('aria-controls'));
-
-        if (sideNav) {
-          toggleDrawer(sideNav, !sideNav.classList.contains('is-expanded'));
-        }
-      });
-    });
-  }
-
-  /**
-    Attaches event listeners for all the side navigations in the document.
-    @param {String} sideNavigationSelector The CSS selector matching side navigation elements.
-  */
-  function setupSideNavigations(sideNavigationSelector) {
-    // Setup all side navigations on the page.
-    var sideNavigations = [].slice.call(document.querySelectorAll(sideNavigationSelector));
-
-    sideNavigations.forEach(setupSideNavigation);
-  }
-
-  setupSideNavigations('.p-side-navigation, [class*="p-side-navigation--"]');
-</script>
+<script src="{{ versioned_static('js/build/side-navigation.js') }}" defer></script>
 {% endblock %}
