@@ -98,9 +98,12 @@
     </div>
   </header>
 
+  <main id="main-content">
   {% block content %}
     {{ content | safe }}
   {% endblock content %}
+  </main>
+
   <hr />
   <footer class="p-strip">
     <div class="row">
