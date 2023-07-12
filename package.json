@@ -19,9 +19,9 @@
     "test-python": "python3 -m unittest discover tests"
   },
   "dependencies": {
-    "@canonical/global-nav": "3.2.4",
-    "@canonical/cookie-policy": "3.4.0",
-    "vanilla-framework": "3.14.0"
+    "@canonical/global-nav": "3.3.0",
+    "@canonical/cookie-policy": "3.5.0",
+    "vanilla-framework": "3.15.1"
   },
   "devDependencies": {
     "autoprefixer": "10.4.13",
