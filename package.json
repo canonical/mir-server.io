@@ -34,7 +34,7 @@
     "eslint": "8.31.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
-    "postcss": "8.4.20",
+    "postcss": "8.4.31",
     "prettier": "2.8.1",
     "sass": "1.57.1",
     "postcss-cli": "10.1.0",
