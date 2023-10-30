@@ -1,6 +1,6 @@
 domain: mir-server.io
 
-image: prod-comms.docker-registry.canonical.com/mir-server.io
+image: prod-comms.ps5.docker-registry.canonical.com/mir-server.io
 
 env:
   - name: DISCOURSE_API_KEY
