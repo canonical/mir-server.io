@@ -57,83 +57,23 @@
   <script src="{{ versioned_static('js/build/cookie-policy/cookie-policy.js') }}"></script>
 </head>
 
-<body>
+<body class="{% block body_class %}l-site{% endblock %}">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDTHR7H"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <header id="navigation" class="p-navigation is-dark">
-    <div class="p-navigation__row">
-      <div class="p-navigation__banner">
-        <div class="p-navigation__tagged-logo ">
-          <a class="p-navigation__link" href="/">
-            <div class="p-navigation__logo-tag">
-              <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
-            </div>
-            <span class="p-navigation__logo-title">Canonical Mir Display Server</span>
-          </a>
-        </div>
-        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
-      </div>
-      <nav class="p-navigation__nav">
-        <ul class="p-navigation__items">
-          <li class="p-navigation__item" {% if '/ubuntu-frame' in request.path %}is-selected{% endif %}" role="menuitem">
-            <a href="/ubuntu-frame/" class="p-navigation__link">Ubuntu Frame</a>
-          </li>
-          <li class="p-navigation__item {% if '/tutorials' in request.path %}is-selected{% endif %}" role="menuitem">
-            <a href="/tutorials/" class="p-navigation__link">Tutorials</a>
-          </li>
-          <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}">
-            <a class="p-navigation__link" href="/docs">Docs</a>
-          </li>
-          <li class="p-navigation__item">
-            <a href="https://discourse.ubuntu.com/c/mir" class="p-navigation__link">Community</a>
-          </li>
-        </ul>
-        <ul class="p-navigation__items global-nav">
-        </ul>
-      </nav>
-    </div>
-  </header>
+  {% block body %}
+    {% include "partial/_navigation.html" %}
 
-  <main id="main-content">
-  {% block content %}
-    {{ content | safe }}
-  {% endblock content %}
-  </main>
+    <main id="main-content">
+    {% block content %}
+      {{ content | safe }}
+    {% endblock content %}
+    </main>
 
-  <hr />
-  <footer class="p-strip">
-    <div class="row">
-      <div class="col-12">
-        <p>&copy; 2021 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.</p>
-        <nav>
-          <ul class="p-inline-list--middot">
-            <li class="p-inline-list__item">
-              <a aria-label="External link to the Ubuntu legal information page" href="http://www.ubuntu.com/legal">
-                Legal information
-              </a>
-            </li>
-            <li class="p-inline-list__item">
-              <a class="js-revoke-cookie-manager" href="">Manage your tracker settings</a>
-            </li>
-            <li class="p-inline-list__item">
-              <a aria-label="External link to report a bug on this site"
-                href="https://github.com/canonical-websites/mir-server.io/issues/new">
-                Report a bug on this site
-              </a>
-            </li>
-          </ul>
-          <span class="u-off-screen">
-            <a href="#">Go to the top of the page</a>
-          </span>
-        </nav>
-      </div>
-    </div>
-  </footer>
-</main>
+    {% include "partial/_footer.html" %}
+  {% endblock body %}
 <script>
 var origin = window.location.href;
 var site = "mir-server.io";
