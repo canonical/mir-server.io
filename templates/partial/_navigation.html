@@ -1,0 +1,61 @@
+{% macro nav_logo() %}
+<div class="p-navigation__banner {% if not is_docs %}u-no-padding--left{% endif %}">
+  <div class="p-navigation__tagged-logo ">
+    <a class="p-navigation__link" href="/">
+      <div class="p-navigation__logo-tag">
+        <img class="p-navigation__logo-icon" src="https://assets.ubuntu.com/v1/82818827-CoF_white.svg" alt="">
+      </div>
+      <span class="p-navigation__logo-title">Mir Display Server</span>
+    </a>
+  </div>
+  <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+  <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+</div>
+{% endmacro %}
+
+{% macro nav_items() %}
+<nav class="p-navigation__nav">
+  <ul class="p-navigation__items" {% if not is_docs %}style="margin-left: -.75rem;"{% endif %}>
+    <li class="p-navigation__item  {% if '/ubuntu-frame' in request.path %}is-selected{% endif %}" role="menuitem">
+      <a href="/ubuntu-frame/" class="p-navigation__link">Ubuntu Frame</a>
+    </li>
+    <li class="p-navigation__item {% if '/tutorials' in request.path %}is-selected{% endif %}" role="menuitem">
+      <a href="/tutorials/" class="p-navigation__link">Tutorials</a>
+    </li>
+    <li class="p-navigation__item {% if '/docs' in request.path %}is-selected{% endif %}">
+      <a class="p-navigation__link" href="/docs">Docs</a>
+    </li>
+    <li class="p-navigation__item">
+      <a href="https://discourse.ubuntu.com/c/mir" class="p-navigation__link">Community</a>
+    </li>
+  </ul>
+  <ul class="p-navigation__items global-nav">
+  </ul>
+</nav>
+{% endmacro %}
+
+<header id="navigation" class="p-navigation is-dark">
+  {% block header_banner %}
+    {% if is_docs %}
+    <div class="l-docs__subgrid">
+      <div class="l-docs__sidebar">
+        {{ nav_logo() }}
+      </div>
+      <div class="l-docs__main">
+        <div class="p-navigation__row u-fixed-width">
+          {{ nav_items() }}
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <div class="row">
+      <div class="col-3">
+        {{ nav_logo() }}
+      </div>
+      <div class="col-9">
+        {{ nav_items() }}
+      </div>
+    </div>
+    {% endif %}
+  {% endblock header_banner %}
+</header>
