@@ -1,1 +1,2 @@
-/doc: https://canonical-mir.readthedocs-hosted.com/stable/
+/doc?: https://canonical-mir.readthedocs-hosted.com/stable/
+/doc/(?P<path>.*): "https://canonical-mir.readthedocs-hosted.com/stable/{path}"
