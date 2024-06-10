@@ -1,8 +1,0 @@
-<map id="miral::WindowManagementPolicy" name="miral::WindowManagementPolicy">
-<area shape="rect" id="node1" title="The interface through which the window management policy is determined." alt="" coords="5,64,221,91"/>
-<area shape="rect" id="node2" href="$class_tiling_window_manager_policy.html" title=" " alt="" coords="283,5,469,32"/>
-<area shape="rect" id="node3" href="$classmiral_1_1_canonical_window_manager_policy.html" title="Widely accepted defaults for window management." alt="" coords="269,57,483,98"/>
-<area shape="rect" id="node5" href="$classmiral_1_1_minimal_window_manager.html" title="Minimal implementation of a floating window management policy." alt="" coords="276,123,476,149"/>
-<area shape="rect" id="node4" href="$class_kiosk_window_manager_policy.html" title=" " alt="" coords="537,64,725,91"/>
-<area shape="rect" id="node6" href="$class_floating_window_manager_policy.html" title=" " alt="" coords="531,123,732,149"/>
-</map>
