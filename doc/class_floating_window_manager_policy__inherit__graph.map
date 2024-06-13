@@ -1,5 +1,0 @@
-<map id="FloatingWindowManagerPolicy" name="FloatingWindowManagerPolicy">
-<area shape="rect" id="node1" title=" " alt="" coords="13,155,214,181"/>
-<area shape="rect" id="node2" href="$classmiral_1_1_minimal_window_manager.html" title="Minimal implementation of a floating window management policy." alt="" coords="13,80,213,107"/>
-<area shape="rect" id="node3" href="$classmiral_1_1_window_management_policy.html" title="The interface through which the window management policy is determined." alt="" coords="5,5,221,32"/>
-</map>
