@@ -1,5 +1,6 @@
 /doc?: https://canonical-mir.readthedocs-hosted.com/stable/
 /doc/index.html?: https://canonical-mir.readthedocs-hosted.com/stable/
+/doc/cppguide/index.html: https://canonical-mir.readthedocs-hosted.com/stable/_static/cppguide/
 /doc/cppguide?: https://canonical-mir.readthedocs-hosted.com/stable/_static/cppguide/
 /doc/component_reports.html?: https://canonical-mir.readthedocs-hosted.com/stable/explanation/component_reports/
 /doc/dso_versioning_guide.html?: https://canonical-mir.readthedocs-hosted.com/stable/reference/dso_versioning_guide/
