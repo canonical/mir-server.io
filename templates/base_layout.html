@@ -39,6 +39,9 @@
     {% endif %}
     <link rel="canonical"
           href="{% block canonical_url %}{{ request.url }}{% endblock %}" />
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="https://assets.ubuntu.com/v1/f38b9c7e-COF%20apple-touch-icon.png" />
     <link rel="icon"
           type="image/png"
           sizes="32x32"
@@ -50,20 +53,6 @@
     <link rel="manifest" href="{{ versioned_static("files/site.webmanifest") }}" />
     <!-- Serving favicon for search engines locally -->
     <link rel="icon" type="image/png" sizes="48x48" href="{{ versioned_static("favicons/COF-favicon-48x48.png") }}" />
-    <link rel="apple-touch-icon"
-          sizes="180x180"
-          href="https://assets.ubuntu.com/v1/f38b9c7e-COF%20apple-touch-icon.png" />
-    <link rel="apple-touch-icon"
-          sizes="144x144"
-          href="https://assets.ubuntu.com/v1/3361409d-apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon"
-          sizes="114x114"
-          href="https://assets.ubuntu.com/v1/5fe4d3c8-apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon"
-          sizes="72x72"
-          href="https://assets.ubuntu.com/v1/09460d9a-apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon"
-          href="https://assets.ubuntu.com/v1/c39e0fed-apple-touch-icon.png" />
     {% block head_extra %}{% endblock %}
     <link rel="stylesheet" href="/static/css/styles.css" />
     <script src="{{ versioned_static('js/build/global-nav/global-nav.js') }}"></script>
