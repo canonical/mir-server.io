@@ -1,80 +1,81 @@
 <!DOCTYPE html>
 <html style="cursor: auto !important;" lang="en">
-
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="copydoc" content="https://docs.google.com/document/d/1wqmWPx4TJ_oJoFt4gBOg4trYMIAsugMYtHGXzYJx8kc/edit">
-
-  <title>
-    {% block title %}Canonical Mir Display Server{% endblock %}
-  </title>
-
-  <!-- GitHub buttons -->
-  <script defer src="https://buttons.github.io/buttons.js"></script>
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="copydoc"
+          content="https://docs.google.com/document/d/1wqmWPx4TJ_oJoFt4gBOg4trYMIAsugMYtHGXzYJx8kc/edit" />
+    <title>
+      {% block title %}Canonical Mir Display Server{% endblock %}
+    </title>
+    <!-- GitHub buttons -->
+    <script defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TDTHR7H');</script>
-  <!-- End Google Tag Manager -->
-
-  <script>
+  })(window,document,'script','dataLayer','GTM-TDTHR7H');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
     /* HTML5 element support */
     for (var e, l = 'article aside footer header nav section time'.split(' '); e = l.pop(); document.createElement(e));
-  </script>
-
-  <meta name="description" content="{% block meta_description %}The fast, open and secure display server for any device.{% endblock %}">
-  <meta name="copydoc" content="{% block meta_copydoc %}{% endblock %}">
-
-  {% if self.title() %}
-  <meta name="twitter:title" content="{{ self.title() }} | Canonical Mir Display Server">
-  <meta property="og:title" content="{{ self.title() }} | Canonical Mir Display Server">
-  {% endif %}
-
-  {% if self.meta_description() %}
-  <meta name="twitter:description" content="{{ self.meta_description() }}">
-  <meta property="og:description" content="{{ self.meta_description() }}">
-  {% endif %}
-
-  <link rel="canonical" href="{% block canonical_url %}{{ request.url }}{% endblock %}">
-  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/3ba2d831-cof-favicon-16x16.ico" sizes="16x16" />
-  <link rel="icon" type="image/png" href="https://assets.ubuntu.com/v1/2c6276dc-cof-favicon-32x32.ico" sizes="32x32" />
-
-  <link rel="apple-touch-icon" sizes="144x144" href="https://assets.ubuntu.com/v1/3361409d-apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://assets.ubuntu.com/v1/5fe4d3c8-apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="https://assets.ubuntu.com/v1/09460d9a-apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" href="https://assets.ubuntu.com/v1/cc66da65-apple-touch-icon.png">
-
-  {% block head_extra %}{% endblock %}
-
-  <link rel="stylesheet" href="/static/css/styles.css">
-  <script src="{{ versioned_static('js/build/global-nav/global-nav.js') }}"></script>
-  <script src="{{ versioned_static('js/build/cookie-policy/cookie-policy.js') }}"></script>
-</head>
-
-<body class="{% block body_class %}l-site{% endblock %}">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDTHR7H"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  {% block body %}
-    {% include "partial/_navigation.html" %}
-
-    <main id="main-content">
-    {% block content %}
-      {{ content | safe }}
-    {% endblock content %}
-    </main>
-
-    {% include "partial/_footer.html" %}
-  {% endblock body %}
-<script>
+    </script>
+    <meta name="description"
+          content="{% block meta_description %}The fast, open and secure display server for any device.{% endblock %}" />
+    <meta name="copydoc" content="{% block meta_copydoc %}{% endblock %}" />
+    {% if self.title() %}
+      <meta name="twitter:title"
+            content="{{ self.title() }} | Canonical Mir Display Server" />
+      <meta property="og:title"
+            content="{{ self.title() }} | Canonical Mir Display Server" />
+    {% endif %}
+    {% if self.meta_description() %}
+      <meta name="twitter:description" content="{{ self.meta_description() }}" />
+      <meta property="og:description" content="{{ self.meta_description() }}" />
+    {% endif %}
+    <link rel="canonical"
+          href="{% block canonical_url %}{{ request.url }}{% endblock %}" />
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="https://assets.ubuntu.com/v1/f38b9c7e-COF%20apple-touch-icon.png" />
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://assets.ubuntu.com/v1/be7e4cc6-COF-favicon-32x32.png" />
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="https://assets.ubuntu.com/v1/16c27f81-COF%20favicon-16x16.png" />
+    <link rel="manifest" href="{{ versioned_static("files/site.webmanifest") }}" />
+    <!-- Serving favicon for search engines locally -->
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ versioned_static("favicons/COF-favicon-48x48.png") }}" />
+    {% block head_extra %}{% endblock %}
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <script src="{{ versioned_static('js/build/global-nav/global-nav.js') }}"></script>
+    <script src="{{ versioned_static('js/build/cookie-policy/cookie-policy.js') }}"></script>
+  </head>
+  <body class="{% block body_class %}l-site{% endblock %}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDTHR7H"
+        height="0"
+        width="0"
+        style="display:none;
+               visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% block body %}
+      {% include "partial/_navigation.html" %}
+      <main id="main-content">
+        {% block content %}
+          {{ content | safe }}
+        {% endblock content %}
+      </main>
+      {% include "partial/_footer.html" %}
+    {% endblock body %}
+    <script>
 var origin = window.location.href;
 var site = "mir-server.io";
 
@@ -134,14 +135,14 @@ function sendEvent(category, origin, destination, label) {
     });
   }
 }
-</script>
-<script>
+    </script>
+    <script>
   if (typeof cpNs !== "undefined") {
       cpNs.cookiePolicy();
     }
   if (typeof canonicalGlobalNav !== "undefined") {
     canonicalGlobalNav.createNav({breakpoint: 940});
   }
-</script>
-</body>
+    </script>
+  </body>
 </html>
