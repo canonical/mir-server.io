@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@canonical/global-nav": "3.5.0",
-    "@canonical/cookie-policy": "3.5.0",
+    "@canonical/cookie-policy": "3.6.4",
     "vanilla-framework": "4.14.0"
   },
   "devDependencies": {
