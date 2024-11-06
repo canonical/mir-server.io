@@ -12,3 +12,6 @@ doc/md__h_a_c_k_i_n_g.*: https://github.com/canonical/mir/blob/main/HACKING.md
 doc/md__r_e_a_d_m_e.*: https://github.com/canonical/mir/blob/main/README.md
 #catch all for /doc
 doc/.*: https://canonical-mir.readthedocs-hosted.com/stable/
+#redirect /tutorials to /docs/tutorials
+tutorials: /docs/tutorials/
+tutorials/.*: /docs/tutorials/
