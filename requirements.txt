@@ -1,4 +1,4 @@
-canonicalwebteam.flask-base==2.0.0
+canonicalwebteam.flask-base==2.5.0
 canonicalwebteam.templatefinder==1.0.0
 canonicalwebteam.discourse==5.6.1
 canonicalwebteam.search==2.1.1
